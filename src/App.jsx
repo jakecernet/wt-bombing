@@ -55,13 +55,15 @@ function App() {
 				</div>
 			</nav>
 			<header>
-				<h2>Want to know, how many bases you can destroy?</h2>
-				<p>Enter the plane name</p>
+				<h2>Want to know how many bases you can destroy?</h2>
 				<div className="search">
 					<input type="text" placeholder="Plane name" />
                     <button>
                         <Search />
                     </button>
+                    <div className="results">
+                        
+                    </div>
 				</div>
 			</header>
 		</div>

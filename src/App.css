@@ -172,12 +172,6 @@ body {
             color: var(--text);
 		}
 
-		p {
-			font-size: 1.125rem;
-			text-align: center;
-			color: var(--text-muted);
-		}
-
 		.search {
 			display: flex;
 			flex-direction: row;
@@ -185,13 +179,15 @@ body {
 			gap: 8px;
 
 			input {
-				padding: 8px 12px;
+				padding: 12px;
 				border-radius: 8px;
 				border: 1px solid var(--border);
 				background: var(--nav-bg);
 				color: var(--nav-text);
 				font-size: 1rem;
 				outline: none;
+                width: 40vw;
+                height: 40px;
 
 				&::placeholder {
 					color: var(--text-muted);
