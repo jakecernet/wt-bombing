@@ -1,21 +1,27 @@
 import "./App.css";
 import NavIcon from "./images/favicon.svg";
-import { Menu } from "lucide-react";
+import { Menu, Sun, Moon, Search } from "lucide-react";
 import { useState, useEffect } from "react";
 
 function App() {
-    const [navActive, setNavActive] = useState(true);
+	const [navActive, setNavActive] = useState(true);
 
-    const isMobile = window.innerWidth <= 768;
+	const isMobile = window.innerWidth <= 768;
+	const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
 
-    useEffect(() => {
-        if (isMobile) {
-            setNavActive(false);
-        }
-    }, [isMobile]);
+	useEffect(() => {
+		if (isMobile) {
+			setNavActive(false);
+		}
+	}, [isMobile]);
+
+	const setTheme2 = (theme) => {
+		localStorage.setItem("theme", theme);
+		document.documentElement.setAttribute("data-theme", theme);
+	};
 
 	return (
-		<div className="container">
+		<div className={`container ${theme}`}>
 			<nav>
 				<div className="logo">
 					<img src={NavIcon} alt="Logo" />
@@ -26,12 +32,38 @@ function App() {
 						<li>Planes</li>
 						<li>Bombs</li>
 						<li>Search</li>
+						<li>
+							<Sun
+								onClick={() => setTheme("dark")}
+								className={
+									theme === "light" ? "active" : "hidden"
+								}
+							/>
+							<Moon
+								onClick={() => setTheme("light")}
+								className={
+									theme === "dark" ? "active" : "hidden"
+								}
+							/>
+						</li>
 					</ul>
 				</div>
-				<div className="burger" onClick={() => setNavActive(!navActive)}>
+				<div
+					className="burger"
+					onClick={() => setNavActive(!navActive)}>
 					<Menu></Menu>
 				</div>
 			</nav>
+			<header>
+				<h2>Want to know, how many bases you can destroy?</h2>
+				<p>Enter the plane name</p>
+				<div className="search">
+					<input type="text" placeholder="Plane name" />
+                    <button>
+                        <Search />
+                    </button>
+				</div>
+			</header>
 		</div>
 	);
 }

@@ -11,6 +11,8 @@
 	--accent-hover: #a5f3fc;
 	--border: rgba(255, 255, 255, 0.09);
 	--nav-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+	--button-bg: #0f172a;
+    --text: #f1f5f9;
 }
 
 .light {
@@ -22,6 +24,8 @@
 	--accent-hover: #0e7490;
 	--border: rgba(15, 23, 42, 0.1);
 	--nav-shadow: 0 8px 32px rgba(15, 23, 42, 0.08);
+	--button-bg: #e2e8f0;
+    --text: #0f172a;
 }
 
 :root {
@@ -62,7 +66,6 @@ body {
 		top: 12px;
 		left: 12px;
 		right: 12px;
-		z-index: 1000;
 
 		min-height: 72px;
 		padding: 8px 16px;
@@ -120,7 +123,7 @@ body {
 					border-radius: 10px;
 
 					color: var(--text-muted);
-					font-size: 0.9rem;
+					font-size: 1rem;
 					font-weight: 500;
 					cursor: pointer;
 
@@ -137,12 +140,73 @@ body {
 					&:active {
 						transform: scale(0.97);
 					}
+
+					.active {
+						display: block;
+					}
+
+					.hidden {
+						display: none;
+					}
 				}
 			}
 		}
 
 		.burger {
 			display: none;
+		}
+	}
+
+	header {
+		flex: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: 20px;
+
+		h2 {
+			font-size: 2rem;
+			font-weight: 600;
+			text-align: center;
+            color: var(--text);
+		}
+
+		p {
+			font-size: 1.125rem;
+			text-align: center;
+			color: var(--text-muted);
+		}
+
+		.search {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: 8px;
+
+			input {
+				padding: 8px 12px;
+				border-radius: 8px;
+				border: 1px solid var(--border);
+				background: var(--nav-bg);
+				color: var(--nav-text);
+				font-size: 1rem;
+				outline: none;
+
+				&::placeholder {
+					color: var(--text-muted);
+				}
+			}
+
+			button {
+				padding: 8px;
+				border-radius: 8px;
+				border: none;
+				background: var(--button-bg);
+				color: #fff;
+				font-size: 1rem;
+				cursor: pointer;
+			}
 		}
 	}
 }
