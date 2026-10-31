@@ -1,4 +1,146 @@
 {
+    "bombs": {
+		"FeBd": {
+			"label": "FeBd",
+			"mass": null,
+			"icon": "febd"
+		},
+		"PavewayIV": {
+			"label": "Paveway IV",
+			"mass": null,
+			"icon": null
+		},
+		"BLU1": {
+			"label": "BLU-1",
+			"mass": null,
+			"icon": "blu-1"
+		},
+		"BLU27": {
+			"label": "BLU-27",
+			"mass": null,
+			"icon": null
+		},
+		"SC50": {
+			"label": "SC50",
+			"mass": 50,
+			"icon": "sc50"
+		},
+		"ANM57": {
+			"label": "AN-M57",
+			"mass": null,
+			"icon": null
+		},
+		"GBU62": {
+			"label": "GBU-62",
+			"mass": null,
+			"icon": null
+		},
+		"Mk77": {
+			"label": "Mk 77",
+			"mass": null,
+			"icon": "mk77"
+		},
+		"Mk81": {
+			"label": "Mk 81",
+			"mass": null,
+			"icon": null
+		},
+		"Mk83": {
+			"label": "Mk 83",
+			"mass": null,
+			"icon": "mk83"
+		},
+		"Mk84": {
+			"label": "Mk 84",
+			"mass": null,
+			"icon": "mk84"
+		},
+		"GP100": {
+			"label": "GP 100",
+			"mass": 100,
+			"icon": "gp-100"
+		},
+		"M117": {
+			"label": "M117",
+			"mass": null,
+			"icon": null
+		},
+		"SB200": {
+			"label": "SB200",
+			"mass": 200,
+			"icon": "sb200"
+		},
+		"INC220": {
+			"label": "INC-220",
+			"mass": 220,
+			"icon": null
+		},
+		"FC250": {
+			"label": "FC250",
+			"mass": 250,
+			"icon": "fc250"
+		},
+		"GP250": {
+			"label": "G.P.250",
+			"mass": 250,
+			"icon": null
+		},
+		"SC250": {
+			"label": "sc250",
+			"mass": 250,
+			"icon": "SC250"
+		},
+		"FC500": {
+			"label": "FC500",
+			"mass": 500,
+			"icon": "fc500"
+		},
+		"SC500": {
+			"label": "SC500",
+			"mass": 500,
+			"icon": "sc500"
+		},
+		"ZB500": {
+			"label": "ZB-500",
+			"mass": 500,
+			"icon": "zb-500"
+		},
+		"SC1000": {
+			"label": "SC1000",
+			"mass": 1000,
+			"icon": "sc1000"
+		},
+		"M116A2": {
+			"label": "M116A2",
+			"mass": null,
+			"icon": "m116a2"
+		},
+		"SC1800": {
+			"label": "SC1800",
+			"mass": 1800,
+			"icon": "sc1800"
+		},
+		"SB2500": {
+			"label": "SB2500",
+			"mass": 2500,
+			"icon": "sb2500"
+		},
+		"559G1": {
+			"label": "559G1",
+			"mass": null,
+			"icon": "559g1"
+		},
+		"500M46": {
+			"label": "500M-46",
+			"mass": 500,
+			"icon": "500m-46"
+		},
+		"500M62": {
+			"label": "500M-62",
+			"mass": 500,
+			"icon": "500m-62"
+		}
+	},
 	"icons": {
         "sc50": {
             "file": "sc50.png"
@@ -52,6 +194,9 @@
         },
         "aim-120c": {
             "file": "aim-120c.png"
+        },
+        "aim-120c-2x": {
+            "file": "aim-120c-2x.png"
         },
         "aim-9m": {
             "file": "aim-9m.png"
@@ -143,8 +288,14 @@
         "blu-1":{
             "file": "fc500.png"
         },
+        "blu-1-2x":{
+            "file": "fc500-2x.png"
+        },
         "blu-27":{
             "file": "fc250.png"
+        },
+        "blu-27-2x":{
+            "file": "fc250-2x.png"
         },
         "mk83-2x": {
             "file": "sc500-2x.png"
@@ -165,6 +316,9 @@
             "file": "sc250-2x.png"
         },
         "mk84": {
+            "file": "sc500.png"
+        },
+        "mk84-light": {
             "file": "sc1000.png"
         },
         "m117": {
@@ -178,6 +332,33 @@
         },
         "aim-9l-2x": {
             "file": "r60-2x.png"
+        },
+        "gp-250-3x": {
+            "file": "sc50-3x.png"
+        },
+        "gp-100": {
+            "file": "sc100.png"
+        },
+        "sc1000-dark": {
+            "file": "sc500.png"
+        },
+        "inc-220-2x": {
+            "file": "fc500-2x.png"
+        },
+        "inc-220-3x": {
+            "file": "fc500-3x.png"
+        },
+        "500m-46": {
+            "file": "sc500.png"
+        },
+        "an-m57": {
+            "file": "sc50.png"
+        },
+        "mk81": {
+            "file": "sc100.png"
+        },
+        "flz-lwf-63": {
+            "file": "aim-9j.png"
         }
     }
 }
