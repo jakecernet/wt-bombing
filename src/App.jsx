@@ -4,21 +4,14 @@ import { Menu, Sun, Moon, Search, X } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import PlaneCard from "./components/PlaneCard";
 import BombCard from "./components/BombCard";
-import {
-	PLANES,
-	ALL_BOMBS,
-	MAX_BASES,
-	ALL_BRS,
-	COUNTRY,
-} from "./data/planes";
+import { PLANES, ALL_BOMBS, MAX_BASES, ALL_BRS, COUNTRY } from "./data/planes";
 
 const SHEET_URL =
 	"https://docs.google.com/spreadsheets/d/1oNwp_MXszU5J2dcaz5IoCtSAQ-infPdOWhwtJXqtrwU/edit";
 
-const ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII"];
+const ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"];
 const RANKS = [...new Set(PLANES.map((p) => p.rank))].sort((a, b) => a - b);
 
-// "do17z7", "Do 17 Z-7" and "do 17 z 7" should all find the same plane
 const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
 
 const SORTS = {
@@ -34,7 +27,9 @@ function BrSelect({ value, onChange }) {
 	return (
 		<select
 			value={value ?? ""}
-			onChange={(e) => onChange(e.target.value ? Number(e.target.value) : null)}>
+			onChange={(e) =>
+				onChange(e.target.value ? Number(e.target.value) : null)
+			}>
 			<option value="">Any (show both rows)</option>
 			{ALL_BRS.map((b) => (
 				<option key={b} value={b}>
@@ -92,10 +87,9 @@ function App() {
 	};
 
 	const q = norm(query);
-	const suggestions = PLANES.filter((p) => !q || norm(p.name).includes(q)).slice(
-		0,
-		8,
-	);
+	const suggestions = PLANES.filter(
+		(p) => !q || norm(p.name).includes(q),
+	).slice(0, 8);
 
 	const pq = norm(pQuery);
 	const planes = PLANES.filter((p) => {
@@ -132,16 +126,22 @@ function App() {
 						<li>
 							<Sun
 								onClick={() => setTheme("dark")}
-								className={theme === "light" ? "active" : "hidden"}
+								className={
+									theme === "light" ? "active" : "hidden"
+								}
 							/>
 							<Moon
 								onClick={() => setTheme("light")}
-								className={theme === "dark" ? "active" : "hidden"}
+								className={
+									theme === "dark" ? "active" : "hidden"
+								}
 							/>
 						</li>
 					</ul>
 				</div>
-				<div className="burger" onClick={() => setNavActive(!navActive)}>
+				<div
+					className="burger"
+					onClick={() => setNavActive(!navActive)}>
 					<Menu></Menu>
 				</div>
 			</nav>
@@ -176,12 +176,16 @@ function App() {
 											role="option"
 											key={p.id}
 											// keep focus in the input so onBlur doesn't swallow the click
-											onMouseDown={(e) => e.preventDefault()}
+											onMouseDown={(e) =>
+												e.preventDefault()
+											}
 											onClick={() => openPlane(p)}>
 											<span>{p.name}</span>
 											<small>
 												BR {p.br.toFixed(1)} · {p.bases}{" "}
-												{p.bases === 1 ? "base" : "bases"}
+												{p.bases === 1
+													? "base"
+													: "bases"}
 											</small>
 										</button>
 									))}
@@ -196,7 +200,10 @@ function App() {
 								<div className="planes-head">
 									<label className="inline">
 										Battle BR
-										<BrSelect value={battleBr} onChange={setBattleBr} />
+										<BrSelect
+											value={battleBr}
+											onChange={setBattleBr}
+										/>
 									</label>
 									<button
 										className="clear"
@@ -218,8 +225,8 @@ function App() {
 							</section>
 						) : (
 							<p className="hint">
-								Search for a plane and pick it from the list to see its
-								loadout, bases and reward multiplier.
+								Search for a plane and pick it from the list to
+								see its loadout, bases and reward multiplier.
 							</p>
 						)}
 					</main>
@@ -242,29 +249,36 @@ function App() {
 						</div>
 						<div className="filter-group">
 							<h3>Rank</h3>
-							<div className="segmented" role="group" aria-label="Rank">
-								{[["all", "All"], ...RANKS.map((r) => [r, ROMAN[r]])].map(
-									([v, label]) => (
-										<button
-											key={v}
-											className={rank === v ? "on" : ""}
-											onClick={() => setRank(v)}>
-											{label}
-										</button>
-									),
-								)}
+							<div
+								className="segmented"
+								role="group"
+								aria-label="Rank">
+								{[
+									["all", "All"],
+									...RANKS.map((r) => [r, ROMAN[r]]),
+								].map(([v, label]) => (
+									<button
+										key={v}
+										className={rank === v ? "on" : ""}
+										onClick={() => setRank(v)}>
+										{label}
+									</button>
+								))}
 							</div>
 						</div>
 						<div className="filter-group">
 							<h3>
-								Min. bases <span className="val">{minBases}</span>
+								Min. bases{" "}
+								<span className="val">{minBases}</span>
 							</h3>
 							<input
 								type="range"
 								min="0"
 								max={MAX_BASES}
 								value={minBases}
-								onChange={(e) => setMinBases(Number(e.target.value))}
+								onChange={(e) =>
+									setMinBases(Number(e.target.value))
+								}
 								aria-label="Minimum bases destroyed"
 							/>
 						</div>
@@ -274,9 +288,13 @@ function App() {
 						</div>
 						<div className="filter-group">
 							<h3>Sort by</h3>
-							<select value={sort} onChange={(e) => setSort(e.target.value)}>
+							<select
+								value={sort}
+								onChange={(e) => setSort(e.target.value)}>
 								<option value="bases">Most bases</option>
-								<option value="reward">Best reward multiplier</option>
+								<option value="reward">
+									Best reward multiplier
+								</option>
 								<option value="br">Lowest BR</option>
 								<option value="name">Name</option>
 							</select>
@@ -286,8 +304,8 @@ function App() {
 					<section className="planes">
 						<div className="planes-head">
 							<p>
-								<strong>{planes.length}</strong> of {PLANES.length} planes ·{" "}
-								{COUNTRY}
+								<strong>{planes.length}</strong> of{" "}
+								{PLANES.length} planes · {COUNTRY}
 							</p>
 							{planesFiltered ? (
 								<button
@@ -326,8 +344,8 @@ function App() {
 				<main className="page">
 					<h2 className="page-title">Bombs</h2>
 					<p className="hint left">
-						Every bomb found in the chart, with how many planes carry it.
-						Open one to see which planes can drop it.
+						Every bomb found in the chart, with how many planes
+						carry it. Open one to see which planes can drop it.
 					</p>
 					<div className="grid">
 						{ALL_BOMBS.map((b) => (
@@ -338,8 +356,12 @@ function App() {
 			) : null}
 
 			<footer>
-				Data: <a href={SHEET_URL}>LEGION&apos;s Loadouts 2.29 – Sky Odyssey</a>.
-				Germany ranks I–IX transcribed from screenshots; some rows between screenshots may be missing.
+				Data:{" "}
+				<a href={SHEET_URL}>
+					LEGION&apos;s Loadouts 2.29 – Sky Odyssey
+				</a>
+				. Germany ranks I–IX transcribed from screenshots; some rows
+				between screenshots may be missing.
 			</footer>
 		</div>
 	);
