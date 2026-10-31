@@ -4,6 +4,7 @@ import { Menu, Sun, Moon, Search, X } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import PlaneCard from "./components/PlaneCard";
 import BombCard from "./components/BombCard";
+import PlanePage from "./components/PlanePage";
 import { PLANES, ALL_BOMBS, MAX_BASES, ALL_BRS, COUNTRY } from "./data/planes";
 
 const SHEET_URL =
@@ -22,6 +23,14 @@ const SORTS = {
 };
 
 const NO_BOMBS = new Set();
+
+// tiny hash router: #/  #/planes  #/bombs  #/plane/<id>
+const parseHash = () => {
+	const [view = "", id] = window.location.hash
+		.replace(/^#\/?/, "")
+		.split("/");
+	return { view: view || "home", id: id ? decodeURIComponent(id) : null };
+};
 
 function BrSelect({ value, onChange }) {
 	return (
@@ -45,8 +54,10 @@ function App() {
 	const [theme, setTheme] = useState(
 		() => localStorage.getItem("theme") || "dark",
 	);
-	const [view, setView] = useState("home"); // home | planes | bombs
-	const [picked, setPicked] = useState(null); // plane shown on the landing page
+	const [route, setRoute] = useState(parseHash);
+	const view = route.view; // home | planes | bombs | plane
+	const current =
+		view === "plane" ? PLANES.find((p) => p.id === route.id) : null;
 
 	const [query, setQuery] = useState("");
 	const [suggestOpen, setSuggestOpen] = useState(false);
@@ -72,18 +83,25 @@ function App() {
 		document.documentElement.style.colorScheme = theme;
 	}, [theme]);
 
+	useEffect(() => {
+		const onHash = () => {
+			setRoute(parseHash());
+			window.scrollTo({ top: 0 });
+		};
+		window.addEventListener("hashchange", onHash);
+		return () => window.removeEventListener("hashchange", onHash);
+	}, []);
+
 	const go = (v) => {
-		setView(v);
-		window.scrollTo({ top: 0 });
+		window.location.hash = v === "home" ? "#/" : `#/${v}`;
 		if (isMobile) setNavActive(false);
 	};
 
-	// open a plane on the landing page (used by search and by the bomb list)
+	// open a plane's info page (used by cards, search and the bomb list)
 	const openPlane = (plane) => {
-		setPicked(plane);
-		setQuery(plane.name);
 		setSuggestOpen(false);
-		go("home");
+		window.location.hash = `#/plane/${encodeURIComponent(plane.id)}`;
+		if (isMobile) setNavActive(false);
 	};
 
 	const q = norm(query);
@@ -106,7 +124,13 @@ function App() {
 	};
 
 	const navItem = (v, label) => (
-		<li className={view === v ? "current" : ""} onClick={() => go(v)}>
+		<li
+			className={
+				view === v || (v === "planes" && view === "plane")
+					? "current"
+					: ""
+			}
+			onClick={() => go(v)}>
 			{label}
 		</li>
 	);
@@ -195,40 +219,10 @@ function App() {
 					</header>
 
 					<main>
-						{picked ? (
-							<section className="picked">
-								<div className="planes-head">
-									<label className="inline">
-										Battle BR
-										<BrSelect
-											value={battleBr}
-											onChange={setBattleBr}
-										/>
-									</label>
-									<button
-										className="clear"
-										onClick={() => {
-											setPicked(null);
-											setQuery("");
-										}}>
-										<X size={14} /> Close
-									</button>
-								</div>
-								<PlaneCard
-									key={picked.id}
-									defaultOpen
-									plane={picked}
-									selected={NO_BOMBS}
-									maxBases={MAX_BASES}
-									battleBr={battleBr}
-								/>
-							</section>
-						) : (
-							<p className="hint">
-								Search for a plane and pick it from the list to
-								see its loadout, bases and reward multiplier.
-							</p>
-						)}
+						<p className="hint">
+							Search for a plane and pick it from the list to see
+							its loadout, bases and reward multiplier.
+						</p>
 					</main>
 				</>
 			) : null}
@@ -325,6 +319,7 @@ function App() {
 									<PlaneCard
 										key={p.id}
 										plane={p}
+										onOpen={openPlane}
 										selected={NO_BOMBS}
 										maxBases={MAX_BASES}
 										battleBr={battleBr}
@@ -338,6 +333,33 @@ function App() {
 						)}
 					</section>
 				</main>
+			) : null}
+
+			{view === "plane" ? (
+				current ? (
+					<PlanePage
+						key={current.id}
+						plane={current}
+						battleBr={battleBr}
+						onBattleBr={setBattleBr}
+						onBack={() =>
+							window.history.length > 1
+								? window.history.back()
+								: go("planes")
+						}
+					/>
+				) : (
+					<main className="page">
+						<div className="empty">
+							<p>Plane not found.</p>
+							<button
+								className="clear"
+								onClick={() => go("planes")}>
+								Browse planes
+							</button>
+						</div>
+					</main>
+				)
 			) : null}
 
 			{view === "bombs" ? (

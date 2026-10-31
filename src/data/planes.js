@@ -19,6 +19,29 @@ export const ICONS = bombsJson.icons;
 export const iconFile = (name) => ICONS[name]?.file ?? null;
 export const COUNTRY = "Germany";
 
+const LABEL_BY_ICON = new Map(
+	Object.values(bombsJson.bombs)
+		.filter((b) => b.icon)
+		.map((b) => [b.icon, b.label]),
+);
+const prettify = (s) =>
+	/\d/.test(s)
+		? s.toUpperCase()
+		: s.replace(/-/g, " ").replace(/^./, (c) => c.toUpperCase());
+
+/** Human-readable name of a hardpoint icon ("m116a2" -> "M116A2", "sc50-8x" -> "SC50 (8-pack)", "gunpod" -> "Gunpod").
+ *  Add "label" to an entry in bombs.json "icons" to override. */
+export const iconLabel = (name) => {
+	if (ICONS[name]?.label) return ICONS[name].label;
+	if (LABEL_BY_ICON.has(name)) return LABEL_BY_ICON.get(name);
+	const pack = name.match(/^(.+?)-(\d+)x$/);
+	if (pack) return `${iconLabel(pack[1])} (${pack[2]}-pack)`;
+	const plain = name.replace(/-(dark|black|brown|green|light|old|2)$/, "");
+	if (plain !== name && LABEL_BY_ICON.has(plain))
+		return LABEL_BY_ICON.get(plain);
+	return prettify(name);
+};
+
 export const bombLabel = (id) => BOMBS[id]?.label ?? id;
 export const bombMass = (id) => BOMBS[id]?.mass ?? 0;
 
@@ -34,17 +57,35 @@ const ID_BY_LABEL = new Map(
 const parseCell = (str) =>
 	str.split("+").map((part) => {
 		const m = part.trim().match(/^(.+?)\s*x\s*(\d+)$/i);
-		return { bomb: ID_BY_LABEL.get(norm(m[1])) ?? m[1].trim(), count: Number(m[2]) };
+		return {
+			bomb: ID_BY_LABEL.get(norm(m[1])) ?? m[1].trim(),
+			count: Number(m[2]),
+		};
 	});
 
 export const PLANES = planesJson.map((p) => {
 	const variants = p.variants.map((v) => {
 		const rows = [
-			{ max: v.maxBr ?? null, min: null, cells: v.bombs.map(parseCell), extra: v.more ?? 0 },
+			{
+				max: v.maxBr ?? null,
+				min: null,
+				cells: v.bombs.map(parseCell),
+				extra: v.more ?? 0,
+			},
 		];
 		if (v.bombsHigh)
-			rows.push({ max: null, min: v.minBr ?? null, cells: v.bombsHigh.map(parseCell), extra: 0 });
-		return { bases: v.bases, reward: v.reward, tiles: v.icons ?? null, rows };
+			rows.push({
+				max: null,
+				min: v.minBr ?? null,
+				cells: v.bombsHigh.map(parseCell),
+				extra: 0,
+			});
+		return {
+			bases: v.bases,
+			reward: v.reward,
+			tiles: v.icons ?? null,
+			rows,
+		};
 	});
 	// plane-level values come from the best variant (most bases)
 	const best = variants.reduce((a, b) => (b.bases > a.bases ? b : a));
@@ -54,7 +95,10 @@ export const PLANES = planesJson.map((p) => {
 /** The sheet row of a variant that applies at a battle BR (null -> first row). */
 export const rowAt = (variant, battleBr) => {
 	const second = variant.rows[1];
-	return second && battleBr != null && second.min != null && battleBr >= second.min
+	return second &&
+		battleBr != null &&
+		second.min != null &&
+		battleBr >= second.min
 		? second
 		: variant.rows[0];
 };
@@ -62,7 +106,9 @@ export const rowAt = (variant, battleBr) => {
 /** Total nominal payload in kg of one row. */
 export const rowKg = (row) =>
 	row.cells.reduce(
-		(sum, cell) => sum + cell.reduce((s, { bomb, count }) => s + bombMass(bomb) * count, 0),
+		(sum, cell) =>
+			sum +
+			cell.reduce((s, { bomb, count }) => s + bombMass(bomb) * count, 0),
 		0,
 	);
 

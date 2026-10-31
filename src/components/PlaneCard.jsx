@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Target, Lightbulb, Weight, ChevronDown } from "lucide-react";
-import { rowKg, rowAt, variantBombs, bombLabel, iconFile } from "../data/planes";
+import { Target, Lightbulb, Weight, ChevronDown, ArrowRight } from "lucide-react";
+import { rowKg, rowAt, variantBombs, bombLabel, iconFile, iconLabel } from "../data/planes";
 import BombIcon from "./BombIcon";
 
 const RANK = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"];
@@ -47,18 +47,19 @@ function Row({ row, bases, cols, dim, selected }) {
 
 // One hardpoint tile: the icon name from planes.json is looked up in bombs.json ("icons") and loaded from public/icons/bombs/.
 // No file assigned (or the file is missing) -> the tile shows the icon name instead, so it's easy to see what to add.
-function TileIcon({ name }) {
+export function TileIcon({ name }) {
 	const [broken, setBroken] = useState(false);
 	const file = iconFile(name);
+	const label = iconLabel(name);
 	return !file || broken ? (
-		<span className="tile-missing" title={`${name}: no image assigned`}>
-			{name}
+		<span className="tile-missing" title={`${label}: no image assigned`}>
+			{label}
 		</span>
 	) : (
 		<img
 			src={`${base}icons/bombs/${file}`}
-			title={name}
-			alt={name}
+			title={label}
+			alt={label}
 			loading="lazy"
 			onError={() => setBroken(true)}
 		/>
@@ -127,10 +128,26 @@ function Variant({ variant, battleBr, selected, collapsible, startOpen }) {
 	);
 }
 
-export default function PlaneCard({ plane, selected, maxBases, battleBr, defaultOpen = false }) {
+export default function PlaneCard({ plane, selected, maxBases, battleBr, defaultOpen = false, onOpen }) {
 	const [open, setOpen] = useState(defaultOpen);
 	return (
-		<article className="plane-card" id={plane.id}>
+		<article
+			className={`plane-card${onOpen ? " clickable" : ""}`}
+			id={plane.id}
+			{...(onOpen
+				? {
+						role: "link",
+						tabIndex: 0,
+						"aria-label": `${plane.name} – open details`,
+						onClick: () => onOpen(plane),
+						onKeyDown: (e) => {
+							if (e.target === e.currentTarget && (e.key === "Enter" || e.key === " ")) {
+								e.preventDefault();
+								onOpen(plane);
+							}
+						},
+					}
+				: {})}>
 			<div className="plane-head">
 				<img
 					className="plane-icon"
@@ -154,6 +171,7 @@ export default function PlaneCard({ plane, selected, maxBases, battleBr, default
 					<Target size={20} />
 					<strong>{plane.bases}</strong>
 					<span>{plane.bases === 1 ? "base" : "bases"} max</span>
+					{onOpen ? <ArrowRight size={18} className="go" aria-hidden="true" /> : null}
 				</div>
 				<div className="bar" aria-hidden="true">
 					<i style={{ width: `${(plane.bases / maxBases) * 100}%` }} />
@@ -164,21 +182,28 @@ export default function PlaneCard({ plane, selected, maxBases, battleBr, default
 				type="button"
 				className="toggle"
 				aria-expanded={open}
-				onClick={() => setOpen(!open)}>
+				onClick={(e) => {
+					e.stopPropagation();
+					setOpen(!open);
+				}}>
 				{open ? "Hide loadouts" : "Show loadouts"}
 				<ChevronDown size={16} className={open ? "flip" : ""} />
 			</button>
 
-			{open && plane.variants.map((v, i) => (
-				<Variant
-					key={i}
-					variant={v}
-					battleBr={battleBr}
-					selected={selected}
-					collapsible={plane.variants.length > 1}
-					startOpen={i === 0}
-				/>
-			))}
+			{open && (
+				<div className="card-loadouts" onClick={(e) => e.stopPropagation()}>
+					{plane.variants.map((v, i) => (
+						<Variant
+							key={i}
+							variant={v}
+							battleBr={battleBr}
+							selected={selected}
+							collapsible={plane.variants.length > 1}
+							startOpen={i === 0}
+						/>
+					))}
+				</div>
+			)}
 		</article>
 	);
 }
