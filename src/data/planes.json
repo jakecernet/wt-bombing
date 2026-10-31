@@ -1,1322 +1,4506 @@
 [
-  {
-    "id": "do-17-z-7", "name": "Do 17 Z-7", "country": "Germany", "rank": 1, "br": 1.3, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 8,
-        "icons": ["/", "/", "sc50", "sc50", "sc50", "sc50", "sc50", "/", "sc50", "sc50", "sc50", "sc50", "sc50", "/", "/"],
-        "maxBr": 2,
-        "bombs": ["SC50 x4", "SC50 x4", "SC50 x2"],
-        "minBr": 2.3,
-        "bombsHigh": ["SC50 x5", "SC50 x5"]
-      }
-    ]
-  },
-  {
-    "id": "do-17-j-1", "name": "Do 17 J-1", "country": "Germany", "rank": 1, "br": 2, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 8,
-        "icons": ["/", "/", "/", "sc50", "sc50", "sc50", "sc50", "/", "sc50", "sc50", "sc50", "sc50", "/", "/", "/"],
-        "maxBr": 2,
-        "bombs": ["SC50 x4", "SC50 x4"],
-        "minBr": 2.3,
-        "bombsHigh": ["SC50 x5", "SC50 x3"]
-      }
-    ]
-  },
-  {
-    "id": "hs-123-a-1", "name": "Hs 123 A-1", "country": "Germany", "rank": 1, "br": 1, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "sc50", "sc50", "/", "sc50", "sc50", "/", "/", "/", "/", "/"],
-        "bombs": ["SC50 x4"]
-      }
-    ]
-  },
-  {
-    "id": "ju-87-b-2", "name": "Ju 87 B-2", "country": "Germany", "rank": 1, "br": 1, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "/", "sc50-2x", "sc1000", "sc50-2x", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["SC50 x4", "SC1000 x1"]
-      }
-    ]
-  },
-  {
-    "id": "ju-87-r-2", "name": "Ju 87 R-2", "country": "Germany", "rank": 1, "br": 1.3, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "/", "/", "sc1000", "/", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["SC1000 x1"]
-      }
-    ]
-  },
-  {
-    "id": "do-17-e-1", "name": "Do 17 E-1", "country": "Germany", "rank": 1, "br": 1, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 10,
-        "icons": ["/", "/", "sc50", "sc50", "sc50", "sc50", "sc50", "/", "sc50", "sc50", "sc50", "sc50", "sc50", "/", "/"],
-        "bombs": ["SC50 x4", "SC50 x4", "SC50 x2"]
-      }
-    ]
-  },
-  {
-    "id": "do-17-z-2", "name": "Do 17 Z-2", "country": "Germany", "rank": 1, "br": 1.7, "premium": false,
-    "variants": [
-      {
-        "bases": 5, "reward": 8.6,
-        "icons": ["/", "/", "sc50-2x", "sc50-2x", "sc50-2x", "sc50-2x", "sc50-2x", "/", "sc50-2x", "sc50-2x", "sc50-2x", "sc50-2x", "sc50-2x", "/", "/"],
-        "maxBr": 2,
-        "bombs": ["SC50 x4", "SC50 x4", "SC50 x4", "SC50 x4", "SC50 x4"],
-        "minBr": 2.3,
-        "bombsHigh": ["SC50 x5", "SC50 x5", "SC50 x5", "SC50 x5"]
-      }
-    ]
-  },
-  {
-    "id": "he-115-c-1", "name": "He 115 C-1", "country": "Germany", "rank": 1, "br": 1.3, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 9.7,
-        "icons": ["/", "/", "/", "/", "/", "/", "fc250", "/", "fc250", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC250 x1", "FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "bv-138-c-1", "name": "BV 138 C-1", "country": "Germany", "rank": 1, "br": 1.7, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "sc50", "sc50", "sc50", "/", "sc50", "sc50", "sc50", "/", "/", "/", "/"],
-        "maxBr": 2,
-        "bombs": ["SC50 x4", "SC50 x2"],
-        "minBr": 2.3,
-        "bombsHigh": ["SC50 x5", "SC50 x1"]
-      }
-    ]
-  },
-  {
-    "id": "he-111-h-3", "name": "He 111 H-3", "country": "Germany", "rank": 1, "br": 2, "premium": false,
-    "variants": [
-      {
-        "bases": 8, "reward": 4.1,
-        "icons": ["/", "/", "/", "fc250", "fc250", "fc250", "fc250", "/", "fc250", "fc250", "fc250", "fc250", "/", "/", "/"],
-        "bombs": ["FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "ju-87-r-2-premium", "name": "Ju 87 R-2", "country": "Germany", "rank": 1, "br": 1.3, "premium": true,
-    "variants": [
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "/", "/", "sc1000", "/", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["SC1000 x1"]
-      }
-    ]
-  },
-  {
-    "id": "bf-109-e-4", "name": "Bf 109 E-4", "country": "Germany", "rank": 2, "br": 3, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 8,
-        "icons": ["/", "/", "/", "/", "/", "/", "/", "fc250", "/", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "bf-109-f-1", "name": "Bf 109 F-1", "country": "Germany", "rank": 2, "br": 2.7, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 8,
-        "icons": ["/", "/", "/", "/", "/", "/", "/", "fc250", "/", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "bf-109-f-2", "name": "Bf 109 F-2", "country": "Germany", "rank": 2, "br": 3, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 8,
-        "icons": ["/", "/", "/", "/", "/", "/", "/", "fc250", "/", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "c-3604", "name": "C-3604", "country": "Germany", "rank": 2, "br": 2.7, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "/", "sb200", "/", "sb200", "/", "/", "/", "/", "/", "/"],
-        "maxBr": 3.3,
-        "bombs": ["SB200 x2"],
-        "minBr": 3.7,
-        "bombsHigh": ["SB200 x2"]
-      }
-    ]
-  },
-  {
-    "id": "ju-88-c-6", "name": "Ju 88 C-6", "country": "Germany", "rank": 2, "br": 2.3, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 8,
-        "icons": ["/", "/", "sc50", "sc50", "sc50", "sc50", "sc50", "/", "sc50", "sc50", "sc50", "sc50", "sc50", "/", "/"],
-        "bombs": ["SC50 x5", "SC50 x5"]
-      }
-    ]
-  },
-  {
-    "id": "do-217-n-1", "name": "Do 217 N-1", "country": "Germany", "rank": 2, "br": 2.3, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 8,
-        "icons": ["/", "/", "/", "sc50", "sc50", "sc50", "sc50", "/", "sc50", "sc50", "sc50", "sc50", "/", "/", "/"],
-        "bombs": ["SC50 x5", "SC50 x3"]
-      }
-    ]
-  },
-  {
-    "id": "bf-110-c-7", "name": "Bf 110 C-7", "country": "Germany", "rank": 2, "br": 2.7, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 9.7,
-        "icons": ["/", "/", "/", "/", "/", "/", "fc250", "/", "fc250", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC250 x1", "FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "bf-110-f-2", "name": "Bf 110 F-2", "country": "Germany", "rank": 2, "br": 3, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 9.7,
-        "icons": ["/", "/", "/", "/", "/", "/", "fc250", "/", "fc250", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC250 x1", "FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "ju-87-d-3", "name": "Ju 87 D-3", "country": "Germany", "rank": 2, "br": 2, "premium": false,
-    "variants": [
-      {
-        "bases": 3, "reward": 7.3,
-        "icons": ["/", "/", "/", "/", "/", "/", "fc250", "fc250", "fc250", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC250 x1", "FC250 x1", "FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "ju-87-d-5", "name": "Ju 87 D-5", "country": "Germany", "rank": 2, "br": 3.3, "premium": false,
-    "variants": [
-      {
-        "bases": 3, "reward": 7.3,
-        "icons": ["/", "/", "/", "/", "/", "/", "fc250", "fc250", "fc250", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC250 x1", "FC250 x1", "FC250 x1"]
-      },
-      {
-        "bases": 2, "reward": 9.7,
-        "icons": ["/", "/", "/", "/", "/", "/", "gunpod", "fc250", "fc250", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC250 x1", "FC250 x1"]
-      },
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "/", "gunpod", "fc250", "gunpod", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "me-210a-1", "name": "Me 210A-1", "country": "Germany", "rank": 2, "br": 2.7, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "/", "sc50", "sc50-8x", "sc50", "/", "/", "/", "/", "/", "/"],
-        "maxBr": 3.3,
-        "bombs": ["SC50 x5", "SC50 x5"],
-        "minBr": 3.7,
-        "bombsHigh": ["SC50 x9", "SB200 x1"]
-      }
-    ]
-  },
-  {
-    "id": "fw-200-c-1", "name": "Fw 200 C-1", "country": "Germany", "rank": 2, "br": 2, "premium": false,
-    "variants": [
-      {
-        "bases": 6, "reward": 7.5,
-        "icons": ["/", "/", "/", "/", "/", "sc500", "sc500", "sc500-2x", "sc500", "sc500", "/", "/", "/", "/", "/"],
-        "maxBr": 2,
-        "bombs": ["SC500 x1", "SC500 x1", "SC500 x1", "SC500 x1", "SC500 x1", "SC500 x1"],
-        "minBr": 2.3,
-        "bombsHigh": ["SC500 x2", "SC500 x2", "SC500 x2"]
-      }
-    ]
-  },
-  {
-    "id": "ju-88-a-1", "name": "Ju 88 A-1", "country": "Germany", "rank": 2, "br": 2, "premium": false,
-    "variants": [
-      {
-        "bases": 11, "reward": 4.3,
-        "icons": ["/", "/", "/", "/", "/", "fc250", "fc250", "sc50-8x", "fc250", "fc250", "/", "/", "/", "/", "/"],
-        "maxBr": 2,
-        "bombs": ["FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "SC50 x4", "SC50 x4", "SC50 x4", "SC50 x4", "SC50 x4"],
-        "more": 2,
-        "minBr": 2.3,
-        "bombsHigh": ["FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "SC50 x6", "SC50 x6", "SC50 x6", "SC50 x5", "SC50 x5"]
-      }
-    ]
-  },
-  {
-    "id": "ju-88-a-4", "name": "Ju 88 A-4", "country": "Germany", "rank": 2, "br": 3, "premium": false,
-    "variants": [
-      {
-        "bases": 9, "reward": 4.3,
-        "icons": ["/", "/", "/", "/", "/", "fc250", "fc250", "sc50-8x", "fc250", "fc250", "/", "/", "/", "/", "/"],
-        "maxBr": 3.3,
-        "bombs": ["FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "SC50 x6", "SC50 x6", "SC50 x6", "SC50 x5", "SC50 x5"],
-        "minBr": 3.7,
-        "bombsHigh": ["FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "SC50 x10", "SC50 x9", "SC50 x9"]
-      }
-    ]
-  },
-  {
-    "id": "he-111-h-6", "name": "He 111 H-6", "country": "Germany", "rank": 2, "br": 2.7, "premium": false,
-    "variants": [
-      {
-        "bases": 8, "reward": 4.1,
-        "icons": ["/", "/", "/", "fc250", "fc250", "fc250", "fc250", "/", "fc250", "fc250", "fc250", "fc250", "/", "/", "/"],
-        "bombs": ["FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "he-111-h-16", "name": "He 111 H-16", "country": "Germany", "rank": 2, "br": 3, "premium": false,
-    "variants": [
-      {
-        "bases": 8, "reward": 4.1,
-        "icons": ["/", "/", "/", "fc250", "fc250", "fc250", "fc250", "/", "fc250", "fc250", "fc250", "fc250", "/", "/", "/"],
-        "bombs": ["FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "bf-109-t-2-premium", "name": "Bf 109 T-2", "country": "Germany", "rank": 2, "br": 3, "premium": true,
-    "variants": [
-      {
-        "bases": 1, "reward": 8,
-        "icons": ["/", "/", "/", "/", "/", "/", "/", "fc250", "/", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "bv-238-premium", "name": "BV 238", "country": "Germany", "rank": 2, "br": 3.7, "premium": true,
-    "variants": [
-      {
-        "bases": 5, "reward": 6,
-        "icons": ["/", "/", "sc250-2x", "sc250-2x", "sc250-2x", "sc250-2x", "sc250-2x", "/", "sc250-2x", "sc250-2x", "sc250-2x", "sc250-2x", "sc250-2x", "/", "/"],
-        "bombs": ["SC250 x4", "SC250 x4", "SC250 x4", "SC250 x4", "SC250 x4"]
-      }
-    ]
-  },
-  {
-    "id": "wellington-ic-premium", "name": "Wellington Ic", "country": "Germany", "rank": 2, "br": 2.3, "premium": true,
-    "variants": [
-      {
-        "bases": 3, "reward": 10,
-        "icons": ["/", "/", "/", "/", "g-p-250-3x", "g-p-250-3x", "g-p-250-3x", "/", "g-p-250-3x", "g-p-250-3x", "g-p-250-3x", "/", "/", "/", "/"],
-        "bombs": ["G.P.250 x5", "G.P.250 x5", "G.P.250 x5", "G.P.250 x3"]
-      }
-    ]
-  },
-  {
-    "id": "bf-109-e-7-u2-premium", "name": "Bf 109 E-7/U2", "country": "Germany", "rank": 2, "br": 3, "premium": true,
-    "variants": [
-      {
-        "bases": 1, "reward": 8,
-        "icons": ["/", "/", "/", "/", "/", "/", "/", "fc250", "/", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "s-m-79-serie-1", "name": "S.M.79 serie 1", "country": "Germany", "rank": 2, "br": 1.7, "premium": false,
-    "variants": [
-      {
-        "bases": 4, "reward": 9.5,
-        "icons": ["/", "/", "gp-100", "gp-100", "gp-100", "gp-100", "gp-100", "/", "gp-100", "gp-100", "gp-100", "gp-100", "gp-100", "gp-100", "/"],
-        "maxBr": 2,
-        "bombs": ["GP 100 x3", "GP 100 x3", "GP 100 x3", "GP 100 x3"],
-        "minBr": 2.3,
-        "bombsHigh": ["GP 100 x4", "GP 100 x4", "GP 100 x4"]
-      }
-    ]
-  },
-  {
-    "id": "s-m-79-serie-8", "name": "S.M.79 serie 8", "country": "Germany", "rank": 2, "br": 2, "premium": false,
-    "variants": [
-      {
-        "bases": 4, "reward": 9.5,
-        "icons": ["/", "/", "gp-100", "gp-100", "gp-100", "gp-100", "gp-100", "/", "gp-100", "gp-100", "gp-100", "gp-100", "gp-100", "gp-100", "/"],
-        "maxBr": 2,
-        "bombs": ["GP 100 x3", "GP 100 x3", "GP 100 x3", "GP 100 x3"],
-        "minBr": 2.3,
-        "bombsHigh": ["GP 100 x4", "GP 100 x4", "GP 100 x4"]
-      }
-    ]
-  },
-  {
-    "id": "bf-109-f-4", "name": "Bf 109 F-4", "country": "Germany", "rank": 3, "br": 4, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 8,
-        "icons": ["/", "/", "/", "/", "/", "/", "/", "fc250", "/", "/", "/", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["FC250 x1"],
-        "minBr": 5,
-        "bombsHigh": ["FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "bf-109-f-4-trop", "name": "Bf 109 F-4/trop", "country": "Germany", "rank": 3, "br": 4, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 8,
-        "icons": ["/", "/", "/", "/", "/", "/", "/", "fc250", "/", "/", "/", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["FC250 x1"],
-        "minBr": 5,
-        "bombsHigh": ["FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "fw-190-a-5-u2", "name": "Fw 190 A-5/U2", "country": "Germany", "rank": 3, "br": 4, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 8,
-        "icons": ["/", "/", "/", "/", "/", "/", "/", "fc500", "/", "/", "/", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["FC500 x1"],
-        "minBr": 5,
-        "bombsHigh": ["FC500 x1"]
-      }
-    ]
-  },
-  {
-    "id": "fw-190-d-9", "name": "Fw 190 D-9", "country": "Germany", "rank": 3, "br": 5, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 8,
-        "icons": ["/", "/", "/", "/", "/", "/", "sc50-2x", "fc500", "sc50-2x", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC500 x1 + SC50 x4"]
-      }
-    ]
-  },
-  {
-    "id": "bf-110-g-2", "name": "Bf 110 G-2", "country": "Germany", "rank": 3, "br": 3.7, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 9,
-        "icons": ["/", "/", "/", "/", "/", "/", "fc250", "gunpod-2x", "sc1000", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["SC1000 x1", "FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "bf-110-g-4", "name": "Bf 110 G-4", "country": "Germany", "rank": 3, "br": 3.7, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 9,
-        "icons": ["/", "/", "/", "/", "/", "/", "fc250", "/", "sc1000", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["SC1000 x1", "FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "me-410-a-1", "name": "Me 410 A-1", "country": "Germany", "rank": 3, "br": 3.3, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "/", "sc500", "/", "sc500", "/", "/", "/", "/", "/", "/"],
-        "maxBr": 3.3,
-        "bombs": ["SC500 x2"],
-        "minBr": 3.7,
-        "bombsHigh": ["SC500 x2"]
-      }
-    ]
-  },
-  {
-    "id": "do-335-a-1", "name": "Do 335 A-1", "country": "Germany", "rank": 3, "br": 4.3, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "/", "sc500", "sc500", "sc500", "/", "/", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["SC500 x1 + SC250 x2"],
-        "minBr": 5,
-        "bombsHigh": ["SC500 x1 + SC250 x2"]
-      }
-    ]
-  },
-  {
-    "id": "me-264", "name": "Me 264", "country": "Germany", "rank": 3, "br": 5, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 6.3,
-        "icons": ["/", "/", "/", "sc500", "sc500", "sc500", "sc500", "sc500", "sc500", "sc500", "sc500", "sc500", "/", "/", "/"],
-        "bombs": ["SC500 x4", "SC500 x2 + SC250 x3"]
-      }
-    ]
-  },
-  {
-    "id": "do-217-e-2", "name": "Do 217 E-2", "country": "Germany", "rank": 3, "br": 4.3, "premium": false,
-    "variants": [
-      {
-        "bases": 8, "reward": 4.1,
-        "icons": ["/", "/", "/", "fc250", "fc250", "fc250", "fc250", "/", "fc250", "fc250", "fc250", "fc250", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1"],
-        "minBr": 5,
-        "bombsHigh": ["FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2"]
-      },
-      {
-        "bases": 4, "reward": 5.4,
-        "icons": ["/", "/", "/", "/", "/", "sc1000", "sc1000", "/", "sc1000", "sc1000", "/", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["SC1000 x1", "SC1000 x1", "SC1000 x1", "SC1000 x1"],
-        "minBr": 5,
-        "bombsHigh": ["SC1000 x2", "SC1000 x2"]
-      },
-      {
-        "bases": 3, "reward": 6.8,
-        "icons": ["/", "/", "/", "/", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["SC50 x9", "SC50 x9", "SC50 x9", "SC50 x1"],
-        "minBr": 5,
-        "bombsHigh": ["SC50 x14", "SC50 x14"]
-      },
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "sc500", "sc500", "/", "sc500", "sc500", "/", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["SC500 x3", "SC500 x1"],
-        "minBr": 5,
-        "bombsHigh": ["SC500 x4"]
-      }
-    ]
-  },
-  {
-    "id": "do-217-e-4", "name": "Do 217 E-4", "country": "Germany", "rank": 3, "br": 4.7, "premium": false,
-    "variants": [
-      {
-        "bases": 8, "reward": 4.1,
-        "icons": ["/", "/", "/", "fc250", "fc250", "fc250", "fc250", "/", "fc250", "fc250", "fc250", "fc250", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1"],
-        "minBr": 5,
-        "bombsHigh": ["FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2"]
-      },
-      {
-        "bases": 4, "reward": 5.4,
-        "icons": ["/", "/", "/", "/", "/", "sc1000", "sc1000", "/", "sc1000", "sc1000", "/", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["SC1000 x1", "SC1000 x1", "SC1000 x1", "SC1000 x1"],
-        "minBr": 5,
-        "bombsHigh": ["SC1000 x2", "SC1000 x2"]
-      },
-      {
-        "bases": 3, "reward": 6.8,
-        "icons": ["/", "/", "/", "/", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["SC50 x9", "SC50 x9", "SC50 x9", "SC50 x1"],
-        "minBr": 5,
-        "bombsHigh": ["SC50 x14", "SC50 x14"]
-      },
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "sc500", "sc500", "/", "sc500", "sc500", "/", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["SC500 x3", "SC500 x1"],
-        "minBr": 5,
-        "bombsHigh": ["SC500 x4"]
-      }
-    ]
-  },
-  {
-    "id": "bf-109-g-2-trop", "name": "Bf 109 G-2/trop", "country": "Germany", "rank": 4, "br": 4.3, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 8,
-        "icons": ["/", "/", "/", "/", "/", "/", "/", "fc250", "/", "/", "/", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["FC250 x1"],
-        "minBr": 5,
-        "bombsHigh": ["FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "bf-109-g-6", "name": "Bf 109 G-6", "country": "Germany", "rank": 4, "br": 4.7, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 8,
-        "icons": ["/", "/", "/", "/", "/", "/", "/", "fc250", "/", "/", "/", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["FC250 x1"],
-        "minBr": 5,
-        "bombsHigh": ["FC250 x1"]
-      }
-    ]
-  },
-  {
-    "id": "fw-190-d-12", "name": "Fw 190 D-12", "country": "Germany", "rank": 4, "br": 5, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 8,
-        "icons": ["/", "/", "/", "/", "/", "/", "sc50-2x", "fc500", "sc50-2x", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC500 x1 + SC50 x4"]
-      }
-    ]
-  },
-  {
-    "id": "fw-190-f-8", "name": "Fw 190 F-8", "country": "Germany", "rank": 4, "br": 5, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "/", "sc50-2x", "sc1000", "sc50-2x", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["SC1000 x1 + SC50 x3", "SC50 x1"]
-      }
-    ]
-  },
-  {
-    "id": "do-217-k-1", "name": "Do 217 K-1", "country": "Germany", "rank": 4, "br": 4.7, "premium": false,
-    "variants": [
-      {
-        "bases": 8, "reward": 4.1,
-        "icons": ["/", "/", "/", "fc250", "fc250", "fc250", "fc250", "/", "fc250", "fc250", "fc250", "fc250", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1"],
-        "minBr": 5,
-        "bombsHigh": ["FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2"]
-      },
-      {
-        "bases": 4, "reward": 5.4,
-        "icons": ["/", "/", "/", "/", "/", "sc1000", "sc1000", "/", "sc1000", "sc1000", "/", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["SC1000 x1", "SC1000 x1", "SC1000 x1", "SC1000 x1"],
-        "minBr": 5,
-        "bombsHigh": ["SC1000 x2", "SC1000 x2"]
-      },
-      {
-        "bases": 3, "reward": 6.8,
-        "icons": ["/", "/", "/", "/", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["SC50 x9", "SC50 x9", "SC50 x9", "SC50 x1"],
-        "minBr": 5,
-        "bombsHigh": ["SC50 x14", "SC50 x14"]
-      },
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "sc500", "sc500", "/", "sc500", "sc500", "/", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["SC500 x3", "SC500 x1"],
-        "minBr": 5,
-        "bombsHigh": ["SC500 x4"]
-      }
-    ]
-  },
-  {
-    "id": "do-217-m-1", "name": "Do 217 M-1", "country": "Germany", "rank": 4, "br": 4.7, "premium": false,
-    "variants": [
-      {
-        "bases": 8, "reward": 4.1,
-        "icons": ["/", "/", "/", "fc250", "fc250", "fc250", "fc250", "/", "fc250", "fc250", "fc250", "fc250", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1", "FC250 x1"],
-        "minBr": 5,
-        "bombsHigh": ["FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2"]
-      },
-      {
-        "bases": 4, "reward": 5.4,
-        "icons": ["/", "/", "/", "/", "/", "sc1000", "sc1000", "/", "sc1000", "sc1000", "/", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["SC1000 x1", "SC1000 x1", "SC1000 x1", "SC1000 x1"],
-        "minBr": 5,
-        "bombsHigh": ["SC1000 x2", "SC1000 x2"]
-      },
-      {
-        "bases": 3, "reward": 6.8,
-        "icons": ["/", "/", "/", "/", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "sc50-4x", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["SC50 x9", "SC50 x9", "SC50 x9", "SC50 x1"],
-        "minBr": 5,
-        "bombsHigh": ["SC50 x14", "SC50 x14"]
-      },
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "sc500", "sc500", "/", "sc500", "sc500", "/", "/", "/", "/", "/"],
-        "maxBr": 4.7,
-        "bombs": ["SC500 x3", "SC500 x1"],
-        "minBr": 5,
-        "bombsHigh": ["SC500 x4"]
-      }
-    ]
-  },
-  {
-    "id": "ju-188-a-2", "name": "Ju 188 A-2", "country": "Germany", "rank": 4, "br": 5.3, "premium": false,
-    "variants": [
-      {
-        "bases": 4, "reward": 4.2,
-        "icons": ["/", "/", "/", "/", "fc250", "fc250", "sc1000", "sc50-8x", "sc1000", "fc250", "fc250", "/", "/", "/", "/"],
-        "bombs": ["SC1000 x1 + SC50 x3", "SC1000 x1 + SC50 x3", "FC250 x2", "FC250 x2", "SC50 x4"]
-      },
-      {
-        "bases": 3, "reward": 5.2,
-        "icons": ["/", "/", "/", "/", "sc1800", "sc1800", "fc500", "sc50-8x", "sc1800", "sc1800", "sc1800", "/", "/", "/", "/"],
-        "bombs": ["SC1800 x1", "FC500 x1 + SC50 x4", "SC250 x4 + SC50 x6"]
-      },
-      {
-        "bases": 2, "reward": 7,
-        "icons": ["/", "/", "/", "/", "/", "/", "fc250", "sc50-8x", "fc250", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC250 x1 + SC50 x5", "FC250 x1 + SC50 x5"]
-      },
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "/", "/", "/", "sc1800", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["SC1800 x1"]
-      }
-    ]
-  },
-  {
-    "id": "he-177-a-5", "name": "He 177 A-5", "country": "Germany", "rank": 4, "br": 6, "premium": false,
-    "variants": [
-      {
-        "bases": 8, "reward": 3.3,
-        "icons": ["/", "/", "/", "/", "/", "sc1800", "fc250-6x", "/", "fc250-6x", "sc1800", "/", "/", "/", "/", "/"],
-        "maxBr": 6.3,
-        "bombs": ["SC1800 x1", "SC1800 x1", "FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2"],
-        "minBr": 6.7,
-        "bombsHigh": ["SC1800 x2", "FC250 x3", "FC250 x3", "FC250 x3"]
-      },
-      {
-        "bases": 6, "reward": 3.5,
-        "icons": ["/", "/", "/", "/", "/", "/", "fc250-6x", "/", "fc250-6x", "/", "/", "/", "/", "/", "/"],
-        "maxBr": 6.3,
-        "bombs": ["FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2"],
-        "minBr": 6.7,
-        "bombsHigh": ["FC250 x3", "FC250 x3", "FC250 x3", "FC250 x3"]
-      },
-      {
-        "bases": 5, "reward": 4,
-        "icons": ["/", "/", "/", "/", "/", "sc1800", "sc50-8x", "/", "sc50-8x", "sc1800", "/", "/", "/", "/", "/"],
-        "maxBr": 6.3,
-        "bombs": ["SC1800 x1", "SC1800 x1", "SC50 x16", "SC50 x16", "SC50 x16"],
-        "minBr": 6.7,
-        "bombsHigh": ["SC1800 x2", "SC50 x24", "SC50 x24"]
-      },
-      {
-        "bases": 4, "reward": 4.6,
-        "icons": ["/", "/", "/", "/", "/", "sc1800", "sc1800", "/", "sc1800", "sc1800", "/", "/", "/", "/", "/"],
-        "maxBr": 6.3,
-        "bombs": ["SC1800 x1", "SC1800 x1", "SC1800 x1", "SC1800 x1"],
-        "minBr": 6.7,
-        "bombsHigh": ["SC1800 x2", "SC1800 x2"]
-      },
-      {
-        "bases": 3, "reward": 4.4,
-        "icons": ["/", "/", "/", "/", "/", "/", "fc500-3x", "/", "fc500-3x", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC500 x2", "FC500 x2", "FC500 x2"]
-      },
-      {
-        "bases": 2, "reward": 5.4,
-        "icons": ["/", "/", "/", "/", "/", "/", "sc1000-2x", "/", "sc1000-2x", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["SC1000 x2", "SC1000 x2"]
-      },
-      {
-        "bases": 1, "reward": 8.5,
-        "icons": ["/", "/", "/", "/", "/", "/", "sc1000-2x", "/", "/", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["SC1000 x2"]
-      }
-    ]
-  },
-  {
-    "id": "ju-288-c-premium", "name": "Ju 288 C", "country": "Germany", "rank": 4, "br": 6.3, "premium": true,
-    "variants": [
-      {
-        "bases": 4, "reward": 5,
-        "icons": ["/", "/", "/", "/", "/", "/", "fc250-4x", "/", "fc250-4x", "/", "/", "/", "/", "/", "/"],
-        "maxBr": 6.3,
-        "bombs": ["FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2"],
-        "minBr": 6.7,
-        "bombsHigh": ["FC250 x3", "FC250 x3", "FC250 x2"]
-      },
-      {
-        "bases": 2, "reward": 5.9,
-        "icons": ["/", "/", "/", "/", "/", "/", "sb2500", "/", "sb2500", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["SB2500 x1", "SB2500 x1"]
-      },
-      {
-        "bases": 2, "reward": 8.3,
-        "icons": ["/", "/", "/", "/", "/", "/", "sc1800", "/", "sc1800", "/", "/", "/", "/", "/", "/"],
-        "maxBr": 6.3,
-        "bombs": ["SC1800 x1", "SC1800 x1"],
-        "minBr": 6.7,
-        "bombsHigh": ["SC1800 x2"]
-      },
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "/", "sc1000-2x", "/", "/", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["SC1000 x2"]
-      }
-    ]
-  },
-  {
-    "id": "he-177-a-3-premium", "name": "He 177 A-3", "country": "Germany", "rank": 4, "br": 6, "premium": true,
-    "variants": [
-      {
-        "bases": 8, "reward": 3.9,
-        "icons": ["/", "/", "/", "/", "/", "sc1800", "fc250-6x", "/", "fc250-6x", "sc1800", "/", "/", "/", "/", "/"],
-        "maxBr": 6.3,
-        "bombs": ["SC1800 x1", "SC1800 x1", "FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2"],
-        "minBr": 6.7,
-        "bombsHigh": ["SC1800 x2", "FC250 x3", "FC250 x3", "FC250 x3"]
-      },
-      {
-        "bases": 6, "reward": 4.2,
-        "icons": ["/", "/", "/", "/", "/", "/", "fc250-6x", "/", "fc250-6x", "/", "/", "/", "/", "/", "/"],
-        "maxBr": 6.3,
-        "bombs": ["FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2"],
-        "minBr": 6.7,
-        "bombsHigh": ["FC250 x3", "FC250 x3", "FC250 x3", "FC250 x3"]
-      },
-      {
-        "bases": 5, "reward": 4.8,
-        "icons": ["/", "/", "/", "/", "/", "sc1800", "sc50-8x", "/", "sc50-8x", "sc1800", "/", "/", "/", "/", "/"],
-        "maxBr": 6.3,
-        "bombs": ["SC1800 x1", "SC1800 x1", "SC50 x16", "SC50 x16", "SC50 x16"],
-        "minBr": 6.7,
-        "bombsHigh": ["SC1800 x2", "SC50 x24", "SC50 x24"]
-      },
-      {
-        "bases": 4, "reward": 5.5,
-        "icons": ["/", "/", "/", "/", "/", "sc1800", "sc1800", "/", "sc1800", "sc1800", "/", "/", "/", "/", "/"],
-        "maxBr": 6.3,
-        "bombs": ["SC1800 x1", "SC1800 x1", "SC1800 x1", "SC1800 x1"],
-        "minBr": 6.7,
-        "bombsHigh": ["SC1800 x2", "SC1800 x2"]
-      },
-      {
-        "bases": 3, "reward": 5.3,
-        "icons": ["/", "/", "/", "/", "/", "/", "fc500-3x", "/", "fc500-3x", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["FC500 x2", "FC500 x2", "FC500 x2"]
-      },
-      {
-        "bases": 2, "reward": 6.5,
-        "icons": ["/", "/", "/", "/", "/", "/", "sc1000-2x", "/", "sc1000-2x", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["SC1000 x2", "SC1000 x2"]
-      },
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "/", "sc1000-2x", "/", "/", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["SC1000 x2"]
-      }
-    ]
-  },
-  {
-    "id": "ia-58a-premium", "name": "IA.58A", "country": "Germany", "rank": 4, "br": 5, "premium": true,
-    "variants": [
-      {
-        "bases": 1, "reward": 8.1,
-        "icons": ["/", "/", "/", "/", "/", "/", "inc-220-2x", "inc-220-3x", "inc-220-2x", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["INC-220 x2", "INC-220 x2", "INC-220 x2", "INC-220 x1"]
-      },
-      {
-        "bases": 1, "reward": 5.5,
-        "icons": ["/", "/", "/", "/", "/", "/", "inc-220-2x", "tank-nozzle", "inc-220-2x", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["INC-220 x2", "INC-220 x2"]
-      }
-    ]
-  },
-  {
-    "id": "ar-234-b-2", "name": "Ar 234 B-2", "country": "Germany", "rank": 5, "br": 6.3, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 10,
-        "icons": ["/", "/", "/", "/", "/", "/", "sc1000", "sc1000", "sc1000", "/", "/", "/", "/", "/", "/"],
-        "maxBr": 6.3,
-        "bombs": ["SC1000 x1 + SC250 x2"],
-        "minBr": 6.7,
-        "bombsHigh": ["SC1000 x1 + SC250 x2"]
-      }
-    ]
-  },
-  {
-    "id": "il-28", "name": "IL-28", "country": "Germany", "rank": 5, "br": 8, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 8.1,
-        "icons": ["/", "/", "/", "/", "/", "500m-46", "500m-46", "/", "500m-46", "500m-46", "/", "/", "/", "/", "/"],
-        "bombs": ["500M-46 x4"]
-      }
-    ]
-  },
-  {
-    "id": "g-91-r-3", "name": "G.91 R/3", "country": "Germany", "rank": 6, "br": 8.7, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 6.2,
-        "icons": ["/", "/", "/", "/", "/", "559g1", "559g1", "/", "559g1", "559g1", "/", "/", "/", "/", "/"],
-        "bombs": ["559G1 x2 + AN-M57 x2"]
-      }
-    ]
-  },
-  {
-    "id": "alpha-jet-a", "name": "Alpha Jet A", "country": "Germany", "rank": 6, "br": 9, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 5,
-        "icons": ["/", "/", "/", "/", "/", "m116a2", "m116a2", "gunpod-nose", "m116a2", "m116a2", "/", "/", "/", "/", "/"],
-        "bombs": ["M116A2 x2", "M116A2 x2"]
-      },
-      {
-        "bases": 1, "reward": 7.6,
-        "icons": ["/", "/", "/", "/", "/", "droptank", "m116a2", "gunpod-nose", "m116a2", "droptank", "/", "/", "/", "/", "/"],
-        "bombs": ["M116A2 x2"]
-      }
-    ]
-  },
-  {
-    "id": "f-84f", "name": "F-84F", "country": "Germany", "rank": 6, "br": 8.3, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 5.2,
-        "icons": ["/", "/", "/", "/", "/", "blu-1", "blu-1", "/", "blu-1", "blu-1", "/", "/", "/", "/", "/"],
-        "bombs": ["BLU-1 x1 + Mk84 x1", "BLU-1 x1 + Mk84 x1"]
-      },
-      {
-        "bases": 1, "reward": 8.1,
-        "icons": ["/", "/", "/", "/", "/", "mk84", "mk84", "/", "mk84", "/", "/", "/", "/", "/", "/"],
-        "bombs": ["Mk84 x2 + Mk81 x1"]
-      }
-    ]
-  },
-  {
-    "id": "mig-23bn", "name": "MiG-23BN", "country": "Germany", "rank": 6, "br": 9.7, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 5,
-        "icons": ["/", "/", "/", "/", "zb-500", "/", "zb-500", "/", "zb-500", "/", "zb-500", "/", "/", "/", "/"],
-        "bombs": ["ZB-500 x2", "ZB-500 x2"]
-      },
-      {
-        "bases": 1, "reward": 7.8,
-        "icons": ["/", "/", "/", "/", "gunpod", "500m-62", "500m-62", "/", "500m-62", "500m-62", "gunpod", "/", "/", "/", "/"],
-        "bombs": ["500M-62 x4"]
-      }
-    ]
-  },
-  {
-    "id": "hunter-f-58a", "name": "Hunter F.58A", "country": "Germany", "rank": 6, "br": 10, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 6.1,
-        "icons": ["/", "/", "febd", "/", "/", "droptank", "/", "/", "/", "droptank", "/", "/", "febd", "/", "/"],
-        "bombs": ["FeBd x2"]
-      }
-    ]
-  },
-  {
-    "id": "hunter-f-58", "name": "Hunter F.58", "country": "Germany", "rank": 6, "br": 10, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 6.1,
-        "icons": ["/", "/", "febd", "/", "/", "droptank", "/", "/", "/", "droptank", "/", "/", "febd", "/", "/"],
-        "bombs": ["FeBd x2"]
-      }
-    ]
-  },
-  {
-    "id": "alpha-jet-a-premium", "name": "Alpha Jet A", "country": "Germany", "rank": 6, "br": 9, "premium": true,
-    "variants": [
-      {
-        "bases": 2, "reward": 6,
-        "icons": ["/", "/", "/", "/", "/", "m116a2", "m116a2", "gunpod-nose", "m116a2", "m116a2", "/", "/", "/", "/", "/"],
-        "bombs": ["M116A2 x2", "M116A2 x2"]
-      },
-      {
-        "bases": 1, "reward": 9.2,
-        "icons": ["/", "/", "/", "/", "/", "droptank", "m116a2", "gunpod-nose", "m116a2", "droptank", "/", "/", "/", "/", "/"],
-        "bombs": ["M116A2 x2"]
-      }
-    ]
-  },
-  {
-    "id": "ffa-p-16-premium", "name": "FFA P-16", "country": "Germany", "rank": 6, "br": 9, "premium": true,
-    "variants": [
-      {
-        "bases": 2, "reward": 4.8,
-        "icons": ["/", "febd", "/", "/", "febd", "/", "missile-green", "/", "missile-green", "/", "febd", "/", "/", "febd", "/"],
-        "bombs": ["FeBd x2", "FeBd x2"]
-      },
-      {
-        "bases": 1, "reward": 7.9,
-        "icons": ["/", "sc1000", "/", "/", "sc1000", "/", "missile-green", "/", "missile-green", "/", "sc1000", "/", "/", "sc1000", "/"],
-        "bombs": ["SC1000 x2"]
-      }
-    ]
-  },
-  {
-    "id": "f-104g", "name": "F-104G", "country": "Germany", "rank": 7, "br": 11, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 6.1,
-        "icons": ["/", "/", "/", "/", "missile-green", "blu-1", "missile-green", "/", "missile-green", "blu-1", "missile-green", "/", "/", "/", "/"],
-        "bombs": ["BLU-1 x2"]
-      }
-    ]
-  },
-  {
-    "id": "f-4f", "name": "F-4F", "country": "Germany", "rank": 7, "br": 11, "premium": false,
-    "variants": [
-      {
-        "bases": 5, "reward": 2.7,
-        "icons": ["/", "/", "/", "/", "blu-1-2x", "blu-1-2x", "aim-9j-2x", "blu-1-2x", "aim-9j-2x", "blu-1-2x", "blu-1-2x", "/", "/", "/", "/"],
-        "bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2", "BLU-1 x2", "BLU-27 x2"]
-      },
-      {
-        "bases": 4, "reward": 2.9,
-        "icons": ["/", "/", "/", "/", "blu-1-2x", "blu-1-2x", "aim-9j-2x", "droptank", "aim-9j-2x", "blu-1-2x", "blu-1-2x", "/", "/", "/", "/"],
-        "bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
-      },
-      {
-        "bases": 3, "reward": 3.3,
-        "icons": ["/", "/", "/", "/", "/", "blu-1-2x", "aim-9j-2x", "blu-1-2x", "aim-9j-2x", "blu-1-2x", "/", "/", "/", "/", "/"],
-        "bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
-      },
-      {
-        "bases": 2, "reward": 4.2,
-        "icons": ["/", "/", "/", "/", "mk83-2x", "mk83-3x", "aim-9j-2x", "droptank", "aim-9j-2x", "mk83-3x", "mk83-2x", "/", "/", "/", "/"],
-        "bombs": ["Mk83 x5", "Mk83 x5"]
-      },
-      {
-        "bases": 1, "reward": 6.5,
-        "icons": ["/", "/", "/", "/", "mk83-2x", "/", "aim-9j-2x", "droptank", "aim-9j-2x", "mk83-3x", "/", "/", "/", "/", "/"],
-        "bombs": ["Mk83 x5"]
-      }
-    ]
-  },
-  {
-    "id": "mig-21bis-sau", "name": "MiG-21bis-SAU", "country": "Germany", "rank": 7, "br": 11.3, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 6.1,
-        "icons": ["/", "/", "/", "/", "/", "missile-red-2x", "zb-500", "rocket-pod", "zb-500", "missile-red-2x", "/", "/", "/", "/", "/"],
-        "bombs": ["ZB-500 x2"]
-      }
-    ]
-  },
-  {
-    "id": "mig-23mla", "name": "MiG-23MLA", "country": "Germany", "rank": 7, "br": 11.7, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 6.1,
-        "icons": ["/", "/", "/", "/", "/", "missile-orange", "zb-500", "rocket-pod", "zb-500", "missile-orange", "/", "/", "/", "/", "/"],
-        "bombs": ["ZB-500 x2"]
-      }
-    ]
-  },
-  {
-    "id": "tornado-assta", "name": "Tornado ASSTA", "country": "Germany", "rank": 7, "br": 11.3, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 5.2,
-        "icons": ["/", "/", "rocket-pod", "missile-green", "mk83-2x", "mk83-2x", "/", "/", "mk83-2x", "mk83-2x", "mk83-2x", "missile-green", "rocket-pod", "/", "/"],
-        "bombs": ["Mk83 x5", "Mk83 x5"]
-      },
-      {
-        "bases": 1, "reward": 8.2,
-        "icons": ["/", "/", "rocket-pod", "missile-green", "droptank", "mk83", "mk83", "mk83", "mk83", "mk83", "droptank", "missile-green", "rocket-pod", "/", "/"],
-        "bombs": ["Mk83 x5"]
-      }
-    ]
-  },
-  {
-    "id": "su-22um3k", "name": "Su-22UM3K", "country": "Germany", "rank": 7, "br": 11, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 5,
-        "icons": ["/", "/", "/", "zb-500", "missile-green", "missile-red-2x", "zb-500", "/", "zb-500", "missile-red-2x", "missile-green", "zb-500", "/", "/", "/"],
-        "bombs": ["ZB-500 x2", "ZB-500 x2"]
-      },
-      {
-        "bases": 1, "reward": 7.8,
-        "icons": ["/", "/", "/", "droptank", "missile-green", "missile-red-2x", "500m-62-2x", "/", "500m-62-2x", "missile-red-2x", "missile-green", "droptank", "/", "/", "/"],
-        "bombs": ["500M-62 x4"]
-      }
-    ]
-  },
-  {
-    "id": "su-22m4", "name": "Su-22M4", "country": "Germany", "rank": 7, "br": 11, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 5,
-        "icons": ["/", "/", "/", "zb-500", "missile-green", "missile-red-2x", "zb-500", "/", "zb-500", "missile-red-2x", "missile-green", "zb-500", "/", "/", "/"],
-        "bombs": ["ZB-500 x2", "ZB-500 x2"]
-      },
-      {
-        "bases": 1, "reward": 7.8,
-        "icons": ["/", "/", "/", "gunpod", "missile-green", "missile-red-2x", "500m-62-2x", "/", "500m-62-2x", "missile-red-2x", "missile-green", "gunpod", "/", "/", "/"],
-        "bombs": ["500M-62 x4"]
-      }
-    ]
-  },
-  {
-    "id": "f-5e", "name": "F-5E", "country": "Germany", "rank": 7, "br": 11, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 4,
-        "icons": ["/", "/", "/", "/", "missile-green", "blu-1", "blu-1", "droptank", "blu-1", "blu-1", "missile-green", "/", "/", "/", "/"],
-        "bombs": ["BLU-1 x2", "BLU-1 x2"]
-      },
-      {
-        "bases": 1, "reward": 6.4,
-        "bombs": ["Mk83 x2 + M117 x1"]
-      }
-    ]
-  },
-  {
-    "id": "mig-21-lazur-premium", "name": "MiG-21 Lazur", "country": "Germany", "rank": 7, "br": 11, "premium": true,
-    "variants": [
-      {
-        "bases": 1, "reward": 7.2,
-        "icons": ["/", "/", "/", "/", "/", "missile-red-2x", "zb-500", "droptank", "zb-500", "missile-red-2x", "/", "/", "/", "/", "/"],
-        "bombs": ["ZB-500 x2"]
-      }
-    ]
-  },
-  {
-    "id": "tornado-ids-premium", "name": "Tornado IDS", "country": "Germany", "rank": 7, "br": 11.3, "premium": true,
-    "variants": [
-      {
-        "bases": 2, "reward": 5.7,
-        "icons": ["/", "/", "rocket-pod", "missile-green", "mk83-2x", "mk83-2x", "mk83-2x", "/", "mk83-2x", "mk83-2x", "mk83-2x", "missile-green", "rocket-pod", "/", "/"],
-        "bombs": ["Mk83 x5", "Mk83 x5", "Mk83 x2"]
-      },
-      {
-        "bases": 1, "reward": 9.9,
-        "icons": ["/", "/", "rocket-pod", "missile-green", "droptank", "mk83", "mk83", "mk83", "mk83", "mk83", "droptank", "missile-green", "rocket-pod", "/", "/"],
-        "bombs": ["Mk83 x5"]
-      }
-    ]
-  },
-  {
-    "id": "su-22m4-wtd-premium", "name": "Su-22M4 WTD", "country": "Germany", "rank": 7, "br": 11, "premium": true,
-    "variants": [
-      {
-        "bases": 2, "reward": 6,
-        "icons": ["/", "/", "/", "zb-500", "missile-green", "missile-red-2x", "zb-500", "/", "zb-500", "missile-red-2x", "missile-green", "zb-500", "/", "/", "/"],
-        "bombs": ["ZB-500 x2", "ZB-500 x2"]
-      },
-      {
-        "bases": 1, "reward": 9.4,
-        "icons": ["/", "/", "/", "gunpod", "missile-green", "missile-red-2x", "500m-62-2x", "/", "500m-62-2x", "missile-red-2x", "missile-green", "gunpod", "/", "/", "/"],
-        "bombs": ["500M-62 x4"]
-      }
-    ]
-  },
-  {
-    "id": "f-4f-early-premium", "name": "F-4F Early", "country": "Germany", "rank": 7, "br": 10.7, "premium": true,
-    "variants": [
-      {
-        "bases": 5, "reward": 2.7,
-        "icons": ["/", "/", "/", "/", "blu-1-2x", "blu-1-2x", "aim-9j-2x", "blu-1-2x", "aim-9j-2x", "blu-1-2x", "blu-1-2x", "/", "/", "/", "/"],
-        "bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2", "BLU-1 x2", "BLU-27 x2"]
-      },
-      {
-        "bases": 4, "reward": 2.9,
-        "icons": ["/", "/", "/", "/", "blu-1-2x", "blu-1-2x", "aim-9j-2x", "droptank", "aim-9j-2x", "blu-1-2x", "blu-1-2x", "/", "/", "/", "/"],
-        "bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
-      },
-      {
-        "bases": 3, "reward": 3.3,
-        "icons": ["/", "/", "/", "/", "/", "blu-1-2x", "aim-9j-2x", "blu-1-2x", "aim-9j-2x", "blu-1-2x", "/", "/", "/", "/", "/"],
-        "bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
-      },
-      {
-        "bases": 2, "reward": 4.2,
-        "icons": ["/", "/", "/", "/", "mk83-2x", "mk83-3x", "aim-9j-2x", "droptank", "aim-9j-2x", "mk83-3x", "mk83-2x", "/", "/", "/", "/"],
-        "bombs": ["Mk83 x5", "Mk83 x5"]
-      },
-      {
-        "bases": 1, "reward": 6.5,
-        "icons": ["/", "/", "/", "/", "mk83-2x", "/", "aim-9j-2x", "droptank", "aim-9j-2x", "mk83-3x", "/", "/", "/", "/", "/"],
-        "bombs": ["Mk83 x5"]
-      }
-    ]
-  },
-  {
-    "id": "mig-23mf", "name": "MiG-23MF", "country": "Germany", "rank": 7, "br": 10.7, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 6.1,
-        "icons": ["/", "/", "/", "/", "/", "missile-green", "zb-500", "rocket-pod", "zb-500", "missile-green", "/", "/", "/", "/", "/"],
-        "bombs": ["ZB-500 x2"]
-      }
-    ]
-  },
-  {
-    "id": "f-4f-kws-lv", "name": "F-4F KWS LV", "country": "Germany", "rank": 8, "br": 13.3, "premium": false,
-    "variants": [
-      {
-        "bases": 5, "reward": 2.7,
-        "icons": ["/", "/", "blu-1-2x", "blu-1-2x", "missile-green-2x", "missile-blue", "missile-blue", "blu-1-2x", "missile-blue", "missile-blue", "missile-green-2x", "blu-1-2x", "blu-1-2x", "/", "/"],
-        "bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2", "BLU-1 x2", "BLU-27 x2"]
-      },
-      {
-        "bases": 4, "reward": 2.9,
-        "icons": ["/", "/", "blu-1-2x", "blu-1-2x", "missile-green-2x", "missile-blue", "missile-blue", "droptank", "missile-blue", "missile-blue", "missile-green-2x", "blu-1-2x", "blu-1-2x", "/", "/"],
-        "bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
-      },
-      {
-        "bases": 3, "reward": 3.3,
-        "icons": ["/", "/", "/", "blu-1-2x", "missile-green-2x", "missile-blue", "missile-blue", "blu-1-2x", "missile-blue", "missile-blue", "missile-green-2x", "blu-1-2x", "/", "/", "/"],
-        "bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
-      },
-      {
-        "bases": 2, "reward": 4.2,
-        "icons": ["/", "/", "mk83-2x", "mk83-3x", "missile-green-2x", "missile-blue", "missile-blue", "droptank", "missile-blue", "missile-blue", "missile-green-2x", "mk83-3x", "mk83-2x", "/", "/"],
-        "bombs": ["Mk83 x5", "Mk83 x5"]
-      },
-      {
-        "bases": 1, "reward": 6.5,
-        "icons": ["/", "/", "mk83-2x", "/", "missile-green-2x", "missile-blue", "missile-blue", "droptank", "missile-blue", "missile-blue", "missile-green-2x", "mk83-3x", "/", "/", "/"],
-        "bombs": ["Mk83 x5"]
-      }
-    ]
-  },
-  {
-    "id": "mig-29", "name": "MiG-29", "country": "Germany", "rank": 8, "br": 12.7, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 4,
-        "icons": ["/", "/", "/", "/", "missile-green", "zb-500", "zb-500", "droptank", "zb-500", "zb-500", "missile-green", "/", "/", "/", "/"],
-        "bombs": ["ZB-500 x2", "ZB-500 x2"]
-      },
-      {
-        "bases": 1, "reward": 6.2,
-        "icons": ["/", "/", "/", "/", "missile-green", "missile-green", "500m-62-2x", "droptank", "500m-62-2x", "missile-green", "missile-green", "/", "/", "/", "/"],
-        "bombs": ["500M-62 x4"]
-      }
-    ]
-  },
-  {
-    "id": "mig-29g", "name": "MiG-29G", "country": "Germany", "rank": 8, "br": 13, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 4,
-        "icons": ["/", "/", "/", "/", "missile-green", "zb-500", "zb-500", "droptank", "zb-500", "zb-500", "missile-green", "/", "/", "/", "/"],
-        "bombs": ["ZB-500 x2", "ZB-500 x2"]
-      },
-      {
-        "bases": 1, "reward": 6.2,
-        "icons": ["/", "/", "/", "/", "missile-green", "missile-green", "500m-62-2x", "droptank", "500m-62-2x", "missile-green", "missile-green", "/", "/", "/", "/"],
-        "bombs": ["500M-62 x4"]
-      }
-    ]
-  },
-  {
-    "id": "tornado-sle", "name": "Tornado SLE", "country": "Germany", "rank": 8, "br": 12.3, "premium": false,
-    "variants": [
-      {
-        "bases": 2, "reward": 5.2,
-        "icons": ["/", "/", "rocket-pod", "missile-green", "mk83-2x", "mk83-2x", "/", "/", "mk83-2x", "mk83-2x", "mk83-2x", "missile-green", "rocket-pod", "/", "/"],
-        "bombs": ["Mk83 x5", "Mk83 x5"]
-      },
-      {
-        "bases": 1, "reward": 8.2,
-        "icons": ["/", "/", "rocket-pod", "missile-green", "droptank", "mk83", "mk83", "mk83", "mk83", "mk83", "droptank", "missile-green", "rocket-pod", "/", "/"],
-        "bombs": ["Mk83 x5"]
-      }
-    ]
-  },
-  {
-    "id": "f-a-18c-late", "name": "F/A-18C Late", "country": "Germany", "rank": 8, "br": 14, "premium": false,
-    "variants": [
-      {
-        "bases": 3, "reward": 2.8,
-        "icons": ["/", "/", "/", "missile-green", "mk77-2x", "mk77-2x", "missile-blue", "mk77", "missile-blue", "mk77-2x", "mk77-2x", "missile-green", "/", "/", "/"],
-        "bombs": ["Mk77 x3", "Mk77 x3", "Mk77 x3"]
-      },
-      {
-        "bases": 2, "reward": 3.3,
-        "icons": ["/", "/", "/", "missile-green", "mk77-2x", "mk77-2x", "missile-blue", "droptank", "missile-blue", "mk77-2x", "missile-blue-2x", "missile-green", "/", "/", "/"],
-        "bombs": ["Mk77 x3", "Mk77 x3"]
-      },
-      {
-        "bases": 1, "reward": 4.7,
-        "icons": ["/", "/", "/", "missile-green", "missile-green-2x", "missile-blue-2x", "missile-blue", "mk77", "missile-blue", "mk77-2x", "missile-blue-2x", "missile-green", "/", "/", "/"],
-        "bombs": ["Mk77 x3"]
-      }
-    ]
-  },
-  {
-    "id": "f-a-18c-premium", "name": "F/A-18C", "country": "Germany", "rank": 8, "br": 12.7, "premium": true,
-    "variants": [
-      {
-        "bases": 3, "reward": 3.4,
-        "icons": ["/", "/", "/", "missile-green", "mk77-2x", "mk77-2x", "missile-orange", "mk77", "missile-orange", "mk77-2x", "mk77-2x", "missile-green", "/", "/", "/"],
-        "bombs": ["Mk77 x3", "Mk77 x3", "Mk77 x3"]
-      },
-      {
-        "bases": 2, "reward": 4,
-        "icons": ["/", "/", "/", "missile-green", "mk77-2x", "mk77-2x", "missile-orange", "droptank", "missile-orange", "mk77-2x", "missile-orange", "missile-green", "/", "/", "/"],
-        "bombs": ["Mk77 x3", "Mk77 x3"]
-      },
-      {
-        "bases": 1, "reward": 5.6,
-        "icons": ["/", "/", "/", "missile-green", "missile-red-2x", "missile-orange", "missile-orange", "mk77", "missile-orange", "mk77-2x", "missile-orange", "missile-green", "/", "/", "/"],
-        "bombs": ["Mk77 x3"]
-      }
-    ]
-  },
-  {
-    "id": "ef-2000", "name": "EF-2000", "country": "Germany", "rank": 9, "br": 14.7, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 6.4,
-        "icons": ["/", "missile-green", "missile-blue-2x", "mk84", "/", "missile-blue", "missile-blue", "targeting-pod", "missile-blue", "missile-blue", "drone", "mk84", "missile-blue-2x", "missile-green", "/"],
-        "bombs": ["Mk84 x2 + GBU-62 x1"]
-      },
-      {
-        "bases": 1, "reward": 6.3,
-        "icons": ["/", "missile-green", "missile-radar", "missile-radar-2x", "missile-radar-2x", "missile-blue", "missile-blue", "targeting-pod", "missile-blue", "missile-blue", "missile-radar-2x", "missile-radar-2x", "missile-radar", "missile-green", "/"],
-        "bombs": ["Paveway IV x10"]
-      }
-    ]
-  },
-  {
-    "id": "ef-2000-aesa", "name": "EF-2000 AESA", "country": "Germany", "rank": 9, "br": 15, "premium": false,
-    "variants": [
-      {
-        "bases": 1, "reward": 6,
-        "icons": ["/", "missile-green", "missile-blue-2x", "mk84", "/", "missile-blue", "missile-blue", "targeting-pod", "missile-blue", "missile-blue", "drone", "mk84", "missile-blue-2x", "missile-green", "/"],
-        "bombs": ["Mk84 x2 + GBU-62 x1"]
-      },
-      {
-        "bases": 1, "reward": 6.3,
-        "icons": ["/", "missile-green", "missile-radar", "missile-radar-2x", "missile-radar-2x", "missile-blue", "missile-blue", "targeting-pod", "missile-blue", "missile-blue", "missile-radar-2x", "missile-radar-2x", "missile-radar", "missile-green", "/"],
-        "bombs": ["Paveway IV x10"]
-      }
-    ]
-  }
+	{
+		"id": "do-17-z-7",
+		"name": "Do 17 Z-7",
+		"country": "Germany",
+		"rank": 1,
+		"br": 1.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"/",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"/",
+					"/"
+				],
+				"maxBr": 2,
+				"bombs": ["SC50 x4", "SC50 x4", "SC50 x2"],
+				"minBr": 2.3,
+				"bombsHigh": ["SC50 x5", "SC50 x5"]
+			}
+		]
+	},
+	{
+		"id": "do-17-j-1",
+		"name": "Do 17 J-1",
+		"country": "Germany",
+		"rank": 1,
+		"br": 2,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"/",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2,
+				"bombs": ["SC50 x4", "SC50 x4"],
+				"minBr": 2.3,
+				"bombsHigh": ["SC50 x5", "SC50 x3"]
+			}
+		]
+	},
+	{
+		"id": "hs-123-a-1",
+		"name": "Hs 123 A-1",
+		"country": "Germany",
+		"rank": 1,
+		"br": 1,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc50",
+					"sc50",
+					"/",
+					"sc50",
+					"sc50",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SC50 x4"]
+			}
+		]
+	},
+	{
+		"id": "ju-87-b-2",
+		"name": "Ju 87 B-2",
+		"country": "Germany",
+		"rank": 1,
+		"br": 1,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc50-2x",
+					"sc1000",
+					"sc50-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SC50 x4", "SC1000 x1"]
+			}
+		]
+	},
+	{
+		"id": "ju-87-r-2",
+		"name": "Ju 87 R-2",
+		"country": "Germany",
+		"rank": 1,
+		"br": 1.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1000",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SC1000 x1"]
+			}
+		]
+	},
+	{
+		"id": "do-17-e-1",
+		"name": "Do 17 E-1",
+		"country": "Germany",
+		"rank": 1,
+		"br": 1,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"/",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"/",
+					"/"
+				],
+				"bombs": ["SC50 x4", "SC50 x4", "SC50 x2"]
+			}
+		]
+	},
+	{
+		"id": "do-17-z-2",
+		"name": "Do 17 Z-2",
+		"country": "Germany",
+		"rank": 1,
+		"br": 1.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 8.6,
+				"icons": [
+					"/",
+					"/",
+					"sc50-2x",
+					"sc50-2x",
+					"sc50-2x",
+					"sc50-2x",
+					"sc50-2x",
+					"/",
+					"sc50-2x",
+					"sc50-2x",
+					"sc50-2x",
+					"sc50-2x",
+					"sc50-2x",
+					"/",
+					"/"
+				],
+				"maxBr": 2,
+				"bombs": [
+					"SC50 x4",
+					"SC50 x4",
+					"SC50 x4",
+					"SC50 x4",
+					"SC50 x4"
+				],
+				"minBr": 2.3,
+				"bombsHigh": ["SC50 x5", "SC50 x5", "SC50 x5", "SC50 x5"]
+			}
+		]
+	},
+	{
+		"id": "he-115-c-1",
+		"name": "He 115 C-1",
+		"country": "Germany",
+		"rank": 1,
+		"br": 1.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 9.7,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"/",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC250 x1", "FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "bv-138-c-1",
+		"name": "BV 138 C-1",
+		"country": "Germany",
+		"rank": 1,
+		"br": 1.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc50",
+					"sc50",
+					"sc50",
+					"/",
+					"sc50",
+					"sc50",
+					"sc50",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2,
+				"bombs": ["SC50 x4", "SC50 x2"],
+				"minBr": 2.3,
+				"bombsHigh": ["SC50 x5", "SC50 x1"]
+			}
+		]
+	},
+	{
+		"id": "he-111-h-3",
+		"name": "He 111 H-3",
+		"country": "Germany",
+		"rank": 1,
+		"br": 2,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 8,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1"
+				]
+			}
+		]
+	},
+	{
+		"id": "ju-87-r-2-premium",
+		"name": "Ju 87 R-2",
+		"country": "Germany",
+		"rank": 1,
+		"br": 1.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1000",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SC1000 x1"]
+			}
+		]
+	},
+	{
+		"id": "bf-109-e-4",
+		"name": "Bf 109 E-4",
+		"country": "Germany",
+		"rank": 2,
+		"br": 3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "bf-109-f-1",
+		"name": "Bf 109 F-1",
+		"country": "Germany",
+		"rank": 2,
+		"br": 2.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "bf-109-f-2",
+		"name": "Bf 109 F-2",
+		"country": "Germany",
+		"rank": 2,
+		"br": 3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "c-3604",
+		"name": "C-3604",
+		"country": "Germany",
+		"rank": 2,
+		"br": 2.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sb200",
+					"/",
+					"sb200",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["SB200 x2"],
+				"minBr": 3.7,
+				"bombsHigh": ["SB200 x2"]
+			}
+		]
+	},
+	{
+		"id": "ju-88-c-6",
+		"name": "Ju 88 C-6",
+		"country": "Germany",
+		"rank": 2,
+		"br": 2.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"/",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"/",
+					"/"
+				],
+				"bombs": ["SC50 x5", "SC50 x5"]
+			}
+		]
+	},
+	{
+		"id": "do-217-n-1",
+		"name": "Do 217 N-1",
+		"country": "Germany",
+		"rank": 2,
+		"br": 2.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"/",
+					"sc50",
+					"sc50",
+					"sc50",
+					"sc50",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SC50 x5", "SC50 x3"]
+			}
+		]
+	},
+	{
+		"id": "bf-110-c-7",
+		"name": "Bf 110 C-7",
+		"country": "Germany",
+		"rank": 2,
+		"br": 2.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 9.7,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"/",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC250 x1", "FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "bf-110-f-2",
+		"name": "Bf 110 F-2",
+		"country": "Germany",
+		"rank": 2,
+		"br": 3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 9.7,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"/",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC250 x1", "FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "ju-87-d-3",
+		"name": "Ju 87 D-3",
+		"country": "Germany",
+		"rank": 2,
+		"br": 2,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 7.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC250 x1", "FC250 x1", "FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "ju-87-d-5",
+		"name": "Ju 87 D-5",
+		"country": "Germany",
+		"rank": 2,
+		"br": 3.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 7.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC250 x1", "FC250 x1", "FC250 x1"]
+			},
+			{
+				"bases": 2,
+				"reward": 9.7,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"gunpod",
+					"fc250",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC250 x1", "FC250 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"gunpod",
+					"fc250",
+					"gunpod",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "me-210a-1",
+		"name": "Me 210A-1",
+		"country": "Germany",
+		"rank": 2,
+		"br": 2.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc50",
+					"sc50-8x",
+					"sc50",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["SC50 x5", "SC50 x5"],
+				"minBr": 3.7,
+				"bombsHigh": ["SC50 x9", "SB200 x1"]
+			}
+		]
+	},
+	{
+		"id": "fw-200-c-1",
+		"name": "Fw 200 C-1",
+		"country": "Germany",
+		"rank": 2,
+		"br": 2,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 6,
+				"reward": 7.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc500-brown",
+					"sc500-brown",
+					"sc500-2x",
+					"sc500-brown",
+					"sc500-brown",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2,
+				"bombs": [
+					"SC500 x1",
+					"SC500 x1",
+					"SC500 x1",
+					"SC500 x1",
+					"SC500 x1",
+					"SC500 x1"
+				],
+				"minBr": 2.3,
+				"bombsHigh": ["SC500 x2", "SC500 x2", "SC500 x2"]
+			}
+		]
+	},
+	{
+		"id": "ju-88-a-1",
+		"name": "Ju 88 A-1",
+		"country": "Germany",
+		"rank": 2,
+		"br": 2,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 11,
+				"reward": 4.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"fc250",
+					"sc50-8x",
+					"fc250",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2,
+				"bombs": [
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"SC50 x4",
+					"SC50 x4",
+					"SC50 x4",
+					"SC50 x4",
+					"SC50 x4"
+				],
+				"more": 2,
+				"minBr": 2.3,
+				"bombsHigh": [
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"SC50 x6",
+					"SC50 x6",
+					"SC50 x6",
+					"SC50 x5",
+					"SC50 x5"
+				]
+			}
+		]
+	},
+	{
+		"id": "ju-88-a-4",
+		"name": "Ju 88 A-4",
+		"country": "Germany",
+		"rank": 2,
+		"br": 3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 9,
+				"reward": 4.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"fc250",
+					"sc50-8x",
+					"fc250",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": [
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"SC50 x6",
+					"SC50 x6",
+					"SC50 x6",
+					"SC50 x5",
+					"SC50 x5"
+				],
+				"minBr": 3.7,
+				"bombsHigh": [
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"SC50 x10",
+					"SC50 x9",
+					"SC50 x9"
+				]
+			}
+		]
+	},
+	{
+		"id": "he-111-h-6",
+		"name": "He 111 H-6",
+		"country": "Germany",
+		"rank": 2,
+		"br": 2.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 8,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1"
+				]
+			}
+		]
+	},
+	{
+		"id": "he-111-h-16",
+		"name": "He 111 H-16",
+		"country": "Germany",
+		"rank": 2,
+		"br": 3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 8,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1"
+				]
+			}
+		]
+	},
+	{
+		"id": "bf-109-t-2-premium",
+		"name": "Bf 109 T-2",
+		"country": "Germany",
+		"rank": 2,
+		"br": 3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "bv-238-premium",
+		"name": "BV 238",
+		"country": "Germany",
+		"rank": 2,
+		"br": 3.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 6,
+				"icons": [
+					"/",
+					"/",
+					"sc250-2x",
+					"sc250-2x",
+					"sc250-2x",
+					"sc250-2x",
+					"sc250-2x",
+					"/",
+					"sc250-2x",
+					"sc250-2x",
+					"sc250-2x",
+					"sc250-2x",
+					"sc250-2x",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"SC250 x4",
+					"SC250 x4",
+					"SC250 x4",
+					"SC250 x4",
+					"SC250 x4"
+				]
+			}
+		]
+	},
+	{
+		"id": "wellington-ic-premium",
+		"name": "Wellington Ic",
+		"country": "Germany",
+		"rank": 2,
+		"br": 2.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"g-p-250-3x",
+					"g-p-250-3x",
+					"g-p-250-3x",
+					"/",
+					"g-p-250-3x",
+					"g-p-250-3x",
+					"g-p-250-3x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"G.P.250 x5",
+					"G.P.250 x5",
+					"G.P.250 x5",
+					"G.P.250 x3"
+				]
+			}
+		]
+	},
+	{
+		"id": "bf-109-e-7-u2-premium",
+		"name": "Bf 109 E-7/U2",
+		"country": "Germany",
+		"rank": 2,
+		"br": 3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "s-m-79-serie-1",
+		"name": "S.M.79 serie 1",
+		"country": "Germany",
+		"rank": 2,
+		"br": 1.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 9.5,
+				"icons": [
+					"/",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"/",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"/"
+				],
+				"maxBr": 2,
+				"bombs": ["GP 100 x3", "GP 100 x3", "GP 100 x3", "GP 100 x3"],
+				"minBr": 2.3,
+				"bombsHigh": ["GP 100 x4", "GP 100 x4", "GP 100 x4"]
+			}
+		]
+	},
+	{
+		"id": "s-m-79-serie-8",
+		"name": "S.M.79 serie 8",
+		"country": "Germany",
+		"rank": 2,
+		"br": 2,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 9.5,
+				"icons": [
+					"/",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"/",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"gp-100",
+					"/"
+				],
+				"maxBr": 2,
+				"bombs": ["GP 100 x3", "GP 100 x3", "GP 100 x3", "GP 100 x3"],
+				"minBr": 2.3,
+				"bombsHigh": ["GP 100 x4", "GP 100 x4", "GP 100 x4"]
+			}
+		]
+	},
+	{
+		"id": "bf-109-f-4",
+		"name": "Bf 109 F-4",
+		"country": "Germany",
+		"rank": 3,
+		"br": 4,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["FC250 x1"],
+				"minBr": 5,
+				"bombsHigh": ["FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "bf-109-f-4-trop",
+		"name": "Bf 109 F-4/trop",
+		"country": "Germany",
+		"rank": 3,
+		"br": 4,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["FC250 x1"],
+				"minBr": 5,
+				"bombsHigh": ["FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "fw-190-a-5-u2",
+		"name": "Fw 190 A-5/U2",
+		"country": "Germany",
+		"rank": 3,
+		"br": 4,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc500",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["FC500 x1"],
+				"minBr": 5,
+				"bombsHigh": ["FC500 x1"]
+			}
+		]
+	},
+	{
+		"id": "fw-190-d-9",
+		"name": "Fw 190 D-9",
+		"country": "Germany",
+		"rank": 3,
+		"br": 5,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc50-2x",
+					"fc500",
+					"sc50-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC500 x1 + SC50 x4"]
+			}
+		]
+	},
+	{
+		"id": "bf-110-g-2",
+		"name": "Bf 110 G-2",
+		"country": "Germany",
+		"rank": 3,
+		"br": 3.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"gunpod-2x",
+					"sc1000",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SC1000 x1", "FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "bf-110-g-4",
+		"name": "Bf 110 G-4",
+		"country": "Germany",
+		"rank": 3,
+		"br": 3.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"/",
+					"sc1000",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SC1000 x1", "FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "me-410-a-1",
+		"name": "Me 410 A-1",
+		"country": "Germany",
+		"rank": 3,
+		"br": 3.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc500",
+					"/",
+					"sc500",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["SC500 x2"],
+				"minBr": 3.7,
+				"bombsHigh": ["SC500 x2"]
+			}
+		]
+	},
+	{
+		"id": "do-335-a-1",
+		"name": "Do 335 A-1",
+		"country": "Germany",
+		"rank": 3,
+		"br": 4.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc250",
+					"sc500",
+					"sc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["SC500 x1 + SC250 x2"],
+				"minBr": 5,
+				"bombsHigh": ["SC500 x1 + SC250 x2"]
+			}
+		]
+	},
+	{
+		"id": "me-264",
+		"name": "Me 264",
+		"country": "Germany",
+		"rank": 3,
+		"br": 5,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 6.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"sc500",
+					"sc500",
+					"sc500",
+					"sc500",
+					"sc500",
+					"sc500",
+					"sc500",
+					"sc500",
+					"sc500",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SC500 x4", "SC500 x2 + SC250 x3"]
+			}
+		]
+	},
+	{
+		"id": "do-217-e-2",
+		"name": "Do 217 E-2",
+		"country": "Germany",
+		"rank": 3,
+		"br": 4.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 8,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": [
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1"
+				],
+				"minBr": 5,
+				"bombsHigh": ["FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2"]
+			},
+			{
+				"bases": 4,
+				"reward": 5.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1000",
+					"sc1000",
+					"/",
+					"sc1000",
+					"sc1000",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["SC1000 x1", "SC1000 x1", "SC1000 x1", "SC1000 x1"],
+				"minBr": 5,
+				"bombsHigh": ["SC1000 x2", "SC1000 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 6.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["SC50 x9", "SC50 x9", "SC50 x9", "SC50 x1"],
+				"minBr": 5,
+				"bombsHigh": ["SC50 x14", "SC50 x14"]
+			},
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc500",
+					"sc500",
+					"/",
+					"sc500",
+					"sc500",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["SC500 x3", "SC500 x1"],
+				"minBr": 5,
+				"bombsHigh": ["SC500 x4"]
+			}
+		]
+	},
+	{
+		"id": "do-217-e-4",
+		"name": "Do 217 E-4",
+		"country": "Germany",
+		"rank": 3,
+		"br": 4.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 8,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": [
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1"
+				],
+				"minBr": 5,
+				"bombsHigh": ["FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2"]
+			},
+			{
+				"bases": 4,
+				"reward": 5.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1000",
+					"sc1000",
+					"/",
+					"sc1000",
+					"sc1000",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["SC1000 x1", "SC1000 x1", "SC1000 x1", "SC1000 x1"],
+				"minBr": 5,
+				"bombsHigh": ["SC1000 x2", "SC1000 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 6.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["SC50 x9", "SC50 x9", "SC50 x9", "SC50 x1"],
+				"minBr": 5,
+				"bombsHigh": ["SC50 x14", "SC50 x14"]
+			},
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc500",
+					"sc500",
+					"/",
+					"sc500",
+					"sc500",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["SC500 x3", "SC500 x1"],
+				"minBr": 5,
+				"bombsHigh": ["SC500 x4"]
+			}
+		]
+	},
+	{
+		"id": "bf-109-g-2-trop",
+		"name": "Bf 109 G-2/trop",
+		"country": "Germany",
+		"rank": 4,
+		"br": 4.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["FC250 x1"],
+				"minBr": 5,
+				"bombsHigh": ["FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "bf-109-g-6",
+		"name": "Bf 109 G-6",
+		"country": "Germany",
+		"rank": 4,
+		"br": 4.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["FC250 x1"],
+				"minBr": 5,
+				"bombsHigh": ["FC250 x1"]
+			}
+		]
+	},
+	{
+		"id": "fw-190-d-12",
+		"name": "Fw 190 D-12",
+		"country": "Germany",
+		"rank": 4,
+		"br": 5,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc50-2x",
+					"fc500",
+					"sc50-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC500 x1 + SC50 x4"]
+			}
+		]
+	},
+	{
+		"id": "fw-190-f-8",
+		"name": "Fw 190 F-8",
+		"country": "Germany",
+		"rank": 4,
+		"br": 5,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc50-2x",
+					"sc1000",
+					"sc50-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SC1000 x1 + SC50 x3", "SC50 x1"]
+			}
+		]
+	},
+	{
+		"id": "do-217-k-1",
+		"name": "Do 217 K-1",
+		"country": "Germany",
+		"rank": 4,
+		"br": 4.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 8,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": [
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1"
+				],
+				"minBr": 5,
+				"bombsHigh": ["FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2"]
+			},
+			{
+				"bases": 4,
+				"reward": 5.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1000",
+					"sc1000",
+					"/",
+					"sc1000",
+					"sc1000",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["SC1000 x1", "SC1000 x1", "SC1000 x1", "SC1000 x1"],
+				"minBr": 5,
+				"bombsHigh": ["SC1000 x2", "SC1000 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 6.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["SC50 x9", "SC50 x9", "SC50 x9", "SC50 x1"],
+				"minBr": 5,
+				"bombsHigh": ["SC50 x14", "SC50 x14"]
+			},
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc500",
+					"sc500",
+					"/",
+					"sc500",
+					"sc500",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["SC500 x3", "SC500 x1"],
+				"minBr": 5,
+				"bombsHigh": ["SC500 x4"]
+			}
+		]
+	},
+	{
+		"id": "do-217-m-1",
+		"name": "Do 217 M-1",
+		"country": "Germany",
+		"rank": 4,
+		"br": 4.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 8,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"fc250",
+					"fc250",
+					"fc250",
+					"fc250",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": [
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1",
+					"FC250 x1"
+				],
+				"minBr": 5,
+				"bombsHigh": ["FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2"]
+			},
+			{
+				"bases": 4,
+				"reward": 5.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1000",
+					"sc1000",
+					"/",
+					"sc1000",
+					"sc1000",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["SC1000 x1", "SC1000 x1", "SC1000 x1", "SC1000 x1"],
+				"minBr": 5,
+				"bombsHigh": ["SC1000 x2", "SC1000 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 6.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"sc50-4x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["SC50 x9", "SC50 x9", "SC50 x9", "SC50 x1"],
+				"minBr": 5,
+				"bombsHigh": ["SC50 x14", "SC50 x14"]
+			},
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc500",
+					"sc500",
+					"/",
+					"sc500",
+					"sc500",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["SC500 x3", "SC500 x1"],
+				"minBr": 5,
+				"bombsHigh": ["SC500 x4"]
+			}
+		]
+	},
+	{
+		"id": "ju-188-a-2",
+		"name": "Ju 188 A-2",
+		"country": "Germany",
+		"rank": 4,
+		"br": 5.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 4.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"fc250",
+					"sc1000",
+					"sc50-8x",
+					"sc1000",
+					"fc250",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"SC1000 x1 + SC50 x3",
+					"SC1000 x1 + SC50 x3",
+					"FC250 x2",
+					"FC250 x2",
+					"SC50 x4"
+				]
+			},
+			{
+				"bases": 3,
+				"reward": 5.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"sb200",
+					"sb200",
+					"fc500",
+					"sc50-8x",
+					"sc1800",
+					"sb200",
+					"sb200",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"SC1800 x1",
+					"FC500 x1 + SC50 x4",
+					"SC250 x4 + SC50 x6"
+				]
+			},
+			{
+				"bases": 2,
+				"reward": 7,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250",
+					"sc50-8x",
+					"fc250",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC250 x1 + SC50 x5", "FC250 x1 + SC50 x5"]
+			},
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1800",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SC1800 x1"]
+			}
+		]
+	},
+	{
+		"id": "he-177-a-5",
+		"name": "He 177 A-5",
+		"country": "Germany",
+		"rank": 4,
+		"br": 6,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 8,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1800",
+					"fc250-6x",
+					"/",
+					"fc250-6x",
+					"sc1800",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"SC1800 x1",
+					"SC1800 x1",
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2"
+				],
+				"minBr": 6.7,
+				"bombsHigh": ["SC1800 x2", "FC250 x3", "FC250 x3", "FC250 x3"]
+			},
+			{
+				"bases": 6,
+				"reward": 3.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250-6x",
+					"/",
+					"fc250-6x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2"
+				],
+				"minBr": 6.7,
+				"bombsHigh": ["FC250 x3", "FC250 x3", "FC250 x3", "FC250 x3"]
+			},
+			{
+				"bases": 5,
+				"reward": 4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1800",
+					"sc50-8x",
+					"/",
+					"sc50-8x",
+					"sc1800",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"SC1800 x1",
+					"SC1800 x1",
+					"SC50 x16",
+					"SC50 x16",
+					"SC50 x16"
+				],
+				"minBr": 6.7,
+				"bombsHigh": ["SC1800 x2", "SC50 x24", "SC50 x24"]
+			},
+			{
+				"bases": 4,
+				"reward": 4.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1800",
+					"sc1800",
+					"/",
+					"sc1800",
+					"sc1800",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": ["SC1800 x1", "SC1800 x1", "SC1800 x1", "SC1800 x1"],
+				"minBr": 6.7,
+				"bombsHigh": ["SC1800 x2", "SC1800 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 4.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc500-3x",
+					"/",
+					"fc500-3x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC500 x2", "FC500 x2", "FC500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 5.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1000-2x",
+					"/",
+					"sc1000-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SC1000 x2", "SC1000 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 8.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1000-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SC1000 x2"]
+			}
+		]
+	},
+	{
+		"id": "ju-288-c-premium",
+		"name": "Ju 288 C",
+		"country": "Germany",
+		"rank": 4,
+		"br": 6.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250-4x",
+					"/",
+					"fc250-4x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": ["FC250 x2", "FC250 x2", "FC250 x2", "FC250 x2"],
+				"minBr": 6.7,
+				"bombsHigh": ["FC250 x3", "FC250 x3", "FC250 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 5.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sb2500",
+					"/",
+					"sb2500",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SB2500 x1", "SB2500 x1"]
+			},
+			{
+				"bases": 2,
+				"reward": 8.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1800",
+					"/",
+					"sc1800",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": ["SC1800 x1", "SC1800 x1"],
+				"minBr": 6.7,
+				"bombsHigh": ["SC1800 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1000-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SC1000 x2"]
+			}
+		]
+	},
+	{
+		"id": "he-177-a-3-premium",
+		"name": "He 177 A-3",
+		"country": "Germany",
+		"rank": 4,
+		"br": 6,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 8,
+				"reward": 3.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1800",
+					"fc250-6x",
+					"/",
+					"fc250-6x",
+					"sc1800",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"SC1800 x1",
+					"SC1800 x1",
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2"
+				],
+				"minBr": 6.7,
+				"bombsHigh": ["SC1800 x2", "FC250 x3", "FC250 x3", "FC250 x3"]
+			},
+			{
+				"bases": 6,
+				"reward": 4.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc250-6x",
+					"/",
+					"fc250-6x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2",
+					"FC250 x2"
+				],
+				"minBr": 6.7,
+				"bombsHigh": ["FC250 x3", "FC250 x3", "FC250 x3", "FC250 x3"]
+			},
+			{
+				"bases": 5,
+				"reward": 4.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1800",
+					"sc50-8x",
+					"/",
+					"sc50-8x",
+					"sc1800",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"SC1800 x1",
+					"SC1800 x1",
+					"SC50 x16",
+					"SC50 x16",
+					"SC50 x16"
+				],
+				"minBr": 6.7,
+				"bombsHigh": ["SC1800 x2", "SC50 x24", "SC50 x24"]
+			},
+			{
+				"bases": 4,
+				"reward": 5.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1800",
+					"sc1800",
+					"/",
+					"sc1800",
+					"sc1800",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": ["SC1800 x1", "SC1800 x1", "SC1800 x1", "SC1800 x1"],
+				"minBr": 6.7,
+				"bombsHigh": ["SC1800 x2", "SC1800 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 5.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fc500-3x",
+					"/",
+					"fc500-3x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FC500 x2", "FC500 x2", "FC500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 6.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1000-2x",
+					"/",
+					"sc1000-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SC1000 x2", "SC1000 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1000-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["SC1000 x2"]
+			}
+		]
+	},
+	{
+		"id": "ia-58a-premium",
+		"name": "IA.58A",
+		"country": "Germany",
+		"rank": 4,
+		"br": 5,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"inc-220-2x",
+					"inc-220-3x",
+					"inc-220-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"INC-220 x2",
+					"INC-220 x2",
+					"INC-220 x2",
+					"INC-220 x1"
+				]
+			},
+			{
+				"bases": 1,
+				"reward": 5.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"inc-220-2x",
+					"booster",
+					"inc-220-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["INC-220 x2", "INC-220 x2"]
+			}
+		]
+	},
+	{
+		"id": "ar-234-b-2",
+		"name": "Ar 234 B-2",
+		"country": "Germany",
+		"rank": 5,
+		"br": 6.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"sc1000",
+					"sc1000",
+					"sc1000",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": ["SC1000 x1 + SC250 x2"],
+				"minBr": 6.7,
+				"bombsHigh": ["SC1000 x1 + SC250 x2"]
+			}
+		]
+	},
+	{
+		"id": "il-28",
+		"name": "IL-28",
+		"country": "Germany",
+		"rank": 5,
+		"br": 8,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500m-46",
+					"500m-46",
+					"/",
+					"500m-46",
+					"500m-46",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-46 x4"]
+			}
+		]
+	},
+	{
+		"id": "g-91-r-3",
+		"name": "G.91 R/3",
+		"country": "Germany",
+		"rank": 6,
+		"br": 8.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"559g1",
+					"559g1",
+					"/",
+					"559g1",
+					"559g1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["559G1 x2 + AN-M57 x2"]
+			}
+		]
+	},
+	{
+		"id": "alpha-jet-a",
+		"name": "Alpha Jet A",
+		"country": "Germany",
+		"rank": 6,
+		"br": 9,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"m116a2",
+					"m116a2",
+					"gunpod-nose",
+					"m116a2",
+					"m116a2",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["M116A2 x2", "M116A2 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"droptank",
+					"m116a2",
+					"gunpod-nose",
+					"m116a2",
+					"droptank",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["M116A2 x2"]
+			}
+		]
+	},
+	{
+		"id": "f-84f",
+		"name": "F-84F",
+		"country": "Germany",
+		"rank": 6,
+		"br": 8.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-1",
+					"blu-1",
+					"/",
+					"blu-1",
+					"blu-1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x1 + Mk84 x1", "BLU-1 x1 + Mk84 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 8.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk84",
+					"mk84",
+					"/",
+					"mk84",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk84 x2 + Mk81 x1"]
+			}
+		]
+	},
+	{
+		"id": "mig-23bn",
+		"name": "MiG-23BN",
+		"country": "Germany",
+		"rank": 6,
+		"br": 9.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"zb-500",
+					"/",
+					"zb-500",
+					"/",
+					"zb-500",
+					"/",
+					"zb-500",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"gunpod",
+					"500m-62",
+					"500m-62",
+					"/",
+					"500m-62",
+					"500m-62",
+					"gunpod",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		]
+	},
+	{
+		"id": "hunter-f-58a",
+		"name": "Hunter F.58A",
+		"country": "Germany",
+		"rank": 6,
+		"br": 10,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"febd",
+					"/",
+					"/",
+					"droptank",
+					"/",
+					"/",
+					"/",
+					"droptank",
+					"/",
+					"/",
+					"febd",
+					"/",
+					"/"
+				],
+				"bombs": ["FeBd x2"]
+			}
+		]
+	},
+	{
+		"id": "hunter-f-58",
+		"name": "Hunter F.58",
+		"country": "Germany",
+		"rank": 6,
+		"br": 10,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"febd",
+					"/",
+					"/",
+					"droptank",
+					"/",
+					"/",
+					"/",
+					"droptank",
+					"/",
+					"/",
+					"febd",
+					"/",
+					"/"
+				],
+				"bombs": ["FeBd x2"]
+			}
+		]
+	},
+	{
+		"id": "alpha-jet-a-premium",
+		"name": "Alpha Jet A",
+		"country": "Germany",
+		"rank": 6,
+		"br": 9,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"m116a2",
+					"m116a2",
+					"gunpod-nose",
+					"m116a2",
+					"m116a2",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["M116A2 x2", "M116A2 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 9.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"droptank",
+					"m116a2",
+					"gunpod-nose",
+					"m116a2",
+					"droptank",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["M116A2 x2"]
+			}
+		]
+	},
+	{
+		"id": "ffa-p-16-premium",
+		"name": "FFA P-16",
+		"country": "Germany",
+		"rank": 6,
+		"br": 9,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.8,
+				"icons": [
+					"/",
+					"febd",
+					"/",
+					"/",
+					"febd",
+					"/",
+					"missile-green",
+					"/",
+					"missile-green",
+					"/",
+					"febd",
+					"/",
+					"/",
+					"febd",
+					"/"
+				],
+				"bombs": ["FeBd x2", "FeBd x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.9,
+				"icons": [
+					"/",
+					"sc1000",
+					"/",
+					"/",
+					"sc1000",
+					"/",
+					"missile-green",
+					"/",
+					"missile-green",
+					"/",
+					"sc1000",
+					"/",
+					"/",
+					"sc1000",
+					"/"
+				],
+				"bombs": ["SC1000 x2"]
+			}
+		]
+	},
+	{
+		"id": "f-104g",
+		"name": "F-104G",
+		"country": "Germany",
+		"rank": 7,
+		"br": 11,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"missile-green",
+					"blu-1",
+					"missile-green",
+					"/",
+					"missile-green",
+					"blu-1",
+					"missile-green",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2"]
+			}
+		]
+	},
+	{
+		"id": "f-4f",
+		"name": "F-4F",
+		"country": "Germany",
+		"rank": 7,
+		"br": 11,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 2.7,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"aim-9j-2x",
+					"blu-1-2x",
+					"aim-9j-2x",
+					"blu-1-2x",
+					"blu-1-2x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-27 x2"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"aim-9j-2x",
+					"droptank",
+					"aim-9j-2x",
+					"blu-1-2x",
+					"blu-1-2x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-1-2x",
+					"aim-9j-2x",
+					"blu-1-2x",
+					"aim-9j-2x",
+					"blu-1-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk83-2x",
+					"mk83-3x",
+					"aim-9j-2x",
+					"droptank",
+					"aim-9j-2x",
+					"mk83-3x",
+					"mk83-2x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk83 x5", "Mk83 x5"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk83-2x",
+					"/",
+					"aim-9j-2x",
+					"droptank",
+					"aim-9j-2x",
+					"mk83-3x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk83 x5"]
+			}
+		]
+	},
+	{
+		"id": "mig-21bis-sau",
+		"name": "MiG-21bis-SAU",
+		"country": "Germany",
+		"rank": 7,
+		"br": 11.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"missile-red-2x",
+					"zb-500",
+					"chaff-pod",
+					"zb-500",
+					"missile-red-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "mig-23mla",
+		"name": "MiG-23MLA",
+		"country": "Germany",
+		"rank": 7,
+		"br": 11.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"missile-orange",
+					"zb-500",
+					"chaff-pod",
+					"zb-500",
+					"missile-orange",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "tornado-assta",
+		"name": "Tornado ASSTA",
+		"country": "Germany",
+		"rank": 7,
+		"br": 11.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.2,
+				"icons": [
+					"/",
+					"/",
+					"chaff-pod",
+					"missile-green",
+					"mk83-2x",
+					"mk83-2x",
+					"/",
+					"/",
+					"mk83-2x",
+					"mk83-2x",
+					"mk83-2x",
+					"missile-green",
+					"chaff-pod",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk83 x5", "Mk83 x5"]
+			},
+			{
+				"bases": 1,
+				"reward": 8.2,
+				"icons": [
+					"/",
+					"/",
+					"chaff-pod",
+					"missile-green",
+					"droptank",
+					"mk83",
+					"mk83",
+					"mk83",
+					"mk83",
+					"mk83",
+					"droptank",
+					"missile-green",
+					"chaff-pod",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk83 x5"]
+			}
+		]
+	},
+	{
+		"id": "su-22um3k",
+		"name": "Su-22UM3K",
+		"country": "Germany",
+		"rank": 7,
+		"br": 11,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"zb-500",
+					"missile-green",
+					"missile-red-2x",
+					"zb-500",
+					"/",
+					"zb-500",
+					"missile-red-2x",
+					"missile-green",
+					"zb-500",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"droptank",
+					"missile-green",
+					"missile-red-2x",
+					"500m-62-2x",
+					"/",
+					"500m-62-2x",
+					"missile-red-2x",
+					"missile-green",
+					"droptank",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		]
+	},
+	{
+		"id": "su-22m4",
+		"name": "Su-22M4",
+		"country": "Germany",
+		"rank": 7,
+		"br": 11,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"zb-500",
+					"missile-green",
+					"missile-red-2x",
+					"zb-500",
+					"/",
+					"zb-500",
+					"missile-red-2x",
+					"missile-green",
+					"zb-500",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"gunpod",
+					"missile-green",
+					"missile-red-2x",
+					"500m-62-2x",
+					"/",
+					"500m-62-2x",
+					"missile-red-2x",
+					"missile-green",
+					"gunpod",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		]
+	},
+	{
+		"id": "f-5e",
+		"name": "F-5E",
+		"country": "Germany",
+		"rank": 7,
+		"br": 11,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"missile-green",
+					"blu-1",
+					"blu-1",
+					"droptank",
+					"blu-1",
+					"blu-1",
+					"missile-green",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.4,
+				"bombs": ["Mk83 x2 + M117 x1"]
+			}
+		]
+	},
+	{
+		"id": "mig-21-lazur-premium",
+		"name": "MiG-21 Lazur",
+		"country": "Germany",
+		"rank": 7,
+		"br": 11,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"missile-red-2x",
+					"zb-500",
+					"droptank",
+					"zb-500",
+					"missile-red-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "tornado-ids-premium",
+		"name": "Tornado IDS",
+		"country": "Germany",
+		"rank": 7,
+		"br": 11.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.7,
+				"icons": [
+					"/",
+					"/",
+					"chaff-pod",
+					"missile-green",
+					"mk83-2x",
+					"mk83-2x",
+					"mk83-2x",
+					"/",
+					"mk83-2x",
+					"mk83-2x",
+					"mk83-2x",
+					"missile-green",
+					"chaff-pod",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk83 x5", "Mk83 x5", "Mk83 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 9.9,
+				"icons": [
+					"/",
+					"/",
+					"chaff-pod",
+					"missile-green",
+					"droptank",
+					"mk83",
+					"mk83",
+					"mk83",
+					"mk83",
+					"mk83",
+					"droptank",
+					"missile-green",
+					"chaff-pod",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk83 x5"]
+			}
+		]
+	},
+	{
+		"id": "su-22m4-wtd-premium",
+		"name": "Su-22M4 WTD",
+		"country": "Germany",
+		"rank": 7,
+		"br": 11,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"zb-500",
+					"missile-green",
+					"missile-red-2x",
+					"zb-500",
+					"/",
+					"zb-500",
+					"missile-red-2x",
+					"missile-green",
+					"zb-500",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 9.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"gunpod",
+					"missile-green",
+					"missile-red-2x",
+					"500m-62-2x",
+					"/",
+					"500m-62-2x",
+					"missile-red-2x",
+					"missile-green",
+					"gunpod",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		]
+	},
+	{
+		"id": "f-4f-early-premium",
+		"name": "F-4F Early",
+		"country": "Germany",
+		"rank": 7,
+		"br": 10.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 2.7,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"aim-9j-2x",
+					"blu-1-2x",
+					"aim-9j-2x",
+					"blu-1-2x",
+					"blu-1-2x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-27 x2"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"aim-9j-2x",
+					"droptank",
+					"aim-9j-2x",
+					"blu-1-2x",
+					"blu-1-2x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-1-2x",
+					"aim-9j-2x",
+					"blu-1-2x",
+					"aim-9j-2x",
+					"blu-1-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk83-2x",
+					"mk83-3x",
+					"aim-9j-2x",
+					"droptank",
+					"aim-9j-2x",
+					"mk83-3x",
+					"mk83-2x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk83 x5", "Mk83 x5"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk83-2x",
+					"/",
+					"aim-9j-2x",
+					"droptank",
+					"aim-9j-2x",
+					"mk83-3x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk83 x5"]
+			}
+		]
+	},
+	{
+		"id": "mig-23mf",
+		"name": "MiG-23MF",
+		"country": "Germany",
+		"rank": 7,
+		"br": 10.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"missile-green",
+					"zb-500",
+					"chaff-pod",
+					"zb-500",
+					"missile-green",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "f-4f-kws-lv",
+		"name": "F-4F KWS LV",
+		"country": "Germany",
+		"rank": 8,
+		"br": 13.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 2.7,
+				"icons": [
+					"/",
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"missile-green-2x",
+					"missile-blue",
+					"missile-blue",
+					"blu-1-2x",
+					"missile-blue",
+					"missile-blue",
+					"missile-green-2x",
+					"blu-1-2x",
+					"blu-1-2x",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-27 x2"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"missile-green-2x",
+					"missile-blue",
+					"missile-blue",
+					"droptank",
+					"missile-blue",
+					"missile-blue",
+					"missile-green-2x",
+					"blu-1-2x",
+					"blu-1-2x",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"blu-1-2x",
+					"missile-green-2x",
+					"missile-blue",
+					"missile-blue",
+					"blu-1-2x",
+					"missile-blue",
+					"missile-blue",
+					"missile-green-2x",
+					"blu-1-2x",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.2,
+				"icons": [
+					"/",
+					"/",
+					"mk83-2x",
+					"mk83-3x",
+					"missile-green-2x",
+					"missile-blue",
+					"missile-blue",
+					"droptank",
+					"missile-blue",
+					"missile-blue",
+					"missile-green-2x",
+					"mk83-3x",
+					"mk83-2x",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk83 x5", "Mk83 x5"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.5,
+				"icons": [
+					"/",
+					"/",
+					"mk83-2x",
+					"/",
+					"missile-green-2x",
+					"missile-blue",
+					"missile-blue",
+					"droptank",
+					"missile-blue",
+					"missile-blue",
+					"missile-green-2x",
+					"mk83-3x",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk83 x5"]
+			}
+		]
+	},
+	{
+		"id": "mig-29",
+		"name": "MiG-29",
+		"country": "Germany",
+		"rank": 8,
+		"br": 12.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"missile-green",
+					"zb-500",
+					"zb-500",
+					"droptank",
+					"zb-500",
+					"zb-500",
+					"missile-green",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"missile-green",
+					"missile-green",
+					"500m-62-2x",
+					"droptank",
+					"500m-62-2x",
+					"missile-green",
+					"missile-green",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		]
+	},
+	{
+		"id": "mig-29g",
+		"name": "MiG-29G",
+		"country": "Germany",
+		"rank": 8,
+		"br": 13,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"missile-green",
+					"zb-500",
+					"zb-500",
+					"droptank",
+					"zb-500",
+					"zb-500",
+					"missile-green",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"missile-green",
+					"missile-green",
+					"500m-62-2x",
+					"droptank",
+					"500m-62-2x",
+					"missile-green",
+					"missile-green",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		]
+	},
+	{
+		"id": "tornado-sle",
+		"name": "Tornado SLE",
+		"country": "Germany",
+		"rank": 8,
+		"br": 12.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.2,
+				"icons": [
+					"/",
+					"/",
+					"chaff-pod",
+					"missile-green",
+					"mk83-2x",
+					"mk83-2x",
+					"/",
+					"/",
+					"mk83-2x",
+					"mk83-2x",
+					"mk83-2x",
+					"missile-green",
+					"chaff-pod",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk83 x5", "Mk83 x5"]
+			},
+			{
+				"bases": 1,
+				"reward": 8.2,
+				"icons": [
+					"/",
+					"/",
+					"chaff-pod",
+					"missile-green",
+					"droptank",
+					"mk83",
+					"mk83",
+					"mk83",
+					"mk83",
+					"mk83",
+					"droptank",
+					"missile-green",
+					"chaff-pod",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk83 x5"]
+			}
+		]
+	},
+	{
+		"id": "f-a-18c-late",
+		"name": "F/A-18C Late",
+		"country": "Germany",
+		"rank": 8,
+		"br": 14,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 2.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"missile-green",
+					"mk77-2x",
+					"mk77-2x",
+					"missile-blue",
+					"mk77",
+					"missile-blue",
+					"mk77-2x",
+					"mk77-2x",
+					"missile-green",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk77 x3", "Mk77 x3", "Mk77 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"missile-green",
+					"mk77-2x",
+					"mk77-2x",
+					"missile-blue",
+					"droptank",
+					"missile-blue",
+					"mk77-2x",
+					"missile-blue-2x",
+					"missile-green",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk77 x3", "Mk77 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 4.7,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"missile-green",
+					"missile-green-2x",
+					"missile-blue-2x",
+					"missile-blue",
+					"mk77",
+					"missile-blue",
+					"mk77-2x",
+					"missile-blue-2x",
+					"missile-green",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk77 x3"]
+			}
+		]
+	},
+	{
+		"id": "f-a-18c-premium",
+		"name": "F/A-18C",
+		"country": "Germany",
+		"rank": 8,
+		"br": 12.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 3.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"missile-green",
+					"mk77-2x",
+					"mk77-2x",
+					"missile-orange",
+					"mk77",
+					"missile-orange",
+					"mk77-2x",
+					"mk77-2x",
+					"missile-green",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk77 x3", "Mk77 x3", "Mk77 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"missile-green",
+					"mk77-2x",
+					"mk77-2x",
+					"missile-orange",
+					"droptank",
+					"missile-orange",
+					"mk77-2x",
+					"missile-orange",
+					"missile-green",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk77 x3", "Mk77 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 5.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"missile-green",
+					"missile-red-2x",
+					"missile-orange",
+					"missile-orange",
+					"mk77",
+					"missile-orange",
+					"mk77-2x",
+					"missile-orange",
+					"missile-green",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk77 x3"]
+			}
+		]
+	},
+	{
+		"id": "ef-2000",
+		"name": "EF-2000",
+		"country": "Germany",
+		"rank": 9,
+		"br": 14.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.4,
+				"icons": [
+					"/",
+					"missile-green",
+					"missile-blue-2x",
+					"mk84",
+					"/",
+					"missile-blue",
+					"missile-blue",
+					"targeting-pod",
+					"missile-blue",
+					"missile-blue",
+					"drone",
+					"mk84",
+					"missile-blue-2x",
+					"missile-green",
+					"/"
+				],
+				"bombs": ["Mk84 x2 + GBU-62 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.3,
+				"icons": [
+					"/",
+					"missile-green",
+					"missile-radar",
+					"missile-radar-2x",
+					"missile-radar-2x",
+					"missile-blue",
+					"missile-blue",
+					"targeting-pod",
+					"missile-blue",
+					"missile-blue",
+					"missile-radar-2x",
+					"missile-radar-2x",
+					"missile-radar",
+					"missile-green",
+					"/"
+				],
+				"bombs": ["Paveway IV x10"]
+			}
+		]
+	},
+	{
+		"id": "ef-2000-aesa",
+		"name": "EF-2000 AESA",
+		"country": "Germany",
+		"rank": 9,
+		"br": 15,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6,
+				"icons": [
+					"/",
+					"missile-green",
+					"missile-blue-2x",
+					"mk84",
+					"/",
+					"missile-blue",
+					"missile-blue",
+					"targeting-pod",
+					"missile-blue",
+					"missile-blue",
+					"drone",
+					"mk84",
+					"missile-blue-2x",
+					"missile-green",
+					"/"
+				],
+				"bombs": ["Mk84 x2 + GBU-62 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.3,
+				"icons": [
+					"/",
+					"missile-green",
+					"missile-radar",
+					"missile-radar-2x",
+					"missile-radar-2x",
+					"missile-blue",
+					"missile-blue",
+					"targeting-pod",
+					"missile-blue",
+					"missile-blue",
+					"missile-radar-2x",
+					"missile-radar-2x",
+					"missile-radar",
+					"missile-green",
+					"/"
+				],
+				"bombs": ["Paveway IV x10"]
+			}
+		]
+	}
 ]
