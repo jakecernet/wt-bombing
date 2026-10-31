@@ -154,6 +154,9 @@
 		"559g1": {
 			"file": "559g1.png"
 		},
+        "aim-9j": {
+            "file": "aim-9j.png"
+        },
 		"aim-9j-2x": {
 			"file": "aim-9j-2x.png"
 		},
@@ -161,7 +164,7 @@
 			"file": "blu-1.png"
 		},
 		"blu-1-2x": {
-			"file": null
+			"file": "blu-1-2x.png"
 		},
 		"drone": {
 			"file": "drone.png"
@@ -242,9 +245,12 @@
 			"file": "mk77-2x.png"
 		},
 		"mk83": {
-			"file": "mk83.png"
+			"file": "500m-62.png"
 		},
 		"mk83-2x": {
+			"file": "500m-62-2x.png"
+		},
+        "mk83-2x-2": {
 			"file": "mk83-2x.png"
 		},
 		"mk83-3x": {
@@ -306,6 +312,15 @@
 		},
 		"zb-500": {
 			"file": "zb-500.png"
-		}
+		},
+        "r60": {
+            "file": "r60.png"
+        },
+        "r24r": {
+            "file": "r24r.png"
+        },
+        "aim120": {
+            "file": "aim120.png"
+        }
 	}
 }
