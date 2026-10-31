@@ -7,21 +7,20 @@ import { VitePWA } from "vite-plugin-pwa";
 export default defineConfig({
 	plugins: [
 		react(),
-		babel(
-			{
-				presets: [reactCompilerPreset()],
+		babel({
+			presets: [reactCompilerPreset()],
+		}),
+		VitePWA({
+			registerType: "autoUpdate",
+			injectRegister: "script-defer",
+			manifest: {
+				name: "WT bombing chart",
+				short_name: "WT bombing",
+				description: "How many bases can your War Thunder plane destroy?",
+				theme_color: "#090b10",
+				background_color: "#090b10",
 			},
-			VitePWA({
-				registerType: "autoUpdate",
-				injectRegister: "script-defer",
-				manifest: {
-					name: "My App",
-					short_name: "App",
-					description: "My App Description",
-					theme_color: "#ffffff",
-				},
-			}),
-		),
+		}),
 	],
 	server: {
 		port: 3000,

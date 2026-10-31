@@ -1,0 +1,305 @@
+{
+  "bombs": {
+    "FeBd": {
+      "label": "FeBd",
+      "mass": null,
+      "icon": "febd"
+    },
+    "PavewayIV": {
+      "label": "Paveway IV",
+      "mass": null,
+      "icon": null
+    },
+    "BLU1": {
+      "label": "BLU-1",
+      "mass": null,
+      "icon": "blu-1"
+    },
+    "BLU27": {
+      "label": "BLU-27",
+      "mass": null,
+      "icon": null
+    },
+    "SC50": {
+      "label": "SC50",
+      "mass": 50,
+      "icon": "sc50"
+    },
+    "ANM57": {
+      "label": "AN-M57",
+      "mass": null,
+      "icon": null
+    },
+    "GBU62": {
+      "label": "GBU-62",
+      "mass": null,
+      "icon": null
+    },
+    "Mk77": {
+      "label": "Mk 77",
+      "mass": null,
+      "icon": "mk77"
+    },
+    "Mk81": {
+      "label": "Mk 81",
+      "mass": null,
+      "icon": null
+    },
+    "Mk83": {
+      "label": "Mk 83",
+      "mass": null,
+      "icon": "mk83"
+    },
+    "Mk84": {
+      "label": "Mk 84",
+      "mass": null,
+      "icon": "mk84"
+    },
+    "GP100": {
+      "label": "GP 100",
+      "mass": 100,
+      "icon": "gp-100"
+    },
+    "M117": {
+      "label": "M117",
+      "mass": null,
+      "icon": null
+    },
+    "SB200": {
+      "label": "SB200",
+      "mass": 200,
+      "icon": "sb200"
+    },
+    "INC220": {
+      "label": "INC-220",
+      "mass": 220,
+      "icon": null
+    },
+    "FC250": {
+      "label": "FC250",
+      "mass": 250,
+      "icon": "fc250"
+    },
+    "GP250": {
+      "label": "G.P.250",
+      "mass": 250,
+      "icon": null
+    },
+    "SC250": {
+      "label": "SC250",
+      "mass": 250,
+      "icon": null
+    },
+    "FC500": {
+      "label": "FC500",
+      "mass": 500,
+      "icon": "fc500"
+    },
+    "SC500": {
+      "label": "SC500",
+      "mass": 500,
+      "icon": "sc500"
+    },
+    "ZB500": {
+      "label": "ZB-500",
+      "mass": 500,
+      "icon": "zb-500"
+    },
+    "SC1000": {
+      "label": "SC1000",
+      "mass": 1000,
+      "icon": "sc1000"
+    },
+    "M116A2": {
+      "label": "M116A2",
+      "mass": null,
+      "icon": "m116a2"
+    },
+    "SC1800": {
+      "label": "SC1800",
+      "mass": 1800,
+      "icon": "sc1800"
+    },
+    "SB2500": {
+      "label": "SB2500",
+      "mass": 2500,
+      "icon": "sb2500"
+    },
+    "559G1": {
+      "label": "559G1",
+      "mass": null,
+      "icon": "559g1"
+    },
+    "500M46": {
+      "label": "500M-46",
+      "mass": 500,
+      "icon": "500m-46"
+    },
+    "500M62": {
+      "label": "500M-62",
+      "mass": 500,
+      "icon": "500m-62"
+    }
+  },
+  "icons": {
+    "500m-46": {
+      "file": "500m-46.png"
+    },
+    "500m-62": {
+      "file": "500m-62.png"
+    },
+    "500m-62-2x": {
+      "file": "500m-62-2x.png"
+    },
+    "559g1": {
+      "file": "559g1.png"
+    },
+    "aim-9j-2x": {
+      "file": "aim-9j-2x.png"
+    },
+    "blu-1": {
+      "file": "blu-1.png"
+    },
+    "blu-1-2x": {
+      "file": null
+    },
+    "drone": {
+      "file": "drone.png"
+    },
+    "droptank": {
+      "file": "droptank.png"
+    },
+    "fc250": {
+      "file": "fc250.png"
+    },
+    "fc250-4x": {
+      "file": "fc250-4x.png"
+    },
+    "fc250-6x": {
+      "file": "fc250-6x.png"
+    },
+    "fc500": {
+      "file": "fc500.png"
+    },
+    "fc500-3x": {
+      "file": "fc500-3x.png"
+    },
+    "febd": {
+      "file": "febd.png"
+    },
+    "g-p-250-3x": {
+      "file": "g-p-250-3x.png"
+    },
+    "gp-100": {
+      "file": "gp-100.png"
+    },
+    "gunpod": {
+      "file": "gunpod.png"
+    },
+    "gunpod-2x": {
+      "file": "gunpod-2x.png"
+    },
+    "gunpod-nose": {
+      "file": "gunpod-nose.png"
+    },
+    "inc-220-2x": {
+      "file": "inc-220-2x.png"
+    },
+    "inc-220-3x": {
+      "file": "inc-220-3x.png"
+    },
+    "m116a2": {
+      "file": "m116a2.png"
+    },
+    "missile-blue": {
+      "file": "missile-blue.png"
+    },
+    "missile-blue-2x": {
+      "file": "missile-blue-2x.png"
+    },
+    "missile-green": {
+      "file": "missile-green.png"
+    },
+    "missile-green-2x": {
+      "file": "missile-green-2x.png"
+    },
+    "missile-orange": {
+      "file": "missile-orange.png"
+    },
+    "missile-radar": {
+      "file": "missile-radar.png"
+    },
+    "missile-radar-2x": {
+      "file": "missile-radar-2x.png"
+    },
+    "missile-red-2x": {
+      "file": "missile-red-2x.png"
+    },
+    "mk77": {
+      "file": "mk77.png"
+    },
+    "mk77-2x": {
+      "file": "mk77-2x.png"
+    },
+    "mk83": {
+      "file": "mk83.png"
+    },
+    "mk83-2x": {
+      "file": "mk83-2x.png"
+    },
+    "mk83-3x": {
+      "file": "mk83-3x.png"
+    },
+    "mk84": {
+      "file": "mk84.png"
+    },
+    "rocket-pod": {
+      "file": "rocket-pod.png"
+    },
+    "sb200": {
+      "file": "sb200.png"
+    },
+    "sb2500": {
+      "file": "sb2500.png"
+    },
+    "sc1000": {
+      "file": "sc1000.png"
+    },
+    "sc1000-2x": {
+      "file": "sc1000-2x.png"
+    },
+    "sc1800": {
+      "file": "sc1800.png"
+    },
+    "sc250-2x": {
+      "file": "sc250-2x.png"
+    },
+    "sc50": {
+      "file": "sc50.png"
+    },
+    "sc50-2x": {
+      "file": "sc50-2x.png"
+    },
+    "sc50-4x": {
+      "file": "sc50-4x.png"
+    },
+    "sc50-8x": {
+      "file": "sc50-8x.png"
+    },
+    "sc500": {
+      "file": "sc500.png"
+    },
+    "sc500-2x": {
+      "file": "sc500-2x.png"
+    },
+    "tank-nozzle": {
+      "file": "tank-nozzle.png"
+    },
+    "targeting-pod": {
+      "file": "targeting-pod.png"
+    },
+    "zb-500": {
+      "file": "zb-500.png"
+    }
+  }
+}
