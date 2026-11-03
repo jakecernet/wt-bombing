@@ -1,7 +1,6 @@
-import planesJson from "./planes.json";
 import bombsJson from "./bombs.json";
 
-// planes.json -> [{ id, name, country, rank, br, premium, variants: [{
+// planes/<nation>.json (one file per nation, every *.json in ./planes is loaded) -> [{ id, name, country, rank, br, premium, variants: [{
 //     bases,            🎯 max bases this loadout can destroy
 //     reward,           💡 base reward multiplier
 //     icons,            15 hardpoint slots left wing -> centre (index 7) -> right wing; "/" = empty, otherwise an icon name from bombs.json "icons"
@@ -17,7 +16,6 @@ export const ICONS = bombsJson.icons;
 
 /** Image file (inside public/icons/bombs/) for an icon name, or null if none is assigned yet. */
 export const iconFile = (name) => ICONS[name]?.file ?? null;
-export const COUNTRY = "Germany";
 
 const LABEL_BY_ICON = new Map(
 	Object.values(bombsJson.bombs)
@@ -36,7 +34,10 @@ export const iconLabel = (name) => {
 	if (LABEL_BY_ICON.has(name)) return LABEL_BY_ICON.get(name);
 	const pack = name.match(/^(.+?)-(\d+)x$/);
 	if (pack) return `${iconLabel(pack[1])} (${pack[2]}-pack)`;
-	const plain = name.replace(/-(dark|black|brown|green|light|old|2)$/, "");
+	const plain = name.replace(
+		/-(dark|black|brown|green|light|old|2|gold|blue|teal|red|olive|yellow|tan|orange)$/,
+		"",
+	);
 	if (plain !== name && LABEL_BY_ICON.has(plain))
 		return LABEL_BY_ICON.get(plain);
 	return prettify(name);
@@ -63,6 +64,22 @@ const parseCell = (str) =>
 		};
 	});
 
+// every nation file in ./planes, e.g. germany.json, usa.json - drop a new file in to add a nation
+const nationFiles = import.meta.glob("./planes/*.json", {
+	eager: true,
+	import: "default",
+});
+const planesJson = Object.keys(nationFiles)
+	.sort()
+	.flatMap((path) => nationFiles[path]);
+
+const seen = new Set();
+planesJson.forEach((p) => {
+	if (seen.has(p.id))
+		console.warn(`Duplicate plane id "${p.id}" (${p.country})`);
+	seen.add(p.id);
+});
+
 export const PLANES = planesJson.map((p) => {
 	const variants = p.variants.map((v) => {
 		const rows = [
@@ -82,14 +99,15 @@ export const PLANES = planesJson.map((p) => {
 			});
 		return {
 			bases: v.bases,
-			reward: v.reward,
+			reward: v.reward ?? null, // null = not given in the sheet
 			tiles: v.icons ?? null,
 			rows,
 		};
 	});
 	// plane-level values come from the best variant (most bases)
 	const best = variants.reduce((a, b) => (b.bases > a.bases ? b : a));
-	return { ...p, variants, bases: best.bases, reward: best.reward };
+	const reward = variants.reduce((m, v) => Math.max(m, v.reward ?? 0), 0);
+	return { ...p, variants, bases: best.bases, reward: best.reward ?? reward };
 });
 
 /** The sheet row of a variant that applies at a battle BR (null -> first row). */
@@ -134,5 +152,7 @@ export const ALL_BRS = [
 		]),
 	),
 ].sort((a, b) => a - b);
+
+export const COUNTRIES = [...new Set(PLANES.map((p) => p.country))].sort();
 
 export const MAX_BASES = Math.max(...PLANES.map((p) => p.bases));

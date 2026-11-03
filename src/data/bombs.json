@@ -1,5 +1,5 @@
 {
-    "bombs": {
+	"bombs": {
 		"FeBd": {
 			"label": "FeBd",
 			"mass": null,
@@ -139,235 +139,590 @@
 			"label": "500M-62",
 			"mass": 500,
 			"icon": "500m-62"
+		},
+		"ANM30A1": {
+			"label": "AN-M30A1",
+			"mass": null,
+			"icon": "an-m30a1"
+		},
+		"ANM64A1": {
+			"label": "AN-M64A1",
+			"mass": null,
+			"icon": "an-m64a1"
+		},
+		"ANM65A1": {
+			"label": "AN-M65A1",
+			"mass": null,
+			"icon": "an-m65a1"
+		},
+		"ANM66A2": {
+			"label": "AN-M66A2",
+			"mass": null,
+			"icon": "an-m66a2"
+		},
+		"TypeA": {
+			"label": "Type A",
+			"mass": null,
+			"icon": "type-a"
+		},
+		"GPMk9": {
+			"label": "GP Mk9",
+			"mass": null,
+			"icon": "gp-mk9"
+		},
+		"Mk78": {
+			"label": "Mk 78",
+			"mass": null,
+			"icon": "mk78"
+		},
+		"Mk82": {
+			"label": "Mk 82",
+			"mass": null,
+			"icon": "mk82"
+		},
+		"M118": {
+			"label": "M118",
+			"mass": null,
+			"icon": "m118"
+		},
+		"HVAR": {
+			"label": "HVAR",
+			"mass": null,
+			"icon": "hvar"
+		},
+		"FFAR": {
+			"label": "FFAR",
+			"mass": null,
+			"icon": "ffar"
+		},
+		"Zuni": {
+			"label": "Zuni",
+			"mass": null,
+			"icon": "zuni"
+		},
+		"HEM32": {
+			"label": "HE M32",
+			"mass": null,
+			"icon": "he-m32"
+		},
+		"GBU64": {
+			"label": "GBU-64",
+			"mass": null,
+			"icon": "gbu-64"
+		},
+		"GBU31": {
+			"label": "GBU-31",
+			"mass": null,
+			"icon": "gbu-31"
+		},
+		"GBU8": {
+			"label": "GBU-8",
+			"mass": null,
+			"icon": "gbu-8"
+		},
+		"GBU38V": {
+			"label": "GBU-38(V)",
+			"mass": null,
+			"icon": "gbu-38"
+		},
+		"AGM130": {
+			"label": "AGM-130",
+			"mass": null,
+			"icon": "agm-130"
 		}
 	},
 	"icons": {
-        "sc50": {
-            "file": "sc50.png"
-        },
-        "sc50-2x": {
-            "file": "sc50-2x.png"
-        },
-        "sc50-4x": {
-            "file": "sc50-4x.png"
-        },
-        "sc50-8x": {
-            "file": "sc50-8x.png"
-        },
-        "sc250-green": {
-            "file": "sc100.png"
-        },
-        "sc250": {
-            "file": "sc250.png"
-        },
-        "sc250-2x": {
-            "file": "sc250-2x.png"
-        },
-        "sc500": {
-            "file": "sc500.png"
-        },"sc500-2x": {
-            "file": "sc500-2x.png"
-        },
-        "sc500-brown": {
-            "file": "sc250.png"
-        },
-        "sc500-brown-2x": {
-            "file": "sc250-2x.png"
-        },
-        "sc1000": {
-            "file": "sc1000.png"
-        },
-        "sc1000-2x": {
-            "file": "sc1000-2x.png"
-        },
-        "sc1800": {
-            "file": "sc500.png"
-        },
-        "aim-7p": {
-            "file": "aim-7p.png"
-        },
-        "aim-9j": {
-            "file": "aim-9j.png"
-        },
-        "aim-120a": {
-            "file": "aim-120a.png"
-        },
-        "aim-120c": {
-            "file": "aim-120c.png"
-        },
-        "aim-120c-2x": {
-            "file": "aim-120c-2x.png"
-        },
-        "aim-9m": {
-            "file": "aim-9m.png"
-        },
-        "aim-9m-2x": {
-            "file": "aim-9m-2x.png"
-        },
-        "booster": {
-            "file": "booster.png"
-        },
-        "chaff-pod": {
-            "file": "chaff-pod.png"
-        },
-        "targeting-pod": {
-            "file": "targeting-pod.png"
-        },
-        "droptank": {
-            "file": "droptank.png"
-        },
-        "gbu-62": {
-            "file": "gbu.png"
-        },
-        "paveway-iv": {
-            "file": "paveway.png"
-        },
-        "paveway-iv-2x": {
-            "file": "paveway-2x.png"
-        },
-        "gunpod": {
-            "file": "gunpod.png"
-        },
-        "gunpod-2x": {
-            "file": "gunpod-2x.png"
-        },
-        "gunpod-old": {
-            "file": "gunpod-old.png"
-        },
-        "r24r": {
-            "file": "r24r.png"
-        },
-        "r60m": {
-            "file": "r60.png"
-        },
-        "r60m-2x": {
-            "file": "r60-2x.png"
-        },
-        "m116a2": {
-            "file": "m116a2.png"
-        },
-        "fc250": {
-            "file": "fc250.png"
-        },
-        "fc250-2x": {
-            "file": "fc250-2x.png"
-        },
-        "fc250-4x": {
-            "file": "fc250-4x.png"
-        },
-        "fc250-6x": {
-            "file": "fc250-6x.png"
-        },
-        "fc500": {
-            "file": "fc500.png"
-        },
-        "fc500-2x": {
-            "file": "fc500-2x.png"
-        },
-        "fc500-3x": {
-            "file": "fc500-3x.png"
-        },
-        "sb2500": {
-            "file": "sb2500.png"
-        },
-        "sb200": {
-            "file": "sc100.png"
-        },
-        "sc1800-black": {
-            "file": "sb2500.png"
-        },
-        "559g1":{
-            "file": "fc500.png"
-        },
-        "zb500":{
-            "file": "fc500.png"
-        },
-        "febd": {
-            "file": "fc500.png"
-        },
-        "blu-1":{
-            "file": "fc500.png"
-        },
-        "blu-1-2x":{
-            "file": "fc500-2x.png"
-        },
-        "blu-27":{
-            "file": "fc250.png"
-        },
-        "blu-27-2x":{
-            "file": "fc250-2x.png"
-        },
-        "mk83": {
-            "file": "sc500.png"
-        },
-        "mk83-2x": {
-            "file": "sc500-2x.png"
-        },
-        "mk83-3x": {
-            "file": "sc500-3x.png"
-        },
-        "mk83-brown": {
-            "file": "sc250.png"
-        },
-        "mk83-brown-2x": {
-            "file": "sc250-2x.png"
-        },
-        "500m-62": {
-            "file": "sc250.png"
-        },
-        "500m-62-2x": {
-            "file": "sc250-2x.png"
-        },
-        "mk84": {
-            "file": "sc500.png"
-        },
-        "mk84-light": {
-            "file": "sc1000.png"
-        },
-        "m117": {
-            "file": "sc250.png"
-        },
-        "r73": {
-            "file": "aim-9j.png"
-        },
-        "aim-9l": {
-            "file": "r60.png"
-        },
-        "aim-9l-2x": {
-            "file": "r60-2x.png"
-        },
-        "gp-250-3x": {
-            "file": "sc50-3x.png"
-        },
-        "gp-100": {
-            "file": "sc100.png"
-        },
-        "sc1000-dark": {
-            "file": "sc500.png"
-        },
-        "inc-220": {
-            "file": "fc500.png"
-        },
-        "inc-220-2x": {
-            "file": "fc500-2x.png"
-        },
-        "inc-220-3x": {
-            "file": "fc500-3x.png"
-        },
-        "500m-46": {
-            "file": "sc500.png"
-        },
-        "an-m57": {
-            "file": "sc50.png"
-        },
-        "mk81": {
-            "file": "sc100.png"
-        },
-        "flz-lwf-63": {
-            "file": "aim-9j.png"
-        },
-        "mk77": {
-            "file": "fc500.png"
-        }
-    }
+		"sc50": {
+			"file": "sc50.png"
+		},
+		"sc50-2x": {
+			"file": "sc50-2x.png"
+		},
+		"sc50-4x": {
+			"file": "sc50-4x.png"
+		},
+		"sc50-8x": {
+			"file": "sc50-8x.png"
+		},
+		"sc250-green": {
+			"file": "sc100.png"
+		},
+		"sc250": {
+			"file": "sc250.png"
+		},
+		"sc250-2x": {
+			"file": "sc250-2x.png"
+		},
+		"sc500": {
+			"file": "sc500.png"
+		},
+		"sc500-2x": {
+			"file": "sc500-2x.png"
+		},
+		"sc500-brown": {
+			"file": "sc250.png"
+		},
+		"sc500-brown-2x": {
+			"file": "sc250-2x.png"
+		},
+		"sc1000": {
+			"file": "sc1000.png"
+		},
+		"sc1000-2x": {
+			"file": "sc1000-2x.png"
+		},
+		"sc1800": {
+			"file": "sc500.png"
+		},
+		"aim-7p": {
+			"file": "aim-7p.png"
+		},
+		"aim-9j": {
+			"file": "aim-9j.png"
+		},
+		"aim-120a": {
+			"file": "aim-120a.png"
+		},
+		"aim-120c": {
+			"file": "aim-120c.png"
+		},
+		"aim-9m": {
+			"file": "aim-9m.png"
+		},
+		"aim-9m-2x": {
+			"file": "aim-9m-2x.png"
+		},
+		"booster": {
+			"file": "booster.png"
+		},
+		"chaff-pod": {
+			"file": "chaff-pod.png"
+		},
+		"targeting-pod": {
+			"file": "targeting-pod.png"
+		},
+		"droptank": {
+			"file": "droptank.png"
+		},
+		"gbu-62": {
+			"file": "gbu.png"
+		},
+		"paveway-iv": {
+			"file": "paveway.png"
+		},
+		"paveway-iv-2x": {
+			"file": "paveway-2x.png"
+		},
+		"gunpod": {
+			"file": "gunpod.png"
+		},
+		"gunpod-2x": {
+			"file": "gunpod-2x.png"
+		},
+		"gunpod-old": {
+			"file": "gunpod-old.png"
+		},
+		"r24r": {
+			"file": "r24r.png"
+		},
+		"r60m": {
+			"file": "r60.png"
+		},
+		"r60m-2x": {
+			"file": "r60-2x.png"
+		},
+		"m116a2": {
+			"file": "napalm-red.png"
+		},
+		"fc250": {
+			"file": "fc250.png"
+		},
+		"fc250-2x": {
+			"file": "fc250-2x.png"
+		},
+		"fc250-4x": {
+			"file": "fc250-4x.png"
+		},
+		"fc250-6x": {
+			"file": "fc250-6x.png"
+		},
+		"fc500": {
+			"file": "fc500.png"
+		},
+		"fc500-2x": {
+			"file": "fc500-2x.png"
+		},
+		"fc500-3x": {
+			"file": "fc500-3x.png"
+		},
+		"sb2500": {
+			"file": "sb2500.png"
+		},
+		"sb200": {
+			"file": "sc100.png"
+		},
+		"sc1800-black": {
+			"file": "sb2500.png"
+		},
+		"559g1": {
+			"file": "fc500.png"
+		},
+		"zb500": {
+			"file": "fc500.png"
+		},
+		"febd": {
+			"file": "fc500.png"
+		},
+		"blu-1": {
+			"file": "fc500.png"
+		},
+		"blu-1-2x": {
+			"file": "fc500-2x.png"
+		},
+		"blu-27": {
+			"file": "fc250.png"
+		},
+		"blu-27-2x": {
+			"file": "fc250-2x.png"
+		},
+		"mk83": {
+			"file": "sc500.png"
+		},
+		"mk83-2x": {
+			"file": "sc500-2x.png"
+		},
+		"mk83-3x": {
+			"file": "sc500-3x.png"
+		},
+		"mk83-brown": {
+			"file": "sc250.png"
+		},
+		"mk83-brown-2x": {
+			"file": "sc250-2x.png"
+		},
+		"500m-62": {
+			"file": "sc250.png"
+		},
+		"500m-62-2x": {
+			"file": "sc250-2x.png"
+		},
+		"mk84": {
+			"file": "sc500.png"
+		},
+		"mk84-light": {
+			"file": "sc1000.png"
+		},
+		"m117": {
+			"file": "sc250.png"
+		},
+		"r73": {
+			"file": "aim-9j.png"
+		},
+		"aim-9l": {
+			"file": "r60.png"
+		},
+		"aim-9l-2x": {
+			"file": "r60-2x.png"
+		},
+		"gp-250-3x": {
+			"file": "sc50-3x.png"
+		},
+		"gp-100": {
+			"file": "sc100.png"
+		},
+		"sc1000-dark": {
+			"file": "sc500.png"
+		},
+		"inc-220": {
+			"file": "fc500.png"
+		},
+		"inc-220-2x": {
+			"file": "fc500-2x.png"
+		},
+		"inc-220-3x": {
+			"file": "fc500-3x.png"
+		},
+		"500m-46": {
+			"file": "sc500.png"
+		},
+		"an-m57": {
+			"file": "sc50.png"
+		},
+		"mk81": {
+			"file": "sc100.png"
+		},
+		"flz-lwf-63": {
+			"file": "aim-9j.png"
+		},
+		"mk77": {
+			"file": "fc500.png"
+		},
+		"aim-7": {
+			"file": "aim-7.png",
+			"label": "AIM-7"
+		},
+		"aim-9": {
+			"file": "aim-9.png",
+			"label": "AIM-9"
+		},
+		"aim-9-2x": {
+			"file": "aim-9-2x.png"
+		},
+		"aim-9-3x": {
+			"file": "aim-9-3x.png"
+		},
+		"aim-9-yellow": {
+			"file": "aim-9-yellow.png",
+			"label": "AIM-9"
+		},
+		"an-m30a1": {
+			"file": "sc50.png"
+		},
+		"an-m30a1-6x": {
+			"file": "bomb-5x-copper.png"
+		},
+		"an-m30a1-8x": {
+			"file": "sc50-8x.png"
+		},
+		"an-m57-2x": {
+			"file": "sc50-2x.png"
+		},
+		"an-m57-green": {
+			"file": "sc100.png"
+		},
+		"an-m64a1": {
+			"file": "sc100.png"
+		},
+		"an-m64a1-4x": {
+			"file": "an-m64a1-4x.png"
+		},
+		"an-m64a1-8x": {
+			"file": "bomb-8x-green.png"
+		},
+		"an-m64a1-gold": {
+			"file": "sc100.png"
+		},
+		"an-m64a1-gold-6x": {
+			"file": "bomb-6x-dark.png"
+		},
+		"an-m64a1-teal": {
+			"file": "sc250.png"
+		},
+		"an-m65a1": {
+			"file": "sc250.png"
+		},
+		"an-m65a1-2x": {
+			"file": "sc500-2x.png"
+		},
+		"an-m65a1-black": {
+			"file": "sc250.png"
+		},
+		"an-m65a1-gold": {
+			"file": "sc100.png"
+		},
+		"an-m65a1-gold-2x": {
+			"file": "sc250-2x.png"
+		},
+		"an-m65a1-gold-3x": {
+			"file": "gp-brown-3x.png"
+		},
+		"an-m65a1-teal": {
+			"file": "sc250.png"
+		},
+		"an-m66a2": {
+			"file": "sc250.png"
+		},
+		"an-m66a2-2x": {
+			"file": "sc500-2x.png"
+		},
+		"an-m66a2-black": {
+			"file": "sc250.png"
+		},
+		"an-m66a2-blue": {
+			"file": "sc250.png"
+		},
+		"blu-27-3x": {
+			"file": "fc500-3x.png"
+		},
+		"gunpod-30": {
+			"file": "gunpod-30.png",
+			"label": "Gun pod"
+		},
+		"ffar-pod": {
+			"file": "ffar-pod.png",
+			"label": "FFAR pod"
+		},
+		"gbu-64": {
+			"file": "gbu-64.png"
+		},
+		"gp-mk9": {
+			"file": "sc100.png"
+		},
+		"gunpod-rotary": {
+			"file": "gunpod-rotary.png",
+			"label": "Gun pod"
+		},
+		"he-m32": {
+			"file": "sc100.png"
+		},
+		"hvar": {
+			"file": "hvar.png"
+		},
+		"hvar-3x": {
+			"file": "hvar-3x.png"
+		},
+		"hvar-5x": {
+			"file": "hvar-5x.png"
+		},
+		"hvar-6x": {
+			"file": "hvar-6x.png"
+		},
+		"m117-3x": {
+			"file": "gp-brown-3x.png"
+		},
+		"m117-6x": {
+			"file": "bomb-6x-dark.png"
+		},
+		"m118-4x": {
+			"file": "gp-black-4x.png"
+		},
+		"m30-4x": {
+			"file": "sc50-4x.png"
+		},
+		"mk77-2x": {
+			"file": "napalm-2x-red.png"
+		},
+		"mk77-3x": {
+			"file": "fc500-3x.png"
+		},
+		"mk77-red": {
+			"file": "napalm-red.png"
+		},
+		"mk77-red-2x": {
+			"file": "napalm-2x-red.png"
+		},
+		"mk77-red-3x": {
+			"file": "fc500-3x.png"
+		},
+		"mk78": {
+			"file": "fc250.png"
+		},
+		"mk81-green": {
+			"file": "sc100.png"
+		},
+		"mk82": {
+			"file": "sc100.png"
+		},
+		"mk82-5x": {
+			"file": "bomb-5x-copper.png"
+		},
+		"mk82-6x": {
+			"file": "bomb-6x-dark.png"
+		},
+		"mk82-8x": {
+			"file": "bomb-8x-green.png"
+		},
+		"mk83-gold-3x": {
+			"file": "gp-brown-3x.png"
+		},
+		"mk84-3x": {
+			"file": "sc500-3x.png"
+		},
+		"mk84-5x": {
+			"file": "bomb-6x-teal.png"
+		},
+		"mk84-black": {
+			"file": "sc250.png"
+		},
+		"mk84-blue": {
+			"file": "sc250.png"
+		},
+		"type-a": {
+			"file": "type-a.png"
+		},
+		"type-a-2x": {
+			"file": "type-a-2x.png"
+		},
+		"type-a-4x": {
+			"file": "type-a-4x.png"
+		},
+		"type-a-gold": {
+			"file": "sc100.png"
+		},
+		"zuni-3x": {
+			"file": "zuni-3x.png",
+			"label": "Zuni (3-pack)"
+		},
+		"aim-120": {
+			"file": "aim-120.png",
+			"label": "AIM-120"
+		},
+		"gbu-8": {
+			"file": "gbu-8.png"
+		},
+		"cft-mk81-4x": {
+			"file": "napalm-2x-tan.png",
+			"label": "CFT + Mk 81 (4)"
+		},
+		"cft-aim-9": {
+			"file": "cft-aim-9.png",
+			"label": "CFT + AIM-9"
+		},
+		"cft": {
+			"file": "cft.png",
+			"label": "Conformal tank"
+		},
+		"zuni-pod-2x": {
+			"file": "zuni-pod-2x.png",
+			"label": "Zuni pod (2)"
+		},
+		"mk84-2x": {
+			"file": "sc500-2x.png"
+		},
+		"aim-54": {
+			"file": "aim-54.png",
+			"label": "AIM-54"
+		},
+		"aim-54-2x": {
+			"file": "aim-54-2x.png"
+		},
+		"pod-aim-9": {
+			"file": "pod-aim-9.png",
+			"label": "Pod + AIM-9"
+		},
+		"gbu-31": {
+			"file": "gbu-31-2x.png",
+			"label": "GBU-31 (2)"
+		},
+		"aim-120-2x": {
+			"file": "aim-120-2x.png"
+		},
+		"gbu-38-2x": {
+			"file": "gbu-38-2x.png",
+			"label": "GBU-38(V) (2)"
+		},
+		"gbu-38-3x": {
+			"file": "gbu-38-3x.png",
+			"label": "GBU-38(V) (3)"
+		},
+		"agm-130": {
+			"file": "agm-130.png",
+			"label": "AGM-130"
+		},
+		"cft-gbu-64-2x": {
+			"file": "cft-gbu-64-2x.png",
+			"label": "CFT + GBU-64 (2)"
+		},
+		"cft-aim-120-2x": {
+			"file": "cft-aim-120-2x.png",
+			"label": "CFT + AIM-120 (2)"
+		},
+		"aim-120-8x": {
+			"file": "aim-120-8x.png"
+		},
+		"blu-27-2x-pod": {
+			"file": "cft-aim-yellow.png",
+			"label": "BLU-27 (2) + pod"
+		}
+	}
 }

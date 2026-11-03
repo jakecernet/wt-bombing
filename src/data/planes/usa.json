@@ -1,0 +1,6560 @@
+[
+	{
+		"id": "bf2c-1",
+		"name": "BF2C-1",
+		"country": "USA",
+		"rank": 1,
+		"br": 1.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m30a1",
+					"an-m30a1",
+					"/",
+					"an-m30a1",
+					"an-m30a1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M30A1 x4"]
+			}
+		]
+	},
+	{
+		"id": "sb2u-2",
+		"name": "SB2U-2",
+		"country": "USA",
+		"rank": 1,
+		"br": 1.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"type-a",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Type A x1"]
+			}
+		]
+	},
+	{
+		"id": "sb2u-3",
+		"name": "SB2U-3",
+		"country": "USA",
+		"rank": 1,
+		"br": 1.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"type-a",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Type A x1"]
+			}
+		]
+	},
+	{
+		"id": "tbf-1c",
+		"name": "TBF-1C",
+		"country": "USA",
+		"rank": 1,
+		"br": 1.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m64a1-4x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M64A1 x2", "AN-M64A1 x2"]
+			}
+		]
+	},
+	{
+		"id": "sbd-3",
+		"name": "SBD-3",
+		"country": "USA",
+		"rank": 1,
+		"br": 2.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m30a1",
+					"type-a",
+					"droptank",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Type A x1", "AN-M30A1 x1"]
+			}
+		]
+	},
+	{
+		"id": "tbd-1",
+		"name": "TBD-1",
+		"country": "USA",
+		"rank": 1,
+		"br": 1.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 9.6,
+				"icons": [
+					"/",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"gp-mk9",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"/"
+				],
+				"bombs": [
+					"GP Mk9 x1",
+					"AN-M30A1 x4",
+					"AN-M30A1 x4",
+					"AN-M30A1 x4"
+				]
+			}
+		]
+	},
+	{
+		"id": "b-18a",
+		"name": "B-18A",
+		"country": "USA",
+		"rank": 1,
+		"br": 1.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 10,
+				"icons": [
+					"/",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"/",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": ["AN-M30A1 x4", "AN-M30A1 x4", "AN-M30A1 x4"],
+				"minBr": 2.3,
+				"bombsHigh": ["AN-M30A1 x6", "AN-M30A1 x6"]
+			}
+		]
+	},
+	{
+		"id": "pby-5",
+		"name": "PBY-5",
+		"country": "USA",
+		"rank": 1,
+		"br": 1.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 6.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"type-a",
+					"/",
+					"an-m30a1-6x",
+					"/",
+					"an-m30a1-6x",
+					"/",
+					"type-a",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": [
+					"Type A x1",
+					"Type A x1",
+					"AN-M30A1 x4",
+					"AN-M30A1 x4",
+					"AN-M30A1 x4"
+				],
+				"minBr": 2.3,
+				"bombsHigh": [
+					"Type A x1",
+					"Type A x1",
+					"AN-M30A1 x6",
+					"AN-M30A1 x6"
+				]
+			}
+		]
+	},
+	{
+		"id": "pby-5a",
+		"name": "PBY-5A",
+		"country": "USA",
+		"rank": 1,
+		"br": 1.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 6.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"type-a",
+					"/",
+					"an-m30a1-6x",
+					"/",
+					"an-m30a1-6x",
+					"/",
+					"type-a",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": [
+					"Type A x1",
+					"Type A x1",
+					"AN-M30A1 x4",
+					"AN-M30A1 x4",
+					"AN-M30A1 x4"
+				],
+				"minBr": 2.3,
+				"bombsHigh": [
+					"Type A x1",
+					"Type A x1",
+					"AN-M30A1 x6",
+					"AN-M30A1 x6"
+				]
+			}
+		]
+	},
+	{
+		"id": "pbm-1",
+		"name": "PBM-1",
+		"country": "USA",
+		"rank": 1,
+		"br": 2.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 8.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1",
+					"an-m65a1",
+					"/",
+					"an-m65a1",
+					"an-m65a1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"AN-M65A1 x1",
+					"AN-M65A1 x1",
+					"AN-M65A1 x1",
+					"AN-M65A1 x1"
+				]
+			}
+		]
+	},
+	{
+		"id": "b-10b",
+		"name": "B-10B",
+		"country": "USA",
+		"rank": 1,
+		"br": 1.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1",
+					"an-m65a1-2x",
+					"an-m65a1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"AN-M65A1 x1",
+					"AN-M65A1 x1",
+					"AN-M65A1 x1",
+					"AN-M65A1 x1"
+				]
+			}
+		]
+	},
+	{
+		"id": "f6f-5",
+		"name": "F6F-5",
+		"country": "USA",
+		"rank": 2,
+		"br": 3.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1-gold",
+					"an-m65a1-gold",
+					"an-m65a1-gold",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["AN-M65A1 x1", "AN-M65A1 x1", "AN-M65A1 x1"],
+				"minBr": 3.7,
+				"bombsHigh": ["AN-M65A1 x2", "AN-M65A1 x1"]
+			}
+		]
+	},
+	{
+		"id": "f4u-1a",
+		"name": "F4U-1A",
+		"country": "USA",
+		"rank": 2,
+		"br": 2.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["AN-M65A1 x1"],
+				"minBr": 3.7,
+				"bombsHigh": ["AN-M65A1 x1"]
+			}
+		]
+	},
+	{
+		"id": "f4u-1d",
+		"name": "F4U-1D",
+		"country": "USA",
+		"rank": 2,
+		"br": 3.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1",
+					"/",
+					"an-m65a1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["AN-M65A1 x1", "AN-M65A1 x1"],
+				"minBr": 3.7,
+				"bombsHigh": ["AN-M65A1 x2"]
+			}
+		]
+	},
+	{
+		"id": "a-36",
+		"name": "A-36",
+		"country": "USA",
+		"rank": 2,
+		"br": 2.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m64a1",
+					"/",
+					"an-m64a1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["AN-M64A1 x2"],
+				"minBr": 3.7,
+				"bombsHigh": ["AN-M64A1 x2"]
+			}
+		]
+	},
+	{
+		"id": "a-20g-25",
+		"name": "A-20G-25",
+		"country": "USA",
+		"rank": 2,
+		"br": 2.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["AN-M64A1 x2", "AN-M64A1 x2"],
+				"minBr": 3.7,
+				"bombsHigh": ["AN-M64A1 x4"]
+			}
+		]
+	},
+	{
+		"id": "sb2c-1c",
+		"name": "SB2C-1C",
+		"country": "USA",
+		"rank": 2,
+		"br": 3.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"type-a",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Type A x1"]
+			}
+		]
+	},
+	{
+		"id": "sb2c-4",
+		"name": "SB2C-4",
+		"country": "USA",
+		"rank": 2,
+		"br": 3.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"type-a",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Type A x1"]
+			}
+		]
+	},
+	{
+		"id": "b-34",
+		"name": "B-34",
+		"country": "USA",
+		"rank": 2,
+		"br": 3.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m57",
+					"an-m57",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m57",
+					"an-m57",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["AN-M57 x4", "AN-M64A1 x2", "AN-M64A1 x1"],
+				"minBr": 3.7,
+				"bombsHigh": [
+					"AN-M57 x2 + AN-M64A1 x2",
+					"AN-M57 x2 + AN-M64A1 x1"
+				]
+			}
+		]
+	},
+	{
+		"id": "b-25j-1",
+		"name": "B-25J-1",
+		"country": "USA",
+		"rank": 2,
+		"br": 3.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1-black",
+					"an-m65a1-black",
+					"an-m65a1-black",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M65A1 x2", "AN-M65A1 x1"]
+			}
+		]
+	},
+	{
+		"id": "b-25j-20",
+		"name": "B-25J-20",
+		"country": "USA",
+		"rank": 2,
+		"br": 3.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1-black",
+					"an-m65a1-black",
+					"an-m65a1-black",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M65A1 x2", "AN-M65A1 x1"]
+			}
+		]
+	},
+	{
+		"id": "pbm-3",
+		"name": "PBM-3",
+		"country": "USA",
+		"rank": 2,
+		"br": 3.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 8,
+				"reward": 4.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"type-a-gold",
+					"type-a-gold",
+					"type-a-gold",
+					"type-a-gold",
+					"/",
+					"type-a-gold",
+					"type-a-gold",
+					"type-a-gold",
+					"type-a-gold",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1"
+				]
+			}
+		]
+	},
+	{
+		"id": "p-51d-5",
+		"name": "P-51D-5",
+		"country": "USA",
+		"rank": 3,
+		"br": 4.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1",
+					"/",
+					"/",
+					"/",
+					"an-m65a1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["AN-M65A1 x2"],
+				"minBr": 5.0,
+				"bombsHigh": ["AN-M65A1 x2"]
+			}
+		]
+	},
+	{
+		"id": "p-47d-22-re",
+		"name": "P-47D-22-RE",
+		"country": "USA",
+		"rank": 3,
+		"br": 3.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1-gold",
+					"/",
+					"/",
+					"/",
+					"an-m65a1-gold",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M65A1 x2"]
+			}
+		]
+	},
+	{
+		"id": "p-47d-25",
+		"name": "P-47D-25",
+		"country": "USA",
+		"rank": 3,
+		"br": 4.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1-gold",
+					"/",
+					"/",
+					"an-m64a1",
+					"/",
+					"/",
+					"an-m65a1-gold",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["AN-M65A1 x2", "AN-M64A1 x1"],
+				"minBr": 5.0,
+				"bombsHigh": ["AN-M65A1 x2 + AN-M64A1 x1"]
+			}
+		]
+	},
+	{
+		"id": "p-47d-28",
+		"name": "P-47D-28",
+		"country": "USA",
+		"rank": 3,
+		"br": 5.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1-gold",
+					"/",
+					"/",
+					"an-m64a1",
+					"/",
+					"/",
+					"an-m65a1-gold",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M65A1 x2 + AN-M64A1 x1"]
+			}
+		]
+	},
+	{
+		"id": "p-47n-15",
+		"name": "P-47N-15",
+		"country": "USA",
+		"rank": 3,
+		"br": 4.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"hvar",
+					"hvar",
+					"hvar",
+					"an-m65a1-gold",
+					"hvar",
+					"hvar",
+					"an-m65a1-gold",
+					"hvar",
+					"hvar",
+					"an-m65a1-gold",
+					"hvar",
+					"hvar",
+					"hvar",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["AN-M65A1 x2", "AN-M65A1 x1 + HVAR x10"],
+				"minBr": 5.0,
+				"bombsHigh": ["AN-M65A1 x3", "HVAR x10"]
+			}
+		]
+	},
+	{
+		"id": "f4u-4",
+		"name": "F4U-4",
+		"country": "USA",
+		"rank": 3,
+		"br": 4.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 7.7,
+				"icons": [
+					"/",
+					"/",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m57-green",
+					"an-m65a1-gold",
+					"/",
+					"an-m64a1-teal",
+					"an-m57-green",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": [
+					"AN-M65A1 x1 + AN-M57 x2",
+					"AN-M64A1 x1 + AN-M30A1 x6"
+				],
+				"minBr": 5.0,
+				"bombsHigh": [
+					"AN-M30A1 x6 + AN-M57 x2 + AN-M65A1 x1",
+					"AN-M64A1 x1"
+				]
+			}
+		]
+	},
+	{
+		"id": "f8f-1",
+		"name": "F8F-1",
+		"country": "USA",
+		"rank": 3,
+		"br": 4.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 5.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"type-a",
+					"type-a",
+					"type-a",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["Type A x1", "Type A x1", "Type A x1"],
+				"minBr": 5.0,
+				"bombsHigh": ["Type A x2", "Type A x1"]
+			}
+		]
+	},
+	{
+		"id": "f6f-5n",
+		"name": "F6F-5N",
+		"country": "USA",
+		"rank": 3,
+		"br": 4.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1-gold",
+					"/",
+					"an-m65a1-gold",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["AN-M65A1 x2"],
+				"minBr": 5.0,
+				"bombsHigh": ["AN-M65A1 x2"]
+			}
+		]
+	},
+	{
+		"id": "pbj-1j",
+		"name": "PBJ-1J",
+		"country": "USA",
+		"rank": 3,
+		"br": 3.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1",
+					"an-m65a1",
+					"an-m65a1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M65A1 x2", "AN-M65A1 x1"]
+			}
+		]
+	},
+	{
+		"id": "pbj-1h",
+		"name": "PBJ-1H",
+		"country": "USA",
+		"rank": 3,
+		"br": 3.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1",
+					"an-m65a1",
+					"an-m65a1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M65A1 x2", "AN-M65A1 x1"]
+			}
+		]
+	},
+	{
+		"id": "p-61c-1",
+		"name": "P-61C-1",
+		"country": "USA",
+		"rank": 3,
+		"br": 4.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 6.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1",
+					"an-m65a1",
+					"/",
+					"an-m65a1",
+					"an-m65a1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["AN-M65A1 x2", "AN-M65A1 x2"],
+				"minBr": 5.0,
+				"bombsHigh": ["AN-M65A1 x3", "AN-M65A1 x1"]
+			}
+		]
+	},
+	{
+		"id": "b-26b",
+		"name": "B-26B",
+		"country": "USA",
+		"rank": 3,
+		"br": 4.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 6.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"an-m30a1",
+					"m30-4x",
+					"m30-4x",
+					"m30-4x",
+					"m30-4x",
+					"m30-4x",
+					"m30-4x",
+					"m30-4x",
+					"an-m30a1",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["AN-M30A1 x10", "AN-M30A1 x10", "AN-M30A1 x10"],
+				"minBr": 5.0,
+				"bombsHigh": ["AN-M30A1 x14", "AN-M30A1 x14", "AN-M30A1 x2"]
+			}
+		]
+	},
+	{
+		"id": "b-17e",
+		"name": "B-17E",
+		"country": "USA",
+		"rank": 3,
+		"br": 4.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": [
+					"AN-M64A1 x3",
+					"AN-M64A1 x3",
+					"AN-M64A1 x3",
+					"AN-M64A1 x3"
+				],
+				"minBr": 5.0,
+				"bombsHigh": ["AN-M64A1 x5", "AN-M64A1 x5", "AN-M64A1 x2"]
+			}
+		]
+	},
+	{
+		"id": "b-17e-l",
+		"name": "B-17E/L",
+		"country": "USA",
+		"rank": 3,
+		"br": 5.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 6.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1",
+					"an-m65a1",
+					"an-m65a1",
+					"/",
+					"an-m65a1",
+					"an-m65a1",
+					"an-m65a1",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M65A1 x3", "AN-M65A1 x3"]
+			}
+		]
+	},
+	{
+		"id": "pb4y-2",
+		"name": "PB4Y-2",
+		"country": "USA",
+		"rank": 3,
+		"br": 4.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 8,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"type-a",
+					"type-a",
+					"type-a",
+					"type-a",
+					"/",
+					"type-a",
+					"type-a",
+					"type-a",
+					"type-a",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": [
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1"
+				],
+				"minBr": 5.0,
+				"bombsHigh": [
+					"Type A x2",
+					"Type A x2",
+					"Type A x2",
+					"Type A x2"
+				]
+			}
+		]
+	},
+	{
+		"id": "btd-1",
+		"name": "BTD-1",
+		"country": "USA",
+		"rank": 3,
+		"br": 4.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"type-a-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["Type A x1", "Type A x1"],
+				"minBr": 5.0,
+				"bombsHigh": ["Type A x2"]
+			}
+		]
+	},
+	{
+		"id": "fr-1-fireball",
+		"name": "FR-1 Fireball",
+		"country": "USA",
+		"rank": 3,
+		"br": 4.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"type-a",
+					"/",
+					"type-a",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["Type A x1", "Type A x1"],
+				"minBr": 5.0,
+				"bombsHigh": ["Type A x2"]
+			}
+		]
+	},
+	{
+		"id": "pbm-5a",
+		"name": "PBM-5A",
+		"country": "USA",
+		"rank": 3,
+		"br": 3.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 8,
+				"reward": 4.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"type-a-4x",
+					"/",
+					"type-a-4x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1"
+				]
+			}
+		]
+	},
+	{
+		"id": "pv-2d",
+		"name": "PV-2D",
+		"country": "USA",
+		"rank": 3,
+		"br": 3.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 6,
+				"reward": 5.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"type-a",
+					"type-a-4x",
+					"type-a",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1",
+					"Type A x1"
+				]
+			}
+		]
+	},
+	{
+		"id": "f-82e",
+		"name": "F-82E",
+		"country": "USA",
+		"rank": 4,
+		"br": 5.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m64a1",
+					"/",
+					"an-m66a2-2x",
+					"/",
+					"an-m64a1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"AN-M66A2 x1 + AN-M64A1 x1",
+					"AN-M66A2 x1 + AN-M64A1 x1"
+				]
+			},
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"hvar-5x",
+					"an-m65a1-gold-2x",
+					"hvar-5x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M65A1 x2 + HVAR x8", "HVAR x2"]
+			}
+		]
+	},
+	{
+		"id": "p-51d-30",
+		"name": "P-51D-30",
+		"country": "USA",
+		"rank": 4,
+		"br": 5.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk78",
+					"/",
+					"/",
+					"/",
+					"mk78",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 78 x2"]
+			}
+		]
+	},
+	{
+		"id": "p-51h-5-na",
+		"name": "P-51H-5-NA",
+		"country": "USA",
+		"rank": 4,
+		"br": 6.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk78",
+					"/",
+					"/",
+					"/",
+					"mk78",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 78 x2"]
+			}
+		]
+	},
+	{
+		"id": "f4u-4b",
+		"name": "F4U-4B",
+		"country": "USA",
+		"rank": 4,
+		"br": 5.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m57-green",
+					"an-m65a1-teal",
+					"/",
+					"an-m65a1-teal",
+					"an-m57-green",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": ["AN-M65A1 x2 + AN-M57 x2"],
+				"minBr": 6.7,
+				"bombsHigh": ["AN-M65A1 x2 + AN-M57 x2"]
+			}
+		]
+	},
+	{
+		"id": "f8f-1b",
+		"name": "F8F-1B",
+		"country": "USA",
+		"rank": 4,
+		"br": 6.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"type-a",
+					"/",
+					"type-a",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Type A x2"]
+			}
+		]
+	},
+	{
+		"id": "a-26b-10",
+		"name": "A-26B-10",
+		"country": "USA",
+		"rank": 4,
+		"br": 5.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 6.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m64a1-gold",
+					"an-m64a1-gold",
+					"an-m64a1-gold-6x",
+					"an-m64a1-gold",
+					"an-m64a1-gold",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M64A1 x5", "AN-M64A1 x5"]
+			},
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m30a1-8x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M30A1 x16"]
+			}
+		]
+	},
+	{
+		"id": "a-26b-50",
+		"name": "A-26B-50",
+		"country": "USA",
+		"rank": 4,
+		"br": 5.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 6.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m64a1-gold",
+					"an-m64a1-gold",
+					"an-m64a1-gold-6x",
+					"an-m64a1-gold",
+					"an-m64a1-gold",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M64A1 x5", "AN-M64A1 x5"]
+			},
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m30a1-8x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M30A1 x16"]
+			}
+		]
+	},
+	{
+		"id": "ad-2",
+		"name": "AD-2",
+		"country": "USA",
+		"rank": 4,
+		"br": 5.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"hvar",
+					"hvar",
+					"hvar",
+					"hvar",
+					"hvar",
+					"mk78",
+					"/",
+					"mk78",
+					"hvar",
+					"hvar",
+					"hvar",
+					"hvar",
+					"hvar",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": ["Mk 78 x1 + HVAR x5", "Mk 78 x1 + HVAR x5"],
+				"minBr": 6.7,
+				"bombsHigh": ["Mk 78 x2", "HVAR x12"]
+			},
+			{
+				"bases": 1,
+				"reward": 9.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"type-a",
+					"/",
+					"type-a",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Type A x2"]
+			}
+		]
+	},
+	{
+		"id": "ad-4",
+		"name": "AD-4",
+		"country": "USA",
+		"rank": 4,
+		"br": 6.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 6.0,
+				"icons": [
+					"hvar",
+					"hvar",
+					"ffar-pod",
+					"ffar-pod",
+					"ffar-pod",
+					"ffar-pod",
+					"mk78",
+					"an-m66a2-blue",
+					"mk78",
+					"ffar-pod",
+					"ffar-pod",
+					"ffar-pod",
+					"ffar-pod",
+					"hvar",
+					"hvar"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"AN-M66A2 x1 + FFAR x32",
+					"Mk 78 x1 + HVAR x2 + FFAR x12",
+					"Mk 78 x1 + HVAR x2 + FFAR x12"
+				],
+				"minBr": 6.7,
+				"bombsHigh": ["AN-M66A2 x1 + Mk 78 x1", "Mk 78 x1 + FFAR x56"]
+			},
+			{
+				"bases": 2,
+				"reward": 6.6,
+				"icons": [
+					"hvar",
+					"hvar",
+					"hvar",
+					"hvar",
+					"hvar",
+					"hvar",
+					"type-a",
+					"an-m66a2-blue",
+					"type-a",
+					"hvar",
+					"hvar",
+					"hvar",
+					"hvar",
+					"hvar",
+					"hvar"
+				],
+				"maxBr": 6.3,
+				"bombs": ["Type A x2", "AN-M66A2 x1 + HVAR x12"],
+				"minBr": 6.7,
+				"bombsHigh": ["Type A x2", "AN-M66A2 x1 + HVAR x12"]
+			}
+		]
+	},
+	{
+		"id": "am-1",
+		"name": "AM-1",
+		"country": "USA",
+		"rank": 4,
+		"br": 5.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 4.8,
+				"icons": [
+					"an-m57",
+					"an-m57",
+					"an-m57",
+					"an-m57",
+					"an-m57",
+					"an-m57",
+					"an-m66a2-blue",
+					"an-m66a2-blue",
+					"an-m66a2-blue",
+					"an-m57",
+					"an-m57",
+					"an-m57",
+					"an-m57",
+					"an-m57",
+					"an-m57"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"AN-M66A2 x1 + AN-M57 x2",
+					"AN-M66A2 x1 + AN-M57 x2",
+					"AN-M66A2 x1 + AN-M57 x2",
+					"AN-M57 x6"
+				],
+				"minBr": 6.7,
+				"bombsHigh": ["AN-M66A2 x2", "AN-M57 x12", "AN-M66A2 x1"]
+			}
+		]
+	},
+	{
+		"id": "b-17g-60-ve",
+		"name": "B-17G-60-VE",
+		"country": "USA",
+		"rank": 4,
+		"br": 5.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 7.0,
+				"icons": [
+					"/",
+					"/",
+					"he-m32",
+					"he-m32",
+					"he-m32",
+					"he-m32",
+					"he-m32",
+					"/",
+					"he-m32",
+					"he-m32",
+					"he-m32",
+					"he-m32",
+					"he-m32",
+					"/",
+					"/"
+				],
+				"bombs": ["HE M32 x5", "HE M32 x5"]
+			}
+		]
+	},
+	{
+		"id": "b-24d-25-co",
+		"name": "B-24D-25-CO",
+		"country": "USA",
+		"rank": 4,
+		"br": 5.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m66a2",
+					"an-m66a2",
+					"/",
+					"an-m66a2",
+					"an-m66a2",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M66A2 x2", "AN-M66A2 x2"]
+			}
+		]
+	},
+	{
+		"id": "b-29a-bn",
+		"name": "B-29A-BN",
+		"country": "USA",
+		"rank": 4,
+		"br": 7.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 3.4,
+				"icons": [
+					"/",
+					"/",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"/",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"AN-M64A1 x8",
+					"AN-M64A1 x8",
+					"AN-M64A1 x8",
+					"AN-M64A1 x8",
+					"AN-M64A1 x8"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 3.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1-gold-3x",
+					"an-m65a1-gold-3x",
+					"an-m65a1-gold-3x",
+					"/",
+					"an-m65a1-gold-3x",
+					"an-m65a1-gold-3x",
+					"an-m65a1-gold-3x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 7.7,
+				"bombs": [
+					"AN-M65A1 x4",
+					"AN-M65A1 x4",
+					"AN-M65A1 x4",
+					"AN-M65A1 x4",
+					"AN-M65A1 x2"
+				],
+				"minBr": 8.0,
+				"bombsHigh": [
+					"AN-M65A1 x5",
+					"AN-M65A1 x5",
+					"AN-M65A1 x5",
+					"AN-M65A1 x3"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 3.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"an-m66a2-blue",
+					"an-m66a2-blue",
+					"an-m66a2-blue",
+					"an-m66a2-blue",
+					"/",
+					"an-m66a2-blue",
+					"an-m66a2-blue",
+					"an-m66a2-blue",
+					"an-m66a2-blue",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 7.7,
+				"bombs": [
+					"AN-M66A2 x2",
+					"AN-M66A2 x2",
+					"AN-M66A2 x2",
+					"AN-M66A2 x2"
+				],
+				"minBr": 8.0,
+				"bombsHigh": ["AN-M66A2 x3", "AN-M66A2 x3", "AN-M66A2 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M64A1 x8", "AN-M64A1 x8", "AN-M64A1 x4"]
+			}
+		]
+	},
+	{
+		"id": "xa-38",
+		"name": "XA-38",
+		"country": "USA",
+		"rank": 4,
+		"br": 3.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m64a1-gold",
+					"an-m64a1-gold",
+					"/",
+					"an-m64a1-gold",
+					"an-m64a1-gold",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M64A1 x4"]
+			}
+		]
+	},
+	{
+		"id": "p-51d-20-na",
+		"name": "P-51D-20-NA",
+		"country": "USA",
+		"rank": 4,
+		"br": 4.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1",
+					"/",
+					"/",
+					"/",
+					"an-m65a1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["AN-M65A1 x2"],
+				"minBr": 5.0,
+				"bombsHigh": ["AN-M65A1 x2"]
+			}
+		]
+	},
+	{
+		"id": "a-1h",
+		"name": "A-1H",
+		"country": "USA",
+		"rank": 4,
+		"br": 6.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 8,
+				"reward": 3.8,
+				"icons": [
+					"mk81",
+					"mk77",
+					"mk77",
+					"mk77",
+					"mk81",
+					"mk77",
+					"blu-1",
+					"mk82-6x",
+					"blu-1",
+					"mk77",
+					"mk81",
+					"mk77",
+					"mk77",
+					"mk77",
+					"mk81"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"BLU-1 x1 + Mk 81 x1",
+					"BLU-1 x1 + Mk 81 x1",
+					"Mk 77 x1 + Mk 82 x2",
+					"Mk 77 x1 + Mk 82 x2",
+					"Mk 77 x1 + Mk 82 x2",
+					"Mk 77 x1 + Mk 81 x4",
+					"Mk 77 x2",
+					"Mk 77 x2"
+				],
+				"minBr": 6.7,
+				"bombsHigh": [
+					"BLU-1 x1 + Mk 82 x3",
+					"BLU-1 x1 + Mk 82 x3",
+					"Mk 77 x2",
+					"Mk 77 x2",
+					"Mk 77 x2",
+					"Mk 77 x2"
+				]
+			},
+			{
+				"bases": 7,
+				"reward": 3.9,
+				"icons": [
+					"/",
+					"mk77",
+					"mk77",
+					"mk77",
+					"/",
+					"mk77",
+					"blu-1",
+					"mk82-6x",
+					"blu-1",
+					"mk77",
+					"/",
+					"mk77",
+					"mk77",
+					"mk77",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"BLU-1 x1 + Mk 82 x1",
+					"BLU-1 x1 + Mk 82 x1",
+					"Mk 77 x2",
+					"Mk 77 x2",
+					"Mk 77 x2",
+					"Mk 77 x1 + Mk 82 x2",
+					"Mk 77 x1 + Mk 82 x2"
+				],
+				"minBr": 6.7,
+				"bombsHigh": [
+					"BLU-1 x1 + Mk 82 x3",
+					"BLU-1 x1 + Mk 82 x3",
+					"Mk 77 x2",
+					"Mk 77 x2",
+					"Mk 77 x2",
+					"Mk 77 x2"
+				]
+			},
+			{
+				"bases": 6,
+				"reward": 4.2,
+				"icons": [
+					"mk81",
+					"an-m64a1",
+					"an-m64a1",
+					"mk77",
+					"mk81",
+					"mk77",
+					"blu-1",
+					"mk82-6x",
+					"blu-1",
+					"mk77",
+					"mk81",
+					"mk77",
+					"an-m64a1",
+					"an-m64a1",
+					"mk81"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"BLU-1 x1 + Mk 81 x1",
+					"BLU-1 x1 + Mk 81 x1",
+					"Mk 82 x6",
+					"AN-M64A1 x4 + Mk 81 x2",
+					"Mk 77 x2",
+					"Mk 77 x2"
+				],
+				"minBr": 6.7,
+				"bombsHigh": [
+					"BLU-1 x1 + Mk 82 x3",
+					"BLU-1 x1 + Mk 82 x3",
+					"Mk 77 x1 + Mk 81 x2 + AN-M64A1 x2",
+					"Mk 77 x1 + Mk 81 x2 + AN-M64A1 x2",
+					"Mk 77 x2"
+				]
+			},
+			{
+				"bases": 5,
+				"reward": 4.7,
+				"icons": [
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"mk81",
+					"mk77",
+					"blu-1",
+					"mk82-6x",
+					"blu-1",
+					"mk77",
+					"mk81",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"BLU-1 x1 + Mk 81 x1",
+					"BLU-1 x1 + Mk 81 x1",
+					"Mk 82 x6",
+					"AN-M64A1 x5",
+					"Mk 77 x2"
+				],
+				"minBr": 6.7,
+				"bombsHigh": [
+					"BLU-1 x1 + Mk 82 x3",
+					"BLU-1 x1 + Mk 82 x3",
+					"AN-M64A1 x6 + Mk 81 x2",
+					"Mk 77 x2"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 5.4,
+				"icons": [
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"mk81",
+					"ffar-pod",
+					"blu-1",
+					"mk82-6x",
+					"blu-1",
+					"ffar-pod",
+					"mk81",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"BLU-1 x1 + Mk 81 x1",
+					"BLU-1 x1 + Mk 81 x1",
+					"Mk 82 x6",
+					"AN-M64A1 x5",
+					"AN-M64A1 x1"
+				],
+				"minBr": 6.7,
+				"bombsHigh": [
+					"BLU-1 x1 + Mk 82 x3",
+					"BLU-1 x1 + Mk 82 x3",
+					"AN-M64A1 x6 + Mk 81 x2"
+				]
+			},
+			{
+				"bases": 3,
+				"reward": 6.3,
+				"icons": [
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"/",
+					"ffar-pod",
+					"blu-1",
+					"an-m64a1",
+					"blu-1",
+					"ffar-pod",
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"BLU-1 x1 + AN-M64A1 x1",
+					"BLU-1 x1 + AN-M64A1 x1",
+					"AN-M64A1 x5"
+				],
+				"minBr": 6.7,
+				"bombsHigh": [
+					"BLU-1 x1 + AN-M64A1 x3",
+					"BLU-1 x1 + AN-M64A1 x3",
+					"AN-M64A1 x1"
+				]
+			},
+			{
+				"bases": 2,
+				"reward": 8.5,
+				"icons": [
+					"/",
+					"ffar-pod",
+					"/",
+					"ffar-pod",
+					"mk81",
+					"ffar-pod",
+					"blu-1",
+					"/",
+					"blu-1",
+					"ffar-pod",
+					"mk81",
+					"ffar-pod",
+					"/",
+					"ffar-pod",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": ["BLU-1 x1 + Mk 81 x1", "BLU-1 x1 + Mk 81 x1"],
+				"minBr": 6.7,
+				"bombsHigh": ["BLU-1 x2", "Mk 81 x2"]
+			}
+		]
+	},
+	{
+		"id": "a-26c-45",
+		"name": "A-26C-45",
+		"country": "USA",
+		"rank": 4,
+		"br": 5.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 6.8,
+				"icons": [
+					"/",
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M64A1 x5", "AN-M64A1 x5"]
+			}
+		]
+	},
+	{
+		"id": "a-26c-45dt",
+		"name": "A-26C-45DT",
+		"country": "USA",
+		"rank": 4,
+		"br": 5.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 8.2,
+				"icons": [
+					"/",
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M64A1 x5", "AN-M64A1 x5"]
+			}
+		]
+	},
+	{
+		"id": "au-1",
+		"name": "AU-1",
+		"country": "USA",
+		"rank": 4,
+		"br": 5.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 6.9,
+				"icons": [
+					"/",
+					"an-m57",
+					"an-m57",
+					"an-m57",
+					"an-m57",
+					"an-m57",
+					"an-m65a1-gold",
+					"an-m66a2-black",
+					"an-m65a1-gold",
+					"an-m57",
+					"an-m57",
+					"an-m57",
+					"an-m57",
+					"an-m57",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"AN-M66A2 x1 + AN-M57 x2",
+					"AN-M65A1 x2 + AN-M57 x2",
+					"AN-M57 x6"
+				],
+				"minBr": 6.7,
+				"bombsHigh": [
+					"AN-M66A2 x1 + AN-M57 x5",
+					"AN-M65A1 x2 + AN-M57 x5"
+				]
+			}
+		]
+	},
+	{
+		"id": "f7f-3",
+		"name": "F7F-3",
+		"country": "USA",
+		"rank": 4,
+		"br": 6.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"type-a",
+					"/",
+					"type-a",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Type A x2"]
+			}
+		]
+	},
+	{
+		"id": "f-84g-21-re",
+		"name": "F-84G-21-RE",
+		"country": "USA",
+		"rank": 5,
+		"br": 7.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"hvar-6x",
+					"hvar-3x",
+					"hvar-3x",
+					"an-m65a1",
+					"/",
+					"an-m65a1",
+					"hvar-3x",
+					"hvar-3x",
+					"hvar-6x",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 7.7,
+				"bombs": ["AN-M65A1 x2 + HVAR x22", "HVAR x2"],
+				"minBr": 8.0,
+				"bombsHigh": ["AN-M65A1 x2 + HVAR x24"]
+			}
+		]
+	},
+	{
+		"id": "f-84f-usa",
+		"name": "F-84F",
+		"country": "USA",
+		"rank": 5,
+		"br": 8.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-1",
+					"mk84-blue",
+					"/",
+					"mk84-blue",
+					"blu-1",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x1 + Mk 84 x1", "BLU-1 x1 + Mk 84 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 8.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk81-green",
+					"mk84-blue",
+					"/",
+					"mk84-blue",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + Mk 81 x1"]
+			}
+		]
+	},
+	{
+		"id": "b-57a",
+		"name": "B-57A",
+		"country": "USA",
+		"rank": 5,
+		"br": 8.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M64A1 x8", "AN-M64A1 x1"]
+			}
+		]
+	},
+	{
+		"id": "b-57b",
+		"name": "B-57B",
+		"country": "USA",
+		"rank": 5,
+		"br": 8.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-27",
+					"blu-27",
+					"an-m64a1-8x",
+					"blu-27",
+					"blu-27",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"AN-M64A1 x8",
+					"AN-M64A1 x1"
+				]
+			},
+			{
+				"bases": 2,
+				"reward": 4.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-27",
+					"chaff-pod",
+					"an-m64a1-8x",
+					"chaff-pod",
+					"blu-27",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "AN-M64A1 x8", "AN-M64A1 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-27",
+					"chaff-pod",
+					"/",
+					"chaff-pod",
+					"blu-27",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2"]
+			}
+		]
+	},
+	{
+		"id": "a2d-1",
+		"name": "A2D-1",
+		"country": "USA",
+		"rank": 5,
+		"br": 7.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"an-m57-2x",
+					"an-m57-2x",
+					"an-m57-2x",
+					"an-m57-2x",
+					"an-m57-2x",
+					"an-m65a1-gold",
+					"/",
+					"an-m65a1-gold",
+					"/",
+					"an-m65a1-gold",
+					"an-m57-2x",
+					"an-m57-2x",
+					"an-m57-2x",
+					"an-m57-2x",
+					"an-m57-2x"
+				],
+				"bombs": ["AN-M57 x16", "AN-M57 x4 + AN-M65A1 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.5,
+				"icons": [
+					"/",
+					"/",
+					"an-m57-2x",
+					"an-m57-2x",
+					"an-m57-2x",
+					"/",
+					"an-m57",
+					"/",
+					"an-m57",
+					"/",
+					"an-m57-2x",
+					"an-m57-2x",
+					"an-m57-2x",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M57 x14"]
+			}
+		]
+	},
+	{
+		"id": "f-104c",
+		"name": "F-104C",
+		"country": "USA",
+		"rank": 6,
+		"br": 9.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"blu-1",
+					"aim-9",
+					"/",
+					"aim-9",
+					"blu-1",
+					"aim-9",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2"]
+			}
+		]
+	},
+	{
+		"id": "f-100d",
+		"name": "F-100D",
+		"country": "USA",
+		"rank": 6,
+		"br": 9.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-27",
+					"blu-27",
+					"blu-27-2x",
+					"/",
+					"blu-27-2x",
+					"blu-27",
+					"blu-27",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2", "BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-27",
+					"blu-27",
+					"blu-27-2x",
+					"/",
+					"aim-9-2x",
+					"blu-27",
+					"blu-27",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-27",
+					"blu-27",
+					"aim-9-2x",
+					"/",
+					"aim-9-2x",
+					"blu-27",
+					"blu-27",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-27",
+					"aim-9-2x",
+					"/",
+					"aim-9-2x",
+					"blu-27",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2"]
+			}
+		]
+	},
+	{
+		"id": "f3h-2",
+		"name": "F3H-2",
+		"country": "USA",
+		"rank": 6,
+		"br": 9.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"mk81",
+					"mk81",
+					"mk82",
+					"/",
+					"/",
+					"mk84-blue",
+					"an-m64a1",
+					"mk81",
+					"mk81",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x1 + Mk 82 x1 + Mk 81 x4 + AN-M64A1 x1"]
+			}
+		]
+	},
+	{
+		"id": "a-4b",
+		"name": "A-4B",
+		"country": "USA",
+		"rank": 6,
+		"br": 8.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 3.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk77-2x",
+					"mk77-3x",
+					"mk77-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 5.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"mk77-3x",
+					"aim-9",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3"]
+			}
+		]
+	},
+	{
+		"id": "fj-4b",
+		"name": "FJ-4B",
+		"country": "USA",
+		"rank": 6,
+		"br": 8.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"mk84-black",
+					"/",
+					"/",
+					"mk82",
+					"mk84-black",
+					"aim-9",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + Mk 82 x1"]
+			}
+		]
+	},
+	{
+		"id": "av-8c",
+		"name": "AV-8C",
+		"country": "USA",
+		"rank": 6,
+		"br": 9.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 5.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"mk77",
+					"mk77",
+					"mk77",
+					"aim-9",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3"]
+			}
+		]
+	},
+	{
+		"id": "b-66b",
+		"name": "B-66B",
+		"country": "USA",
+		"rank": 6,
+		"br": 9.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"m118-4x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["M118 x2", "M118 x2"]
+			}
+		]
+	},
+	{
+		"id": "a-4e-early",
+		"name": "A-4E Early",
+		"country": "USA",
+		"rank": 6,
+		"br": 8.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 3.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk77-red",
+					"mk77-red-2x",
+					"/",
+					"mk77-red-3x",
+					"/",
+					"mk77-red-2x",
+					"mk77-red",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk77-red",
+					"aim-9",
+					"/",
+					"mk77-red-3x",
+					"/",
+					"mk77-red-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 5.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"/",
+					"mk77-red-3x",
+					"/",
+					"aim-9",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3"]
+			}
+		],
+		"squadron": true
+	},
+	{
+		"id": "a-10a",
+		"name": "A-10A",
+		"country": "USA",
+		"rank": 6,
+		"br": 10.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"aim-9",
+					"mk82",
+					"mk84",
+					"mk84",
+					"mk84",
+					"/",
+					"mk84",
+					"mk84",
+					"mk84",
+					"mk82",
+					"mk82",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"Mk 84 x2 + Mk 82 x1",
+					"Mk 84 x2 + Mk 82 x1",
+					"Mk 84 x2 + Mk 82 x1"
+				]
+			},
+			{
+				"bases": 2,
+				"reward": 6.2,
+				"icons": [
+					"/",
+					"/",
+					"aim-9",
+					"mk82",
+					"aim-9-3x",
+					"mk84",
+					"mk84",
+					"/",
+					"mk84",
+					"mk84",
+					"aim-9-3x",
+					"mk82",
+					"aim-9",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + Mk 82 x1", "Mk 84 x2 + Mk 82 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 9.6,
+				"icons": [
+					"/",
+					"/",
+					"aim-9",
+					"/",
+					"aim-9-3x",
+					"mk84",
+					"gunpod",
+					"/",
+					"mk84",
+					"mk82",
+					"aim-9-3x",
+					"/",
+					"aim-9",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + Mk 82 x1"]
+			}
+		]
+	},
+	{
+		"id": "b-52h",
+		"name": "B-52H",
+		"country": "USA",
+		"rank": 6,
+		"br": 8.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 9,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk84-5x",
+					"mk82-8x",
+					"mk82-8x",
+					"mk82-8x",
+					"mk84-5x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"Mk 84 x2 + M117 x1",
+					"Mk 84 x2 + M117 x1",
+					"Mk 84 x2 + M117 x1",
+					"Mk 84 x2 + M117 x1",
+					"Mk 84 x2 + M117 x1",
+					"Mk 84 x2 + M117 x1",
+					"M117 x7",
+					"M117 x7",
+					"M117 x7"
+				]
+			},
+			{
+				"bases": 7,
+				"reward": null,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk84-5x",
+					"mk82-8x",
+					"/",
+					"mk82-8x",
+					"mk84-5x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"Mk 84 x2 + Mk 82 x1",
+					"Mk 84 x2 + Mk 82 x1",
+					"Mk 84 x2 + Mk 82 x1",
+					"Mk 84 x2 + Mk 82 x1",
+					"Mk 84 x2 + Mk 82 x1",
+					"Mk 84 x2 + Mk 82 x1",
+					"Mk 82 x10"
+				]
+			},
+			{
+				"bases": 6,
+				"reward": 3.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk82-8x",
+					"mk84-3x",
+					"mk84-3x",
+					"mk84-3x",
+					"mk82-8x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"Mk 84 x2 + Mk 82 x1",
+					"Mk 84 x2 + Mk 82 x1",
+					"Mk 84 x2 + Mk 82 x1",
+					"Mk 84 x2 + Mk 82 x1",
+					"Mk 82 x10",
+					"Mk 82 x10"
+				]
+			},
+			{
+				"bases": 5,
+				"reward": 3.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk82-8x",
+					"mk82-8x",
+					"mk82-8x",
+					"mk82-8x",
+					"mk82-8x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"Mk 82 x10",
+					"Mk 82 x10",
+					"Mk 82 x10",
+					"Mk 82 x10",
+					"Mk 82 x10"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 3.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk82-8x",
+					"mk82-8x",
+					"/",
+					"mk82-8x",
+					"mk82-8x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"Mk 82 x10",
+					"Mk 82 x10",
+					"Mk 82 x10",
+					"Mk 82 x10",
+					"Mk 82 x2"
+				]
+			},
+			{
+				"bases": 3,
+				"reward": 3.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk82-8x",
+					"mk82-8x",
+					"mk82-8x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"M117 x6 + Mk 82 x2",
+					"M117 x6 + Mk 82 x2",
+					"M117 x6 + Mk 82 x2",
+					"Mk 82 x3"
+				]
+			},
+			{
+				"bases": 2,
+				"reward": 4.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk82-8x",
+					"mk82-8x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"M117 x4 + Mk 82 x4",
+					"M117 x4 + Mk 82 x4",
+					"M117 x1 + Mk 82 x1"
+				]
+			},
+			{
+				"bases": 1,
+				"reward": 6.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk84-3x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x3"]
+			}
+		]
+	},
+	{
+		"id": "f-5e-usa",
+		"name": "F-5E",
+		"country": "USA",
+		"rank": 7,
+		"br": 11.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9-yellow",
+					"blu-1",
+					"blu-1",
+					"gunpod-30",
+					"blu-1",
+					"blu-1",
+					"aim-9-yellow",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9-yellow",
+					"/",
+					"mk83",
+					"mk84",
+					"mk83",
+					"m117",
+					"aim-9-yellow",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x1 + Mk 83 x2 + M117 x1"]
+			}
+		]
+	},
+	{
+		"id": "f-4c",
+		"name": "F-4C",
+		"country": "USA",
+		"rank": 7,
+		"br": 10.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 2.7,
+				"icons": [
+					"/",
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"blu-27-2x",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"blu-1-2x",
+					"blu-1-2x",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-27 x2"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"droptank",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"blu-1-2x",
+					"blu-1-2x",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"blu-1-2x",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"blu-1-2x",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"blu-1-2x",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.2,
+				"icons": [
+					"/",
+					"/",
+					"mk83-2x",
+					"mk83-3x",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"droptank",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"mk83-3x",
+					"mk83-2x",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 83 x5", "Mk 83 x5"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.5,
+				"icons": [
+					"/",
+					"/",
+					"mk83-2x",
+					"/",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"droptank",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"mk83-3x",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 83 x5"]
+			}
+		]
+	},
+	{
+		"id": "f-4e",
+		"name": "F-4E",
+		"country": "USA",
+		"rank": 7,
+		"br": 11.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 2.7,
+				"icons": [
+					"/",
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"blu-27-2x",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"blu-1-2x",
+					"blu-1-2x",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-27 x2"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"droptank",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"blu-1-2x",
+					"blu-1-2x",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"blu-1-2x",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"blu-1-2x",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"blu-1-2x",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.2,
+				"icons": [
+					"/",
+					"/",
+					"mk83-2x",
+					"mk83-3x",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"droptank",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"mk83-3x",
+					"mk83-2x",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 83 x5", "Mk 83 x5"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.5,
+				"icons": [
+					"/",
+					"/",
+					"mk83-2x",
+					"/",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"droptank",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"mk83-3x",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 83 x5"]
+			}
+		]
+	},
+	{
+		"id": "f-8e",
+		"name": "F-8E",
+		"country": "USA",
+		"rank": 7,
+		"br": 10.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk84",
+					"zuni-3x",
+					"/",
+					"zuni-3x",
+					"mk84",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + Zuni x4"]
+			}
+		]
+	},
+	{
+		"id": "f-4j",
+		"name": "F-4J",
+		"country": "USA",
+		"rank": 7,
+		"br": 12.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 2.5,
+				"icons": [
+					"/",
+					"/",
+					"mk77-red-3x",
+					"mk77-red-2x",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"mk77-red-3x",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"mk77-red-2x",
+					"mk77-red-3x",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"Mk 77 x3",
+					"Mk 77 x3",
+					"Mk 77 x3",
+					"Mk 77 x3",
+					"Mk 77 x1"
+				]
+			},
+			{
+				"bases": 3,
+				"reward": 2.8,
+				"icons": [
+					"/",
+					"/",
+					"mk77-red-3x",
+					"/",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"mk77-red-3x",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"/",
+					"mk77-red-3x",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"mk82-5x",
+					"m117-3x",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"droptank",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"m117-3x",
+					"mk82-5x",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 82 x10", "Mk 82 x2 + M117 x6"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.6,
+				"icons": [
+					"/",
+					"/",
+					"mk82-5x",
+					"aim-9",
+					"/",
+					"aim-7",
+					"aim-7",
+					"droptank",
+					"aim-7",
+					"aim-7",
+					"/",
+					"aim-9",
+					"mk82-5x",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 82 x10", "Mk 82 x2"]
+			}
+		]
+	},
+	{
+		"id": "a-10a-late",
+		"name": "A-10A Late",
+		"country": "USA",
+		"rank": 7,
+		"br": 10.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 4.2,
+				"icons": [
+					"/",
+					"/",
+					"aim-9-2x",
+					"mk82",
+					"mk84",
+					"mk84",
+					"mk84",
+					"/",
+					"mk84",
+					"mk84",
+					"mk84",
+					"mk82",
+					"mk82",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"Mk 84 x2 + Mk 82 x1",
+					"Mk 84 x2 + Mk 82 x1",
+					"Mk 84 x2 + Mk 82 x1"
+				]
+			},
+			{
+				"bases": 2,
+				"reward": 5.1,
+				"icons": [
+					"/",
+					"/",
+					"aim-9-2x",
+					"mk82",
+					"aim-9-3x",
+					"mk84",
+					"mk84",
+					"/",
+					"mk84",
+					"mk84",
+					"aim-9-3x",
+					"mk82",
+					"aim-9-2x",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + Mk 82 x1", "Mk 84 x2 + Mk 82 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"aim-9-2x",
+					"/",
+					"aim-9-3x",
+					"/",
+					"mk84",
+					"/",
+					"mk84",
+					"mk82",
+					"aim-9-3x",
+					"/",
+					"aim-9-2x",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + Mk 82 x1"]
+			}
+		]
+	},
+	{
+		"id": "a-7d",
+		"name": "A-7D",
+		"country": "USA",
+		"rank": 7,
+		"br": 10.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"blu-27",
+					"blu-27-3x",
+					"blu-27",
+					"aim-9-yellow",
+					"/",
+					"aim-9-yellow",
+					"blu-27",
+					"blu-27-3x",
+					"blu-27",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x2"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 3.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"blu-27",
+					"blu-27-3x",
+					"gunpod-30",
+					"aim-9-yellow",
+					"/",
+					"aim-9-yellow",
+					"gunpod-30",
+					"blu-27-3x",
+					"blu-27",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2", "BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-27-3x",
+					"gunpod-30",
+					"aim-9-yellow",
+					"/",
+					"aim-9-yellow",
+					"gunpod-30",
+					"blu-27-3x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"blu-27",
+					"blu-27",
+					"gunpod-30",
+					"aim-9-yellow",
+					"/",
+					"aim-9-yellow",
+					"gunpod-30",
+					"blu-27",
+					"blu-27",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"blu-27",
+					"aim-9-3x",
+					"gunpod-30",
+					"aim-9-yellow",
+					"/",
+					"aim-9-yellow",
+					"gunpod-30",
+					"aim-9-3x",
+					"blu-27",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2"]
+			}
+		]
+	},
+	{
+		"id": "a-7e",
+		"name": "A-7E",
+		"country": "USA",
+		"rank": 7,
+		"br": 10.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"mk77-red",
+					"mk77-red",
+					"mk77-red",
+					"aim-9",
+					"/",
+					"aim-9",
+					"mk77-red",
+					"mk77-red",
+					"mk77-red",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk77-red",
+					"gunpod-30",
+					"aim-9",
+					"/",
+					"aim-9",
+					"mk77-red",
+					"mk77-red",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3"]
+			}
+		]
+	},
+	{
+		"id": "a-10c",
+		"name": "A-10C",
+		"country": "USA",
+		"rank": 7,
+		"br": 11.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 4.2,
+				"icons": [
+					"/",
+					"/",
+					"aim-9-2x",
+					"mk82",
+					"gbu-64",
+					"gbu-64",
+					"gbu-64",
+					"/",
+					"gbu-64",
+					"gbu-64",
+					"gbu-64",
+					"mk82",
+					"mk82",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"GBU-64 x2 + Mk 82 x1",
+					"GBU-64 x2 + Mk 82 x1",
+					"GBU-64 x2 + Mk 82 x1"
+				]
+			},
+			{
+				"bases": 2,
+				"reward": 5.1,
+				"icons": [
+					"/",
+					"/",
+					"aim-9-2x",
+					"mk82",
+					"aim-9-3x",
+					"gbu-64",
+					"gbu-64",
+					"/",
+					"gbu-64",
+					"gbu-64",
+					"aim-9-3x",
+					"mk82",
+					"aim-9-2x",
+					"/",
+					"/"
+				],
+				"bombs": ["GBU-64 x2 + Mk 82 x1", "GBU-64 x2 + Mk 82 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"aim-9-2x",
+					"/",
+					"aim-9-3x",
+					"/",
+					"gbu-64",
+					"/",
+					"gbu-64",
+					"gbu-62",
+					"aim-9-3x",
+					"/",
+					"aim-9-2x",
+					"/",
+					"/"
+				],
+				"bombs": ["GBU-64 x2 + GBU-62 x1"]
+			}
+		]
+	},
+	{
+		"id": "f-105d",
+		"name": "F-105D",
+		"country": "USA",
+		"rank": 7,
+		"br": 10.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9-2x",
+					"blu-27-2x",
+					"blu-27-2x",
+					"blu-27-2x",
+					"aim-9-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9-2x",
+					"blu-27-2x",
+					"/",
+					"blu-27-2x",
+					"aim-9-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9-2x",
+					"/",
+					"blu-27-2x",
+					"/",
+					"aim-9-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2"]
+			}
+		]
+	},
+	{
+		"id": "f-111a",
+		"name": "F-111A",
+		"country": "USA",
+		"rank": 7,
+		"br": 10.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 8,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"aim-9",
+					"blu-1-2x",
+					"blu-1-2x",
+					"gunpod-rotary",
+					"/",
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"aim-9",
+					"blu-1-2x",
+					"blu-1-2x",
+					"/"
+				],
+				"bombs": [
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU1 x2",
+					"BLU1 x2",
+					"BLU1 x2",
+					"BLU1 x2",
+					"BLU1 x2",
+					"BLU1 x2"
+				]
+			},
+			{
+				"bases": 7,
+				"reward": 3.0,
+				"icons": [
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"aim-9",
+					"blu-1-2x",
+					"mk84",
+					"gunpod-rotary",
+					"/",
+					"m117",
+					"mk84",
+					"blu-1-2x",
+					"aim-9",
+					"blu-1-2x",
+					"blu-1-2x",
+					"/"
+				],
+				"bombs": [
+					"Mk 84 x2 + M117 x1",
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU1 x2",
+					"BLU1 x2",
+					"BLU1 x2",
+					"BLU1 x2"
+				]
+			},
+			{
+				"bases": 6,
+				"reward": 3.2,
+				"icons": [
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"aim-9",
+					"blu-1-2x",
+					"aim-9",
+					"gunpod-rotary",
+					"/",
+					"/",
+					"aim-9",
+					"blu-1-2x",
+					"aim-9",
+					"blu-1-2x",
+					"blu-1-2x",
+					"/"
+				],
+				"bombs": [
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU1 x2",
+					"BLU1 x2"
+				]
+			},
+			{
+				"bases": 5,
+				"reward": 3.4,
+				"icons": [
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"aim-9",
+					"aim-9",
+					"mk84",
+					"gunpod-rotary",
+					"/",
+					"m117",
+					"mk84",
+					"aim-9",
+					"aim-9",
+					"blu-1-2x",
+					"blu-1-2x",
+					"/"
+				],
+				"bombs": [
+					"Mk 84 x2 + M117 x1",
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-1 x2",
+					"BLU-1 x2"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": null,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"blu-1-2x",
+					"blu-1-2x",
+					"gunpod-rotary",
+					"/",
+					"/",
+					"blu-1-2x",
+					"blu-1-2x",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2", "BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"blu-1-2x",
+					"mk84",
+					"gunpod-rotary",
+					"/",
+					"m117",
+					"mk84",
+					"blu-1-2x",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + M117 x1", "BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"blu-1-2x",
+					"aim-9",
+					"gunpod-rotary",
+					"/",
+					"/",
+					"aim-9",
+					"blu-1-2x",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.7,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"aim-9",
+					"mk84",
+					"gunpod-rotary",
+					"/",
+					"m117",
+					"mk84",
+					"aim-9",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + M117 x1"]
+			}
+		]
+	},
+	{
+		"id": "f-111f",
+		"name": "F-111F",
+		"country": "USA",
+		"rank": 7,
+		"br": 11.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 3.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"m117-6x",
+					"m117-6x",
+					"gunpod-rotary",
+					"m117-6x",
+					"m117-6x",
+					"aim-9",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["M117 x8", "M117 x8", "M117 x8"]
+			},
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"mk82-6x",
+					"mk84",
+					"gunpod-rotary",
+					"mk84",
+					"mk82-6x",
+					"aim-9",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + Mk 82 x2", "Mk 82 x10"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"mk82-6x",
+					"aim-9",
+					"gunpod-rotary",
+					"aim-9",
+					"mk82-6x",
+					"aim-9",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 82 x10", "Mk 82 x2"]
+			}
+		]
+	},
+	{
+		"id": "f-5c",
+		"name": "F-5C",
+		"country": "USA",
+		"rank": 7,
+		"br": 10.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"blu-1",
+					"blu-1",
+					"droptank",
+					"blu-1",
+					"blu-1",
+					"aim-9",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"/",
+					"mk83",
+					"mk84",
+					"mk83",
+					"m117",
+					"aim-9",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x1 + Mk 83 x2 + M117 x1"]
+			}
+		]
+	},
+	{
+		"id": "a-6e-tram",
+		"name": "A-6E TRAM",
+		"country": "USA",
+		"rank": 7,
+		"br": 10.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 5.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk83-gold-3x",
+					"mk83-gold-3x",
+					"mk83-gold-3x",
+					"mk83-gold-3x",
+					"mk83-gold-3x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 83 x5", "Mk 83 x5", "Mk 83 x5"]
+			},
+			{
+				"bases": 2,
+				"reward": 6.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"mk82-6x",
+					"droptank",
+					"mk82-6x",
+					"mk84-blue",
+					"mk84-blue",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 82 x6 + Mk 84 x1", "Mk 82 x6 + Mk 84 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 9.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"chaff-pod",
+					"droptank",
+					"mk82-6x",
+					"mk84-blue",
+					"aim-9",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 82 x6 + Mk 84 x1"]
+			}
+		]
+	},
+	{
+		"id": "f-4s",
+		"name": "F-4S",
+		"country": "USA",
+		"rank": 7,
+		"br": 12.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 3.1,
+				"icons": [
+					"/",
+					"/",
+					"mk77-red-3x",
+					"mk77-red-2x",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"mk77-red-3x",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"mk77-red-2x",
+					"mk77-red-3x",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"Mk 77 x3",
+					"Mk 77 x3",
+					"Mk 77 x3",
+					"Mk 77 x3",
+					"Mk 77 x1"
+				]
+			},
+			{
+				"bases": 3,
+				"reward": 3.4,
+				"icons": [
+					"/",
+					"/",
+					"mk77-red-3x",
+					"/",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"mk77-red-3x",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"/",
+					"mk77-red-3x",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.8,
+				"icons": [
+					"/",
+					"/",
+					"mk82-5x",
+					"m117-3x",
+					"aim-9-2x",
+					"aim-7",
+					"aim-7",
+					"droptank",
+					"aim-7",
+					"aim-7",
+					"aim-9-2x",
+					"m117-3x",
+					"mk82-5x",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 82 x10", "Mk 82 x2 + M117 x6"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.6,
+				"icons": [
+					"/",
+					"/",
+					"mk82-5x",
+					"aim-9",
+					"/",
+					"aim-7",
+					"aim-7",
+					"droptank",
+					"aim-7",
+					"aim-7",
+					"/",
+					"aim-9",
+					"mk82-5x",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 82 x10", "Mk 82 x2"]
+			}
+		]
+	},
+	{
+		"id": "f-5a",
+		"name": "F-5A",
+		"country": "USA",
+		"rank": 7,
+		"br": 10.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"blu-1",
+					"blu-1",
+					"droptank",
+					"blu-1",
+					"blu-1",
+					"aim-9",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"/",
+					"mk83",
+					"mk84",
+					"mk83",
+					"m117",
+					"aim-9",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x1 + Mk 83 x2 + M117 x1"]
+			}
+		]
+	},
+	{
+		"id": "a-7k",
+		"name": "A-7K",
+		"country": "USA",
+		"rank": 7,
+		"br": 10.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"blu-27",
+					"blu-27-3x",
+					"blu-27",
+					"aim-9-yellow",
+					"/",
+					"aim-9-yellow",
+					"blu-27",
+					"blu-27-3x",
+					"blu-27",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x2"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 3.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"blu-27",
+					"blu-27-3x",
+					"gunpod-30",
+					"aim-9-yellow",
+					"/",
+					"aim-9-yellow",
+					"gunpod-30",
+					"blu-27-3x",
+					"blu-27",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2", "BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"blu-27-3x",
+					"gunpod-30",
+					"aim-9-yellow",
+					"/",
+					"aim-9-yellow",
+					"gunpod-30",
+					"blu-27-3x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"blu-27",
+					"blu-27",
+					"gunpod-30",
+					"aim-9-yellow",
+					"/",
+					"aim-9-yellow",
+					"gunpod-30",
+					"blu-27",
+					"blu-27",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"blu-27",
+					"aim-9-3x",
+					"gunpod-30",
+					"aim-9-yellow",
+					"/",
+					"aim-9-yellow",
+					"gunpod-30",
+					"aim-9-3x",
+					"blu-27",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2"]
+			}
+		]
+	},
+	{
+		"id": "av-8b-na",
+		"name": "AV-8B (NA)",
+		"country": "USA",
+		"rank": 7,
+		"br": 11.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 4.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"/",
+					"/",
+					"gunpod",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"mk77-red",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"aim-9",
+					"mk77-red-2x",
+					"/",
+					"/",
+					"gunpod",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"aim-9",
+					"mk77-red-2x",
+					"/",
+					"/",
+					"gunpod",
+					"mk77-red-2x",
+					"aim-9",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x1"]
+			}
+		]
+	},
+	{
+		"id": "f-16a",
+		"name": "F-16A",
+		"country": "USA",
+		"rank": 8,
+		"br": 12.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9-yellow",
+					"aim-9-yellow",
+					"blu-27",
+					"blu-27",
+					"droptank",
+					"blu-27",
+					"blu-27",
+					"aim-9-yellow",
+					"aim-9-yellow",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9-yellow",
+					"aim-9-yellow",
+					"aim-9-yellow",
+					"blu-27",
+					"droptank",
+					"blu-27",
+					"aim-9-yellow",
+					"aim-9-yellow",
+					"aim-9-yellow",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2"]
+			}
+		]
+	},
+	{
+		"id": "f-16cm",
+		"name": "F-16CM",
+		"country": "USA",
+		"rank": 8,
+		"br": 14.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"/",
+					"aim-9",
+					"aim-120",
+					"blu-27-2x",
+					"blu-27-2x",
+					"/",
+					"droptank",
+					"/",
+					"blu-27-2x",
+					"blu-27-2x",
+					"aim-120",
+					"aim-9",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2", "BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"aim-9",
+					"aim-120",
+					"aim-120",
+					"blu-27-2x",
+					"/",
+					"droptank",
+					"/",
+					"blu-27-2x",
+					"blu-27-2x",
+					"aim-120",
+					"aim-9",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"aim-9",
+					"aim-120",
+					"aim-120",
+					"blu-27-2x",
+					"/",
+					"droptank",
+					"/",
+					"blu-27-2x",
+					"aim-120",
+					"aim-120",
+					"aim-9",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"aim-9",
+					"aim-120",
+					"aim-120",
+					"blu-27-2x",
+					"/",
+					"droptank",
+					"/",
+					"/",
+					"aim-120",
+					"aim-120",
+					"aim-9",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2"]
+			}
+		]
+	},
+	{
+		"id": "f-15a",
+		"name": "F-15A",
+		"country": "USA",
+		"rank": 8,
+		"br": 12.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 2.8,
+				"icons": [
+					"/",
+					"/",
+					"aim-9",
+					"blu-27-3x",
+					"aim-9",
+					"aim-7",
+					"aim-7",
+					"blu-27-3x",
+					"aim-7",
+					"aim-7",
+					"aim-9",
+					"blu-27-3x",
+					"aim-9",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x1"
+				]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"aim-9",
+					"blu-27-3x",
+					"aim-9",
+					"aim-7",
+					"aim-7",
+					"droptank",
+					"aim-7",
+					"aim-7",
+					"aim-9",
+					"blu-27-3x",
+					"aim-9",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 5.2,
+				"icons": [
+					"/",
+					"/",
+					"aim-9",
+					"gbu-8",
+					"aim-9",
+					"aim-7",
+					"aim-7",
+					"gbu-8",
+					"aim-7",
+					"aim-7",
+					"aim-9",
+					"gbu-8",
+					"aim-9",
+					"/",
+					"/"
+				],
+				"bombs": ["GBU-8 x3"]
+			}
+		]
+	},
+	{
+		"id": "f-15c-msip-ii",
+		"name": "F-15C MSIP II",
+		"country": "USA",
+		"rank": 8,
+		"br": 14.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 2.7,
+				"icons": [
+					"/",
+					"aim-9",
+					"blu-27-3x",
+					"aim-9",
+					"/",
+					"/",
+					"cft-mk81-4x",
+					"blu-27-3x",
+					"cft-mk81-4x",
+					"/",
+					"/",
+					"aim-9",
+					"blu-27-3x",
+					"aim-9",
+					"/"
+				],
+				"bombs": [
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x1 + Mk 81 x12"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"aim-9",
+					"blu-27-3x",
+					"aim-9",
+					"/",
+					"/",
+					"cft-mk81-4x",
+					"gbu-64",
+					"cft-mk81-4x",
+					"/",
+					"/",
+					"aim-9",
+					"blu-27-3x",
+					"aim-9",
+					"/"
+				],
+				"bombs": [
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"GBU-64 x1 + Mk 81 x8",
+					"Mk 81 x4"
+				]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"aim-9",
+					"blu-27-3x",
+					"aim-9",
+					"cft-aim-9",
+					"cft-aim-9",
+					"cft",
+					"/",
+					"cft",
+					"cft-aim-9",
+					"cft-aim-9",
+					"aim-9",
+					"blu-27-3x",
+					"aim-9",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 5.2,
+				"icons": [
+					"/",
+					"aim-9",
+					"gbu-64",
+					"aim-9",
+					"cft-aim-9",
+					"cft-aim-9",
+					"cft",
+					"gbu-64",
+					"cft",
+					"cft-aim-9",
+					"cft-aim-9",
+					"aim-9",
+					"gbu-64",
+					"aim-9",
+					"/"
+				],
+				"bombs": ["GBU-64 x3"]
+			}
+		]
+	},
+	{
+		"id": "f-a-18a",
+		"name": "F/A-18A",
+		"country": "USA",
+		"rank": 8,
+		"br": 12.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 2.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"aim-120",
+					"mk77-red",
+					"aim-120",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"aim-120",
+					"droptank",
+					"aim-120",
+					"mk77-red-2x",
+					"aim-9-2x",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"aim-9-2x",
+					"mk77-red-2x",
+					"aim-120",
+					"mk77-red",
+					"aim-120",
+					"/",
+					"aim-9-2x",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x1"]
+			}
+		]
+	},
+	{
+		"id": "f-14a-early",
+		"name": "F-14A Early",
+		"country": "USA",
+		"rank": 8,
+		"br": 12.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"zuni-pod-2x",
+					"mk84",
+					"mk84-2x",
+					"/",
+					"mk84-2x",
+					"mk84",
+					"aim-54",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + Zuni x4", "Mk 84 x2 + Zuni x4"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"zuni-pod-2x",
+					"mk84",
+					"aim-54-2x",
+					"/",
+					"mk84-2x",
+					"mk84",
+					"aim-54",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + Zuni x4", "Zuni x4"]
+			}
+		]
+	},
+	{
+		"id": "f-14b",
+		"name": "F-14B",
+		"country": "USA",
+		"rank": 8,
+		"br": 13.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"pod-aim-9",
+					"zuni-pod-2x",
+					"gbu-31",
+					"aim-54-2x",
+					"/",
+					"aim-54-2x",
+					"gbu-31",
+					"aim-54",
+					"pod-aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["GBU-31 x2 + Zuni x4", "GBU-31 x2 + Zuni x4"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"pod-aim-9",
+					"zuni-pod-2x",
+					"gbu-31",
+					"aim-54-2x",
+					"/",
+					"aim-54-2x",
+					"gbu-31",
+					"aim-54",
+					"pod-aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["GBU-31 x2 + Zuni x4", "Zuni x4"]
+			}
+		]
+	},
+	{
+		"id": "f-14d-vf-11",
+		"name": "F-14D VF-11",
+		"country": "USA",
+		"rank": 8,
+		"br": 13.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"pod-aim-9",
+					"zuni-pod-2x",
+					"gbu-31",
+					"aim-54-2x",
+					"/",
+					"aim-54-2x",
+					"gbu-31",
+					"aim-54",
+					"pod-aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["GBU-31 x2 + Zuni x4", "GBU-31 x2 + Zuni x4"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"pod-aim-9",
+					"zuni-pod-2x",
+					"gbu-31",
+					"aim-54-2x",
+					"/",
+					"aim-54-2x",
+					"gbu-31",
+					"aim-54",
+					"pod-aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["GBU-31 x2 + Zuni x4", "Zuni x4"]
+			}
+		]
+	},
+	{
+		"id": "f-a-18c-late-usa",
+		"name": "F/A-18C Late",
+		"country": "USA",
+		"rank": 8,
+		"br": 14.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 2.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"aim-120",
+					"mk77-red",
+					"aim-120",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"aim-120",
+					"droptank",
+					"aim-120",
+					"mk77-red-2x",
+					"aim-120-2x",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 4.7,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"aim-120-2x",
+					"aim-120-2x",
+					"aim-120",
+					"mk77-red",
+					"aim-120",
+					"mk77-red-2x",
+					"aim-120-2x",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3"]
+			}
+		]
+	},
+	{
+		"id": "av-8b-plus",
+		"name": "AV-8B Plus",
+		"country": "USA",
+		"rank": 8,
+		"br": 13.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 3.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"/",
+					"/",
+					"gunpod",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"mk77-red",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"aim-120",
+					"mk77-red-2x",
+					"/",
+					"/",
+					"gunpod",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"aim-120",
+					"mk77-red-2x",
+					"/",
+					"/",
+					"gunpod",
+					"mk77-red-2x",
+					"aim-120",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 9.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"gbu-38-2x",
+					"gbu-38-3x",
+					"/",
+					"targeting-pod",
+					"gunpod",
+					"gbu-38-3x",
+					"gbu-38-2x",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["GBU-38(V) x10"]
+			}
+		]
+	},
+	{
+		"id": "f-15e",
+		"name": "F-15E",
+		"country": "USA",
+		"rank": 8,
+		"br": 14.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.4,
+				"icons": [
+					"/",
+					"aim-120",
+					"agm-130",
+					"aim-120",
+					"/",
+					"cft-gbu-64-2x",
+					"chaff-pod",
+					"/",
+					"chaff-pod",
+					"cft-gbu-64-2x",
+					"/",
+					"aim-120",
+					"agm-130",
+					"aim-120",
+					"/"
+				],
+				"bombs": ["GBU-64 x2 + AGM-130 x1", "GBU-64 x2 + AGM-130 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.5,
+				"icons": [
+					"/",
+					"aim-120",
+					"agm-130",
+					"aim-120",
+					"cft-aim-120-2x",
+					"/",
+					"chaff-pod",
+					"gbu-64",
+					"chaff-pod",
+					"/",
+					"cft-aim-120-2x",
+					"aim-120",
+					"agm-130",
+					"aim-120",
+					"/"
+				],
+				"bombs": ["GBU-64 x1 + AGM-130 x2"]
+			}
+		]
+	},
+	{
+		"id": "f-20a",
+		"name": "F-20A",
+		"country": "USA",
+		"rank": 8,
+		"br": 12.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"aim-9-2x",
+					"blu-1",
+					"blu-1",
+					"blu-1",
+					"blu-1",
+					"aim-9",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2", "BLU-1 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"aim-9-2x",
+					"blu-1",
+					"gunpod-30",
+					"blu-1",
+					"aim-120",
+					"aim-9",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-1 x2"]
+			}
+		]
+	},
+	{
+		"id": "f-a-18c-early",
+		"name": "F/A-18C Early",
+		"country": "USA",
+		"rank": 8,
+		"br": 12.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 3.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"aim-120",
+					"mk77-red",
+					"aim-120",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"aim-120",
+					"droptank",
+					"aim-120",
+					"mk77-red-2x",
+					"aim-120",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 5.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"aim-9-2x",
+					"aim-120",
+					"aim-120",
+					"mk77-red",
+					"aim-120",
+					"mk77-red-2x",
+					"aim-120",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3"]
+			}
+		]
+	},
+	{
+		"id": "f-14d",
+		"name": "F-14D",
+		"country": "USA",
+		"rank": 8,
+		"br": 13.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"pod-aim-9",
+					"zuni-pod-2x",
+					"gbu-31",
+					"aim-54-2x",
+					"/",
+					"aim-54-2x",
+					"gbu-31",
+					"aim-54",
+					"pod-aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["GBU-31 x2 + Zuni x4", "GBU-31 x2 + Zuni x4"]
+			},
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"pod-aim-9",
+					"zuni-pod-2x",
+					"gbu-31",
+					"aim-54-2x",
+					"/",
+					"aim-54-2x",
+					"gbu-31",
+					"aim-54",
+					"pod-aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["GBU-31 x2 + Zuni x4", "Zuni x4"]
+			}
+		]
+	},
+	{
+		"id": "f-16xl",
+		"name": "F-16XL",
+		"country": "USA",
+		"rank": 8,
+		"br": 13.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"aim-9",
+					"mk84",
+					"/",
+					"mk82",
+					"mk84",
+					"/",
+					"aim-120-8x",
+					"/",
+					"mk84",
+					"mk82",
+					"/",
+					"mk84",
+					"aim-9",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + Mk 82 x1", "Mk 84 x2 + Mk 82 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.4,
+				"icons": [
+					"/",
+					"aim-9",
+					"/",
+					"/",
+					"mk82",
+					"mk84",
+					"/",
+					"aim-120-8x",
+					"/",
+					"mk84",
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + Mk 82 x1"]
+			}
+		]
+	},
+	{
+		"id": "f-14a-iriaf",
+		"name": "F-14A IRIAF",
+		"country": "USA",
+		"rank": 8,
+		"br": 13.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"zuni-pod-2x",
+					"/",
+					"mk84-2x",
+					"/",
+					"mk84-2x",
+					"/",
+					"aim-120",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + Zuni x4", "Mk 84 x2 + Zuni x4"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"aim-9",
+					"zuni-pod-2x",
+					"/",
+					"aim-54-2x",
+					"/",
+					"mk84-2x",
+					"/",
+					"aim-120",
+					"aim-9",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 84 x2 + Zuni x4", "Zuni x4"]
+			}
+		]
+	},
+	{
+		"id": "f-16cm-pobit",
+		"name": "F-16CM PoBIT",
+		"country": "USA",
+		"rank": 9,
+		"br": 14.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"/",
+					"aim-120",
+					"aim-120",
+					"blu-27-2x-pod",
+					"blu-27-2x",
+					"/",
+					"droptank",
+					"/",
+					"blu-27-2x",
+					"blu-27-2x-pod",
+					"aim-120",
+					"aim-120",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2", "BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"aim-120",
+					"aim-120",
+					"aim-120",
+					"blu-27-2x",
+					"/",
+					"droptank",
+					"/",
+					"blu-27-2x",
+					"blu-27-2x-pod",
+					"aim-120",
+					"aim-120",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"aim-120",
+					"aim-120",
+					"aim-120",
+					"blu-27-2x",
+					"/",
+					"droptank",
+					"/",
+					"blu-27-2x",
+					"aim-120",
+					"aim-120",
+					"aim-120",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"aim-120",
+					"aim-120",
+					"aim-120",
+					"blu-27-2x",
+					"/",
+					"droptank",
+					"/",
+					"/",
+					"aim-120",
+					"aim-120",
+					"aim-120",
+					"/",
+					"/"
+				],
+				"bombs": ["BLU-27 x2"]
+			}
+		]
+	},
+	{
+		"id": "f-15c-g-eagle",
+		"name": "F-15C G. Eagle",
+		"country": "USA",
+		"rank": 9,
+		"br": 15.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 2.7,
+				"icons": [
+					"/",
+					"pod-aim-9",
+					"blu-27-3x",
+					"pod-aim-9",
+					"/",
+					"/",
+					"cft-mk81-4x",
+					"blu-27-3x",
+					"cft-mk81-4x",
+					"/",
+					"/",
+					"pod-aim-9",
+					"blu-27-3x",
+					"pod-aim-9",
+					"/"
+				],
+				"bombs": [
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x1 + Mk 81 x12"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"pod-aim-9",
+					"blu-27-3x",
+					"pod-aim-9",
+					"/",
+					"/",
+					"cft-mk81-4x",
+					"gbu-64",
+					"cft-mk81-4x",
+					"/",
+					"/",
+					"pod-aim-9",
+					"blu-27-3x",
+					"pod-aim-9",
+					"/"
+				],
+				"bombs": [
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"BLU-27 x2",
+					"GBU-64 x1 + Mk 81 x8",
+					"Mk 81 x4"
+				]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"pod-aim-9",
+					"blu-27-3x",
+					"pod-aim-9",
+					"cft-aim-9",
+					"cft-aim-9",
+					"cft",
+					"/",
+					"cft",
+					"cft-aim-9",
+					"cft-aim-9",
+					"pod-aim-9",
+					"blu-27-3x",
+					"pod-aim-9",
+					"/"
+				],
+				"bombs": ["BLU-27 x2", "BLU-27 x2", "BLU-27 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 5.2,
+				"icons": [
+					"/",
+					"pod-aim-9",
+					"gbu-64",
+					"pod-aim-9",
+					"cft-aim-9",
+					"cft-aim-9",
+					"cft",
+					"gbu-64",
+					"cft",
+					"cft-aim-9",
+					"cft-aim-9",
+					"pod-aim-9",
+					"gbu-64",
+					"pod-aim-9",
+					"/"
+				],
+				"bombs": ["GBU-64 x3"]
+			}
+		]
+	},
+	{
+		"id": "f-a-18e",
+		"name": "F/A-18E",
+		"country": "USA",
+		"rank": 9,
+		"br": 14.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 2.8,
+				"icons": [
+					"/",
+					"/",
+					"aim-9",
+					"aim-120",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"aim-120",
+					"mk77-red",
+					"aim-120",
+					"mk77-red-2x",
+					"mk77-red-2x",
+					"aim-120",
+					"aim-9",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"aim-9",
+					"mk77-red",
+					"aim-120-2x",
+					"mk77-red-2x",
+					"aim-120",
+					"droptank",
+					"aim-120",
+					"mk77-red-2x",
+					"aim-120-2x",
+					"mk77-red",
+					"aim-9",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 4.7,
+				"icons": [
+					"/",
+					"/",
+					"aim-9",
+					"mk77-red",
+					"aim-120-2x",
+					"aim-120-2x",
+					"aim-120",
+					"mk77-red",
+					"aim-120",
+					"aim-120-2x",
+					"aim-120-2x",
+					"mk77-red",
+					"aim-9",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 77 x3"]
+			}
+		]
+	}
+]

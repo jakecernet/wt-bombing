@@ -5,7 +5,13 @@ import { useState, useEffect, useRef } from "react";
 import PlaneCard from "./components/PlaneCard";
 import BombCard from "./components/BombCard";
 import PlanePage from "./components/PlanePage";
-import { PLANES, ALL_BOMBS, MAX_BASES, ALL_BRS, COUNTRY } from "./data/planes";
+import {
+	PLANES,
+	ALL_BOMBS,
+	MAX_BASES,
+	ALL_BRS,
+	COUNTRIES,
+} from "./data/planes";
 
 const SHEET_URL =
 	"https://docs.google.com/spreadsheets/d/1oNwp_MXszU5J2dcaz5IoCtSAQ-infPdOWhwtJXqtrwU/edit";
@@ -66,6 +72,7 @@ function App() {
 	// planes tab
 	const [pQuery, setPQuery] = useState("");
 	const [rank, setRank] = useState("all");
+	const [country, setCountry] = useState("all");
 	const [minBases, setMinBases] = useState(0);
 	const [sort, setSort] = useState("bases");
 
@@ -112,10 +119,12 @@ function App() {
 	const pq = norm(pQuery);
 	const planes = PLANES.filter((p) => {
 		if (pq && !norm(p.name).includes(pq)) return false;
+		if (country !== "all" && p.country !== country) return false;
 		if (rank !== "all" && p.rank !== rank) return false;
 		return p.bases >= minBases;
 	}).sort(SORTS[sort]);
-	const planesFiltered = pq || rank !== "all" || minBases > 0;
+	const planesFiltered =
+		pq || rank !== "all" || country !== "all" || minBases > 0;
 
 	const submit = (e) => {
 		e.preventDefault();
@@ -206,7 +215,8 @@ function App() {
 											onClick={() => openPlane(p)}>
 											<span>{p.name}</span>
 											<small>
-												BR {p.br.toFixed(1)} · {p.bases}{" "}
+												{p.country} · BR{" "}
+												{p.br.toFixed(1)} · {p.bases}{" "}
 												{p.bases === 1
 													? "base"
 													: "bases"}
@@ -240,6 +250,25 @@ function App() {
 								value={pQuery}
 								onChange={(e) => setPQuery(e.target.value)}
 							/>
+						</div>
+						<div className="filter-group">
+							<h3>Nation</h3>
+							<div
+								className="segmented"
+								role="group"
+								aria-label="Nation">
+								{[
+									["all", "All"],
+									...COUNTRIES.map((c) => [c, c]),
+								].map(([v, label]) => (
+									<button
+										key={v}
+										className={country === v ? "on" : ""}
+										onClick={() => setCountry(v)}>
+										{label}
+									</button>
+								))}
+							</div>
 						</div>
 						<div className="filter-group">
 							<h3>Rank</h3>
@@ -299,7 +328,7 @@ function App() {
 						<div className="planes-head">
 							<p>
 								<strong>{planes.length}</strong> of{" "}
-								{PLANES.length} planes · {COUNTRY}
+								{PLANES.length} planes · {COUNTRIES.join(", ")}
 							</p>
 							{planesFiltered ? (
 								<button
@@ -307,6 +336,7 @@ function App() {
 									onClick={() => {
 										setPQuery("");
 										setRank("all");
+										setCountry("all");
 										setMinBases(0);
 									}}>
 									<X size={14} /> Clear filters
@@ -382,8 +412,8 @@ function App() {
 				<a href={SHEET_URL}>
 					LEGION&apos;s Loadouts 2.29 – Sky Odyssey
 				</a>
-				. Germany ranks I–IX transcribed from screenshots; some rows
-				between screenshots may be missing.
+				. Germany ranks I–IX and USA ranks I–IX transcribed from
+				screenshots; some rows between screenshots may be missing.
 			</footer>
 		</div>
 	);

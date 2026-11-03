@@ -9,7 +9,10 @@ const carried = (plane, bomb) =>
 		0,
 		...plane.variants.flatMap((v) =>
 			v.rows.map((r) =>
-				r.cells.flat().filter((x) => x.bomb === bomb).reduce((n, x) => n + x.count, 0),
+				r.cells
+					.flat()
+					.filter((x) => x.bomb === bomb)
+					.reduce((n, x) => n + x.count, 0),
 			),
 		),
 	);
@@ -20,7 +23,9 @@ export default function BombCard({ bomb, onPlane }) {
 	const users = PLANES.map((p) => ({ plane: p, n: carried(p, bomb) }))
 		.filter((u) => u.n > 0)
 		.sort((a, b) => b.plane.bases - a.plane.bases || b.n - a.n);
-	const ranks = [...new Set(users.map((u) => u.plane.rank))].sort((a, b) => a - b);
+	const ranks = [...new Set(users.map((u) => u.plane.rank))].sort(
+		(a, b) => a - b,
+	);
 	const best = users[0]?.plane;
 
 	return (
@@ -29,14 +34,17 @@ export default function BombCard({ bomb, onPlane }) {
 				<BombIcon bomb={bomb} size={34} />
 				<h3>{bombLabel(bomb)}</h3>
 				<div className="badges">
-					<span className="badge br" title="Nominal mass from the name">
+					<span
+						className="badge br"
+						title="Nominal mass from the name">
 						{mass ? `${mass} kg` : "?"}
 					</span>
 				</div>
 			</div>
 			<div className="stats">
 				<span>
-					<Plane size={15} /> {users.length} {users.length === 1 ? "plane" : "planes"}
+					<Plane size={15} /> {users.length}{" "}
+					{users.length === 1 ? "plane" : "planes"}
 				</span>
 				<span>Rank {ranks.join(", ")}</span>
 			</div>
@@ -45,7 +53,10 @@ export default function BombCard({ bomb, onPlane }) {
 					Most bases: {best.name} ({best.bases})
 				</p>
 			) : null}
-			<button className="toggle" aria-expanded={open} onClick={() => setOpen(!open)}>
+			<button
+				className="toggle"
+				aria-expanded={open}
+				onClick={() => setOpen(!open)}>
 				{open ? "Hide planes" : "Show planes"}
 				<ChevronDown size={16} className={open ? "flip" : ""} />
 			</button>

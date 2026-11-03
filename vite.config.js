@@ -16,7 +16,8 @@ export default defineConfig({
 			manifest: {
 				name: "WT bombing chart",
 				short_name: "WT bombing",
-				description: "How many bases can your War Thunder plane destroy?",
+				description:
+					"How many bases can your War Thunder plane destroy?",
 				theme_color: "#090b10",
 				background_color: "#090b10",
 			},
