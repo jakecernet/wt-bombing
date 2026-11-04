@@ -183,7 +183,7 @@
 		"M118": {
 			"label": "M118",
 			"mass": null,
-			"icon": "m118"
+			"icon": "sb2500"
 		},
 		"HVAR": {
 			"label": "HVAR",
@@ -193,12 +193,12 @@
 		"FFAR": {
 			"label": "FFAR",
 			"mass": null,
-			"icon": "ffar"
+			"icon": "ffar-pod"
 		},
 		"Zuni": {
 			"label": "Zuni",
 			"mass": null,
-			"icon": "zuni"
+			"icon": "ffar-pod"
 		},
 		"HEM32": {
 			"label": "HE M32",
@@ -223,7 +223,7 @@
 		"GBU38V": {
 			"label": "GBU-38(V)",
 			"mass": null,
-			"icon": "gbu-38"
+			"icon": "gbu-38-2x"
 		},
 		"AGM130": {
 			"label": "AGM-130",
@@ -283,9 +283,9 @@
 		"aim-120a": {
 			"file": "aim-120a.png"
 		},
-        "aim-120b": {
-            "file": "aim-120a.png"
-        },
+		"aim-120b": {
+			"file": "aim-120a.png"
+		},
 		"aim-120c": {
 			"file": "aim-120c.png"
 		},
@@ -464,7 +464,7 @@
 			"file": "sc50.png"
 		},
 		"mk81": {
-			"file": "sc100.png"
+			"file": "sc50.png"
 		},
 		"flz-lwf-63": {
 			"file": "aim-9j.png"
@@ -483,8 +483,8 @@
 		"aim-9-2x": {
 			"file": "aim-9-2x.png"
 		},
-		"aim-9-3x": {
-			"file": "aim-9-3x.png"
+		"agm-65-3x": {
+			"file": "agm-65-3x.png"
 		},
 		"aim-9-yellow": {
 			"file": "aim-9-yellow.png",
@@ -613,9 +613,18 @@
 		"mk77-red": {
 			"file": "napalm-red.png"
 		},
+        "mk77-red-dark": {
+            "file": "fc500.png",
+            "label": "Mk 77"
+        },
 		"mk77-red-2x": {
-			"file": "napalm-2x-red.png"
+			"file": "napalm-2x-red.png",
+            "label": "Mk 77 (2)"
 		},
+        "mk77-red-dark-2x": {
+            "file": "fc500-2x.png",
+            "label": "Mk 77 (2)"
+        },
 		"mk77-red-3x": {
 			"file": "fc500-3x.png"
 		},
@@ -742,6 +751,14 @@
 		"blu-27-2x-pod": {
 			"file": "napalm-2x-pod.png",
 			"label": "BLU-27 (2) + pod"
-		}
+		},
+		"gunpod-gau": {
+			"file": "gunpod-gau.png",
+			"label": "Gun pod"
+		},
+        "agm-65": {
+            "file": "agm-65.png",
+            "label": "AGM-65"
+        }
 	}
 }
