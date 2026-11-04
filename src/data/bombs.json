@@ -283,6 +283,9 @@
 		"aim-120a": {
 			"file": "aim-120a.png"
 		},
+        "aim-120b": {
+            "file": "aim-120a.png"
+        },
 		"aim-120c": {
 			"file": "aim-120c.png"
 		},
@@ -333,6 +336,18 @@
 		},
 		"m116a2": {
 			"file": "napalm-red.png"
+		},
+		"blu-27-red": {
+			"file": "napalm-red.png",
+			"label": "BLU-27"
+		},
+		"blu-27-red-2x": {
+			"file": "napalm-2x-red.png",
+			"label": "BLU-27 (2)"
+		},
+		"blu-27-red-dark-2x": {
+			"file": "fc500-2x.png",
+			"label": "BLU-27 (2)"
 		},
 		"fc250": {
 			"file": "fc250.png"
@@ -661,8 +676,8 @@
 			"file": "gbu-8.png"
 		},
 		"cft-mk81-4x": {
-			"file": "napalm-2x-tan.png",
-			"label": "CFT + Mk 81 (4)"
+			"file": "cft-6-bombs.png",
+			"label": "CFT + Mk 81 (6)"
 		},
 		"cft-aim-9": {
 			"file": "cft-aim-9.png",
@@ -685,6 +700,10 @@
 		},
 		"aim-54-2x": {
 			"file": "aim-54-2x.png"
+		},
+		"aim-7m": {
+			"file": "r24r.png",
+			"label": "AIM-7M"
 		},
 		"pod-aim-9": {
 			"file": "pod-aim-9.png",
@@ -717,11 +736,11 @@
 			"file": "cft-aim-120-2x.png",
 			"label": "CFT + AIM-120 (2)"
 		},
-		"aim-120-8x": {
-			"file": "aim-120-8x.png"
+		"aim-120-4x": {
+			"file": "aim-120-4x.png"
 		},
 		"blu-27-2x-pod": {
-			"file": "cft-aim-yellow.png",
+			"file": "napalm-2x-pod.png",
 			"label": "BLU-27 (2) + pod"
 		}
 	}
