@@ -5,6 +5,7 @@ import { useState, useEffect, useRef } from "react";
 import PlaneCard from "./components/PlaneCard";
 import BombCard from "./components/BombCard";
 import PlanePage from "./components/PlanePage";
+import { planeIconSrc } from "./components/PlaneCard";
 import {
 	PLANES,
 	ALL_BOMBS,
@@ -213,7 +214,19 @@ function App() {
 												e.preventDefault()
 											}
 											onClick={() => openPlane(p)}>
-											<span>{p.name}</span>
+											<img
+												className="result-icon"
+												src={planeIconSrc(p)}
+												alt=""
+												loading="lazy"
+												onError={(e) =>
+													(e.currentTarget.style.visibility =
+														"hidden")
+												}
+											/>
+											<span className="result-name">
+												{p.name}
+											</span>
 											<small>
 												{p.country} · BR{" "}
 												{p.br.toFixed(1)} · {p.bases}{" "}

@@ -1581,3 +1581,17 @@ button.variant-stats .chev {
 .hp-legend-icon .tile-missing {
 	font-size: 0.4rem;
 }
+
+.container .search .results button {
+    display: flex;
+	align-items: center !important;
+}
+.container .search .results button .result-icon {
+	width: 64px;
+	object-fit: contain;
+	flex: none;
+}
+.container .search .results button .result-name {
+	flex: 1;
+	min-width: 0;
+}
