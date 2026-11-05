@@ -1,0 +1,155 @@
+nav {
+	position: fixed;
+	z-index: 20;
+	top: 12px;
+	left: 12px;
+	right: 12px;
+
+	min-height: 72px;
+	padding: 8px 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	background: var(--nav-bg);
+	backdrop-filter: blur(20px) saturate(150%);
+	-webkit-backdrop-filter: blur(20px) saturate(150%);
+	box-shadow: var(--shadow);
+	color: var(--text);
+}
+
+.logo {
+	padding: 4px;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	min-width: 0;
+	cursor: pointer;
+}
+
+.logo img {
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+	border-radius: 12px;
+}
+
+.logo h1 {
+	font-size: 1.25rem;
+	font-weight: 450;
+	letter-spacing: -0.04em;
+	white-space: nowrap;
+}
+
+.nav-links {
+	padding: 4px;
+}
+
+.nav-links ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.nav-links li {
+	position: relative;
+	padding: 10px 14px;
+	border-radius: 10px;
+	color: var(--text-muted);
+	font-size: 1rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition:
+		color var(--transition),
+		background var(--transition),
+		transform var(--transition);
+}
+
+.nav-links li:hover {
+	color: var(--accent);
+	background: var(--accent-soft);
+}
+
+.nav-links li:active {
+	transform: scale(0.97);
+}
+
+.nav-links li.current {
+	color: var(--accent);
+	font-weight: 600;
+}
+
+/* theme toggle: only the icon for the opposite theme is shown */
+.nav-links li .active {
+	display: block;
+}
+
+.nav-links li .hidden {
+	display: none;
+}
+
+.burger {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	nav {
+		top: 8px;
+		left: 8px;
+		right: 8px;
+		min-height: 60px;
+		padding: 8px 10px;
+		gap: 8px;
+		border-radius: 14px;
+	}
+
+	.logo {
+		gap: 8px;
+	}
+
+	.logo img {
+		width: 36px;
+		height: 36px;
+	}
+
+	.logo h1 {
+		font-size: 1rem;
+	}
+
+	.nav-links {
+		position: absolute;
+		top: calc(100% + 8px);
+		left: 0;
+		right: 0;
+		padding: 8px;
+		border: 1px solid var(--border);
+		border-radius: 14px;
+		background: var(--surface);
+		box-shadow: var(--shadow);
+	}
+
+	.nav-links:not(.active) {
+		display: none;
+	}
+
+	.nav-links ul {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 2px;
+	}
+
+	.nav-links li {
+		padding: 12px;
+	}
+
+	.burger {
+		display: flex;
+		padding: 8px;
+		cursor: pointer;
+	}
+}

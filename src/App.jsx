@@ -1,4 +1,11 @@
 import "./App.css";
+import "./styles/shared.css";
+import "./styles/nav.css";
+import "./styles/home.css";
+import "./styles/planes.css";
+import "./styles/plane-card.css";
+import "./styles/bombs.css";
+import "./styles/plane-page.css";
 import NavIcon from "./favicon.svg";
 import { Menu, Sun, Moon, Search, X } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
@@ -146,7 +153,7 @@ function App() {
 	);
 
 	return (
-		<div className={`container ${theme}`}>
+		<div className="container">
 			<nav>
 				<div className="logo" onClick={() => go("home")}>
 					<img src={NavIcon} alt="Logo" />

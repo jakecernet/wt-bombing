@@ -1,0 +1,71 @@
+/* Planes tab: filter panel + result header (cards live in plane-card.css) */
+
+.filters {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr;
+	gap: 20px;
+	padding: 18px;
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	background: var(--card-bg);
+}
+
+.filters h3 {
+	margin-bottom: 10px;
+	color: var(--text-muted);
+	font-size: 0.8rem;
+	font-weight: 600;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.filters .val {
+	margin-left: 6px;
+	color: var(--accent);
+}
+
+.filters input.text,
+.filters select {
+	width: 100%;
+	height: 38px;
+	padding: 0 10px;
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	background: var(--nav-bg);
+	color: var(--text);
+}
+
+.filters input.text {
+	font-size: 1rem;
+}
+
+.filters select {
+	font-size: 0.95rem;
+}
+
+.filters input[type="range"] {
+	width: 100%;
+	accent-color: var(--accent);
+}
+
+.planes-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 12px;
+	color: var(--text-muted);
+}
+
+.planes-head strong {
+	color: var(--text);
+}
+
+@media (max-width: 768px) {
+	.filters {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.filters .filter-group:first-child {
+		grid-column: 1 / -1;
+	}
+}
