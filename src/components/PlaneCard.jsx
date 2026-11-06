@@ -20,7 +20,7 @@ const RANK = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"];
 const base = import.meta.env.BASE_URL;
 
 // Plane icons live in public/icons/planes/<nation folder>/<plane id>.png
-const NATION_DIR = { USA: "usa", Germany: "ger" };
+const NATION_DIR = { USA: "usa", Germany: "ger", USSR: "ussr" };
 export const planeIconSrc = (plane) =>
 	`${base}icons/planes/${NATION_DIR[plane.country] ?? plane.country.toLowerCase().slice(0, 3)}/${plane.id}.png`;
 

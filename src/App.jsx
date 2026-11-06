@@ -432,8 +432,8 @@ function App() {
 				<a href={SHEET_URL}>
 					LEGION&apos;s Loadouts 2.29 – Sky Odyssey
 				</a>
-				. Germany ranks I–IX and USA ranks I–IX transcribed from
-				screenshots; some rows between screenshots may be missing.
+				. Germany, USA and USSR ranks I–IX transcribed from screenshots;
+				some rows between screenshots may be missing.
 			</footer>
 		</div>
 	);

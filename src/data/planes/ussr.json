@@ -1,0 +1,5187 @@
+[
+	{
+		"id": "po-2",
+		"name": "Po-2",
+		"country": "USSR",
+		"rank": 1,
+		"br": 1.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"50sv",
+					"50sv",
+					"50sv-2x",
+					"50sv",
+					"50sv",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["50sv x4", "50sv x2"]
+			}
+		]
+	},
+	{
+		"id": "bb-1",
+		"name": "BB-1",
+		"country": "USSR",
+		"rank": 1,
+		"br": 1.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv-4x",
+					"100sv-4x",
+					"100sv-4x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": ["100sv x3", "100sv x3", "100sv x3", "100sv x3"],
+				"minBr": 2.3,
+				"bombsHigh": ["100sv x4", "100sv x4", "100sv x4"]
+			}
+		]
+	},
+	{
+		"id": "su-2-mv-5",
+		"name": "Su-2 MV-5",
+		"country": "USSR",
+		"rank": 1,
+		"br": 1.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv-4x",
+					"100sv-4x",
+					"100sv-4x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": ["100sv x3", "100sv x3", "100sv x3", "100sv x3"],
+				"minBr": 2.3,
+				"bombsHigh": ["100sv x4", "100sv x4", "100sv x4"]
+			}
+		]
+	},
+	{
+		"id": "su-2-tts-1",
+		"name": "Su-2 TTS-1",
+		"country": "USSR",
+		"rank": 1,
+		"br": 1.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv-4x",
+					"100sv-4x",
+					"100sv-4x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": ["100sv x3", "100sv x3", "100sv x3", "100sv x3"],
+				"minBr": 2.3,
+				"bombsHigh": ["100sv x4", "100sv x4", "100sv x4"]
+			}
+		]
+	},
+	{
+		"id": "su-2-m-82",
+		"name": "Su-2 M-82",
+		"country": "USSR",
+		"rank": 1,
+		"br": 2.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv-4x",
+					"100sv-4x",
+					"100sv-4x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["100sv x4", "100sv x4", "100sv x4"],
+				"minBr": 3.7,
+				"bombsHigh": ["100sv x7", "100sv x5"]
+			}
+		]
+	},
+	{
+		"id": "pe-3-e",
+		"name": "Pe-3 (e)",
+		"country": "USSR",
+		"rank": 1,
+		"br": 2.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"250sv",
+					"250sv",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["100sv x1 + 250sv x2", "100sv x1"]
+			}
+		]
+	},
+	{
+		"id": "pe-3",
+		"name": "Pe-3",
+		"country": "USSR",
+		"rank": 1,
+		"br": 2.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"250sv",
+					"250sv",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": ["100sv x1 + 250sv x1", "100sv x1 + 250sv x1"],
+				"minBr": 2.3,
+				"bombsHigh": ["100sv x1 + 250sv x2", "100sv x1"]
+			}
+		]
+	},
+	{
+		"id": "yak-2-kabb",
+		"name": "Yak-2 KABB",
+		"country": "USSR",
+		"rank": 1,
+		"br": 2.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"100sv",
+					"100sv",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["100sv x4"]
+			}
+		]
+	},
+	{
+		"id": "sb-2m-100",
+		"name": "SB 2M-100",
+		"country": "USSR",
+		"rank": 1,
+		"br": 1.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"100sv",
+					"100sv",
+					"/",
+					"100sv",
+					"100sv",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["100sv x3", "100sv x3"]
+			}
+		]
+	},
+	{
+		"id": "sb-2m-103",
+		"name": "SB 2M-103",
+		"country": "USSR",
+		"rank": 1,
+		"br": 2.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500sv-brown",
+					"500sv-brown",
+					"500sv-brown",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500sv x1", "500sv x1", "500sv x1"]
+			}
+		]
+	},
+	{
+		"id": "yak-4",
+		"name": "Yak-4",
+		"country": "USSR",
+		"rank": 1,
+		"br": 2.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"100sv",
+					"100sv",
+					"100sv",
+					"/",
+					"100sv",
+					"100sv",
+					"100sv",
+					"100sv",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": ["100sv x3", "100sv x3", "100sv x2"],
+				"minBr": 2.3,
+				"bombsHigh": ["100sv x4", "100sv x4"]
+			}
+		]
+	},
+	{
+		"id": "ar-2",
+		"name": "Ar-2",
+		"country": "USSR",
+		"rank": 1,
+		"br": 2.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500sv-brown",
+					"500sv-brown",
+					"500sv-brown",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500sv x1", "500sv x1", "500sv x1"]
+			}
+		]
+	},
+	{
+		"id": "sb-2m-103u",
+		"name": "SB 2M-103U",
+		"country": "USSR",
+		"rank": 1,
+		"br": 2.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500sv-brown",
+					"500sv-brown",
+					"500sv-brown",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500sv x1", "500sv x1", "500sv x1"]
+			}
+		]
+	},
+	{
+		"id": "sb-2m-105",
+		"name": "SB 2M-105",
+		"country": "USSR",
+		"rank": 1,
+		"br": 2.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500sv-brown",
+					"500sv-brown",
+					"500sv-brown",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["500sv x1", "500sv x1", "500sv x1"],
+				"minBr": 3.7,
+				"bombsHigh": ["500sv x2", "500sv x1"]
+			}
+		]
+	},
+	{
+		"id": "pby-5a-ussr",
+		"name": "PBY-5A",
+		"country": "USSR",
+		"rank": 1,
+		"br": 1.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 7.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"type-a",
+					"/",
+					"an-m30a1-6x",
+					"/",
+					"an-m30a1-6x",
+					"/",
+					"type-a",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": [
+					"Type A x1",
+					"Type A x1",
+					"AN-M30A1 x4",
+					"AN-M30A1 x4",
+					"AN-M30A1 x4"
+				],
+				"minBr": 2.3,
+				"bombsHigh": ["Type A x1", "Type A x1", "AN-M30A1 x6", "AN-M30A1 x6"]
+			}
+		]
+	},
+	{
+		"id": "hampden-tb-i",
+		"name": "Hampden TB I",
+		"country": "USSR",
+		"rank": 1,
+		"br": 1.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"gp-500-green",
+					"gp-1000-4x",
+					"gp-500-green",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": [
+					"G.P.1000 x1 + G.P.500 x1",
+					"G.P.1000 x1 + G.P.500 x1",
+					"G.P.1000 x2"
+				],
+				"minBr": 2.3,
+				"bombsHigh": ["G.P.1000 x2", "G.P.1000 x2", "G.P.500 x2"]
+			}
+		]
+	},
+	{
+		"id": "db-lk",
+		"name": "DB-LK",
+		"country": "USSR",
+		"rank": 1,
+		"br": 2.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 7,
+				"reward": 8.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv-8x",
+					"50sv-4x",
+					"/",
+					"50sv-4x",
+					"100sv-8x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": [
+					"50sv x4",
+					"50sv x4",
+					"100sv x3",
+					"100sv x3",
+					"100sv x3",
+					"100sv x3",
+					"100sv x3"
+				],
+				"minBr": 2.3,
+				"bombsHigh": [
+					"100sv x4",
+					"100sv x4",
+					"100sv x4",
+					"100sv x4",
+					"50sv x5",
+					"50sv x3"
+				]
+			}
+		]
+	},
+	{
+		"id": "mbr-2-m-34",
+		"name": "MBR-2-M-34",
+		"country": "USSR",
+		"rank": 1,
+		"br": 1.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"50sv",
+					"50sv",
+					"50sv",
+					"50sv",
+					"/",
+					"50sv",
+					"50sv",
+					"50sv",
+					"50sv",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["50sv x4", "50sv x4"]
+			}
+		]
+	},
+	{
+		"id": "po-2m",
+		"name": "Po-2M",
+		"country": "USSR",
+		"rank": 1,
+		"br": 1.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 9.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"zab-50",
+					"zab-50",
+					"/",
+					"zab-50",
+					"zab-50",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZAB-50 x1", "ZAB-50 x1", "ZAB-50 x1", "ZAB-50 x1"]
+			}
+		]
+	},
+	{
+		"id": "tb-3m-17-32",
+		"name": "TB-3M-17-32",
+		"country": "USSR",
+		"rank": 1,
+		"br": 1.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 6,
+				"reward": 7.7,
+				"icons": [
+					"/",
+					"/",
+					"/",
+                    "250sv",
+                    "250sv",
+					"500sv",
+					"500sv",
+					"/",
+					"500sv",
+					"500sv",
+                    "250sv",
+                    "250sv",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": [
+					"500sv x1",
+					"500sv x1",
+					"500sv x1",
+					"500sv x1",
+					"250sv x2",
+					"250sv x2"
+				],
+				"minBr": 2.3,
+				"bombsHigh": [
+					"500sv x1",
+					"500sv x1",
+					"500sv x1",
+					"500sv x1",
+					"250sv x3",
+					"250sv x1"
+				]
+			}
+		]
+	},
+	{
+		"id": "il-2-1941",
+		"name": "IL-2 (1941)",
+		"country": "USSR",
+		"rank": 2,
+		"br": 2.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"50sv-2x",
+					"/",
+					"50sv-2x",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["50sv x4 + 100sv x2"]
+			}
+		]
+	},
+	{
+		"id": "il-2-1942",
+		"name": "IL-2 (1942)",
+		"country": "USSR",
+		"rank": 2,
+		"br": 3.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"100sv-2x",
+					"/",
+					"100sv-2x",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["100sv x4", "100sv x2"],
+				"minBr": 3.7,
+				"bombsHigh": ["100sv x6"]
+			}
+		]
+	},
+	{
+		"id": "pe-3bis",
+		"name": "Pe-3bis",
+		"country": "USSR",
+		"rank": 2,
+		"br": 2.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"250sv",
+					"250sv",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["100sv x1 + 250sv x2", "100sv x1"],
+				"minBr": 3.7,
+				"bombsHigh": ["100sv x2 + 250sv x2"]
+			}
+		]
+	},
+	{
+		"id": "db-3b",
+		"name": "DB-3B",
+		"country": "USSR",
+		"rank": 2,
+		"br": 2.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 6,
+				"reward": 6.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv-2x",
+					"500sv-teal",
+					"500sv-teal",
+					"100sv-6x",
+					"500sv-teal",
+					"100sv-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": [
+					"500sv x1",
+					"500sv x1",
+					"500sv x1",
+					"100sv x4",
+					"100sv x4",
+					"100sv x4",
+					"100sv x2"
+				],
+				"minBr": 3.7,
+				"bombsHigh": ["500sv x2", "500sv x1 + 100sv x4", "100sv x8", "100sv x2"]
+			}
+		]
+	},
+	{
+		"id": "il-4",
+		"name": "IL-4",
+		"country": "USSR",
+		"rank": 2,
+		"br": 2.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 7.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500sv-teal",
+					"500sv-teal",
+					"100sv-6x",
+					"500sv-teal",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["500sv x1", "500sv x1", "500sv x1", "100sv x4", "100sv x4"],
+				"minBr": 3.7,
+				"bombsHigh": ["500sv x2", "500sv x1 + 100sv x3", "100sv x7"]
+			}
+		]
+	},
+	{
+		"id": "pe-2-1",
+		"name": "Pe-2-1",
+		"country": "USSR",
+		"rank": 2,
+		"br": 3.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"100sv",
+					"100sv",
+					"100sv-4x",
+					"100sv",
+					"100sv",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["100sv x4", "100sv x4", "100sv x2"],
+				"minBr": 3.7,
+				"bombsHigh": ["100sv x7", "100sv x3"]
+			}
+		]
+	},
+	{
+		"id": "pe-2-31",
+		"name": "Pe-2-31",
+		"country": "USSR",
+		"rank": 2,
+		"br": 3.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"100sv",
+					"100sv",
+					"100sv-4x",
+					"100sv",
+					"100sv",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["100sv x4", "100sv x4", "100sv x2"],
+				"minBr": 3.7,
+				"bombsHigh": ["100sv x7", "100sv x3"]
+			}
+		]
+	},
+	{
+		"id": "pe-2-83",
+		"name": "Pe-2-83",
+		"country": "USSR",
+		"rank": 2,
+		"br": 3.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"100sv",
+					"100sv",
+					"100sv-4x",
+					"100sv",
+					"100sv",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["100sv x4", "100sv x4", "100sv x2"],
+				"minBr": 3.7,
+				"bombsHigh": ["100sv x7", "100sv x3"]
+			}
+		]
+	},
+	{
+		"id": "p-40e-1",
+		"name": "P-40E-1",
+		"country": "USSR",
+		"rank": 2,
+		"br": 2.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500sv-blue",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["500sv x1"],
+				"minBr": 3.7,
+				"bombsHigh": ["500sv x1"]
+			}
+		]
+	},
+	{
+		"id": "il-2-m-82",
+		"name": "IL-2 M-82",
+		"country": "USSR",
+		"rank": 2,
+		"br": 2.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"100sv-2x",
+					"/",
+					"100sv-2x",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["100sv x4", "100sv x2"],
+				"minBr": 3.7,
+				"bombsHigh": ["100sv x6"]
+			}
+		]
+	},
+	{
+		"id": "i-185-m-82",
+		"name": "I-185 (M-82)",
+		"country": "USSR",
+		"rank": 3,
+		"br": 3.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"zab-50",
+					"/",
+					"zab-50",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZAB-50 x2", "100sv x2"]
+			}
+		]
+	},
+	{
+		"id": "i-185-m-71",
+		"name": "I-185 (M-71)",
+		"country": "USSR",
+		"rank": 3,
+		"br": 4.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 6.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"zab-50",
+					"zab-50",
+					"/",
+					"zab-50",
+					"zab-50",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["ZAB-50 x2", "ZAB-50 x2"],
+				"minBr": 5.0,
+				"bombsHigh": ["ZAB-50 x3", "ZAB-50 x1"]
+			}
+		]
+	},
+	{
+		"id": "il-2m-1943",
+		"name": "IL-2M (1943)",
+		"country": "USSR",
+		"rank": 3,
+		"br": 3.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"100sv-2x",
+					"/",
+					"100sv-2x",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["100M-43 x4", "100M-43 x2"],
+				"minBr": 3.7,
+				"bombsHigh": ["100M-43 x6"]
+			}
+		]
+	},
+	{
+		"id": "il-2m-type-3",
+		"name": "IL-2M type 3",
+		"country": "USSR",
+		"rank": 3,
+		"br": 3.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"100sv-2x",
+					"/",
+					"100sv-2x",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["100M-43 x4", "100M-43 x2"],
+				"minBr": 3.7,
+				"bombsHigh": ["100M-43 x6"]
+			}
+		]
+	},
+	{
+		"id": "su-6-m-71f",
+		"name": "Su-6 (M-71F)",
+		"country": "USSR",
+		"rank": 3,
+		"br": 4.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"ao-25-5x",
+					"50sv",
+					"m8-10x",
+					"50sv",
+					"ao-25-5x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["AO-25 x16 + 50sv x2 + M8 x10"],
+				"minBr": 5.0,
+				"bombsHigh": ["AO-25 x16 + 50sv x2 + M8 x10"]
+			}
+		]
+	},
+	{
+		"id": "yer-2-m-105",
+		"name": "Yer-2 (M-105)",
+		"country": "USSR",
+		"rank": 3,
+		"br": 3.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 6,
+				"reward": 5.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fab-1000",
+					"500sv-blue-4x",
+					"fab-1000",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": [
+					"FAB-1000 x1",
+					"FAB-1000 x1",
+					"500sv x1",
+					"500sv x1",
+					"500sv x1",
+					"500sv x1"
+				],
+				"minBr": 3.7,
+				"bombsHigh": ["FAB-1000 x1", "FAB-1000 x1", "500sv x2", "500sv x2"]
+			}
+		]
+	},
+	{
+		"id": "yer-2-m-105r",
+		"name": "Yer-2 (M-105R)",
+		"country": "USSR",
+		"rank": 3,
+		"br": 3.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 5.5,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fab-1000",
+					"500sv-blue-4x",
+					"fab-1000",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FAB-1000 x1", "FAB-1000 x1", "500sv x2", "500sv x2"]
+			}
+		]
+	},
+	{
+		"id": "pe-2-110",
+		"name": "Pe-2-110",
+		"country": "USSR",
+		"rank": 3,
+		"br": 3.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"100sv",
+					"100sv",
+					"100m-43-4x",
+					"100sv",
+					"100sv",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["100M-43 x6", "100M-43 x4"]
+			}
+		]
+	},
+	{
+		"id": "pe-2-359",
+		"name": "Pe-2-359",
+		"country": "USSR",
+		"rank": 3,
+		"br": 4.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"100sv",
+					"100sv",
+					"100m-43-4x",
+					"100sv",
+					"100sv",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["100M-43 x6", "100M-43 x4"],
+				"minBr": 5.0,
+				"bombsHigh": ["100M-43 x10"]
+			}
+		]
+	},
+	{
+		"id": "pe-8",
+		"name": "Pe-8",
+		"country": "USSR",
+		"rank": 3,
+		"br": 4.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 4.8,
+				"icons": [
+					"/",
+					"/",
+					"100sv-4x",
+					"100sv-4x",
+					"100sv-4x",
+					"100sv-4x",
+					"100sv-4x",
+					"/",
+					"100sv-4x",
+					"100sv-4x",
+					"100sv-4x",
+					"100sv-4x",
+					"100sv-4x",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["100sv x8", "100sv x8", "100sv x8", "100sv x8", "100sv x8"],
+				"minBr": 5.0,
+				"bombsHigh": ["100sv x12", "100sv x12", "100sv x12", "100sv x4"]
+			}
+		]
+	},
+	{
+		"id": "a-20g-30",
+		"name": "A-20G-30",
+		"country": "USSR",
+		"rank": 3,
+		"br": 3.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv",
+					"500sv-blue",
+					"50sv-8x",
+					"500sv-blue",
+					"100sv",
+					"100sv",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["50sv x8", "50sv x8", "500sv x2", "100sv x3"]
+			}
+		]
+	},
+	{
+		"id": "p-47d-27",
+		"name": "P-47D-27",
+		"country": "USSR",
+		"rank": 3,
+		"br": 4.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500sv-blue",
+					"250sv",
+					"500sv-blue",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["500sv x2", "250sv x1"],
+				"minBr": 5.0,
+				"bombsHigh": ["500sv x2 + 250sv x1"]
+			}
+		]
+	},
+	{
+		"id": "b-25j-30",
+		"name": "B-25J-30",
+		"country": "USSR",
+		"rank": 3,
+		"br": 3.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"250sv",
+					"250sv",
+					"500sv-blue",
+					"/",
+					"500sv-blue",
+					"250sv",
+					"250sv",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500sv x1 + 250sv x2", "500sv x1 + 250sv x2"]
+			}
+		]
+	},
+	{
+		"id": "pe-2-205",
+		"name": "Pe-2-205",
+		"country": "USSR",
+		"rank": 3,
+		"br": 3.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"100m-43",
+					"100m-43",
+					"100m-43",
+					"100m-43-4x",
+					"100m-43",
+					"100m-43",
+					"100m-43",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["100M-43 x6", "100M-43 x4"]
+			}
+		]
+	},
+	{
+		"id": "il-8-1944",
+		"name": "IL-8 (1944)",
+		"country": "USSR",
+		"rank": 3,
+		"br": 3.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100m-43",
+					"100m-43-2x",
+					"/",
+					"100m-43-2x",
+					"100m-43",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["100M-43 x6"]
+			}
+		]
+	},
+	{
+		"id": "tis-ma",
+		"name": "TIS MA",
+		"country": "USSR",
+		"rank": 3,
+		"br": 4.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500sv-blue",
+					"/",
+					"500sv-blue",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["500sv x2"],
+				"minBr": 5.0,
+				"bombsHigh": ["500sv x2"]
+			}
+		]
+	},
+	{
+		"id": "tu-2",
+		"name": "Tu-2",
+		"country": "USSR",
+		"rank": 3,
+		"br": 4.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 6.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fab-1000",
+					"100sv-6x",
+					"fab-1000",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["FAB-1000 x1", "FAB-1000 x1", "100sv x7", "100sv x2"],
+				"minBr": 5.0,
+				"bombsHigh": [
+					"FAB-1000 x1 + 100sv x4",
+					"FAB-1000 x1 + 100sv x4",
+					"100sv x1"
+				]
+			}
+		]
+	},
+	{
+		"id": "su-6-am-42",
+		"name": "Su-6 (AM-42)",
+		"country": "USSR",
+		"rank": 4,
+		"br": 4.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"ao-25-5x",
+					"50sv",
+					"gunpod-2x",
+					"m8-10x",
+					"gunpod-2x",
+					"50sv",
+					"ao-25-5x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["AO-25 x16 + 50sv x2 + M8 x10"],
+				"minBr": 5.0,
+				"bombsHigh": ["AO-25 x16 + 50sv x2 + M8 x10"]
+			}
+		]
+	},
+	{
+		"id": "yer-2-ach-30-e",
+		"name": "Yer-2 ACh-30(e)",
+		"country": "USSR",
+		"rank": 4,
+		"br": 4.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 4.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fab-1000",
+					"fab-1000",
+					"500sv-4x",
+					"fab-1000",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": [
+					"FAB-1000 x1",
+					"FAB-1000 x1",
+					"FAB-1000 x1",
+					"500sv x2",
+					"500sv x2"
+				],
+				"minBr": 5.0,
+				"bombsHigh": ["FAB-1000 x2", "FAB-1000 x1 + 500sv x1", "500sv x3"]
+			}
+		]
+	},
+	{
+		"id": "yer-2-ach-30-l",
+		"name": "Yer-2 ACh-30(l)",
+		"country": "USSR",
+		"rank": 4,
+		"br": 4.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 4.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fab-1000",
+					"fab-1000",
+					"500sv-4x",
+					"fab-1000",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": [
+					"FAB-1000 x1",
+					"FAB-1000 x1",
+					"FAB-1000 x1",
+					"500sv x2",
+					"500sv x2"
+				],
+				"minBr": 5.0,
+				"bombsHigh": ["FAB-1000 x2", "FAB-1000 x1 + 500sv x1", "500sv x3"]
+			}
+		]
+	},
+	{
+		"id": "tu-2s-7",
+		"name": "Tu-2S (7)",
+		"country": "USSR",
+		"rank": 4,
+		"br": 5.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 7.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"1000m-43",
+					"250m-43-2x",
+					"1000m-43",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["1000M-43 x1 + 250M-43 x1", "1000M-43 x1 + 250M-43 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500m-43",
+					"1000m-43",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["1000M-43 x1 + 500M-43 x1"]
+			}
+		]
+	},
+	{
+		"id": "tu-2s-1",
+		"name": "Tu-2S (1)",
+		"country": "USSR",
+		"rank": 4,
+		"br": 5.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 7.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"1000m-43",
+					"250m-43-2x",
+					"1000m-43",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["1000M-43 x1 + 250M-43 x1", "1000M-43 x1 + 250M-43 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500m-43",
+					"1000m-43",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["1000M-43 x1 + 500M-43 x1"]
+			}
+		]
+	},
+	{
+		"id": "tu-2s-8",
+		"name": "Tu-2S (8)",
+		"country": "USSR",
+		"rank": 4,
+		"br": 5.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 7.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"1000m-43",
+					"250m-43-2x",
+					"1000m-43",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": ["1000M-43 x1 + 250M-43 x1", "1000M-43 x1 + 250M-43 x1"],
+				"minBr": 6.7,
+				"bombsHigh": ["1000M-43 x2", "250M-43 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"1000m-43",
+					"/",
+					"1000m-43",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["1000M-43 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-6",
+		"name": "Su-6",
+		"country": "USSR",
+		"rank": 4,
+		"br": 3.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"ao-25-5x",
+					"50sv",
+					"m8-10x",
+					"50sv",
+					"ao-25-5x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AO-25 x16 + 50sv x2 + M8 x10"]
+			}
+		]
+	},
+	{
+		"id": "be-6",
+		"name": "Be-6",
+		"country": "USSR",
+		"rank": 4,
+		"br": 5.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 6.3,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"500m-46-gold",
+					"500m-46-gold",
+					"500m-46-gold",
+					"500m-46-gold",
+					"/",
+					"500m-46-gold",
+					"500m-46-gold",
+					"500m-46-gold",
+					"500m-46-gold",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-46 x3", "500M-46 x3", "500M-46 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-8",
+		"name": "Su-8",
+		"country": "USSR",
+		"rank": 4,
+		"br": 4.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"100sv-orange-3x",
+					"500sv-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": ["500sv x2", "100sv x3"],
+				"minBr": 5.0,
+				"bombsHigh": ["500sv x2 + 100sv x2", "100sv x1"]
+			}
+		]
+	},
+	{
+		"id": "tu-1",
+		"name": "Tu-1",
+		"country": "USSR",
+		"rank": 4,
+		"br": 5.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"1000m-44",
+					"1000m-44",
+					"1000m-44",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["1000M-44 x2", "1000M-44 x1"]
+			}
+		]
+	},
+	{
+		"id": "il-28-ussr",
+		"name": "IL-28",
+		"country": "USSR",
+		"rank": 5,
+		"br": 8.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500m-46",
+					"500m-46",
+					"/",
+					"500m-46",
+					"500m-46",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-46 x4"]
+			}
+		]
+	},
+	{
+		"id": "il-28sh",
+		"name": "IL-28Sh",
+		"country": "USSR",
+		"rank": 5,
+		"br": 8.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"100m-43",
+					"zb-500",
+					"gunpod",
+					"250m-46-8x",
+					"gunpod",
+					"zb-500",
+					"100m-43",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["100M-43 x12 + 250M-46 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 8.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"gunpod",
+					"500m-46-4x",
+					"gunpod",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-46 x4"]
+			}
+		]
+	},
+	{
+		"id": "tu-4",
+		"name": "Tu-4",
+		"country": "USSR",
+		"rank": 5,
+		"br": 8.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 3.4,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500m-46-4x",
+					"500m-46-4x",
+					"500m-46-4x",
+					"500m-46-4x",
+					"500m-46-4x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"500M-46 x4",
+					"500M-46 x4",
+					"500M-46 x4",
+					"500M-46 x4",
+					"500M-46 x4"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 3.7,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"fab-1500",
+					"fab-1500",
+					"fab-1500",
+					"fab-1500",
+					"/",
+					"fab-1500",
+					"fab-1500",
+					"fab-1500",
+					"fab-1500",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FAB-1500 x2", "FAB-1500 x2", "FAB-1500 x2", "FAB-1500 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 4.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500m-46-3x",
+					"500m-46-3x",
+					"/",
+					"500m-46-3x",
+					"500m-46-3x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-46 x4", "500M-46 x4", "500M-46 x4"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"1000m-44-blue",
+					"1000m-44-blue",
+					"1000m-44-blue",
+					"1000m-44-blue",
+					"/",
+					"1000m-44-blue",
+					"1000m-44-blue",
+					"1000m-44-blue",
+					"1000m-44-blue",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["1000M-44 x4", "1000M-44 x4"]
+			}
+		]
+	},
+	{
+		"id": "tu-14t",
+		"name": "Tu-14T",
+		"country": "USSR",
+		"rank": 5,
+		"br": 8.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500m-46-2x",
+					"500m-46-2x",
+					"500m-46-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-46 x4", "500M-46 x2"]
+			}
+		]
+	},
+	{
+		"id": "yak-38m",
+		"name": "Yak-38M",
+		"country": "USSR",
+		"rank": 6,
+		"br": 9.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"zb-500",
+					"r60m",
+					"/",
+					"r60m",
+					"zb-500",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "mig-21f-13",
+		"name": "MiG-21F-13",
+		"country": "USSR",
+		"rank": 6,
+		"br": 9.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"zb-360",
+					"/",
+					"zb-360",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-360 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-7b",
+		"name": "Su-7B",
+		"country": "USSR",
+		"rank": 6,
+		"br": 9.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"zb-360",
+					"zb-360",
+					"/",
+					"zb-360",
+					"zb-360",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-360 x2", "ZB-360 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"zb-360",
+					"/",
+					"zb-360",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-360 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-7bkl",
+		"name": "Su-7BKL",
+		"country": "USSR",
+		"rank": 6,
+		"br": 9.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"zb-360",
+					"zb-360",
+					"/",
+					"zb-360",
+					"zb-360",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-360 x2", "ZB-360 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"zb-360",
+					"/",
+					"zb-360",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-360 x2"]
+			}
+		]
+	},
+	{
+		"id": "yak-130",
+		"name": "Yak-130",
+		"country": "USSR",
+		"rank": 6,
+		"br": 9.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"zb-500",
+					"/",
+					"zb-500",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-25",
+		"name": "Su-25",
+		"country": "USSR",
+		"rank": 6,
+		"br": 10.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 3.6,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"gunpod",
+					"/",
+					"gunpod",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"zb-500",
+					"zb-500",
+					"gunpod",
+					"gunpod",
+					"/",
+					"gunpod",
+					"gunpod",
+					"zb-500",
+					"zb-500",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"zb-500",
+					"/",
+					"gunpod",
+					"gunpod",
+					"/",
+					"gunpod",
+					"gunpod",
+					"/",
+					"zb-500",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "yak-28b",
+		"name": "Yak-28B",
+		"country": "USSR",
+		"rank": 6,
+		"br": 9.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"3000m-54",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["3000M-54 x1"]
+			}
+		]
+	},
+	{
+		"id": "yak-38",
+		"name": "Yak-38",
+		"country": "USSR",
+		"rank": 6,
+		"br": 9.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 9.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"zb-500",
+					"r60m",
+					"/",
+					"r60m",
+					"zb-500",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "mig-21s-r-13",
+		"name": "MiG-21S (R-13)",
+		"country": "USSR",
+		"rank": 6,
+		"br": 9.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"r60m",
+					"zb-500",
+					"gunpod",
+					"zb-500",
+					"r60m",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "tu-95m",
+		"name": "Tu-95M",
+		"country": "USSR",
+		"rank": 6,
+		"br": 8.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 3.7,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"3000m-54-4x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["3000M-54 x1", "3000M-54 x1", "3000M-54 x1", "3000M-54 x1"]
+			},
+			{
+				"bases": 2,
+				"reward": 5.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"fab-1500-4x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["FAB-1500 x2", "FAB-1500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 8.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"500m-46-4x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-46 x4"]
+			}
+		]
+	},
+	{
+		"id": "j-22m1a",
+		"name": "J-22M1A",
+		"country": "USSR",
+		"rank": 6,
+		"br": 9.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 6.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"plab-350",
+					"plab-350",
+					"droptank",
+					"plab-350",
+					"plab-350",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["PLAB-350 x2", "PLAB-350 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 9.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"plab-350",
+					"droptank",
+					"plab-350",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["PLAB-350 x2"]
+			}
+		]
+	},
+	{
+		"id": "mig-21pfm",
+		"name": "MiG-21PFM",
+		"country": "USSR",
+		"rank": 6,
+		"br": 9.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"zb-360",
+					"gunpod",
+					"zb-360",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-360 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-7bmk",
+		"name": "Su-7BMK",
+		"country": "USSR",
+		"rank": 6,
+		"br": 9.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 6.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"zb-360",
+					"zb-360",
+					"/",
+					"zb-360",
+					"zb-360",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-360 x2", "ZB-360 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 9.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"zb-360",
+					"/",
+					"zb-360",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-360 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-25k",
+		"name": "Su-25K",
+		"country": "USSR",
+		"rank": 6,
+		"br": 10.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 4.4,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 4.9,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"gunpod",
+					"/",
+					"gunpod",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 6.0,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"zb-500",
+					"zb-500",
+					"gunpod",
+					"gunpod",
+					"/",
+					"gunpod",
+					"gunpod",
+					"zb-500",
+					"zb-500",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 9.2,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"zb-500",
+					"/",
+					"gunpod",
+					"gunpod",
+					"/",
+					"gunpod",
+					"gunpod",
+					"/",
+					"zb-500",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "mig-21smt",
+		"name": "MiG-21SMT",
+		"country": "USSR",
+		"rank": 7,
+		"br": 10.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"r60m",
+					"zb-500",
+					"chaff-pod",
+					"zb-500",
+					"r60m",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "mig-21bis",
+		"name": "MiG-21bis",
+		"country": "USSR",
+		"rank": 7,
+		"br": 11.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"r60m-2x",
+					"zb-500",
+					"droptank",
+					"zb-500",
+					"r60m-2x",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "mig-23m",
+		"name": "MiG-23M",
+		"country": "USSR",
+		"rank": 7,
+		"br": 10.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"r60m",
+					"zb-500",
+					"chaff-pod",
+					"zb-500",
+					"r60m",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "mig-23mld",
+		"name": "MiG-23MLD",
+		"country": "USSR",
+		"rank": 7,
+		"br": 11.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"r60m",
+					"zb-500",
+					"chaff-pod",
+					"zb-500",
+					"r60m",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-17m2",
+		"name": "Su-17M2",
+		"country": "USSR",
+		"rank": 7,
+		"br": 10.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"zb-500",
+					"/",
+					"r60m-2x",
+					"500m-62-2x",
+					"/",
+					"500m-62-2x",
+					"r60m-2x",
+					"/",
+					"zb-500",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"500m-62",
+					"/",
+					"r60m-2x",
+					"droptank",
+					"/",
+					"500m-62-2x",
+					"r60m-2x",
+					"/",
+					"500m-62",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		]
+	},
+	{
+		"id": "su-17m4",
+		"name": "Su-17M4",
+		"country": "USSR",
+		"rank": 7,
+		"br": 11.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"zb-500",
+					"r60m",
+					"r60m-2x",
+					"500m-62-2x",
+					"/",
+					"500m-62-2x",
+					"r60m-2x",
+					"r60m",
+					"zb-500",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"gunpod",
+					"r60m",
+					"r60m-2x",
+					"500m-62-2x",
+					"/",
+					"500m-62-2x",
+					"r60m-2x",
+					"r60m",
+					"gunpod",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		]
+	},
+	{
+		"id": "su-25t",
+		"name": "Su-25T",
+		"country": "USSR",
+		"rank": 7,
+		"br": 11.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 3.6,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"r60m",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"r60m",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"r60m",
+					"zb-500",
+					"zb-500",
+					"gunpod",
+					"/",
+					"gunpod",
+					"zb-500",
+					"zb-500",
+					"r60m",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"r60m",
+					"zb-500",
+					"gunpod",
+					"gunpod",
+					"/",
+					"gunpod",
+					"gunpod",
+					"zb-500",
+					"r60m",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "mig-27m",
+		"name": "MiG-27M",
+		"country": "USSR",
+		"rank": 7,
+		"br": 11.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"r60m-2x",
+					"500m-62",
+					"zb-500",
+					"/",
+					"zb-500",
+					"500m-62",
+					"zb-500",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x1 + 500M-62 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"r60m-2x",
+					"500m-62",
+					"500m-62",
+					"droptank",
+					"500m-62",
+					"500m-62",
+					"r60m-2x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		]
+	},
+	{
+		"id": "mig-27k",
+		"name": "MiG-27K",
+		"country": "USSR",
+		"rank": 7,
+		"br": 11.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"r60m-2x",
+					"500m-62",
+					"zb-500",
+					"/",
+					"zb-500",
+					"500m-62",
+					"zb-500",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x1 + 500M-62 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"r60m-2x",
+					"500m-62",
+					"500m-62",
+					"droptank",
+					"500m-62",
+					"500m-62",
+					"r60m-2x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		]
+	},
+	{
+		"id": "su-24m",
+		"name": "Su-24M",
+		"country": "USSR",
+		"rank": 7,
+		"br": 11.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"/",
+					"/",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"r60m-2x",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"r60m-2x",
+					"zb-500",
+					"zb-500",
+					"/",
+					"/",
+					"rocket-pod",
+					"zb-500",
+					"zb-500",
+					"r60m-2x",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"r60m-2x",
+					"zb-500",
+					"/",
+					"/",
+					"/",
+					"rocket-pod",
+					"/",
+					"zb-500",
+					"r60m-2x",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-22m3",
+		"name": "Su-22M3",
+		"country": "USSR",
+		"rank": 7,
+		"br": 11.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"zb-500",
+					"r60m",
+					"r60m-2x",
+					"500m-62-2x",
+					"/",
+					"500m-62-2x",
+					"r60m-2x",
+					"r60m",
+					"zb-500",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.8,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"500m-62",
+					"r60m",
+					"r60m-2x",
+					"droptank",
+					"/",
+					"500m-62-2x",
+					"r60m-2x",
+					"r60m",
+					"500m-62",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		],
+		"squadron": true
+	},
+	{
+		"id": "mig-23ml",
+		"name": "MiG-23ML",
+		"country": "USSR",
+		"rank": 7,
+		"br": 11.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"r60m",
+					"zb-500",
+					"chaff-pod",
+					"zb-500",
+					"r60m",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-25bm",
+		"name": "Su-25BM",
+		"country": "USSR",
+		"rank": 7,
+		"br": 11.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 3.6,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"r60m",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"r60m",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"r60m",
+					"zb-500",
+					"zb-500",
+					"gunpod",
+					"/",
+					"gunpod",
+					"zb-500",
+					"zb-500",
+					"r60m",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"r60m",
+					"zb-500",
+					"gunpod",
+					"gunpod",
+					"/",
+					"gunpod",
+					"gunpod",
+					"zb-500",
+					"r60m",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-39",
+		"name": "Su-39",
+		"country": "USSR",
+		"rank": 7,
+		"br": 11.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 4.4,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 4.9,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"r60m",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"r60m",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 6.0,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"r60m",
+					"zb-500",
+					"zb-500",
+					"gunpod",
+					"/",
+					"gunpod",
+					"zb-500",
+					"zb-500",
+					"r60m",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 9.2,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"r60m",
+					"zb-500",
+					"gunpod",
+					"gunpod",
+					"/",
+					"gunpod",
+					"gunpod",
+					"zb-500",
+					"r60m",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "yak-141",
+		"name": "Yak-141",
+		"country": "USSR",
+		"rank": 8,
+		"br": 12.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"/",
+					"r27",
+					"zb-500",
+					"/",
+					"zb-500",
+					"r27",
+					"/",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "mig-29kr",
+		"name": "MiG-29KR",
+		"country": "USSR",
+		"rank": 8,
+		"br": 14.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"r73-yellow",
+					"r73-green",
+					"zb-500",
+					"500m-62-2x",
+					"droptank",
+					"500m-62-2x",
+					"zb-500",
+					"r73-green",
+					"r73-yellow",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"r73-yellow",
+					"r73-green",
+					"r73-green",
+					"500m-62-2x",
+					"droptank",
+					"500m-62-2x",
+					"r73-green",
+					"r73-green",
+					"r73-yellow",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		]
+	},
+	{
+		"id": "mig-29-9-12",
+		"name": "MiG-29 (9-12)",
+		"country": "USSR",
+		"rank": 8,
+		"br": 12.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"r60m",
+					"zb-500",
+					"500m-62-2x",
+					"droptank",
+					"500m-62-2x",
+					"zb-500",
+					"r60m",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"r60m",
+					"zb-500",
+					"r27",
+					"droptank",
+					"r27",
+					"zb-500",
+					"r60m",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		]
+	},
+	{
+		"id": "mig-29-9-13",
+		"name": "MiG-29 (9-13)",
+		"country": "USSR",
+		"rank": 8,
+		"br": 13.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"r73-yellow",
+					"zb-500",
+					"500m-62-2x",
+					"droptank",
+					"500m-62-2x",
+					"zb-500",
+					"r73-yellow",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"r73-yellow",
+					"zb-500",
+					"r27",
+					"droptank",
+					"r27",
+					"zb-500",
+					"r73-yellow",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		]
+	},
+	{
+		"id": "mig-29smt",
+		"name": "MiG-29SMT",
+		"country": "USSR",
+		"rank": 8,
+		"br": 13.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"r73-green",
+					"zb-500",
+					"500m-62-2x",
+					"droptank",
+					"500m-62-2x",
+					"zb-500",
+					"r73-green",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"r73-green",
+					"r73-green",
+					"500m-62-2x",
+					"droptank",
+					"500m-62-2x",
+					"r73-green",
+					"r73-green",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		]
+	},
+	{
+		"id": "su-27",
+		"name": "Su-27",
+		"country": "USSR",
+		"rank": 8,
+		"br": 13.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"r60m",
+					"zb-500-2x",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"zb-500-2x",
+					"r60m",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"r60m",
+					"zb-500-2x",
+					"r73",
+					"zb-500",
+					"/",
+					"zb-500",
+					"r73",
+					"zb-500-2x",
+					"r60m",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"r60m",
+					"zb-500-2x",
+					"r73",
+					"r73",
+					"/",
+					"r73",
+					"r73",
+					"zb-500-2x",
+					"r60m",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"r60m",
+					"zb-500-2x",
+					"r73",
+					"r73",
+					"/",
+					"r73",
+					"r73",
+					"r27",
+					"r60m",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-27sm",
+		"name": "Su-27SM",
+		"country": "USSR",
+		"rank": 8,
+		"br": 14.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"r60m",
+					"zb-500-2x",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"zb-500-2x",
+					"r60m",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"r60m",
+					"zb-500-2x",
+					"zb-500",
+					"r73-green-3x",
+					"/",
+					"r73-green-3x",
+					"zb-500",
+					"zb-500-2x",
+					"r60m",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"r60m",
+					"zb-500-2x",
+					"r73-green",
+					"r73-green-3x",
+					"/",
+					"r73-green-3x",
+					"r73-green",
+					"zb-500-2x",
+					"r60m",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"/",
+					"r60m",
+					"r60m",
+					"zb-500-2x",
+					"r73-green",
+					"r73-green-3x",
+					"/",
+					"r73-green-3x",
+					"r73-green",
+					"r73-green",
+					"r60m",
+					"r60m",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-25sm3",
+		"name": "Su-25SM3",
+		"country": "USSR",
+		"rank": 8,
+		"br": 11.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 3.6,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"r60m",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"zb-500",
+					"r60m",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"r60m",
+					"zb-500",
+					"zb-500",
+					"gunpod",
+					"/",
+					"gunpod",
+					"zb-500",
+					"zb-500",
+					"r60m",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.6,
+				"icons": [
+					"/",
+					"/",
+					"r73",
+					"r60m",
+					"zb-500",
+					"gunpod",
+					"gunpod",
+					"/",
+					"gunpod",
+					"gunpod",
+					"zb-500",
+					"r60m",
+					"r73",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-34",
+		"name": "Su-34",
+		"country": "USSR",
+		"rank": 8,
+		"br": 14.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 3.4,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"zb-500-2x",
+					"zb-500",
+					"zb-500",
+					"upab-3000",
+					"/",
+					"/",
+					"zb-500",
+					"zb-500",
+					"zb-500-2x",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": [
+					"UPAB-3000 x1",
+					"ZB-500 x2",
+					"ZB-500 x2",
+					"ZB-500 x2",
+					"ZB-500 x2"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 3.7,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"zb-500-2x",
+					"upab-1500",
+					"r73-green",
+					"upab-3000",
+					"/",
+					"/",
+					"r73-green",
+					"upab-1500",
+					"zb-500-2x",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": ["UPAB-3000 x1", "UPAB-1500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"zb-500-2x",
+					"r73-green",
+					"r73-green",
+					"upab-3000",
+					"/",
+					"/",
+					"r73-green",
+					"r73-green",
+					"zb-500-2x",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": ["UPAB-3000 x1", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 4.2,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"grom-2",
+					"grom-2",
+					"grom-2",
+					"upab-3000",
+					"/",
+					"/",
+					"grom-2",
+					"grom-2",
+					"grom-2",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": ["UPAB-3000 x1", "Grom-2 x3", "Grom-2 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 5.1,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"r73-green",
+					"upab-1500",
+					"r73-green",
+					"upab-3000",
+					"/",
+					"/",
+					"r73-green",
+					"upab-1500",
+					"r73-green",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": ["UPAB-3000 x1", "UPAB-1500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"r73-green",
+					"r73-green",
+					"r73-green",
+					"upab-3000",
+					"/",
+					"/",
+					"r73-green",
+					"r73-green",
+					"r73-green",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": ["UPAB-3000 x1"]
+			}
+		]
+	},
+	{
+		"id": "su-33",
+		"name": "Su-33",
+		"country": "USSR",
+		"rank": 8,
+		"br": 13.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"r60m",
+					"r60m",
+					"zb-500-2x",
+					"r73",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"r73",
+					"zb-500-2x",
+					"r60m",
+					"r60m",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"r60m",
+					"r60m",
+					"zb-500-2x",
+					"r73",
+					"r73",
+					"zb-500",
+					"/",
+					"zb-500",
+					"r73",
+					"r73",
+					"zb-500-2x",
+					"r60m",
+					"r60m",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"r60m",
+					"r60m",
+					"zb-500-2x",
+					"r73",
+					"r73",
+					"r73",
+					"/",
+					"r73",
+					"r73",
+					"r73",
+					"zb-500-2x",
+					"r60m",
+					"r60m",
+					"/"
+				],
+				"bombs": ["ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.1,
+				"icons": [
+					"/",
+					"r60m",
+					"r60m",
+					"zb-500-2x",
+					"r73",
+					"r73",
+					"r73",
+					"/",
+					"r73",
+					"r73",
+					"r27",
+					"zb-500-2x",
+					"r60m",
+					"r60m",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		],
+		"squadron": true
+	},
+	{
+		"id": "su-30mk2",
+		"name": "Su-30MK2",
+		"country": "USSR",
+		"rank": 8,
+		"br": 13.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"r60m",
+					"r60m",
+					"zb-500-2x",
+					"k-1500",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"k-1500",
+					"zb-500-2x",
+					"r60m",
+					"r60m",
+					"/"
+				],
+				"bombs": [
+					"K-1500 x2",
+					"ZB-500 x2",
+					"ZB-500 x2",
+					"ZB-500 x2",
+					"ZB-500 x2"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 3.6,
+				"icons": [
+					"/",
+					"r60m",
+					"r60m",
+					"zb-500-2x",
+					"k-1500",
+					"zb-500",
+					"r73-green",
+					"/",
+					"r73-green",
+					"zb-500",
+					"k-1500",
+					"zb-500-2x",
+					"r60m",
+					"r60m",
+					"/"
+				],
+				"bombs": ["K-1500 x2", "ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"r60m",
+					"r60m",
+					"zb-500-2x",
+					"k-1500",
+					"r73-green",
+					"r73-green",
+					"/",
+					"r73-green",
+					"r73-green",
+					"k-1500",
+					"zb-500-2x",
+					"r60m",
+					"r60m",
+					"/"
+				],
+				"bombs": ["K-1500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.8,
+				"icons": [
+					"/",
+					"r60m",
+					"r60m",
+					"r73-green",
+					"k-1500",
+					"r73-green",
+					"r73-green",
+					"/",
+					"r73-green",
+					"r73-green",
+					"k-1500",
+					"zb-500-2x",
+					"r60m",
+					"r60m",
+					"/"
+				],
+				"bombs": ["K-1500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.4,
+				"icons": [
+					"/",
+					"r60m",
+					"r60m",
+					"r73-green",
+					"k-1500",
+					"r73-green",
+					"r73-green",
+					"/",
+					"r73-green",
+					"r73-green",
+					"k-1500",
+					"r73-green",
+					"r60m",
+					"r60m",
+					"/"
+				],
+				"bombs": ["K-1500 x2"]
+			}
+		]
+	},
+	{
+		"id": "mig-29m",
+		"name": "MiG-29M",
+		"country": "USSR",
+		"rank": 8,
+		"br": 14.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"r73-green",
+					"r73-green",
+					"zb-500",
+					"500m-62-2x",
+					"droptank",
+					"500m-62-2x",
+					"zb-500",
+					"r73-green",
+					"r73-green",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.2,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"r73-green",
+					"r73-green",
+					"r73-green",
+					"500m-62-2x",
+					"droptank",
+					"500m-62-2x",
+					"r73-green",
+					"r73-green",
+					"r73-green",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["500M-62 x4"]
+			}
+		],
+		"squadron": true
+	},
+	{
+		"id": "mig-35",
+		"name": "MiG-35",
+		"country": "USSR",
+		"rank": 9,
+		"br": 14.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"/",
+					"r73-green",
+					"r73-green",
+					"zb-500",
+					"k-1500",
+					"targeting-pod",
+					"droptank",
+					"/",
+					"k-1500",
+					"zb-500",
+					"r73-green",
+					"r73-green",
+					"/",
+					"/"
+				],
+				"bombs": ["K-1500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.4,
+				"icons": [
+					"/",
+					"/",
+					"r73-green",
+					"r73-green",
+					"grom-2",
+					"grom-2",
+					"targeting-pod",
+					"droptank",
+					"/",
+					"r73-green",
+					"grom-2",
+					"r73-green",
+					"r73-green",
+					"/",
+					"/"
+				],
+				"bombs": ["Grom-2 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.2,
+				"icons": [
+					"/",
+					"/",
+					"r73-green",
+					"r73-green",
+					"r73-green",
+					"k-1500",
+					"targeting-pod",
+					"droptank",
+					"/",
+					"k-1500",
+					"r73-green",
+					"r73-green",
+					"r73-green",
+					"/",
+					"/"
+				],
+				"bombs": ["K-1500 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-30sm",
+		"name": "Su-30SM",
+		"country": "USSR",
+		"rank": 9,
+		"br": 14.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 2.7,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"zb-500-2x",
+					"upab-1500",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"upab-1500",
+					"zb-500-2x",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": [
+					"UPAB-1500 x2",
+					"ZB-500 x2",
+					"ZB-500 x2",
+					"ZB-500 x2",
+					"ZB-500 x2"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"zb-500-2x",
+					"upab-1500",
+					"zb-500",
+					"r73-green-3x",
+					"/",
+					"r73-green-3x",
+					"zb-500",
+					"upab-1500",
+					"zb-500-2x",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": ["UPAB-1500 x2", "ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"zb-500-2x",
+					"upab-1500",
+					"r73-green",
+					"r73-green-3x",
+					"/",
+					"r73-green-3x",
+					"r73-green",
+					"upab-1500",
+					"zb-500-2x",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": ["UPAB-1500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"r73-green",
+					"upab-1500",
+					"r73-green",
+					"r73-green-3x",
+					"/",
+					"r73-green-3x",
+					"r73-green",
+					"upab-1500",
+					"r73-green",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": ["UPAB-1500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"grom-2",
+					"grom-2",
+					"grom-2",
+					"r73-green-3x",
+					"/",
+					"r73-green-3x",
+					"grom-2",
+					"grom-2",
+					"grom-2",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": ["Grom-2 x3", "Grom-2 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.2,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"r73-green",
+					"upab-1500",
+					"r73-green",
+					"r73-green-3x",
+					"/",
+					"r73-green-3x",
+					"r73-green",
+					"upab-1500",
+					"r73-green",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": ["UPAB-1500 x2"]
+			}
+		]
+	},
+	{
+		"id": "su-30sm2",
+		"name": "Su-30SM2",
+		"country": "USSR",
+		"rank": 9,
+		"br": 15.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 2.7,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"zb-500-2x",
+					"upab-1500",
+					"zb-500",
+					"zb-500",
+					"/",
+					"zb-500",
+					"zb-500",
+					"upab-1500",
+					"zb-500-2x",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": [
+					"UPAB-1500 x2",
+					"ZB-500 x2",
+					"ZB-500 x2",
+					"ZB-500 x2",
+					"ZB-500 x2"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 2.9,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"zb-500-2x",
+					"upab-1500",
+					"zb-500",
+					"r73-green-3x",
+					"/",
+					"r73-green-3x",
+					"zb-500",
+					"upab-1500",
+					"zb-500-2x",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": ["UPAB-1500 x2", "ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 3,
+				"reward": 3.3,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"zb-500-2x",
+					"upab-1500",
+					"r73-green",
+					"r73-green-3x",
+					"/",
+					"r73-green-3x",
+					"r73-green",
+					"upab-1500",
+					"zb-500-2x",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": ["UPAB-1500 x2", "ZB-500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"r73-green",
+					"upab-1500",
+					"r73-green",
+					"r73-green-3x",
+					"/",
+					"r73-green-3x",
+					"r73-green",
+					"upab-1500",
+					"zb-500-2x",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": ["UPAB-1500 x2", "ZB-500 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"grom-2",
+					"grom-2",
+					"grom-2",
+					"r73-green-3x",
+					"/",
+					"r73-green-3x",
+					"grom-2",
+					"grom-2",
+					"grom-2",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": ["Grom-2 x3", "Grom-2 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.2,
+				"icons": [
+					"/",
+					"r60m",
+					"r73-green",
+					"r73-green",
+					"upab-1500",
+					"r73-green",
+					"r73-green-3x",
+					"/",
+					"r73-green-3x",
+					"r73-green",
+					"upab-1500",
+					"r73-green",
+					"r73-green",
+					"r60m",
+					"/"
+				],
+				"bombs": ["UPAB-1500 x2"]
+			}
+		]
+	}
+]

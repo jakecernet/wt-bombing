@@ -103,7 +103,7 @@
 		"ZB500": {
 			"label": "ZB-500",
 			"mass": 500,
-			"icon": "zb500"
+			"icon": "zb-500"
 		},
 		"SC1000": {
 			"label": "SC1000",
@@ -229,6 +229,126 @@
 			"label": "AGM-130",
 			"mass": null,
 			"icon": "agm-130"
+		},
+		"50sv": {
+			"label": "50sv",
+			"mass": 50,
+			"icon": "50sv"
+		},
+		"100sv": {
+			"label": "100sv",
+			"mass": 100,
+			"icon": "100sv"
+		},
+		"250sv": {
+			"label": "250sv",
+			"mass": 250,
+			"icon": "250sv"
+		},
+		"500sv": {
+			"label": "500sv",
+			"mass": 500,
+			"icon": "500sv"
+		},
+		"ZAB50": {
+			"label": "ZAB-50",
+			"mass": 50,
+			"icon": "zab-50"
+		},
+		"FAB1000": {
+			"label": "FAB-1000",
+			"mass": 1000,
+			"icon": "fab-1000"
+		},
+		"FAB1500": {
+			"label": "FAB-1500",
+			"mass": 1500,
+			"icon": "fab-1500"
+		},
+		"100M43": {
+			"label": "100M-43",
+			"mass": 100,
+			"icon": "100m-43"
+		},
+		"250M43": {
+			"label": "250M-43",
+			"mass": 250,
+			"icon": "250m-43"
+		},
+		"500M43": {
+			"label": "500M-43",
+			"mass": 500,
+			"icon": "500m-43"
+		},
+		"1000M43": {
+			"label": "1000M-43",
+			"mass": 1000,
+			"icon": "1000m-43"
+		},
+		"1000M44": {
+			"label": "1000M-44",
+			"mass": 1000,
+			"icon": "1000m-44"
+		},
+		"250M46": {
+			"label": "250M-46",
+			"mass": 250,
+			"icon": "250m-46"
+		},
+		"ZB360": {
+			"label": "ZB-360",
+			"mass": 360,
+			"icon": "zb-360"
+		},
+		"PLAB350": {
+			"label": "PLAB-350",
+			"mass": 350,
+			"icon": "plab-350"
+		},
+		"3000M54": {
+			"label": "3000M-54",
+			"mass": 3000,
+			"icon": "3000m-54"
+		},
+		"UPAB3000": {
+			"label": "UPAB-3000",
+			"mass": 3000,
+			"icon": "upab-3000"
+		},
+		"UPAB1500": {
+			"label": "UPAB-1500",
+			"mass": 1500,
+			"icon": "upab-1500"
+		},
+		"Grom2": {
+			"label": "Grom-2",
+			"mass": null,
+			"icon": "grom-2"
+		},
+		"K1500": {
+			"label": "K-1500",
+			"mass": 1500,
+			"icon": "k-1500"
+		},
+		"AO25": {
+			"label": "AO-25",
+			"mass": 25,
+			"icon": "ao-25"
+		},
+		"M8": {
+			"label": "M8",
+			"mass": null,
+			"icon": "m8"
+		},
+		"GP1000": {
+			"label": "G.P.1000",
+			"mass": 1000,
+			"icon": "gp-1000"
+		},
+		"GP500": {
+			"label": "G.P.500",
+			"mass": 500,
+			"icon": "gp-500"
 		}
 	},
 	"icons": {
@@ -382,7 +502,7 @@
 		"559g1": {
 			"file": "fc500.png"
 		},
-		"zb500": {
+		"zb-500": {
 			"file": "fc500.png"
 		},
 		"febd": {
@@ -613,18 +733,18 @@
 		"mk77-red": {
 			"file": "napalm-red.png"
 		},
-        "mk77-red-dark": {
-            "file": "fc500.png",
-            "label": "Mk 77"
-        },
+		"mk77-red-dark": {
+			"file": "fc500.png",
+			"label": "Mk 77"
+		},
 		"mk77-red-2x": {
 			"file": "napalm-2x-red.png",
-            "label": "Mk 77 (2)"
+			"label": "Mk 77 (2)"
 		},
-        "mk77-red-dark-2x": {
-            "file": "fc500-2x.png",
-            "label": "Mk 77 (2)"
-        },
+		"mk77-red-dark-2x": {
+			"file": "fc500-2x.png",
+			"label": "Mk 77 (2)"
+		},
 		"mk77-red-3x": {
 			"file": "fc500-3x.png"
 		},
@@ -756,9 +876,46 @@
 			"file": "gunpod-gau.png",
 			"label": "Gun pod"
 		},
-        "agm-65": {
-            "file": "agm-65.png",
-            "label": "AGM-65"
+		"agm-65": {
+			"file": "agm-65.png",
+			"label": "AGM-65"
+		},
+		"50sv": {
+			"file": "sc50.png"
+		},
+		"50sv-2x": {
+			"file": "sc50-2x.png"
+		},
+		"50sv-4x": {
+			"file": "sc50-4x.png"
+		},
+		"100sv": {
+			"file": "sc100.png"
+		},
+		"100sv-4x": {
+			"file": "an-m64a1-4x.png"
+		},
+		"100sv-8x": {
+			"file": "bomb-8x-green.png"
+		},
+		"250sv": {
+			"file": "sc250.png"
+		},
+		"500sv-brown": {
+			"file": "sc250.png",
+			"label": "500sv"
+		},
+        "500sv": {
+            "file": "sc500.png"
+        },
+        "gp-500-green": {
+            "file": "sc100.png"
+        },
+        "gp-1000-4x": {
+            "file": "gp-1000-4x.png"
+        },
+        "zab-50": {
+            "file": "napalm-red.png"
         }
 	}
 }
