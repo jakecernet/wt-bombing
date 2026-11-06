@@ -892,6 +892,9 @@
 		"100sv": {
 			"file": "sc100.png"
 		},
+        "100sv-2x": {
+            "file": "sc100-2x.png"
+        },
 		"100sv-4x": {
 			"file": "an-m64a1-4x.png"
 		},
@@ -916,6 +919,10 @@
         },
         "zab-50": {
             "file": "napalm-red.png"
+        },
+        "500sv-light": {
+            "file": "sc1000.png",
+            "label": "500sv"
         }
 	}
 }
