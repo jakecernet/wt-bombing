@@ -892,9 +892,9 @@
 		"100sv": {
 			"file": "sc100.png"
 		},
-        "100sv-2x": {
-            "file": "sc100-2x.png"
-        },
+		"100sv-2x": {
+			"file": "sc100-2x.png"
+		},
 		"100sv-4x": {
 			"file": "an-m64a1-4x.png"
 		},
@@ -908,45 +908,90 @@
 			"file": "sc250.png",
 			"label": "500sv"
 		},
-        "500sv": {
+		"500sv": {
+			"file": "sc500.png"
+		},
+		"gp-500-green": {
+			"file": "sc100.png"
+		},
+		"gp-1000-4x": {
+			"file": "gp-1000-4x.png"
+		},
+		"zab-50": {
+			"file": "napalm-red.png"
+		},
+		"500sv-light": {
+			"file": "sc1000.png",
+			"label": "500sv"
+		},
+		"fab-1000": {
+			"file": "sb2500.png"
+		},
+		"500sv-4x": {
+			"file": "500sv-4x.png"
+		},
+		"100m-43": {
+			"file": "sc100.png"
+		},
+		"100m-43-2x": {
+			"file": "sc100-2x.png"
+		},
+		"100m-43-4x": {
+			"file": "an-m64a1-4x.png"
+		},
+		"ao-25-5x": {
+			"file": "rockets-5x.png"
+		},
+		"m8-8x": {
+			"file": "sc50-8x.png"
+		},
+		"50sv-8x": {
+			"file": "sc50-8x.png"
+		},
+		"1000m-43": {
+			"file": "sb2500.png"
+		},
+        "250m-43-2x": {
+            "file": "sc250-2x.png"
+        },
+        "500m-43": {
             "file": "sc500.png"
         },
-        "gp-500-green": {
-            "file": "sc100.png"
+        "1000m-44": {
+            "file": "sc1000.png"
         },
-        "gp-1000-4x": {
+        "500m-46-gold": {
+            "file": "sc250.png"
+        },
+        "100sv-3x": {
+            "file": "sc50-3x.png"
+        },
+        "500sv-brown-2x": {
+            "file": "sc250-2x.png"
+        },
+        "250m-43": {
+            "file": "sc250.png"
+        },
+        "500m-43-2x": {
+            "file": "sc500-2x.png"
+        },
+        "100m-46-8x": {
+            "file": "sc50-8x.png"
+        },
+        "500m-46-2x": {
+            "file": "sc500-2x.png"
+        },
+        "500m-46-3x": {
+            "file": "gp-brown-3x.png"
+        },
+        "500m-46-4x": {
             "file": "gp-1000-4x.png"
         },
-        "zab-50": {
-            "file": "napalm-red.png"
+        "fab-1500": {
+            "file": "sc1000.png"
         },
-        "500sv-light": {
-            "file": "sc1000.png",
-            "label": "500sv"
-        },
-        "fab-1000": {
-            "file": "sb2500.png"
-        },
-        "500sv-4x": {
-            "file": "sv500-4x.png"
-        },
-        "100m-43": {
-            "file": "sc100.png"
-        },
-        "100m-43-2x": {
-            "file": "sc100-2x.png"
-        },
-        "100m-43-4x": {
-            "file": "an-m64a1-4x.png"
-        },
-        "ao-25-5x": {
-            "file": "rockets-5x.png"
-        },
-        "m8-8x": {
-            "file": "sc50-8x.png"
-        },
-        "50sv-8x": {
-            "file": "sc50-8x.png"
+        "1000m-44-blue": {
+            "file": "sc500.png"
         }
 	}
 }
