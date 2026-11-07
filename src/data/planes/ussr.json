@@ -3359,7 +3359,7 @@
 		"country": "USSR",
 		"rank": 7,
 		"br": 11.0,
-		"premium": true,
+		"premium": false,
 		"variants": [
 			{
 				"bases": 2,
@@ -3413,7 +3413,7 @@
 		"country": "USSR",
 		"rank": 7,
 		"br": 11.0,
-		"premium": true,
+		"premium": false,
 		"variants": [
 			{
 				"bases": 2,
