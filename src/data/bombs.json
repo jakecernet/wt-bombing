@@ -923,6 +923,30 @@
         "500sv-light": {
             "file": "sc1000.png",
             "label": "500sv"
+        },
+        "fab-1000": {
+            "file": "sb2500.png"
+        },
+        "500sv-4x": {
+            "file": "sv500-4x.png"
+        },
+        "100m-43": {
+            "file": "sc100.png"
+        },
+        "100m-43-2x": {
+            "file": "sc100-2x.png"
+        },
+        "100m-43-4x": {
+            "file": "an-m64a1-4x.png"
+        },
+        "ao-25-5x": {
+            "file": "rockets-5x.png"
+        },
+        "m8-8x": {
+            "file": "sc50-8x.png"
+        },
+        "50sv-8x": {
+            "file": "sc50-8x.png"
         }
 	}
 }
