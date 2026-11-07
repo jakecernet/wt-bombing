@@ -398,7 +398,7 @@
 			"file": "aim-7p.png"
 		},
 		"aim-9j": {
-			"file": "aim-9j.png"
+			"file": "aim-9-yellow.png"
 		},
 		"aim-120a": {
 			"file": "aim-120a.png"
@@ -440,10 +440,12 @@
 			"file": "gunpod.png"
 		},
 		"gunpod-2x": {
-			"file": "gunpod-2x.png"
+			"file": "gunpod-2x.png",
+			"label": "Gun pod"
 		},
 		"gunpod-old": {
-			"file": "gunpod-old.png"
+			"file": "gunpod-old.png",
+			"label": "Gun pod"
 		},
 		"r24r": {
 			"file": "r24r.png"
@@ -551,7 +553,8 @@
 			"file": "sc250.png"
 		},
 		"r73": {
-			"file": "aim-9j.png"
+			"file": "aim-9-yellow.png",
+			"label": "R-73"
 		},
 		"aim-9l": {
 			"file": "r60.png"
@@ -587,7 +590,7 @@
 			"file": "sc50.png"
 		},
 		"flz-lwf-63": {
-			"file": "aim-9j.png"
+			"file": "aim-9-yellow.png"
 		},
 		"mk77": {
 			"file": "fc500.png"
@@ -951,47 +954,107 @@
 		"1000m-43": {
 			"file": "sb2500.png"
 		},
-        "250m-43-2x": {
-            "file": "sc250-2x.png"
-        },
-        "500m-43": {
-            "file": "sc500.png"
-        },
-        "1000m-44": {
-            "file": "sc1000.png"
-        },
-        "500m-46-gold": {
-            "file": "sc250.png"
-        },
-        "100sv-3x": {
-            "file": "sc50-3x.png"
-        },
-        "500sv-brown-2x": {
-            "file": "sc250-2x.png"
-        },
-        "250m-43": {
-            "file": "sc250.png"
-        },
-        "500m-43-2x": {
-            "file": "sc500-2x.png"
-        },
-        "100m-46-8x": {
-            "file": "sc50-8x.png"
-        },
-        "500m-46-2x": {
-            "file": "sc500-2x.png"
-        },
-        "500m-46-3x": {
-            "file": "gp-brown-3x.png"
-        },
-        "500m-46-4x": {
-            "file": "gp-1000-4x.png"
-        },
-        "fab-1500": {
-            "file": "sc1000.png"
-        },
-        "1000m-44-blue": {
-            "file": "sc500.png"
-        }
+		"250m-43-2x": {
+			"file": "sc250-2x.png"
+		},
+		"500m-43": {
+			"file": "sc500.png"
+		},
+		"1000m-44": {
+			"file": "sc1000.png"
+		},
+		"500m-46-gold": {
+			"file": "sc250.png"
+		},
+		"100sv-3x": {
+			"file": "sc50-3x.png"
+		},
+		"500sv-brown-2x": {
+			"file": "sc250-2x.png"
+		},
+		"250m-43": {
+			"file": "sc250.png"
+		},
+		"500m-43-2x": {
+			"file": "sc500-2x.png"
+		},
+		"100m-46-8x": {
+			"file": "sc50-8x.png"
+		},
+		"500m-46-2x": {
+			"file": "sc500-2x.png"
+		},
+		"500m-46-3x": {
+			"file": "gp-brown-3x.png"
+		},
+		"500m-46-4x": {
+			"file": "gp-1000-4x.png"
+		},
+		"fab-1500": {
+			"file": "sc1000.png"
+		},
+		"1000m-44-blue": {
+			"file": "sc500.png"
+		},
+		"3000m-54": {
+			"file": "sb2500.png"
+		},
+		"3000m-54-4x": {
+			"file": "gp-black-4x.png"
+		},
+		"fab-1500-4x": {
+			"file": "fab-1500-4x.png"
+		},
+		"plab-350": {
+			"file": "fc500.png"
+		},
+		"zb-360": {
+			"file": "fc250.png"
+		},
+		"r60-white": {
+			"file": "r60-white.png",
+			"label": "R-60M"
+		},
+		"r73-red": {
+			"file": "r60.png",
+			"label": "R-73"
+		},
+		"r27t": {
+			"file": "r27t.png",
+			"label": "R-27T"
+		},
+		"r27r": {
+			"file": "r24r.png",
+			"label": "R-27R"
+		},
+		"zb-500-2x": {
+			"file": "fc500-2x.png"
+		},
+		"k-1500": {
+			"file": "k-1500.png"
+		},
+		"rvv-ae": {
+			"file": "aim-120a.png",
+			"label": "RVV-AE"
+		},
+		"r77": {
+			"file": "aim-120a.png",
+			"label": "R-77"
+		},
+		"r77-2x": {
+			"file": "r77-2x.png"
+		},
+		"upab-3000": {
+			"file": "upab-3000.png",
+			"label": "UPAB-3000"
+		},
+		"upab-1500": {
+			"file": "upab-1500.png",
+			"label": "UPAB-1500"
+		},
+		"grom-2": {
+			"file": "grom-2.png",
+			"label": "Grom-2"
+		}
 	}
 }
