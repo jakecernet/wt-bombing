@@ -118,6 +118,7 @@ function Variant({ variant, battleBr, selected, collapsible, startOpen }) {
 	const [open, setOpen] = useState(startOpen);
 	const cols = Math.max(4, ...variant.rows.map((r) => r.cells.length));
 	const active = rowAt(variant, battleBr);
+
 	return (
 		<div className="variant">
 			<button
@@ -232,7 +233,6 @@ export default function PlaneCard({
 					</span>
 				</div>
 			</div>
-
 			<div className="bases">
 				<div className="bases-num" title="Maximum bases destroyable">
 					<Target size={20} />
@@ -252,7 +252,6 @@ export default function PlaneCard({
 					/>
 				</div>
 			</div>
-
 			<button
 				type="button"
 				className="toggle"
@@ -264,7 +263,6 @@ export default function PlaneCard({
 				{open ? "Hide loadouts" : "Show loadouts"}
 				<ChevronDown size={16} className={open ? "flip" : ""} />
 			</button>
-
 			{open && (
 				<div
 					className="card-loadouts"

@@ -2737,7 +2737,7 @@
 			},
 			{
 				"bases": 7,
-				"reward": null,
+				"reward": 3.1,
 				"icons": [
 					"/",
 					"/",
@@ -3689,7 +3689,7 @@
 			},
 			{
 				"bases": 4,
-				"reward": null,
+				"reward": 3.6,
 				"icons": [
 					"aim-9",
 					"blu-1-2x",
