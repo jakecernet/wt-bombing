@@ -16,6 +16,6 @@ export default function BombIcon({ bomb, size = 20 }) {
 			loading="lazy"
 		/>
 	) : (
-		<Bomb size={Math.round(size * 0.7)} className="bomb-fallback" />
+		<Bomb size={Math.round(size * 0.7)} />
 	);
 }

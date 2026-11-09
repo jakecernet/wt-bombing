@@ -3290,7 +3290,7 @@
 					"droptank",
 					"aim-120c",
 					"mk77-2x",
-					"aim-120-2x",
+					"aim-120c-2x",
 					"aim-9m"
 				],
 				"bombs": ["Mk77 x3", "Mk77 x3"]
@@ -3301,12 +3301,12 @@
 				"icons": [
 					"aim-9m",
 					"aim-9m-2x",
-					"aim-120-2x",
+					"aim-120c-2x",
 					"aim-120c",
 					"mk77",
 					"aim-120c",
 					"mk77-2x",
-					"aim-120-2x",
+					"aim-120c-2x",
 					"aim-9m"
 				],
 				"bombs": ["Mk77 x3"]
@@ -3384,7 +3384,7 @@
 				"reward": 6.4,
 				"icons": [
 					"aim-9m",
-					"aim-120-2x",
+					"aim-120c-2x",
 					"mk84-light",
 					"/",
 					"aim-120c",
@@ -3394,7 +3394,7 @@
 					"aim-120c",
 					"gbu-62",
 					"mk84-light",
-					"aim-120-2x",
+					"aim-120c-2x",
 					"aim-9m"
 				],
 				"bombs": ["Mk84 x2 + GBU-62 x1"]
@@ -3434,7 +3434,7 @@
 				"reward": 6.0,
 				"icons": [
 					"aim-9m",
-					"aim-120-2x",
+					"aim-120c-2x",
 					"mk84-light",
 					"/",
 					"aim-120c",
@@ -3444,7 +3444,7 @@
 					"aim-120c",
 					"gbu-62",
 					"mk84-light",
-					"aim-120-2x",
+					"aim-120c-2x",
 					"aim-9m"
 				],
 				"bombs": ["Mk84 x2 + GBU-62 x1"]

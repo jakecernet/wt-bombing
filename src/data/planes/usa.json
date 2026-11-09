@@ -2351,13 +2351,13 @@
 				"reward": 6.1,
 				"icons": [
 					"/",
-					"aim-9",
+					"aim-9b",
 					"blu-1",
-					"aim-9",
+					"aim-9b",
 					"/",
-					"aim-9",
+					"aim-9b",
 					"blu-1",
-					"aim-9",
+					"aim-9b",
 					"/"
 				],
 				"bombs": ["BLU-1 x2"]
@@ -2495,9 +2495,9 @@
 					"/",
 					"/",
 					"/",
-					"aim-9",
+					"aim-9b",
 					"mk77-3x",
-					"aim-9",
+					"aim-9b",
 					"/",
 					"/",
 					"/"
@@ -2519,13 +2519,13 @@
 				"reward": 8.0,
 				"icons": [
 					"/",
-					"aim-9",
+					"aim-9b",
 					"mk84-black",
 					"/",
 					"/",
 					"mk82",
 					"mk84-black",
-					"aim-9",
+					"aim-9b",
 					"/"
 				],
 				"bombs": ["Mk 84 x2 + Mk 82 x1"]
@@ -2546,11 +2546,11 @@
 				"icons": [
 					"/",
 					"/",
-					"aim-9",
+					"aim-9g",
 					"mk77",
 					"mk77",
 					"mk77",
-					"aim-9",
+					"aim-9g",
 					"/",
 					"/"
 				],
@@ -2604,7 +2604,7 @@
 				"icons": [
 					"/",
 					"mk77-red",
-					"aim-9",
+					"aim-9b",
 					"/",
 					"mk77-red-3x",
 					"/",
@@ -2620,11 +2620,11 @@
 				"icons": [
 					"/",
 					"/",
-					"aim-9",
+					"aim-9b",
 					"/",
 					"mk77-red-3x",
 					"/",
-					"aim-9",
+					"aim-9b",
 					"/",
 					"/"
 				],
@@ -2645,7 +2645,7 @@
 				"bases": 3,
 				"reward": 5.0,
 				"icons": [
-					"aim-9",
+					"aim-9l",
 					"mk82",
 					"mk84-light",
 					"mk84-light",
@@ -2667,7 +2667,7 @@
 				"bases": 2,
 				"reward": 6.2,
 				"icons": [
-					"aim-9",
+					"aim-9l",
 					"mk82",
 					"agm-65-3x",
 					"mk84-light",
@@ -2677,7 +2677,7 @@
 					"mk84-light",
 					"mk84-light",
 					"mk82",
-					"aim-9"
+					"aim-9l"
 				],
 				"bombs": ["Mk 84 x2 + Mk 82 x1", "Mk 84 x2 + Mk 82 x1"]
 			},
@@ -2685,7 +2685,7 @@
 				"bases": 1,
 				"reward": 9.6,
 				"icons": [
-					"aim-9",
+					"aim-9l",
 					"/",
 					"agm-65-3x",
 					"mk84-light",
@@ -2695,7 +2695,7 @@
 					"mk84-light",
 					"agm-65-3x",
 					"mk82",
-					"aim-9"
+					"aim-9l"
 				],
 				"bombs": ["Mk 84 x2 + Mk 82 x1"]
 			}
@@ -4705,15 +4705,15 @@
 				"bases": 3,
 				"reward": 2.8,
 				"icons": [
-					"aim-9",
-					"mk77-red-2x",
-					"mk77-red-2x",
-					"aim-120",
-					"mk77-red",
-					"aim-120",
-					"mk77-red-2x",
-					"mk77-red-2x",
-					"aim-9"
+					"aim-9m",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-120c",
+					"mk77-red-dark",
+					"aim-120c",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-9m"
 				],
 				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
 			},
@@ -4721,15 +4721,15 @@
 				"bases": 2,
 				"reward": 3.3,
 				"icons": [
-					"aim-9",
-					"mk77-red-2x",
-					"mk77-red-2x",
-					"aim-120",
+					"aim-9m",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-120c",
 					"droptank",
-					"aim-120",
-					"mk77-red-2x",
-					"aim-120-2x",
-					"aim-9"
+					"aim-120c",
+					"mk77-red-dark-2x",
+					"aim-120c-2x",
+					"aim-9m"
 				],
 				"bombs": ["Mk 77 x3", "Mk 77 x3"]
 			},
@@ -4737,15 +4737,15 @@
 				"bases": 1,
 				"reward": 4.7,
 				"icons": [
-					"aim-9",
-					"aim-120-2x",
-					"aim-120-2x",
-					"aim-120",
-					"mk77-red",
-					"aim-120",
-					"mk77-red-2x",
-					"aim-120-2x",
-					"aim-9"
+					"aim-9m",
+					"aim-120c-2x",
+					"aim-120c-2x",
+					"aim-120c",
+					"mk77-red-dark",
+					"aim-120c",
+					"mk77-red-dark-2x",
+					"aim-120c-2x",
+					"aim-9m"
 				],
 				"bombs": ["Mk 77 x3"]
 			}
@@ -4837,9 +4837,9 @@
 				"bases": 2,
 				"reward": 4.4,
 				"icons": [
-					"aim-120",
+					"aim-120c",
 					"agm-130",
-					"aim-120",
+					"aim-120c",
 					"/",
 					"cft-gbu-64-2x",
 					"chaff-pod",
@@ -4847,9 +4847,9 @@
 					"chaff-pod",
 					"cft-gbu-64-2x",
 					"/",
-					"aim-120",
+					"aim-120c",
 					"agm-130",
-					"aim-120"
+					"aim-120c"
 				],
 				"bombs": ["GBU-64 x2 + AGM-130 x1", "GBU-64 x2 + AGM-130 x1"]
 			},
@@ -4857,9 +4857,9 @@
 				"bases": 1,
 				"reward": 6.5,
 				"icons": [
-					"aim-120",
+					"aim-120c",
 					"agm-130",
-					"aim-120",
+					"aim-120c",
 					"cft-aim-120-2x",
 					"/",
 					"chaff-pod",
@@ -4867,9 +4867,9 @@
 					"chaff-pod",
 					"/",
 					"cft-aim-120-2x",
-					"aim-120",
+					"aim-120c",
 					"agm-130",
-					"aim-120"
+					"aim-120c"
 				],
 				"bombs": ["GBU-64 x1 + AGM-130 x2"]
 			}
@@ -4888,13 +4888,13 @@
 				"reward": 4.8,
 				"icons": [
 					"/",
-					"aim-9",
-					"aim-9-2x",
+					"aim-9l",
+					"aim-9l-2x",
 					"blu-1",
 					"blu-1",
 					"blu-1",
 					"blu-1",
-					"aim-9",
+					"aim-9l",
 					"/"
 				],
 				"bombs": ["BLU-1 x2", "BLU-1 x2"]
@@ -4904,13 +4904,13 @@
 				"reward": 7.2,
 				"icons": [
 					"/",
-					"aim-9",
-					"aim-9-2x",
+					"aim-9l",
+					"aim-9l-2x",
 					"blu-1",
 					"gunpod-30",
 					"blu-1",
-					"aim-120",
-					"aim-9",
+					"aim-7m",
+					"aim-9l",
 					"/"
 				],
 				"bombs": ["BLU-1 x2"]
@@ -4929,7 +4929,7 @@
 				"bases": 3,
 				"reward": 3.4,
 				"icons": [
-					"aim-9",
+					"aim-9l",
 					"mk77-red-dark-2x",
 					"mk77-red-dark-2x",
 					"aim-7p",
@@ -4937,7 +4937,7 @@
 					"aim-7p",
 					"mk77-red-dark-2x",
 					"mk77-red-dark-2x",
-					"aim-9"
+					"aim-9l"
 				],
 				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
 			},
@@ -4945,15 +4945,15 @@
 				"bases": 2,
 				"reward": 4.0,
 				"icons": [
-					"aim-9",
+					"aim-9l",
 					"mk77-red-dark-2x",
 					"mk77-red-dark-2x",
 					"aim-7p",
 					"droptank",
 					"aim-7p",
 					"mk77-red-dark-2x",
-					"aim-120",
-					"aim-9"
+					"aim-7p",
+					"aim-9l"
 				],
 				"bombs": ["Mk 77 x3", "Mk 77 x3"]
 			},
@@ -4961,15 +4961,15 @@
 				"bases": 1,
 				"reward": 5.6,
 				"icons": [
-					"aim-9",
-					"aim-9-2x",
+					"aim-9l",
+					"aim-9l-2x",
 					"aim-7p",
 					"aim-7p",
 					"mk77-red-dark",
 					"aim-7p",
 					"mk77-red-dark-2x",
 					"aim-7p",
-					"aim-9"
+					"aim-9l"
 				],
 				"bombs": ["Mk 77 x3"]
 			}
@@ -5079,15 +5079,15 @@
 				"bases": 2,
 				"reward": 4.4,
 				"icons": [
-					"aim-9",
+					"aim-9l",
 					"zuni-pod-2x",
 					"/",
-					"mk84-2x",
+					"mk84-light-2x",
 					"/",
-					"mk84-2x",
+					"mk84-light-2x",
 					"/",
-					"aim-120",
-					"aim-9"
+					"r27r-blue",
+					"aim-9l"
 				],
 				"bombs": ["Mk 84 x2 + Zuni x4", "Mk 84 x2 + Zuni x4"]
 			},
@@ -5095,15 +5095,15 @@
 				"bases": 1,
 				"reward": 6.9,
 				"icons": [
-					"aim-9",
+					"aim-9l",
 					"zuni-pod-2x",
 					"/",
-					"aim-54-2x",
+					"fakour-2x",
 					"/",
-					"mk84-2x",
+					"mk84-light-2x",
 					"/",
-					"aim-120",
-					"aim-9"
+					"r27r-blue",
+					"aim-9l"
 				],
 				"bombs": ["Mk 84 x2 + Zuni x4", "Zuni x4"]
 			}
@@ -5305,17 +5305,17 @@
 				"bases": 3,
 				"reward": 2.8,
 				"icons": [
-					"aim-9",
-					"aim-120",
-					"mk77-red-2x",
-					"mk77-red-2x",
-					"aim-120",
-					"mk77-red",
-					"aim-120",
-					"mk77-red-2x",
-					"mk77-red-2x",
-					"aim-120",
-					"aim-9"
+					"aim-9m",
+					"aim-120c",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-120c",
+					"mk77-red-dark",
+					"aim-120c",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-120c",
+					"aim-9m"
 				],
 				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
 			},
@@ -5323,17 +5323,17 @@
 				"bases": 2,
 				"reward": 3.3,
 				"icons": [
-					"aim-9",
-					"mk77-red",
-					"aim-120-2x",
-					"mk77-red-2x",
-					"aim-120",
+					"aim-9m",
+					"mk77-red-dark",
+					"aim-120c-2x",
+					"mk77-red-dark-2x",
+					"aim-120c",
 					"droptank",
-					"aim-120",
-					"mk77-red-2x",
-					"aim-120-2x",
-					"mk77-red",
-					"aim-9"
+					"aim-120c",
+					"mk77-red-dark-2x",
+					"aim-120c-2x",
+					"mk77-red-dark",
+					"aim-9m"
 				],
 				"bombs": ["Mk 77 x3", "Mk 77 x3"]
 			},
@@ -5341,17 +5341,17 @@
 				"bases": 1,
 				"reward": 4.7,
 				"icons": [
-					"aim-9",
-					"mk77-red",
-					"aim-120-2x",
-					"aim-120-2x",
-					"aim-120",
-					"mk77-red",
-					"aim-120",
-					"aim-120-2x",
-					"aim-120-2x",
-					"mk77-red",
-					"aim-9"
+					"aim-9m",
+					"mk77-red-dark",
+					"aim-120c-2x",
+					"aim-120c-2x",
+					"aim-120c",
+					"mk77-red-dark",
+					"aim-120c",
+					"aim-120c-2x",
+					"aim-120c-2x",
+					"mk77-red-dark",
+					"aim-9m"
 				],
 				"bombs": ["Mk 77 x3"]
 			}

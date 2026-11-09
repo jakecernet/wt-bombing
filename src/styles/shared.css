@@ -12,31 +12,32 @@ main {
 
 /* Every view except home sits under the fixed nav. */
 .page {
-	padding-top: 110px;
+	padding-top: calc(var(--nav-h) + 32px);
 }
 
 .page-title {
-	margin: 0 0 16px;
+	font-size: 1.75rem;
+	font-weight: 650;
+	letter-spacing: -0.03em;
 }
 
 .hint {
 	max-width: 480px;
 	margin: 40px auto;
 	text-align: center;
-	opacity: 0.7;
+	color: var(--text-dim);
 }
 
 .hint.left {
 	max-width: none;
-	margin: 0 0 20px;
+	margin: -12px 0 0;
 	text-align: left;
 }
 
 .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-	gap: 16px;
-	margin-top: 14px;
+	gap: 12px;
 	align-items: start;
 }
 
@@ -45,8 +46,18 @@ main {
 	flex-direction: column;
 	align-items: center;
 	gap: 12px;
-	padding: 48px 16px;
-	color: var(--text-muted);
+	padding: 64px 16px;
+	color: var(--text-dim);
+}
+
+/* outlined surface shared by cards, panels, stats and the filter bar */
+.plane-card,
+.panel,
+.stat,
+.filters {
+	border: 1px solid var(--line);
+	border-radius: var(--radius);
+	background: var(--surface);
 }
 
 /* small outlined buttons */
@@ -56,42 +67,56 @@ main {
 	align-items: center;
 	gap: 6px;
 	padding: 7px 12px;
-	border: 1px solid var(--border);
-	border-radius: 8px;
-	background: var(--chip-bg);
-	color: var(--text);
+	border: 1px solid var(--line-strong);
+	border-radius: var(--radius-sm);
+	background: transparent;
+	color: var(--text-dim);
 	font-size: 0.85rem;
-	cursor: pointer;
+	transition:
+		color var(--ease),
+		border-color var(--ease),
+		background var(--ease);
 }
 
 .clear:hover,
 .back:hover {
 	color: var(--accent);
+	border-color: var(--accent-line);
+	background: var(--accent-soft);
 }
 
 .segmented {
 	display: inline-flex;
+	flex-wrap: wrap;
 	padding: 3px;
 	gap: 2px;
-	border: 1px solid var(--border);
-	border-radius: 10px;
-	background: var(--chip-bg);
+	border: 1px solid var(--line);
+	border-radius: var(--radius-sm);
+	background: var(--bg);
 }
 
 .segmented button {
-	padding: 7px 14px;
+	padding: 6px 13px;
 	border: none;
-	border-radius: 8px;
+	border-radius: 7px;
 	background: transparent;
-	color: var(--text-muted);
-	font-size: 0.9rem;
+	color: var(--text-dim);
+	font-size: 0.88rem;
 	font-weight: 500;
-	cursor: pointer;
+	transition:
+		color var(--ease),
+		background var(--ease);
+}
+
+.segmented button:hover {
+	color: var(--text);
+	background: var(--surface-2);
 }
 
 .segmented button.on {
 	background: var(--accent);
 	color: var(--on-accent);
+	font-weight: 600;
 }
 
 .badges {
@@ -103,10 +128,10 @@ main {
 
 .badge {
 	padding: 3px 9px;
-	border-radius: 6px;
-	background: var(--chip-bg);
-	color: var(--text-muted);
-	font-size: 0.75rem;
+	border-radius: 999px;
+	background: var(--surface-2);
+	color: var(--text-dim);
+	font-size: 0.74rem;
 	font-weight: 600;
 }
 
@@ -128,12 +153,20 @@ main {
 }
 
 footer {
-	padding: 32px 16px 48px;
+	margin-top: 16px;
+	padding: 24px var(--gutter) 40px;
+	border-top: 1px solid var(--line);
+	color: var(--text-faint);
+	font-size: 0.82rem;
 	text-align: center;
-	font-size: 0.85rem;
-	opacity: 0.7;
 }
 
 footer a {
+	color: var(--text-dim);
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+footer a:hover {
 	color: var(--accent);
 }

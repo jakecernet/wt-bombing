@@ -6,16 +6,13 @@
 	flex-direction: column;
 	gap: 14px;
 	padding: 18px;
-	border: 1px solid var(--border);
-	border-radius: var(--radius);
-	background: var(--card-bg);
 	transition:
-		border-color var(--transition),
-		transform var(--transition);
+		border-color var(--ease),
+		background var(--ease);
 }
 
 .plane-card:hover {
-	border-color: var(--accent);
+	border-color: var(--line-strong);
 }
 
 .plane-card.clickable {
@@ -23,12 +20,8 @@
 }
 
 .plane-card.clickable:hover {
-	transform: translateY(-2px);
-}
-
-.plane-card.clickable:focus-visible {
-	outline: 2px solid var(--accent);
-	outline-offset: 2px;
+	border-color: var(--accent-line);
+	background: var(--surface-2);
 }
 
 .plane-head {
@@ -40,9 +33,9 @@
 }
 
 .plane-head h3 {
-	flex: 1;
+	flex: 1 1 140px;
 	min-width: 0;
-	font-size: 1.15rem;
+	font-size: 1.1rem;
 	font-weight: 600;
 	letter-spacing: -0.02em;
 }
@@ -58,8 +51,7 @@
 .bases {
 	display: flex;
 	flex-direction: column;
-	gap: 8px;
-	margin-bottom: 4px;
+	gap: 10px;
 }
 
 .bases-num {
@@ -77,19 +69,20 @@
 	font-size: 2rem;
 	line-height: 1;
 	font-weight: 650;
+	letter-spacing: -0.03em;
 	color: var(--text);
 }
 
 .bases-num span {
-	color: var(--text-muted);
+	color: var(--text-dim);
 }
 
 .bases-num .go {
 	margin-left: auto;
-	color: var(--text-muted);
+	color: var(--text-faint);
 	transition:
-		transform 0.2s,
-		color 0.2s;
+		transform var(--ease),
+		color var(--ease);
 }
 
 .plane-card.clickable:hover .go {
@@ -98,9 +91,9 @@
 }
 
 .bar {
-	height: 6px;
+	height: 4px;
 	border-radius: 999px;
-	background: var(--chip-bg);
+	background: var(--surface-3);
 	overflow: hidden;
 }
 
@@ -117,16 +110,19 @@
 	align-items: center;
 	justify-content: space-between;
 	padding: 9px 12px;
-	border: 1px solid var(--border);
-	border-radius: 10px;
+	border: 1px solid var(--line);
+	border-radius: var(--radius-sm);
 	background: transparent;
-	color: var(--text-muted);
-	font-size: 0.9rem;
-	cursor: pointer;
+	color: var(--text-dim);
+	font-size: 0.88rem;
+	transition:
+		color var(--ease),
+		border-color var(--ease);
 }
 
 .toggle:hover {
 	color: var(--accent);
+	border-color: var(--accent-line);
 }
 
 .toggle .flip {
@@ -140,14 +136,13 @@
 /* ---- loadout variants ---- */
 
 .variant {
-	margin-top: 2px;
 	padding-top: 2px;
-	border-top: 1px solid transparent;
 }
 
 .variant + .variant {
-	margin-top: 4px;
-	border-top-color: var(--chip-bg);
+	margin-top: 8px;
+	padding-top: 10px;
+	border-top: 1px solid var(--line);
 }
 
 /* stats row; a button so multi-loadout planes can collapse */
@@ -156,12 +151,10 @@
 	display: flex;
 	align-items: center;
 	gap: 14px;
-	margin: 0 0 4px;
+	margin-bottom: 6px;
 	padding: 2px 0;
 	border: 0;
 	background: none;
-	color: inherit;
-	font: inherit;
 	text-align: left;
 	cursor: default;
 }
@@ -187,7 +180,7 @@
 
 .variant-stats .chev {
 	margin-left: auto;
-	transition: transform 0.15s;
+	transition: transform var(--ease);
 }
 
 .variant-stats .chev.flip {
@@ -200,7 +193,7 @@
 	display: grid;
 	grid-template-columns: repeat(var(--tcols, 13), minmax(0, 1fr));
 	gap: 2px;
-	margin: 2px 0 6px;
+	margin: 2px 0 8px;
 }
 
 .tiles img {
@@ -213,7 +206,8 @@
 .tile-empty {
 	aspect-ratio: 1;
 	border-radius: 3px;
-	background: var(--tile-empty-bg);
+	background: var(--surface-2);
+	opacity: 0.6;
 }
 
 /* shown instead of an icon when no image is assigned / the file is missing */
@@ -226,8 +220,8 @@
 	line-height: 1.05;
 	word-break: break-all;
 	color: var(--accent);
-	background: var(--chip-bg);
-	border: 1px dashed var(--accent);
+	background: var(--accent-soft);
+	border: 1px dashed var(--accent-line);
 	border-radius: 3px;
 	overflow: hidden;
 }
@@ -248,7 +242,7 @@
 }
 
 .sheet-row.dim {
-	opacity: 0.4;
+	opacity: 0.35;
 }
 
 .sheet-label {
@@ -277,8 +271,8 @@
 	gap: 1px;
 	min-height: 30px;
 	padding: 2px 1px;
-	border-radius: 3px;
-	background: var(--chip-bg);
+	border-radius: 4px;
+	background: var(--surface-3);
 	font-size: 0.8rem;
 	white-space: nowrap;
 	overflow: hidden;
@@ -286,25 +280,20 @@
 
 .cell.partial {
 	background: transparent;
-	border: 1px dashed var(--chip-bg);
-	opacity: 0.8;
+	border: 1px dashed var(--line-strong);
+	color: var(--text-dim);
 }
 
 .cell.blank {
 	background: transparent;
-	border: 1px solid var(--chip-bg);
-	opacity: 0.4;
-}
-
-.cell.selected {
-	outline: 1px solid var(--accent);
+	border: 1px solid var(--line);
 }
 
 .cell.more {
 	min-height: 0;
 	background: none;
+	color: var(--text-dim);
 	font-size: 0.75rem;
-	opacity: 0.7;
 }
 
 .cell-bomb {
@@ -324,7 +313,7 @@
 .cell-bomb b {
 	font-size: 0.65rem;
 	font-weight: 600;
-	opacity: 0.8;
+	color: var(--text-dim);
 }
 
 @media (max-width: 480px) {

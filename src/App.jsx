@@ -8,11 +8,12 @@ import "./styles/bombs.css";
 import "./styles/plane-page.css";
 import NavIcon from "./favicon.svg";
 import { Menu, Sun, Moon, Search, X } from "lucide-react";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import PlaneCard from "./components/PlaneCard";
 import BombCard from "./components/BombCard";
 import PlanePage from "./components/PlanePage";
 import { planeIconSrc } from "./components/PlaneCard";
+import { ROMAN, norm } from "./format";
 import {
 	PLANES,
 	ALL_BOMBS,
@@ -24,10 +25,7 @@ import {
 const SHEET_URL =
 	"https://docs.google.com/spreadsheets/d/1oNwp_MXszU5J2dcaz5IoCtSAQ-infPdOWhwtJXqtrwU/edit";
 
-const ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"];
 const RANKS = [...new Set(PLANES.map((p) => p.rank))].sort((a, b) => a - b);
-
-const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
 
 const SORTS = {
 	bases: (a, b) => b.bases - a.bases || b.reward - a.reward,
@@ -36,7 +34,11 @@ const SORTS = {
 	name: (a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }),
 };
 
-const NO_BOMBS = new Set();
+const NAV = [
+	["home", "Home", "#/"],
+	["planes", "Planes", "#/planes"],
+	["bombs", "Bombs", "#/bombs"],
+];
 
 // tiny hash router: #/  #/planes  #/bombs  #/plane/<id>
 const parseHash = () => {
@@ -64,7 +66,7 @@ function BrSelect({ value, onChange }) {
 }
 
 function App() {
-	const [navActive, setNavActive] = useState(true);
+	const [navActive, setNavActive] = useState(false);
 	const [theme, setTheme] = useState(
 		() => localStorage.getItem("theme") || "dark",
 	);
@@ -84,23 +86,18 @@ function App() {
 	const [minBases, setMinBases] = useState(0);
 	const [sort, setSort] = useState("bases");
 
-	const inputRef = useRef(null);
-
-	const isMobile = window.innerWidth <= 768;
-
-	useEffect(() => {
-		if (isMobile) setNavActive(false);
-	}, [isMobile]);
-
 	useEffect(() => {
 		localStorage.setItem("theme", theme);
 		document.documentElement.setAttribute("data-theme", theme);
-		document.documentElement.style.colorScheme = theme;
+		document
+			.querySelector('meta[name="theme-color"]')
+			?.setAttribute("content", theme === "dark" ? "#000000" : "#f4f5f7");
 	}, [theme]);
 
 	useEffect(() => {
 		const onHash = () => {
 			setRoute(parseHash());
+			setNavActive(false);
 			window.scrollTo({ top: 0 });
 		};
 		window.addEventListener("hashchange", onHash);
@@ -109,14 +106,12 @@ function App() {
 
 	const go = (v) => {
 		window.location.hash = v === "home" ? "#/" : `#/${v}`;
-		if (isMobile) setNavActive(false);
 	};
 
 	// open a plane's info page (used by cards, search and the bomb list)
 	const openPlane = (plane) => {
 		setSuggestOpen(false);
 		window.location.hash = `#/plane/${encodeURIComponent(plane.id)}`;
-		if (isMobile) setNavActive(false);
 	};
 
 	const q = norm(query);
@@ -140,51 +135,51 @@ function App() {
 		if (exact && q) openPlane(exact);
 	};
 
-	const navItem = (v, label) => (
-		<li
-			className={
-				view === v || (v === "planes" && view === "plane")
-					? "current"
-					: ""
-			}
-			onClick={() => go(v)}>
-			{label}
-		</li>
-	);
+	const isCurrent = (v) => view === v || (v === "planes" && view === "plane");
 
 	return (
 		<div className="container">
 			<nav>
-				<div className="logo" onClick={() => go("home")}>
-					<img src={NavIcon} alt="Logo" />
+				<a className="logo" href="#/">
+					<img src={NavIcon} alt="" />
 					<h1>WT bombing chart</h1>
-				</div>
+				</a>
 				<div className={`nav-links${navActive ? " active" : ""}`}>
 					<ul>
-						{navItem("home", "Home")}
-						{navItem("planes", "Planes")}
-						{navItem("bombs", "Bombs")}
+						{NAV.map(([v, label, href]) => (
+							<li key={v}>
+								<a
+									href={href}
+									aria-current={
+										isCurrent(v) ? "page" : undefined
+									}>
+									{label}
+								</a>
+							</li>
+						))}
 						<li>
-							<Sun
-								onClick={() => setTheme("dark")}
-								className={
-									theme === "light" ? "active" : "hidden"
-								}
-							/>
-							<Moon
-								onClick={() => setTheme("light")}
-								className={
-									theme === "dark" ? "active" : "hidden"
-								}
-							/>
+							<button
+								type="button"
+								className="theme-toggle"
+								aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} theme`}
+								onClick={() =>
+									setTheme(
+										theme === "dark" ? "light" : "dark",
+									)
+								}>
+								{theme === "dark" ? <Moon /> : <Sun />}
+							</button>
 						</li>
 					</ul>
 				</div>
-				<div
+				<button
+					type="button"
 					className="burger"
+					aria-label="Menu"
+					aria-expanded={navActive}
 					onClick={() => setNavActive(!navActive)}>
-					<Menu></Menu>
-				</div>
+					<Menu />
+				</button>
 			</nav>
 
 			{view === "home" ? (
@@ -193,7 +188,6 @@ function App() {
 						<h2>Want to know how many bases you can destroy?</h2>
 						<form className="search" onSubmit={submit}>
 							<input
-								ref={inputRef}
 								type="text"
 								placeholder="Plane name"
 								value={query}
@@ -370,7 +364,6 @@ function App() {
 										key={p.id}
 										plane={p}
 										onOpen={openPlane}
-										selected={NO_BOMBS}
 										maxBases={MAX_BASES}
 										battleBr={battleBr}
 									/>

@@ -1,13 +1,9 @@
 import { useState } from "react";
 import { ArrowLeft, Target, Lightbulb, Weight } from "lucide-react";
 import { rowKg, rowAt, bombLabel, bombMass, iconLabel } from "../data/planes";
+import { ROMAN, fmtBr, fmtKg, nameClass } from "../format";
 import BombIcon from "./BombIcon";
 import { TileIcon, planeIconSrc } from "./PlaneCard";
-
-const RANK = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"];
-const fmtBr = (n) => n.toFixed(1);
-const fmtKg = (kg) =>
-	kg >= 1000 ? `${Number((kg / 1000).toFixed(2))} t` : `${kg} kg`;
 
 // Hardpoint diagram: every slot of the plane, left wing -> centre -> right wing, big enough to read.
 function Hardpoints({ tiles }) {
@@ -82,7 +78,7 @@ function Hardpoints({ tiles }) {
 }
 
 // What is dropped per base for one battle-BR bracket.
-function Bracket({ row, bases, active, dim }) {
+function Bracket({ row, bases }) {
 	const title =
 		row.max != null
 			? `Battle BR ≤ ${fmtBr(row.max)}`
@@ -91,8 +87,7 @@ function Bracket({ row, bases, active, dim }) {
 				: "All battle BRs";
 	const kg = rowKg(row);
 	return (
-		<div
-			className={`bracket${active ? " active" : ""}${dim ? " dim" : ""}`}>
+		<div className="bracket">
 			<div className="bracket-head">
 				<h4>{title}</h4>
 				{kg > 0 ? (
@@ -168,19 +163,10 @@ export default function PlanePage({ plane, battleBr, onBattleBr, onBack }) {
 			<div className="pp-head">
 				<img className="pp-icon" src={planeIconSrc(plane)} alt="" />
 				<div>
-					<h2
-						className={
-							plane.premium
-								? "premium"
-								: plane.squadron
-									? "squadron"
-									: ""
-						}>
-						{plane.name}
-					</h2>
+					<h2 className={nameClass(plane)}>{plane.name}</h2>
 					<div className="badges">
 						<span className="badge rank">
-							Rank {RANK[plane.rank]}
+							Rank {ROMAN[plane.rank]}
 						</span>
 						<span className="badge br">BR {fmtBr(plane.br)}</span>
 						<span className="badge">{plane.country}</span>
@@ -267,13 +253,7 @@ export default function PlanePage({ plane, battleBr, onBattleBr, onBack }) {
 					.map((row, i) => ({ row, i }))
 					.filter(({ row }) => mode === "both" || row === active)
 					.map(({ row, i }) => (
-						<Bracket
-							key={i}
-							row={row}
-							bases={variant.bases}
-							active={mode !== "both"}
-							dim={false}
-						/>
+						<Bracket key={i} row={row} bases={variant.bases} />
 					))}
 			</section>
 		</main>

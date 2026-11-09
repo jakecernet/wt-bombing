@@ -4,7 +4,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	gap: 14px;
-	color: var(--text-muted);
+	color: var(--text-dim);
 	font-size: 0.9rem;
 }
 
@@ -16,7 +16,7 @@
 
 .bomb-card .note {
 	margin-top: -6px;
-	color: var(--text-muted);
+	color: var(--text-faint);
 	font-size: 0.8rem;
 }
 
@@ -37,22 +37,27 @@
 	align-items: center;
 	gap: 4px;
 	padding: 5px 10px;
-	border: 1px solid var(--border);
+	border: 1px solid var(--line);
 	border-radius: 999px;
-	background: var(--chip-bg);
-	color: var(--text);
+	background: var(--surface-2);
 	font-size: 0.85rem;
 	font-weight: 500;
 	white-space: nowrap;
 }
 
 .chip b {
-	color: var(--text-muted);
+	color: var(--text-dim);
 	font-weight: 600;
 }
 
 .chip.pick {
-	padding: 7px 14px;
-	font-size: 0.9rem;
-	cursor: pointer;
+	padding: 6px 12px;
+	transition:
+		border-color var(--ease),
+		color var(--ease);
+}
+
+.chip.pick:hover {
+	border-color: var(--accent-line);
+	color: var(--accent);
 }

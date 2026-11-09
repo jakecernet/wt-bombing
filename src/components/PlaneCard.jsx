@@ -6,17 +6,9 @@ import {
 	ChevronDown,
 	ArrowRight,
 } from "lucide-react";
-import {
-	rowKg,
-	rowAt,
-	variantBombs,
-	bombLabel,
-	iconFile,
-	iconLabel,
-} from "../data/planes";
-import BombIcon from "./BombIcon";
+import { rowKg, rowAt, bombLabel, iconFile, iconLabel } from "../data/planes";
+import { ROMAN, fmtBr, fmtKg, nameClass } from "../format";
 
-const RANK = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"];
 const base = import.meta.env.BASE_URL;
 
 // Plane icons live in public/icons/planes/<nation folder>/<plane id>.png
@@ -24,14 +16,9 @@ const NATION_DIR = { USA: "usa", Germany: "ger", USSR: "ussr" };
 export const planeIconSrc = (plane) =>
 	`${base}icons/planes/${NATION_DIR[plane.country] ?? plane.country.toLowerCase().slice(0, 3)}/${plane.id}.png`;
 
-const fmtKg = (kg) =>
-	kg >= 1000 ? `${Number((kg / 1000).toFixed(2))} t` : `${kg} kg`;
-
-const fmtBr = (n) => n.toFixed(1);
-
 // One sheet row = one line of icon tiles, one tile per base column. Names live in the legend below.
 // Tiles past the variant's max bases are leftovers that can't fully destroy a base (dashed).
-function Row({ row, bases, cols, dim, selected }) {
+function Row({ row, bases, cols, dim }) {
 	const label =
 		row.max != null
 			? `▲ ≤ ${fmtBr(row.max)}`
@@ -56,7 +43,7 @@ function Row({ row, bases, cols, dim, selected }) {
 								title +
 								(partial ? " (not enough for a full base)" : "")
 							}
-							className={`cell${partial ? " partial" : ""}${cell.some((c) => selected.has(c.bomb)) ? " selected" : ""}`}>
+							className={`cell${partial ? " partial" : ""}`}>
 							{cell.map((c, j) => (
 								<span key={j} className="cell-bomb">
 									<i>{bombLabel(c.bomb)}</i>
@@ -114,7 +101,7 @@ function Tiles({ tiles }) {
 	);
 }
 
-function Variant({ variant, battleBr, selected, collapsible, startOpen }) {
+function Variant({ variant, battleBr, collapsible, startOpen }) {
 	const [open, setOpen] = useState(startOpen);
 	const cols = Math.max(4, ...variant.rows.map((r) => r.cells.length));
 	const active = rowAt(variant, battleBr);
@@ -165,7 +152,6 @@ function Variant({ variant, battleBr, selected, collapsible, startOpen }) {
 							bases={variant.bases}
 							cols={cols}
 							dim={battleBr != null && row !== active}
-							selected={selected}
 						/>
 					))}
 				</div>
@@ -176,7 +162,6 @@ function Variant({ variant, battleBr, selected, collapsible, startOpen }) {
 
 export default function PlaneCard({
 	plane,
-	selected,
 	maxBases,
 	battleBr,
 	defaultOpen = false,
@@ -211,19 +196,10 @@ export default function PlaneCard({
 					alt=""
 					loading="lazy"
 				/>
-				<h3
-					className={
-						plane.premium
-							? "premium"
-							: plane.squadron
-								? "squadron"
-								: ""
-					}>
-					{plane.name}
-				</h3>
+				<h3 className={nameClass(plane)}>{plane.name}</h3>
 				<div className="badges">
 					<span className="badge rank" title="Rank">
-						Rank {RANK[plane.rank]}
+						Rank {ROMAN[plane.rank]}
 					</span>
 					<span className="badge" title="Nation">
 						{plane.country}
@@ -272,7 +248,6 @@ export default function PlaneCard({
 							key={i}
 							variant={v}
 							battleBr={battleBr}
-							selected={selected}
 							collapsible={plane.variants.length > 1}
 							startOpen={i === 0}
 						/>

@@ -1,4 +1,5 @@
 import bombsJson from "./bombs.json";
+import { norm } from "../format";
 
 // planes/<nation>.json (one file per nation, every *.json in ./planes is loaded) -> [{ id, name, country, rank, br, premium, variants: [{
 //     bases,            🎯 max bases this loadout can destroy
@@ -46,7 +47,6 @@ export const iconLabel = (name) => {
 export const bombLabel = (id) => BOMBS[id]?.label ?? id;
 export const bombMass = (id) => BOMBS[id]?.mass ?? 0;
 
-const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
 const ID_BY_LABEL = new Map(
 	Object.entries(BOMBS).flatMap(([id, b]) => [
 		[norm(b.label), id],
@@ -129,14 +129,6 @@ export const rowKg = (row) =>
 			cell.reduce((s, { bomb, count }) => s + bombMass(bomb) * count, 0),
 		0,
 	);
-
-/** Distinct bombs of a variant, in order of first appearance. */
-export const variantBombs = (variant) => [
-	...new Set(variant.rows.flatMap((r) => r.cells.flat().map((x) => x.bomb))),
-];
-
-export const planeBombs = (plane) =>
-	new Set(plane.variants.flatMap(variantBombs));
 
 export const ALL_BOMBS = Object.keys(BOMBS).sort(
 	(a, b) => bombMass(a) - bombMass(b) || a.localeCompare(b),

@@ -409,6 +409,9 @@
 		"aim-120c": {
 			"file": "aim-120c.png"
 		},
+		"aim-120c-2x": {
+			"file": "aim-120c-2x.png"
+		},
 		"aim-9m": {
 			"file": "aim-9m.png"
 		},
@@ -549,6 +552,10 @@
 		"mk84-light": {
 			"file": "sc1000.png"
 		},
+		"mk84-light-2x": {
+			"file": "sc1000-2x.png",
+			"label": "Mk 84 (2)"
+		},
 		"m117": {
 			"file": "sc250.png"
 		},
@@ -599,9 +606,9 @@
 			"file": "aim-7.png",
 			"label": "AIM-7"
 		},
-		"aim-9": {
-			"file": "aim-9.png",
-			"label": "AIM-9"
+		"aim-9g": {
+			"file": "r60.png",
+			"label": "AIM-9G"
 		},
 		"aim-9-2x": {
 			"file": "aim-9-2x.png"
@@ -779,10 +786,10 @@
 			"file": "bomb-6x-teal.png"
 		},
 		"mk84-black": {
-			"file": "sc250.png"
+			"file": "sb2500.png"
 		},
 		"mk84-blue": {
-			"file": "sc250.png"
+			"file": "sc500.png"
 		},
 		"type-a": {
 			"file": "type-a.png"
@@ -799,10 +806,6 @@
 		"zuni-3x": {
 			"file": "zuni-3x.png",
 			"label": "Zuni (3-pack)"
-		},
-		"aim-120": {
-			"file": "aim-120.png",
-			"label": "AIM-120"
 		},
 		"gbu-8": {
 			"file": "gbu-8.png"
@@ -1020,12 +1023,20 @@
 			"label": "R-73"
 		},
 		"r27t": {
-			"file": "r27t.png",
+			"file": "aim-54.png",
 			"label": "R-27T"
+		},
+		"r27et": {
+			"file": "aim-54.png",
+			"label": "R-27ET"
 		},
 		"r27r": {
 			"file": "r24r.png",
 			"label": "R-27R"
+		},
+		"r27er": {
+			"file": "r24r.png",
+			"label": "R-27ER"
 		},
 		"zb-500-2x": {
 			"file": "fc500-2x.png"
@@ -1055,6 +1066,17 @@
 		"grom-2": {
 			"file": "grom-2.png",
 			"label": "Grom-2"
+		},
+		"aim-9b": {
+			"file": "r60-white.png"
+		},
+		"r27r-blue": {
+			"file": "aim-120c.png",
+			"label": "R-27R"
+		},
+		"fakour-2x": {
+			"file": "fakour-2x.png",
+            "label": "Fakour 90 (2 pack)"
 		}
 	}
 }
