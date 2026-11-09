@@ -602,10 +602,6 @@
 		"mk77": {
 			"file": "fc500.png"
 		},
-		"aim-7": {
-			"file": "aim-7.png",
-			"label": "AIM-7"
-		},
 		"aim-9g": {
 			"file": "r60.png",
 			"label": "AIM-9G"
@@ -615,10 +611,6 @@
 		},
 		"agm-65-3x": {
 			"file": "agm-65-3x.png"
-		},
-		"aim-9-yellow": {
-			"file": "aim-9-yellow.png",
-			"label": "AIM-9"
 		},
 		"an-m30a1": {
 			"file": "sc50.png"
@@ -766,9 +758,6 @@
 		},
 		"mk82": {
 			"file": "sc100.png"
-		},
-		"mk82-5x": {
-			"file": "bomb-5x-copper.png"
 		},
 		"mk82-6x": {
 			"file": "bomb-6x-dark.png"
@@ -1076,7 +1065,50 @@
 		},
 		"fakour-2x": {
 			"file": "fakour-2x.png",
-            "label": "Fakour 90 (2 pack)"
-		}
+			"label": "Fakour 90 (2 pack)"
+		},
+		"aim-7d": {
+			"file": "aim-7.png",
+			"label": "AIM-7D"
+		},
+		"aim-9e": {
+			"file": "r60.png",
+			"label": "AIM-9E"
+		},
+		"aim-9e-2x": {
+			"file": "r60-2x.png",
+			"label": "AIM-9E (2 pack)"
+		},
+		"aim-9j-red": {
+			"file": "r60.png",
+			"label": "AIM-9J"
+		},
+		"aim-9j-red-2x": {
+			"file": "r60-2x.png",
+			"label": "AIM-9J (2 pack)"
+		},
+		"aim-9h": {
+			"file": "r60.png",
+			"label": "AIM-9H"
+		},
+		"aim-9h-2x": {
+			"file": "r60-2x.png",
+			"label": "AIM-9H (2 pack)"
+		},
+		"aim-7e": {
+			"file": "r24r.png",
+			"label": "AIM-7E"
+		},
+		"aim-7f": {
+			"file": "r24r.png",
+			"label": "AIM-7F"
+		},
+		"mk79": {
+			"file": "fc500.png"
+		},
+        "aim-9l-yellow": {
+            "file": "aim-9-yellow.png",
+            "label": "AIM-9L"
+        }
 	}
 }
