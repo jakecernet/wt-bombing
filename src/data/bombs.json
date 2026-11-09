@@ -454,7 +454,7 @@
 			"file": "r24r.png"
 		},
 		"r60m": {
-			"file": "r60.png"
+			"file": "aim-9.png"
 		},
 		"r60m-2x": {
 			"file": "r60-2x.png"
@@ -564,7 +564,7 @@
 			"label": "R-73"
 		},
 		"aim-9l": {
-			"file": "r60.png"
+			"file": "aim-9.png"
 		},
 		"aim-9l-2x": {
 			"file": "r60-2x.png"
@@ -603,7 +603,7 @@
 			"file": "fc500.png"
 		},
 		"aim-9g": {
-			"file": "r60.png",
+			"file": "aim-9.png",
 			"label": "AIM-9G"
 		},
 		"aim-9-2x": {
@@ -1008,7 +1008,7 @@
 			"label": "R-60M"
 		},
 		"r73-red": {
-			"file": "r60.png",
+			"file": "aim-9.png",
 			"label": "R-73"
 		},
 		"r27t": {
@@ -1072,7 +1072,7 @@
 			"label": "AIM-7D"
 		},
 		"aim-9e": {
-			"file": "r60.png",
+			"file": "aim-9.png",
 			"label": "AIM-9E"
 		},
 		"aim-9e-2x": {
@@ -1080,7 +1080,7 @@
 			"label": "AIM-9E (2 pack)"
 		},
 		"aim-9j-red": {
-			"file": "r60.png",
+			"file": "aim-9.png",
 			"label": "AIM-9J"
 		},
 		"aim-9j-red-2x": {
@@ -1088,7 +1088,7 @@
 			"label": "AIM-9J (2 pack)"
 		},
 		"aim-9h": {
-			"file": "r60.png",
+			"file": "aim-9.png",
 			"label": "AIM-9H"
 		},
 		"aim-9h-2x": {
