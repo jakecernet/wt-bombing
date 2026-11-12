@@ -434,23 +434,21 @@
 		"premium": false,
 		"variants": [
 			{
-				"bases": 2,
+				"bases": 4,
 				"reward": 10,
 				"icons": [
 					"/",
 					"/",
-					"an-m64a1",
-					"an-m64a1",
-					"/",
-					"an-m64a1",
-					"an-m64a1",
+					"an-m64a1-2x",
+					"an-m64a1-4x-brown",
+					"an-m64a1-2x",
 					"/",
 					"/"
 				],
 				"maxBr": 3.3,
-				"bombs": ["AN-M64A1 x2", "AN-M64A1 x2"],
+				"bombs": ["AN-M64A1 x2", "AN-M64A1 x2", "AN-M64A1 x2", "AN-M64A1 x2"],
 				"minBr": 3.7,
-				"bombsHigh": ["AN-M64A1 x4"]
+				"bombsHigh": ["AN-M64A1 x4", "AN-M64A1 x4"]
 			}
 		]
 	},
@@ -2638,14 +2636,14 @@
 		"name": "A-10A",
 		"country": "USA",
 		"rank": 6,
-		"br": 10.3,
+		"br": 9.0,
 		"premium": true,
 		"variants": [
 			{
 				"bases": 3,
 				"reward": 5.0,
 				"icons": [
-					"aim-9l",
+                    "/",
 					"mk82",
 					"mk84-light",
 					"mk84-light",
@@ -2667,17 +2665,15 @@
 				"bases": 2,
 				"reward": 6.2,
 				"icons": [
-					"aim-9l",
 					"mk82",
-					"agm-65-3x",
+					"/",
 					"mk84-light",
 					"mk84-light",
 					"/",
 					"gunpod-gau",
 					"mk84-light",
 					"mk84-light",
-					"mk82",
-					"aim-9l"
+					"mk82"
 				],
 				"bombs": ["Mk 84 x2 + Mk 82 x1", "Mk 84 x2 + Mk 82 x1"]
 			},
@@ -2685,17 +2681,15 @@
 				"bases": 1,
 				"reward": 9.6,
 				"icons": [
-					"aim-9l",
 					"/",
-					"agm-65-3x",
+					"/",
 					"mk84-light",
 					"gunpod-gau",
 					"/",
 					"gunpod-gau",
 					"mk84-light",
-					"agm-65-3x",
-					"mk82",
-					"aim-9l"
+					"/",
+					"mk82"
 				],
 				"bombs": ["Mk 84 x2 + Mk 82 x1"]
 			}
@@ -4833,37 +4827,57 @@
 		"br": 14.3,
 		"premium": false,
 		"variants": [
+            {
+                "bases": 3,
+                "reward": 4.1,
+                "icons": [
+                    "aim-120c",
+                    "mk82-6x",
+                    "aim-120c",
+                    "/",
+                    "cft-gbu-64-2x",
+                    "/",
+                    "gbu-39-4x",
+                    "chaff-pod",
+                    "cft-gbu-64-2x",
+                    "/",
+                    "aim-120c",
+                    "mk82-6x",
+                    "aim-120c"
+                ],
+                "bombs": ["GBU-64 x2 + GBU-39 x2", "GBU-64 x2 + GBU-39 x2", "Mk 82 x10"]
+            },
 			{
 				"bases": 2,
-				"reward": 4.4,
+				"reward": 5.1,
 				"icons": [
-					"aim-120c",
-					"agm-130",
-					"aim-120c",
-					"/",
-					"cft-gbu-64-2x",
-					"chaff-pod",
-					"/",
-					"chaff-pod",
-					"cft-gbu-64-2x",
-					"/",
-					"aim-120c",
-					"agm-130",
-					"aim-120c"
-				],
-				"bombs": ["GBU-64 x2 + AGM-130 x1", "GBU-64 x2 + AGM-130 x1"]
+                    "aim-120c",
+                    "/",
+                    "aim-120c",
+                    "/",
+                    "cft-gbu-64-2x",
+                    "/",
+                    "gbu-39-4x",
+                    "chaff-pod",
+                    "cft-gbu-64-2x",
+                    "/",
+                    "aim-120c",
+                    "/",
+                    "aim-120c"
+                ],
+				"bombs": ["GBU-64 x2 + GBU-39 x2", "GBU-64 x2 + GBU-39 x2"]
 			},
 			{
 				"bases": 1,
-				"reward": 6.5,
+				"reward": 8.0,
 				"icons": [
 					"aim-120c",
 					"agm-130",
 					"aim-120c",
-					"cft-aim-120-2x",
 					"/",
-					"chaff-pod",
-					"gbu-64",
+					"jsow",
+					"/",
+					"pod-yellow",
 					"chaff-pod",
 					"/",
 					"cft-aim-120-2x",
@@ -4871,7 +4885,7 @@
 					"agm-130",
 					"aim-120c"
 				],
-				"bombs": ["GBU-64 x1 + AGM-130 x2"]
+				"bombs": ["JSOW x1 + AGM-130 x2"]
 			}
 		]
 	},
@@ -5109,6 +5123,64 @@
 			}
 		]
 	},
+    {
+        "id": "f-a-18d",
+        "name": "F/A-18D",
+        "country": "USA",
+        "rank": 8,
+        "br": 13.7,
+        "premium": true,
+        "variants": [
+            {
+                "bases": 3,
+                "reward": 3.4,
+                "icons": [
+                    "aim-9m",
+                    "mk77-red-dark-2x",
+                    "mk77-red-dark-2x",
+                    "aim-120b",
+                    "mk77-red-dark",
+                    "aim-120b",
+                    "mk77-red-dark-2x",
+                    "mk77-red-dark-2x",
+                    "aim-9m"
+                ],
+                "bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
+            },
+            {
+                "bases": 2,
+                "reward": 4.0,
+                "icons": [
+                    "aim-9m",
+                    "mk77-red-dark-2x",
+                    "mk77-red-dark-2x",
+                    "aim-120b",
+                    "droptank",
+                    "aim-120b",
+                    "mk77-red-dark-2x",
+                    "aim-120b-2x",
+                    "aim-9m"
+                ],
+                "bombs": ["Mk 77 x3", "Mk 77 x3"]
+            },
+            {
+                "bases": 1,
+                "reward": 5.6,
+                "icons": [
+                    "aim-9m",
+                    "aim-120b-2x",
+                    "aim-7p",
+                    "aim-120b",
+                    "mk77-red-dark",
+                    "aim-120b",
+                    "mk77-red-dark-2x",
+                    "aim-120b-2x",
+                    "aim-9m"
+                ],
+                "bombs": ["Mk 77 x3"]    
+            }
+        ]
+    },
 	{
 		"id": "f-16cm-pobit",
 		"name": "F-16CM PoBIT",
@@ -5356,5 +5428,81 @@
 				"bombs": ["Mk 77 x3"]
 			}
 		]
-	}
+	},
+    {
+        "id": "f-15ex",
+        "name": "F-15EX",
+        "country": "USA",
+        "rank": 9,
+        "br": 15.0,
+        "premium": false,
+        "variants": [
+            {
+                "bases": 3,
+                "reward": 4.1,
+                "icons": [
+                    "aim-120c-2x",
+                    "aim-120c",
+                    "mk82-6x",
+                    "aim-120c",
+                    "/",
+                    "cft-gbu-64-2x",
+                    "/",
+                    "gbu-39-4x",
+                    "chaff-pod",
+                    "cft-gbu-64-2x",
+                    "/",
+                    "aim-120c",
+                    "mk82-6x",
+                    "aim-120c",
+                    "aim-120c-2x"
+                ],
+                "bombs": ["GBU-64 x2 + GBU-39 x2", "GBU-64 x2 + GBU-39 x2", "Mk 82 x10"]
+            },
+			{
+				"bases": 2,
+				"reward": 5.1,
+				"icons": [
+                    "aim-120c-2x",
+                    "aim-120c",
+                    "/",
+                    "aim-120c",
+                    "/",
+                    "cft-gbu-64-2x",
+                    "/",
+                    "gbu-39-4x",
+                    "chaff-pod",
+                    "cft-gbu-64-2x",
+                    "/",
+                    "aim-120c",
+                    "/",
+                    "aim-120c",
+                    "aim-120c-2x"
+                ],
+				"bombs": ["GBU-64 x2 + GBU-39 x2", "GBU-64 x2 + GBU-39 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+                    "aim-120c-2x",
+					"aim-120c",
+					"agm-130",
+					"aim-120c",
+					"/",
+					"jsow",
+					"/",
+					"pod-yellow",
+					"chaff-pod",
+					"/",
+					"cft-aim-120-2x",
+					"aim-120c",
+					"agm-130",
+					"aim-120c",
+                    "aim-120c-2x"
+				],
+				"bombs": ["JSOW x1 + AGM-130 x2"]
+            }
+        ]
+    }
 ]

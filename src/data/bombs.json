@@ -887,9 +887,6 @@
 			"file": "gbu-31-2x.png",
 			"label": "GBU-31 (2)"
 		},
-		"aim-120-2x": {
-			"file": "aim-120-2x.png"
-		},
 		"gbu-38-2x": {
 			"file": "gbu-38-2x.png",
 			"label": "GBU-38(V) (2)"
@@ -1258,6 +1255,39 @@
 		},
 		"rp-3-2x": {
 			"file": "rp-3-2x.png"
+		},
+		"gbu-39-4x": {
+			"file": "gbu-39-4x.png"
+		},
+		"jsow": {
+			"file": "jsow.png",
+			"label": "JSOW"
+		},
+		"pod-yellow": {
+			"file": "pod-yellow.png",
+			"label": "Targeting pod"
+		},
+		"aim-120b-2x": {
+			"file": "aim-120b-2x.png"
+		},
+		"an-m64a1-2x": {
+			"file": "sc250-2x.png"
+		},
+		"an-m64a1-4x-brown": {
+			"file": "gp-1000-4x.png",
+			"label": "AN-M64A1 (4)"
+		},
+		"r60": {
+			"file": "r60-white.png",
+			"label": "R-60"
+		},
+		"r98mr": {
+			"file": "aim-7.png",
+			"label": "R-98MR"
+		},
+		"aim-9g-white": {
+			"file": "r60-white.png",
+			"label": "AIM-9G"
 		}
 	}
 }

@@ -23,7 +23,7 @@ function Hardpoints({ tiles }) {
 			<div className="panel-head">
 				<h3>Hardpoints</h3>
 				<p>
-					{used.length} of {n} slots used · hover a slot for its name
+					{used.length} of {n} slots used · hover over a slot for its name
 				</p>
 			</div>
 			<div className="hp-scroll">

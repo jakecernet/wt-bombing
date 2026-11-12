@@ -1678,7 +1678,7 @@
 		"name": "Buccaneer 2B",
 		"country": "Great Britain",
 		"rank": 7,
-		"br": 10.7,
+		"br": 9.7,
 		"premium": false,
 		"variants": [
 			{
@@ -1687,7 +1687,7 @@
 				"icons": [
 					"/",
 					"/",
-					"aam",
+					"aim-9g-white",
 					"ld-1000-3x",
 					"he-1000-4x",
 					"ld-1000-3x",
@@ -1707,11 +1707,11 @@
 				"icons": [
 					"/",
 					"/",
-					"aam",
+					"aim-9g-white",
 					"ld-1000-3x",
 					"he-1000-4x",
 					"ld-1000-2x",
-					"aam",
+					"aim-9g-white",
 					"/",
 					"/"
 				],
@@ -1723,11 +1723,11 @@
 				"icons": [
 					"/",
 					"/",
-					"aam",
+					"aim-9g-white",
 					"ld-1000-2x",
 					"/",
 					"ld-1000-2x",
-					"aam",
+					"aim-9g-white",
 					"/",
 					"/"
 				],

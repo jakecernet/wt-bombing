@@ -1206,15 +1206,15 @@
 				"icons": [
 					"/",
 					"/",
-					"100sv",
-					"500sv",
+					"250sv",
+					"250sv",
 					"50sv-8x",
-					"500sv",
-					"100sv",
-					"100sv",
+					"250sv",
+					"250sv",
+					"/",
 					"/"
 				],
-				"bombs": ["50sv x8", "50sv x8", "500sv x2", "100sv x3"]
+				"bombs": ["50sv x8", "50sv x8", "250sv x4"]
 			}
 		]
 	},
@@ -2044,6 +2044,48 @@
 			}
 		]
 	},
+    {
+            "id": "su-15-tm",
+            "name": "Su-15TM",
+            "country": "USSR",
+            "rank": 6,
+            "br": 9.7,
+            "premium": false,
+            "variants": [
+                {
+                    "bases": 2,
+                    "reward": 4.0,
+                    "icons": [
+                        "/",
+                        "zb-500",
+                        "r60",
+                        "zb-500",
+                        "/",
+                        "zb-500",
+                        "r60",
+                        "zb-500",
+                        "/"
+                    ],
+                    "bombs": ["ZB-500 x2", "ZB-500 x2"]
+                },
+                {
+                    "bases": 1,
+                    "reward": 6.1,
+                    "icons": [
+                        "/",
+                        "r98mr",
+                        "r60",
+                        "zb-500",
+                        "/",
+                        "zb-500",
+                        "r60",
+                        "r98mr",
+                        "/"
+                    ],
+                    "bombs": ["ZB-500 x2"]
+                }
+            ]
+    },
 	{
 		"id": "yak-130",
 		"name": "Yak-130",
@@ -3056,7 +3098,7 @@
 				"bases": 4,
 				"reward": 4.4,
 				"icons": [
-					"r60-white",
+					"r73-red",
 					"zb-500",
 					"zb-500",
 					"zb-500",
@@ -3066,7 +3108,7 @@
 					"zb-500",
 					"zb-500",
 					"zb-500",
-					"r60-white"
+					"r73-red"
 				],
 				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
 			},
@@ -3074,7 +3116,7 @@
 				"bases": 3,
 				"reward": 4.9,
 				"icons": [
-					"r60-white",
+					"r73-red",
 					"r73-red",
 					"zb-500",
 					"zb-500",
@@ -3084,7 +3126,7 @@
 					"zb-500",
 					"zb-500",
 					"r73-red",
-					"r60-white"
+					"r73-red"
 				],
 				"bombs": ["ZB-500 x2", "ZB-500 x2", "ZB-500 x2"]
 			},
@@ -3092,7 +3134,7 @@
 				"bases": 2,
 				"reward": 6.0,
 				"icons": [
-					"r60-white",
+					"r73-red",
 					"r73-red",
 					"zb-500",
 					"zb-500",
@@ -3102,7 +3144,7 @@
 					"zb-500",
 					"zb-500",
 					"r73-red",
-					"r60-white"
+					"r73-red"
 				],
 				"bombs": ["ZB-500 x2", "ZB-500 x2"]
 			},
@@ -3110,7 +3152,7 @@
 				"bases": 1,
 				"reward": 9.2,
 				"icons": [
-					"r60-white",
+					"r73-red",
 					"r73-red",
 					"zb-500",
 					"gunpod-old",
@@ -3120,7 +3162,7 @@
 					"gunpod-old",
 					"zb-500",
 					"r73-red",
-					"r60-white"
+					"r73-red"
 				],
 				"bombs": ["ZB-500 x2"]
 			}
@@ -3505,7 +3547,7 @@
 		"name": "Su-25SM3",
 		"country": "USSR",
 		"rank": 8,
-		"br": 11.7,
+		"br": 10.7,
 		"premium": false,
 		"variants": [
 			{
