@@ -1,0 +1,2421 @@
+[
+	{
+		"id": "chesapeake-i",
+		"name": "Chesapeake I",
+		"country": "Great Britain",
+		"rank": 1,
+		"br": 1.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"an-m64a1",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M64A1 x2", "AN-M64A1 x1"]
+			}
+		]
+	},
+	{
+		"id": "hp-12",
+		"name": "H.P.12",
+		"country": "Great Britain",
+		"rank": 1,
+		"br": 1.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10,
+				"icons": [
+					"he-230",
+					"he-230",
+					"he-230",
+					"he-230",
+					"/",
+					"he-230",
+					"he-230",
+					"he-230",
+					"he-230"
+				],
+				"bombs": ["H.E.230 x3", "H.E.230 x3", "H.E.230 x2"]
+			}
+		]
+	},
+	{
+		"id": "blenheim-iv",
+		"name": "Blenheim IV",
+		"country": "Great Britain",
+		"rank": 1,
+		"br": 1.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"gp-250",
+					"gp-250",
+					"/",
+					"gp-250",
+					"gp-250",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": ["G.P.250 x4"],
+				"minBr": 2.3,
+				"bombsHigh": ["G.P.250 x4"]
+			}
+		]
+	},
+	{
+		"id": "beaufort-viii",
+		"name": "Beaufort VIII",
+		"country": "Great Britain",
+		"rank": 1,
+		"br": 1.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"gp-250",
+					"gp-250",
+					"/",
+					"gp-250",
+					"gp-250",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": ["G.P.250 x4"],
+				"minBr": 2.3,
+				"bombsHigh": ["G.P.250 x4"]
+			}
+		]
+	},
+	{
+		"id": "swordfish-i",
+		"name": "Swordfish I",
+		"country": "Great Britain",
+		"rank": 1,
+		"br": 1.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"gp-250",
+					"gp-250",
+					"gp-250",
+					"/",
+					"gp-250",
+					"gp-250",
+					"gp-250",
+					"/"
+				],
+				"bombs": ["G.P.250 x4", "G.P.250 x2"]
+			}
+		]
+	},
+	{
+		"id": "hampden-i",
+		"name": "Hampden I",
+		"country": "Great Britain",
+		"rank": 1,
+		"br": 1.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"gp-1000",
+					"gp-1000",
+					"/",
+					"gp-1000",
+					"gp-1000",
+					"/",
+					"/"
+				],
+				"bombs": ["G.P.1000 x2", "G.P.1000 x2"]
+			}
+		]
+	},
+	{
+		"id": "hampden-tb-i",
+		"name": "Hampden TB I",
+		"country": "Great Britain",
+		"rank": 1,
+		"br": 1.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"gp-500-green",
+					"gp-1000-4x",
+					"gp-500-green",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": [
+					"G.P.1000 x1 + G.P.500 x1",
+					"G.P.1000 x1 + G.P.500 x1",
+					"G.P.1000 x2"
+				],
+				"minBr": 2.3,
+				"bombsHigh": ["G.P.1000 x2", "G.P.1000 x2", "G.P.500 x2"]
+			}
+		]
+	},
+	{
+		"id": "swordfish-ii",
+		"name": "Swordfish II",
+		"country": "Great Britain",
+		"rank": 1,
+		"br": 1.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"gp-250",
+					"gp-250",
+					"gp-250",
+					"/",
+					"gp-250",
+					"gp-250",
+					"gp-250",
+					"/"
+				],
+				"bombs": ["G.P.250 x4", "G.P.250 x2"]
+			}
+		]
+	},
+	{
+		"id": "wirraway",
+		"name": "Wirraway",
+		"country": "Great Britain",
+		"rank": 1,
+		"br": 1.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"gp-250",
+					"gp-500",
+					"/",
+					"gp-500",
+					"gp-250",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": ["G.P.500 x2 + G.P.250 x1", "G.P.250 x1"],
+				"minBr": 2.3,
+				"bombsHigh": ["G.P.500 x2 + G.P.250 x2"]
+			}
+		]
+	},
+	{
+		"id": "catalina-iiia",
+		"name": "Catalina IIIa",
+		"country": "Great Britain",
+		"rank": 1,
+		"br": 1.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 6.9,
+				"icons": [
+					"/",
+					"/",
+					"type-a",
+					"type-a",
+					"/",
+					"type-a",
+					"type-a",
+					"/",
+					"/"
+				],
+				"bombs": ["Type A x1", "Type A x1", "Type A x1", "Type A x1"]
+			}
+		]
+	},
+	{
+		"id": "beaufighter-x",
+		"name": "Beaufighter X",
+		"country": "Great Britain",
+		"rank": 2,
+		"br": 3.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": ["/", "/", "/", "/", "mc-1000-2x", "/", "/", "/", "/"],
+				"bombs": ["M.C.1000 x2"]
+			}
+		]
+	},
+	{
+		"id": "beaufighter-21",
+		"name": "Beaufighter 21",
+		"country": "Great Britain",
+		"rank": 2,
+		"br": 3.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": ["/", "/", "/", "/", "mc-1000-2x", "/", "/", "/", "/"],
+				"bombs": ["M.C.1000 x2"]
+			}
+		]
+	},
+	{
+		"id": "sunderland-iiia",
+		"name": "Sunderland IIIa",
+		"country": "Great Britain",
+		"rank": 2,
+		"br": 1.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10,
+				"icons": [
+					"gp-250",
+					"gp-250",
+					"gp-250",
+					"gp-250",
+					"/",
+					"gp-250",
+					"gp-250",
+					"gp-250",
+					"gp-250"
+				],
+				"maxBr": 2.0,
+				"bombs": ["G.P.250 x4", "G.P.250 x4"],
+				"minBr": 2.3,
+				"bombsHigh": ["G.P.250 x5", "G.P.250 x3"]
+			}
+		]
+	},
+	{
+		"id": "sunderland-v",
+		"name": "Sunderland V",
+		"country": "Great Britain",
+		"rank": 2,
+		"br": 2.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10,
+				"icons": [
+					"gp-250",
+					"gp-250",
+					"gp-250",
+					"gp-250",
+					"/",
+					"gp-250",
+					"gp-250",
+					"gp-250",
+					"gp-250"
+				],
+				"maxBr": 2.0,
+				"bombs": ["G.P.250 x4", "G.P.250 x4"],
+				"minBr": 2.3,
+				"bombsHigh": ["G.P.250 x5", "G.P.250 x3"]
+			}
+		]
+	},
+	{
+		"id": "wellington-ic",
+		"name": "Wellington Ic",
+		"country": "Great Britain",
+		"rank": 2,
+		"br": 2.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 8.7,
+				"icons": [
+					"/",
+					"gp-250-3x",
+					"gp-250-3x",
+					"gp-250-3x",
+					"/",
+					"gp-250-3x",
+					"gp-250-3x",
+					"gp-250-3x",
+					"/"
+				],
+				"bombs": [
+					"G.P.250 x5",
+					"G.P.250 x5",
+					"G.P.250 x5",
+					"G.P.250 x3"
+				]
+			}
+		]
+	},
+	{
+		"id": "wellington-ic-l",
+		"name": "Wellington Ic/L",
+		"country": "Great Britain",
+		"rank": 2,
+		"br": 2.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 8.7,
+				"icons": [
+					"/",
+					"gp-250-3x",
+					"gp-250-3x",
+					"gp-250-3x",
+					"/",
+					"gp-250-3x",
+					"gp-250-3x",
+					"gp-250-3x",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": [
+					"G.P.250 x5",
+					"G.P.250 x5",
+					"G.P.250 x5",
+					"G.P.250 x3"
+				],
+				"minBr": 3.7,
+				"bombsHigh": ["G.P.250 x8", "G.P.250 x8", "G.P.250 x2"]
+			}
+		]
+	},
+	{
+		"id": "wellington-iii",
+		"name": "Wellington III",
+		"country": "Great Britain",
+		"rank": 2,
+		"br": 3.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 8.7,
+				"icons": [
+					"/",
+					"gp-250-3x",
+					"gp-250-3x",
+					"gp-250-3x",
+					"/",
+					"gp-250-3x",
+					"gp-250-3x",
+					"gp-250-3x",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": [
+					"G.P.250 x5",
+					"G.P.250 x5",
+					"G.P.250 x5",
+					"G.P.250 x3"
+				],
+				"minBr": 3.7,
+				"bombsHigh": ["G.P.250 x8", "G.P.250 x8", "G.P.250 x2"]
+			}
+		]
+	},
+	{
+		"id": "wellington-x",
+		"name": "Wellington X",
+		"country": "Great Britain",
+		"rank": 2,
+		"br": 3.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 8.7,
+				"icons": [
+					"/",
+					"gp-250-3x",
+					"gp-250-3x",
+					"gp-250-3x",
+					"/",
+					"gp-250-3x",
+					"gp-250-3x",
+					"gp-250-3x",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": [
+					"G.P.250 x5",
+					"G.P.250 x5",
+					"G.P.250 x5",
+					"G.P.250 x3"
+				],
+				"minBr": 3.7,
+				"bombsHigh": ["G.P.250 x8", "G.P.250 x8", "G.P.250 x2"]
+			}
+		]
+	},
+	{
+		"id": "avenger-ii",
+		"name": "Avenger II",
+		"country": "Great Britain",
+		"rank": 2,
+		"br": 1.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m64a1-4x",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M64A1 x2", "AN-M64A1 x2"]
+			}
+		]
+	},
+	{
+		"id": "hudson-v",
+		"name": "Hudson V",
+		"country": "Great Britain",
+		"rank": 2,
+		"br": 2.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 10,
+				"icons": [
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m57",
+					"an-m57",
+					"/",
+					"an-m57",
+					"an-m57",
+					"an-m30a1",
+					"an-m30a1",
+					"an-m30a1"
+				],
+				"maxBr": 2.0,
+				"bombs": [
+					"AN-M57 x2 + AN-M30A1 x1",
+					"AN-M57 x2 + AN-M30A1 x1",
+					"AN-M30A1 x4"
+				],
+				"minBr": 2.3,
+				"bombsHigh": [
+					"AN-M57 x2 + AN-M30A1 x2",
+					"AN-M57 x2 + AN-M30A1 x2",
+					"AN-M30A1 x2"
+				]
+			}
+		]
+	},
+	{
+		"id": "corsair-f-ii",
+		"name": "Corsair F II",
+		"country": "Great Britain",
+		"rank": 2,
+		"br": 2.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"/",
+					"an-m65a1-blue",
+					"/",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["AN-M65A1 x1"],
+				"minBr": 3.7,
+				"bombsHigh": ["AN-M65A1 x1"]
+			}
+		]
+	},
+	{
+		"id": "havoc-i",
+		"name": "Havoc I",
+		"country": "Great Britain",
+		"rank": 2,
+		"br": 2.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"gp-500",
+					"gp-500",
+					"/",
+					"gp-500",
+					"gp-500",
+					"/",
+					"/"
+				],
+				"maxBr": 2.0,
+				"bombs": ["G.P.500 x3", "G.P.500 x1"],
+				"minBr": 2.3,
+				"bombsHigh": ["G.P.500 x4"]
+			}
+		]
+	},
+	{
+		"id": "boston-i",
+		"name": "Boston I",
+		"country": "Great Britain",
+		"rank": 2,
+		"br": 2.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"gp-500",
+					"gp-500",
+					"/",
+					"gp-500",
+					"gp-500",
+					"/",
+					"/"
+				],
+				"bombs": ["G.P.500 x4"]
+			}
+		]
+	},
+	{
+		"id": "db-7",
+		"name": "DB-7",
+		"country": "Great Britain",
+		"rank": 2,
+		"br": 2.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"/",
+					"an-m64a1",
+					"an-m64a1",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M64A1 x2", "AN-M64A1 x2"]
+			}
+		]
+	},
+	{
+		"id": "firefly-f-i",
+		"name": "Firefly F I",
+		"country": "Great Britain",
+		"rank": 3,
+		"br": 3.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"mc-1000",
+					"/",
+					"mc-1000",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["M.C.1000 x2"]
+			}
+		]
+	},
+	{
+		"id": "firefly-fr-v",
+		"name": "Firefly FR V",
+		"country": "Great Britain",
+		"rank": 3,
+		"br": 3.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"mc-1000",
+					"/",
+					"mc-1000",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["M.C.1000 x2"]
+			}
+		]
+	},
+	{
+		"id": "brigand-b-1",
+		"name": "Brigand B 1",
+		"country": "Great Britain",
+		"rank": 3,
+		"br": 4.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"rp-3-2x",
+					"rp-3-2x",
+					"gp-500",
+					"gp-1000-2x",
+					"gp-500",
+					"rp-3-2x",
+					"/",
+					"/"
+				],
+				"bombs": ["G.P.1000 x2 + G.P.500 x1", "G.P.500 x1 + RP-3 x6"]
+			}
+		]
+	},
+	{
+		"id": "halifax-b-iiia",
+		"name": "Halifax B IIIa",
+		"country": "Great Britain",
+		"rank": 3,
+		"br": 4.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"gp-500-3x",
+					"mc-1000-3x",
+					"mc-1000-3x",
+					"mc-1000-3x",
+					"gp-500-3x",
+					"/",
+					"/"
+				],
+				"maxBr": 4.7,
+				"bombs": [
+					"M.C.1000 x2",
+					"M.C.1000 x2",
+					"M.C.1000 x2",
+					"M.C.1000 x2",
+					"G.P.500 x6"
+				],
+				"minBr": 5.0,
+				"bombsHigh": [
+					"M.C.1000 x3",
+					"M.C.1000 x3",
+					"M.C.1000 x3",
+					"G.P.500 x6"
+				]
+			}
+		]
+	},
+	{
+		"id": "stirling-b-i",
+		"name": "Stirling B I",
+		"country": "Great Britain",
+		"rank": 3,
+		"br": 4.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 5.3,
+				"icons": [
+					"gp-500-3x",
+					"gp-500-3x",
+					"gp-500-3x",
+					"gp-500-3x",
+					"gp-500-3x",
+					"gp-500-3x",
+					"gp-500-3x",
+					"gp-500-3x",
+					"gp-500-3x"
+				],
+				"maxBr": 4.7,
+				"bombs": [
+					"G.P.500 x6",
+					"G.P.500 x6",
+					"G.P.500 x6",
+					"G.P.500 x6",
+					"G.P.500 x3"
+				],
+				"minBr": 5.0,
+				"bombsHigh": ["G.P.500 x9", "G.P.500 x9", "G.P.500 x9"]
+			}
+		]
+	},
+	{
+		"id": "stirling-b-iii",
+		"name": "Stirling B III",
+		"country": "Great Britain",
+		"rank": 3,
+		"br": 4.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 5.3,
+				"icons": [
+					"gp-500-3x",
+					"gp-500-3x",
+					"gp-500-3x",
+					"gp-500-3x",
+					"gp-500-3x",
+					"gp-500-3x",
+					"gp-500-3x",
+					"gp-500-3x",
+					"gp-500-3x"
+				],
+				"maxBr": 4.7,
+				"bombs": [
+					"G.P.500 x6",
+					"G.P.500 x6",
+					"G.P.500 x6",
+					"G.P.500 x6",
+					"G.P.500 x3"
+				],
+				"minBr": 5.0,
+				"bombsHigh": ["G.P.500 x9", "G.P.500 x9", "G.P.500 x9"]
+			}
+		]
+	},
+	{
+		"id": "mosquito-b-xvi",
+		"name": "Mosquito B XVI",
+		"country": "Great Britain",
+		"rank": 3,
+		"br": 3.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"gp-500",
+					"gp-500-4x",
+					"gp-500",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["G.P.500 x6"]
+			}
+		],
+		"squadron": true
+	},
+	{
+		"id": "hellcat-ii",
+		"name": "Hellcat II",
+		"country": "Great Britain",
+		"rank": 3,
+		"br": 3.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"an-m65a1-gold",
+					"an-m65a1-gold",
+					"an-m65a1-gold",
+					"/",
+					"/",
+					"/"
+				],
+				"maxBr": 3.3,
+				"bombs": ["AN-M65A1 x1", "AN-M65A1 x1", "AN-M65A1 x1"],
+				"minBr": 3.7,
+				"bombsHigh": ["AN-M65A1 x2", "AN-M65A1 x1"]
+			}
+		]
+	},
+	{
+		"id": "thunderbolt-1",
+		"name": "Thunderbolt 1",
+		"country": "Great Britain",
+		"rank": 3,
+		"br": 3.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.0,
+				"icons": [
+					"/",
+					"/",
+					"an-m65a1-gold",
+					"/",
+					"/",
+					"/",
+					"an-m65a1-gold",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M65A1 x2"]
+			}
+		]
+	},
+	{
+		"id": "lancaster-i",
+		"name": "Lancaster I",
+		"country": "Great Britain",
+		"rank": 4,
+		"br": 4.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 4.2,
+				"icons": [
+					"/",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"/"
+				],
+				"bombs": [
+					"M.C.1000 x3",
+					"M.C.1000 x3",
+					"M.C.1000 x3",
+					"M.C.1000 x3",
+					"M.C.1000 x2"
+				]
+			}
+		]
+	},
+	{
+		"id": "lancaster-iii",
+		"name": "Lancaster III",
+		"country": "Great Britain",
+		"rank": 4,
+		"br": 5.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 4.2,
+				"icons": [
+					"/",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"/"
+				],
+				"bombs": [
+					"M.C.1000 x3",
+					"M.C.1000 x3",
+					"M.C.1000 x3",
+					"M.C.1000 x3",
+					"M.C.1000 x2"
+				]
+			}
+		]
+	},
+	{
+		"id": "lincoln-b-ii",
+		"name": "Lincoln B II",
+		"country": "Great Britain",
+		"rank": 4,
+		"br": 6.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 4,
+				"reward": 4.2,
+				"icons": [
+					"/",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"mc-1000-2x",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"M.C.1000 x3",
+					"M.C.1000 x3",
+					"M.C.1000 x3",
+					"M.C.1000 x3",
+					"M.C.1000 x2"
+				],
+				"minBr": 6.7,
+				"bombsHigh": [
+					"M.C.1000 x4",
+					"M.C.1000 x4",
+					"M.C.1000 x4",
+					"M.C.1000 x2"
+				]
+			}
+		]
+	},
+	{
+		"id": "shackleton",
+		"name": "Shackleton",
+		"country": "Great Britain",
+		"rank": 4,
+		"br": 6.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"mc-1000-3x",
+					"mc-1000-3x",
+					"mc-1000-3x",
+					"mc-1000-3x",
+					"mc-1000-3x",
+					"/",
+					"/"
+				],
+				"maxBr": 6.3,
+				"bombs": [
+					"M.C.1000 x3",
+					"M.C.1000 x3",
+					"M.C.1000 x3",
+					"M.C.1000 x3",
+					"M.C.1000 x3"
+				],
+				"minBr": 6.7,
+				"bombsHigh": [
+					"M.C.1000 x4",
+					"M.C.1000 x4",
+					"M.C.1000 x4",
+					"M.C.1000 x3"
+				]
+			}
+		]
+	},
+	{
+		"id": "strikemaster",
+		"name": "Strikemaster",
+		"country": "Great Britain",
+		"rank": 4,
+		"br": 6.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 6.0,
+				"icons": [
+					"/",
+					"mk77",
+					"/",
+					"mk77",
+					"/",
+					"mk77",
+					"/",
+					"mk77",
+					"/"
+				],
+				"bombs": ["Mk 77 x2", "Mk 77 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 9.2,
+				"icons": [
+					"/",
+					"mk77",
+					"/",
+					"droptank",
+					"/",
+					"droptank",
+					"/",
+					"mk77",
+					"/"
+				],
+				"bombs": ["Mk 77 x2"]
+			}
+		]
+	},
+	{
+		"id": "wyvern-s4",
+		"name": "Wyvern S4",
+		"country": "Great Britain",
+		"rank": 4,
+		"br": 5.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"mc-1000",
+					"mc-1000",
+					"mc-1000",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["M.C.1000 x3"]
+			}
+		]
+	},
+	{
+		"id": "washington",
+		"name": "Washington",
+		"country": "Great Britain",
+		"rank": 5,
+		"br": 7.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 5,
+				"reward": 3.4,
+				"icons": [
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"/",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x"
+				],
+				"bombs": [
+					"AN-M64A1 x8",
+					"AN-M64A1 x8",
+					"AN-M64A1 x8",
+					"AN-M64A1 x8",
+					"AN-M64A1 x8"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 3.6,
+				"icons": [
+					"/",
+					"an-m65a1-gold-3x",
+					"an-m65a1-gold-3x",
+					"an-m65a1-gold-3x",
+					"/",
+					"an-m65a1-gold-3x",
+					"an-m65a1-gold-3x",
+					"an-m65a1-gold-3x",
+					"/"
+				],
+				"maxBr": 7.7,
+				"bombs": [
+					"AN-M65A1 x4",
+					"AN-M65A1 x4",
+					"AN-M65A1 x4",
+					"AN-M65A1 x4",
+					"AN-M65A1 x2"
+				],
+				"minBr": 8.0,
+				"bombsHigh": [
+					"AN-M65A1 x5",
+					"AN-M65A1 x5",
+					"AN-M65A1 x5",
+					"AN-M65A1 x3"
+				]
+			},
+			{
+				"bases": 4,
+				"reward": 3.8,
+				"icons": [
+					"an-m66a2-blue",
+					"an-m66a2-blue",
+					"an-m66a2-blue",
+					"an-m66a2-blue",
+					"/",
+					"an-m66a2-blue",
+					"an-m66a2-blue",
+					"an-m66a2-blue",
+					"an-m66a2-blue"
+				],
+				"maxBr": 7.7,
+				"bombs": [
+					"AN-M66A2 x2",
+					"AN-M66A2 x2",
+					"AN-M66A2 x2",
+					"AN-M66A2 x2"
+				],
+				"minBr": 8.0,
+				"bombsHigh": ["AN-M66A2 x3", "AN-M66A2 x3", "AN-M66A2 x2"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.5,
+				"icons": [
+					"/",
+					"/",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"an-m64a1-4x",
+					"/",
+					"/"
+				],
+				"bombs": ["AN-M64A1 x8", "AN-M64A1 x8", "AN-M64A1 x4"]
+			}
+		]
+	},
+	{
+		"id": "canberra-b-2",
+		"name": "Canberra B 2",
+		"country": "Great Britain",
+		"rank": 5,
+		"br": 8.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.9,
+				"icons": [
+					"/",
+					"/",
+					"/",
+					"he-500-3x",
+					"/",
+					"he-500-6x",
+					"/",
+					"/",
+					"/"
+				],
+				"bombs": ["H.E.500 x9"]
+			}
+		]
+	},
+	{
+		"id": "canberra-b-i-6",
+		"name": "Canberra B (I) 6",
+		"country": "Great Britain",
+		"rank": 5,
+		"br": 8.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.7,
+				"icons": [
+					"/",
+					"/",
+					"mc-1000",
+					"mc-1000",
+					"mc-1000",
+					"mc-1000",
+					"mc-1000",
+					"/",
+					"/"
+				],
+				"bombs": ["M.C.1000 x5"]
+			}
+		]
+	},
+	{
+		"id": "jaguar-gr1",
+		"name": "Jaguar GR.1",
+		"country": "Great Britain",
+		"rank": 6,
+		"br": 9.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.4,
+				"icons": [
+					"/",
+					"/",
+					"aam",
+					"he-1000-2x",
+					"he-540-2x",
+					"he-1000-2x",
+					"aam",
+					"/",
+					"/"
+				],
+				"bombs": ["H.E.1000 x4 + H.E.540 x1", "H.E.540 x1"]
+			}
+		]
+	},
+	{
+		"id": "harrier-gr3",
+		"name": "Harrier GR.3",
+		"country": "Great Britain",
+		"rank": 6,
+		"br": 9.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.5,
+				"icons": [
+					"/",
+					"/",
+					"aam",
+					"he-1000-2x",
+					"he-1000",
+					"he-1000-2x",
+					"aam",
+					"/",
+					"/"
+				],
+				"bombs": ["H.E.1000 x5"]
+			}
+		]
+	},
+	{
+		"id": "buccaneer-2",
+		"name": "Buccaneer 2",
+		"country": "Great Britain",
+		"rank": 6,
+		"br": 9.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"aam",
+					"ld-1000-3x",
+					"he-1000-4x",
+					"ld-1000-3x",
+					"ld-1000-3x",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"L.D. 1000 x4",
+					"L.D. 1000 x4",
+					"L.D. 1000 x1 + H.E.1000 x4"
+				]
+			},
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"aam",
+					"ld-1000-3x",
+					"he-1000-4x",
+					"ld-1000-2x",
+					"aam",
+					"/",
+					"/"
+				],
+				"bombs": ["L.D. 1000 x4", "L.D. 1000 x1 + H.E.1000 x4"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.3,
+				"icons": [
+					"/",
+					"/",
+					"aam",
+					"ld-1000-2x",
+					"/",
+					"ld-1000-2x",
+					"aam",
+					"/",
+					"/"
+				],
+				"bombs": ["L.D. 1000 x4"]
+			}
+		]
+	},
+	{
+		"id": "harrier-gr1",
+		"name": "Harrier GR.1",
+		"country": "Great Britain",
+		"rank": 6,
+		"br": 9.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 9.1,
+				"icons": [
+					"/",
+					"/",
+					"aam-2x",
+					"he-1000-2x",
+					"he-1000",
+					"he-1000-2x",
+					"aam-2x",
+					"/",
+					"/"
+				],
+				"bombs": ["H.E.1000 x5"]
+			}
+		]
+	},
+	{
+		"id": "buccaneer-1",
+		"name": "Buccaneer 1",
+		"country": "Great Britain",
+		"rank": 6,
+		"br": 8.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.2,
+				"icons": [
+					"/",
+					"/",
+					"ld-1000",
+					"ld-1000",
+					"/",
+					"ld-1000",
+					"ld-1000",
+					"/",
+					"/"
+				],
+				"bombs": ["L.D. 1000 x4"]
+			}
+		]
+	},
+	{
+		"id": "phantom-fgr2",
+		"name": "Phantom FGR.2",
+		"country": "Great Britain",
+		"rank": 7,
+		"br": 12.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 3.8,
+				"icons": [
+					"he-1000-2x",
+					"he-1000-2x",
+					"aam-2x",
+					"aam",
+					"aam",
+					"he-1000-3x",
+					"aam",
+					"aam",
+					"aam-2x",
+					"he-1000-2x",
+					"he-1000-2x"
+				],
+				"bombs": ["H.E.1000 x5", "H.E.1000 x5", "H.E.1000 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 5.3,
+				"icons": [
+					"he-1000-2x",
+					"/",
+					"aam-2x",
+					"aam",
+					"aam",
+					"gunpod-rotary",
+					"aam",
+					"aam",
+					"aam-2x",
+					"he-1000-2x",
+					"he-1000-2x"
+				],
+				"bombs": ["H.E.1000 x5", "H.E.1000 x1"]
+			}
+		]
+	},
+	{
+		"id": "sea-harrier-frs",
+		"name": "Sea Harrier FRS",
+		"country": "Great Britain",
+		"rank": 7,
+		"br": 10.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.5,
+				"icons": [
+					"/",
+					"/",
+					"aam",
+					"he-1000-2x",
+					"he-1000",
+					"he-1000-2x",
+					"aam",
+					"/",
+					"/"
+				],
+				"bombs": ["H.E.1000 x5"]
+			}
+		]
+	},
+	{
+		"id": "phantom-fg1",
+		"name": "Phantom FG.1",
+		"country": "Great Britain",
+		"rank": 7,
+		"br": 12.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 3.8,
+				"icons": [
+					"he-1000-2x",
+					"he-1000-2x",
+					"aam-2x",
+					"aam",
+					"aam",
+					"he-1000-3x",
+					"aam",
+					"aam",
+					"aam-2x",
+					"he-1000-2x",
+					"he-1000-2x"
+				],
+				"bombs": ["H.E.1000 x5", "H.E.1000 x5", "H.E.1000 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 5.3,
+				"icons": [
+					"he-1000-2x",
+					"/",
+					"aam-2x",
+					"aam",
+					"aam",
+					"gunpod-rotary",
+					"aam",
+					"aam",
+					"aam-2x",
+					"he-1000-2x",
+					"he-1000-2x"
+				],
+				"bombs": ["H.E.1000 x5", "H.E.1000 x1"]
+			}
+		]
+	},
+	{
+		"id": "jaguar-gr1a",
+		"name": "Jaguar GR.1A",
+		"country": "Great Britain",
+		"rank": 7,
+		"br": 10.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.2,
+				"icons": [
+					"/",
+					"he-1000",
+					"he-540-2x",
+					"aam",
+					"he-540-2x",
+					"aam",
+					"he-540-2x",
+					"he-1000",
+					"/"
+				],
+				"bombs": ["H.E.540 x6 + H.E.1000 x2"]
+			}
+		]
+	},
+	{
+		"id": "hawk-200",
+		"name": "Hawk 200",
+		"country": "Great Britain",
+		"rank": 7,
+		"br": 10.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.2,
+				"icons": [
+					"/",
+					"/",
+					"mk83",
+					"mk83",
+					"mk83",
+					"mk83",
+					"mk83",
+					"/",
+					"/"
+				],
+				"bombs": ["Mk 83 x5"]
+			}
+		]
+	},
+	{
+		"id": "hawk-200-rda",
+		"name": "Hawk 200 RDA",
+		"country": "Great Britain",
+		"rank": 7,
+		"br": 11.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 8.2,
+				"icons": [
+					"/",
+					"aam",
+					"mk83",
+					"mk83",
+					"mk83",
+					"mk83",
+					"mk83",
+					"aam",
+					"/"
+				],
+				"bombs": ["Mk 83 x5"]
+			}
+		]
+	},
+	{
+		"id": "buccaneer-2b",
+		"name": "Buccaneer 2B",
+		"country": "Great Britain",
+		"rank": 7,
+		"br": 10.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 4.1,
+				"icons": [
+					"/",
+					"/",
+					"aam",
+					"ld-1000-3x",
+					"he-1000-4x",
+					"ld-1000-3x",
+					"ld-1000-3x",
+					"/",
+					"/"
+				],
+				"bombs": [
+					"L.D. 1000 x4",
+					"L.D. 1000 x4",
+					"L.D. 1000 x1 + H.E.1000 x4"
+				]
+			},
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"/",
+					"aam",
+					"ld-1000-3x",
+					"he-1000-4x",
+					"ld-1000-2x",
+					"aam",
+					"/",
+					"/"
+				],
+				"bombs": ["L.D. 1000 x4", "L.D. 1000 x1 + H.E.1000 x4"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.3,
+				"icons": [
+					"/",
+					"/",
+					"aam",
+					"ld-1000-2x",
+					"/",
+					"ld-1000-2x",
+					"aam",
+					"/",
+					"/"
+				],
+				"bombs": ["L.D. 1000 x4"]
+			}
+		]
+	},
+	{
+		"id": "f-111c",
+		"name": "F-111C",
+		"country": "Great Britain",
+		"rank": 7,
+		"br": 11.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.0,
+				"icons": [
+					"/",
+					"aam",
+					"mk82-6x",
+					"mk84",
+					"gunpod-rotary",
+					"mk84",
+					"mk82-6x",
+					"aam",
+					"/"
+				],
+				"bombs": ["Mk 84 x2", "Mk 82 x10", "Mk 82 x2"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.0,
+				"icons": [
+					"/",
+					"aam",
+					"mk82-6x",
+					"aam",
+					"gunpod-rotary",
+					"aam",
+					"mk82-6x",
+					"aam",
+					"/"
+				],
+				"bombs": ["Mk 82 x10", "Mk 82 x2"]
+			}
+		]
+	},
+	{
+		"id": "tornado-gr1",
+		"name": "Tornado GR.1",
+		"country": "Great Britain",
+		"rank": 7,
+		"br": 11.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.2,
+				"icons": [
+					"chaff-pod",
+					"aam",
+					"mk83",
+					"mk83-2x",
+					"mk83-2x",
+					"/",
+					"mk83-2x",
+					"mk83-2x",
+					"mk83",
+					"aam",
+					"chaff-pod"
+				],
+				"bombs": ["Mk 83 x5", "Mk 83 x5"]
+			},
+			{
+				"bases": 1,
+				"reward": 7.8,
+				"icons": [
+					"chaff-pod",
+					"aam",
+					"/",
+					"mk83",
+					"mk83",
+					"mk83",
+					"mk83",
+					"mk83",
+					"/",
+					"aam",
+					"chaff-pod"
+				],
+				"bombs": ["Mk 83 x5"]
+			}
+		]
+	},
+	{
+		"id": "sea-harrier-frs-sq",
+		"name": "Sea Harrier FRS",
+		"country": "Great Britain",
+		"rank": 7,
+		"br": 11.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.5,
+				"icons": [
+					"/",
+					"/",
+					"aam-2x",
+					"he-1000-2x",
+					"he-1000",
+					"he-1000-2x",
+					"aam-2x",
+					"/",
+					"/"
+				],
+				"bombs": ["H.E.1000 x5"]
+			}
+		],
+		"squadron": true
+	},
+	{
+		"id": "f-4j-uk",
+		"name": "F-4J (UK)",
+		"country": "Great Britain",
+		"rank": 7,
+		"br": 12.0,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 4.5,
+				"icons": [
+					"he-1000-2x",
+					"he-1000-2x",
+					"aam-2x",
+					"aam",
+					"aam",
+					"he-1000-3x",
+					"aam",
+					"aam",
+					"aam-2x",
+					"he-1000-2x",
+					"he-1000-2x"
+				],
+				"bombs": ["H.E.1000 x5", "H.E.1000 x5", "H.E.1000 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.3,
+				"icons": [
+					"he-1000-2x",
+					"/",
+					"aam-2x",
+					"aam",
+					"aam",
+					"gunpod-rotary",
+					"aam",
+					"aam",
+					"aam-2x",
+					"he-1000-2x",
+					"he-1000-2x"
+				],
+				"bombs": ["H.E.1000 x5", "H.E.1000 x1"]
+			}
+		]
+	},
+	{
+		"id": "jaguar-is",
+		"name": "Jaguar IS",
+		"country": "Great Britain",
+		"rank": 7,
+		"br": 11.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.5,
+				"icons": [
+					"rocket-pod",
+					"he-1000-2x",
+					"he-1000",
+					"aam-yellow",
+					"/",
+					"droptank",
+					"/",
+					"aam-yellow",
+					"he-1000-2x"
+				],
+				"bombs": ["H.E.1000 x5"]
+			}
+		]
+	},
+	{
+		"id": "harrier-t10",
+		"name": "Harrier T.10",
+		"country": "Great Britain",
+		"rank": 7,
+		"br": 11.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 9.6,
+				"icons": [
+					"aam",
+					"/",
+					"pod-aim-9",
+					"gbu-24",
+					"gbu-12",
+					"/",
+					"targeting-pod",
+					"gbu-24",
+					"pod-aim-9",
+					"aim-9m",
+					"aam"
+				],
+				"bombs": ["GBU-24 x2 + GBU-12 x1"]
+			}
+		]
+	},
+	{
+		"id": "jas39c",
+		"name": "JAS39C",
+		"country": "Great Britain",
+		"rank": 8,
+		"br": 13.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.4,
+				"icons": [
+					"aim-9m",
+					"pod-aim-9",
+					"gbu-64",
+					"/",
+					"gbu-62",
+					"/",
+					"gbu-64",
+					"pod-aim-9",
+					"aim-9m"
+				],
+				"bombs": ["GBU-64 x2 + GBU-62 x1"]
+			}
+		]
+	},
+	{
+		"id": "f-a-18a",
+		"name": "F/A-18A",
+		"country": "Great Britain",
+		"rank": 8,
+		"br": 12.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 2.8,
+				"icons": [
+					"aim-9l",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-7p",
+					"mk77-red-dark",
+					"aim-7p",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-9l"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 3.3,
+				"icons": [
+					"aim-9l",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-7p",
+					"droptank",
+					"aim-7p",
+					"mk77-red-dark-2x",
+					"aim-9l-2x",
+					"aim-9l"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 4.7,
+				"icons": [
+					"aim-9l",
+					"aim-9-2x",
+					"mk77-red-dark-2x",
+					"aim-7p",
+					"mk77-red-dark",
+					"aim-7p",
+					"/",
+					"aim-9l-2x",
+					"aim-9l"
+				],
+				"bombs": ["Mk 77 x3"]
+			}
+		]
+	},
+	{
+		"id": "af-a-18a-late",
+		"name": "AF/A-18A Late",
+		"country": "Great Britain",
+		"rank": 8,
+		"br": 14.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 2.8,
+				"icons": [
+					"aim-9m",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-120c",
+					"mk77-red-dark",
+					"aim-120c",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-9m"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 3.3,
+				"icons": [
+					"aim-9m",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-120c",
+					"droptank",
+					"aim-120c",
+					"mk77-red-dark-2x",
+					"aim-120c-2x",
+					"aim-9m"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 4.7,
+				"icons": [
+					"aim-9m",
+					"aim-9m-2x",
+					"aim-120c-2x",
+					"aim-120c",
+					"mk77-red-dark",
+					"aim-120c",
+					"mk77-red-dark-2x",
+					"aim-120c-2x",
+					"aim-9m"
+				],
+				"bombs": ["Mk 77 x3"]
+			}
+		]
+	},
+	{
+		"id": "harrier-gr7",
+		"name": "Harrier GR.7",
+		"country": "Great Britain",
+		"rank": 8,
+		"br": 12.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.5,
+				"icons": [
+					"rocket-pod",
+					"/",
+					"he-1000",
+					"pod-aim-9",
+					"he-1000",
+					"he-1000",
+					"he-1000",
+					"pod-aim-9",
+					"he-1000",
+					"/",
+					"rocket-pod"
+				],
+				"bombs": ["H.E.1000 x5"]
+			}
+		]
+	},
+	{
+		"id": "tornado-gr4",
+		"name": "Tornado GR.4",
+		"country": "Great Britain",
+		"rank": 8,
+		"br": 12.3,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 2,
+				"reward": 5.2,
+				"icons": [
+					"rocket-pod-red",
+					"/",
+					"mk83",
+					"pod-aim-9",
+					"mk83-2x",
+					"mk83-2x",
+					"/",
+					"mk83-2x",
+					"mk83-2x",
+					"pod-aim-9",
+					"mk83",
+					"/",
+					"rocket-pod-red"
+				],
+				"bombs": ["Mk 83 x5", "Mk 83 x5"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.9,
+				"icons": [
+					"rocket-pod-red",
+					"/",
+					"pgm-2000",
+					"pod-aim-9",
+					"pgm-2000",
+					"/",
+					"/",
+					"/",
+					"targeting-pod",
+					"pod-aim-9",
+					"pgm-2000",
+					"/",
+					"rocket-pod-red"
+				],
+				"bombs": ["PGM 2000 x3"]
+			}
+		]
+	},
+	{
+		"id": "mig-21-bison",
+		"name": "MiG-21 Bison",
+		"country": "Great Britain",
+		"rank": 8,
+		"br": 12.3,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 7.2,
+				"icons": [
+					"/",
+					"/",
+					"aam",
+					"zb-500",
+					"droptank",
+					"zb-500",
+					"aam",
+					"/",
+					"/"
+				],
+				"bombs": ["ZB-500 x2"]
+			}
+		]
+	},
+	{
+		"id": "cf-188a",
+		"name": "CF-188A",
+		"country": "Great Britain",
+		"rank": 8,
+		"br": 12.7,
+		"premium": true,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 3.4,
+				"icons": [
+					"aim-9l",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-7p",
+					"mk77-red-dark",
+					"aim-7p",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-9l"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 4.0,
+				"icons": [
+					"aim-9l",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-7p",
+					"droptank",
+					"aim-7p",
+					"mk77-red-dark-2x",
+					"aim-9l-2x",
+					"aim-9l"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 5.6,
+				"icons": [
+					"aim-9l",
+					"aim-9-2x",
+					"mk77-red-dark-2x",
+					"aim-7p",
+					"mk77-red-dark",
+					"aim-7p",
+					"/",
+					"aim-9l-2x",
+					"aim-9l"
+				],
+				"bombs": ["Mk 77 x3"]
+			}
+		]
+	},
+	{
+		"id": "typhoon-fgr4",
+		"name": "Typhoon FGR.4",
+		"country": "Great Britain",
+		"rank": 9,
+		"br": 14.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.4,
+				"icons": [
+					"aim-9m",
+					"aim-120c-2x",
+					"mk84-light",
+					"/",
+					"aim-120c",
+					"aim-120c",
+					"targeting-pod",
+					"aim-120c",
+					"aim-120c",
+					"gbu-62",
+					"mk84-light",
+					"aim-120c-2x",
+					"aim-9m"
+				],
+				"bombs": ["Mk 84 x2 + GBU-62 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.3,
+				"icons": [
+					"aim-9m",
+					"paveway-iv",
+					"paveway-iv-2x",
+					"paveway-iv-2x",
+					"aim-120c",
+					"aim-120c",
+					"targeting-pod",
+					"aim-120c",
+					"aim-120c",
+					"paveway-iv-2x",
+					"paveway-iv-2x",
+					"paveway-iv",
+					"aim-9m"
+				],
+				"bombs": ["Paveway IV x10"]
+			}
+		]
+	},
+	{
+		"id": "typhoon-aesa",
+		"name": "Typhoon AESA",
+		"country": "Great Britain",
+		"rank": 9,
+		"br": 15.0,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 6.4,
+				"icons": [
+					"aim-9m",
+					"aim-120c-2x",
+					"mk84-light",
+					"/",
+					"aim-120c",
+					"aim-120c",
+					"targeting-pod",
+					"aim-120c",
+					"aim-120c",
+					"gbu-62",
+					"mk84-light",
+					"aim-120c-2x",
+					"aim-9m"
+				],
+				"bombs": ["Mk 84 x2 + GBU-62 x1"]
+			},
+			{
+				"bases": 1,
+				"reward": 6.3,
+				"icons": [
+					"aim-9m",
+					"paveway-iv",
+					"paveway-iv-2x",
+					"paveway-iv-2x",
+					"aim-120c",
+					"aim-120c",
+					"targeting-pod",
+					"aim-120c",
+					"aim-120c",
+					"paveway-iv-2x",
+					"paveway-iv-2x",
+					"paveway-iv",
+					"aim-9m"
+				],
+				"bombs": ["Paveway IV x10"]
+			}
+		]
+	},
+	{
+		"id": "f-a-18f",
+		"name": "F/A-18F",
+		"country": "Great Britain",
+		"rank": 9,
+		"br": 14.7,
+		"premium": false,
+		"variants": [
+			{
+				"bases": 3,
+				"reward": 2.8,
+				"icons": [
+					"aim-9m",
+					"aim-120c",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-120c",
+					"mk77-red-dark",
+					"aim-120c",
+					"mk77-red-dark-2x",
+					"mk77-red-dark-2x",
+					"aim-120c",
+					"aim-9m"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 2,
+				"reward": 3.3,
+				"icons": [
+					"aim-9m",
+					"mk77-red-dark",
+					"aim-120c-2x",
+					"mk77-red-dark-2x",
+					"aim-120c",
+					"droptank",
+					"aim-120c",
+					"mk77-red-dark-2x",
+					"aim-120c-2x",
+					"mk77-red-dark",
+					"aim-9m"
+				],
+				"bombs": ["Mk 77 x3", "Mk 77 x3"]
+			},
+			{
+				"bases": 1,
+				"reward": 4.7,
+				"icons": [
+					"aim-9m",
+					"mk77-red-dark",
+					"aim-120c-2x",
+					"aim-120c-2x",
+					"aim-120c",
+					"mk77-red-dark",
+					"aim-120c",
+					"aim-120c-2x",
+					"aim-120c-2x",
+					"mk77-red-dark",
+					"aim-9m"
+				],
+				"bombs": ["Mk 77 x3"]
+			}
+		]
+	}
+]

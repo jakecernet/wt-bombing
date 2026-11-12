@@ -12,7 +12,7 @@ import { ROMAN, fmtBr, fmtKg, nameClass } from "../format";
 const base = import.meta.env.BASE_URL;
 
 // Plane icons live in public/icons/planes/<nation folder>/<plane id>.png
-const NATION_DIR = { USA: "usa", Germany: "ger", USSR: "ussr" };
+const NATION_DIR = { USA: "usa", Germany: "ger", USSR: "ussr", "Great Britain": "gb" };
 export const planeIconSrc = (plane) =>
 	`${base}icons/planes/${NATION_DIR[plane.country] ?? plane.country.toLowerCase().slice(0, 3)}/${plane.id}.png`;
 

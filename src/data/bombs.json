@@ -349,6 +349,56 @@
 			"label": "G.P.500",
 			"mass": 500,
 			"icon": "gp-500"
+		},
+		"HE230": {
+			"label": "H.E.230",
+			"mass": 230,
+			"icon": "he-230"
+		},
+		"MC1000": {
+			"label": "M.C.1000",
+			"mass": 1000,
+			"icon": "mc-1000"
+		},
+		"HE1000": {
+			"label": "H.E.1000",
+			"mass": 1000,
+			"icon": "he-1000"
+		},
+		"HE540": {
+			"label": "H.E.540",
+			"mass": 540,
+			"icon": "he-540"
+		},
+		"LD1000": {
+			"label": "L.D. 1000",
+			"mass": 1000,
+			"icon": "ld-1000"
+		},
+		"HE500": {
+			"label": "H.E.500",
+			"mass": 500,
+			"icon": "he-500"
+		},
+		"RP3": {
+			"label": "RP-3",
+			"mass": null,
+			"icon": "rp-3"
+		},
+		"PGM2000": {
+			"label": "PGM 2000",
+			"mass": null,
+			"icon": "pgm-2000"
+		},
+		"GBU24": {
+			"label": "GBU-24",
+			"mass": null,
+			"icon": "gbu-24"
+		},
+		"GBU12": {
+			"label": "GBU-12",
+			"mass": null,
+			"icon": "gbu-12"
 		}
 	},
 	"icons": {
@@ -1106,9 +1156,108 @@
 		"mk79": {
 			"file": "fc500.png"
 		},
-        "aim-9l-yellow": {
-            "file": "aim-9-yellow.png",
-            "label": "AIM-9L"
-        }
+		"aim-9l-yellow": {
+			"file": "aim-9-yellow.png",
+			"label": "AIM-9L"
+		},
+		"aam": {
+			"file": "aam.png"
+		},
+		"aam-2x": {
+			"file": "aam-2x.png"
+		},
+		"aam-yellow": {
+			"file": "aam-yellow.png"
+		},
+		"an-m65a1-blue": {
+			"file": "an-m65a1-blue.png"
+		},
+		"gbu-12": {
+			"file": "gbu-12.png"
+		},
+		"gbu-24": {
+			"file": "gbu-24.png"
+		},
+		"gp-1000": {
+			"file": "gp-1000.png"
+		},
+		"gp-1000-2x": {
+			"file": "gp-1000-2x.png"
+		},
+		"gp-250": {
+			"file": "gp-250.png"
+		},
+		"gp-500": {
+			"file": "gp-500.png"
+		},
+		"gp-500-3x": {
+			"file": "gp-500-3x.png"
+		},
+		"gp-500-4x": {
+			"file": "gp-500-4x.png"
+		},
+		"he-1000": {
+			"file": "he-1000.png"
+		},
+		"he-1000-2x": {
+			"file": "he-1000-2x.png"
+		},
+		"he-1000-3x": {
+			"file": "he-1000-3x.png"
+		},
+		"he-1000-4x": {
+			"file": "he-1000-4x.png"
+		},
+		"he-230": {
+			"file": "he-230.png"
+		},
+		"he-500": {
+			"file": "he-500.png"
+		},
+		"he-500-3x": {
+			"file": "he-500-3x.png"
+		},
+		"he-500-6x": {
+			"file": "he-500-6x.png"
+		},
+		"he-540": {
+			"file": "he-540.png"
+		},
+		"he-540-2x": {
+			"file": "he-540-2x.png"
+		},
+		"ld-1000": {
+			"file": "ld-1000.png"
+		},
+		"ld-1000-2x": {
+			"file": "ld-1000-2x.png"
+		},
+		"ld-1000-3x": {
+			"file": "ld-1000-3x.png"
+		},
+		"mc-1000": {
+			"file": "mc-1000.png"
+		},
+		"mc-1000-2x": {
+			"file": "mc-1000-2x.png"
+		},
+		"mc-1000-3x": {
+			"file": "mc-1000-3x.png"
+		},
+		"pgm-2000": {
+			"file": "pgm-2000.png"
+		},
+		"rocket-pod": {
+			"file": "rocket-pod.png"
+		},
+		"rocket-pod-red": {
+			"file": "rocket-pod-red.png"
+		},
+		"rp-3": {
+			"file": "rp-3.png"
+		},
+		"rp-3-2x": {
+			"file": "rp-3-2x.png"
+		}
 	}
 }
