@@ -65,11 +65,11 @@
 				"icons": [
 					"/",
 					"/",
-					"gp-250",
-					"gp-250",
+					"gp-250-brown",
+					"gp-250-brown",
 					"/",
-					"gp-250",
-					"gp-250",
+					"gp-250-brown",
+					"gp-250-brown",
 					"/",
 					"/"
 				],
@@ -94,18 +94,18 @@
 				"icons": [
 					"/",
 					"/",
-					"gp-250",
-					"gp-250",
 					"/",
-					"gp-250",
-					"gp-250",
+					"gp-250-brown",
+					"gp-250-4x",
+					"/",
+					"/",
 					"/",
 					"/"
 				],
 				"maxBr": 2.0,
-				"bombs": ["G.P.250 x4"],
+				"bombs": ["G.P.250 x4", "G.P.250 x1"],
 				"minBr": 2.3,
-				"bombsHigh": ["G.P.250 x4"]
+				"bombsHigh": ["G.P.250 x5"]
 			}
 		]
 	},
@@ -122,13 +122,13 @@
 				"reward": 10,
 				"icons": [
 					"/",
-					"gp-250",
-					"gp-250",
-					"gp-250",
+					"gp-250-brown",
+					"gp-250-brown",
+					"gp-250-brown",
 					"/",
-					"gp-250",
-					"gp-250",
-					"gp-250",
+					"gp-250-brown",
+					"gp-250-brown",
+					"gp-250-brown",
 					"/"
 				],
 				"bombs": ["G.P.250 x4", "G.P.250 x2"]
@@ -207,13 +207,13 @@
 				"reward": 10,
 				"icons": [
 					"/",
-					"gp-250",
-					"gp-250",
-					"gp-250",
+					"gp-250-brown",
+					"gp-250-brown",
+					"gp-250-brown",
 					"/",
-					"gp-250",
-					"gp-250",
-					"gp-250",
+					"gp-250-brown",
+					"gp-250-brown",
+					"gp-250-brown",
 					"/"
 				],
 				"bombs": ["G.P.250 x4", "G.P.250 x2"]
@@ -234,11 +234,11 @@
 				"icons": [
 					"/",
 					"/",
-					"gp-250",
-					"gp-500",
+					"gp-250-brown",
+					"gp-500-green",
 					"/",
-					"gp-500",
-					"gp-250",
+					"gp-500-green",
+					"gp-250-brown",
 					"/",
 					"/"
 				],
@@ -319,15 +319,15 @@
 				"bases": 2,
 				"reward": 10,
 				"icons": [
-					"gp-250",
-					"gp-250",
-					"gp-250",
-					"gp-250",
+					"gp-250-brown",
+					"gp-250-brown",
+					"gp-250-brown",
+					"gp-250-brown",
 					"/",
-					"gp-250",
-					"gp-250",
-					"gp-250",
-					"gp-250"
+					"gp-250-brown",
+					"gp-250-brown",
+					"gp-250-brown",
+					"gp-250-brown"
 				],
 				"maxBr": 2.0,
 				"bombs": ["G.P.250 x4", "G.P.250 x4"],
@@ -348,15 +348,15 @@
 				"bases": 2,
 				"reward": 10,
 				"icons": [
-					"gp-250",
-					"gp-250",
-					"gp-250",
-					"gp-250",
+					"gp-250-brown",
+					"gp-250-brown",
+					"gp-250-brown",
+					"gp-250-brown",
 					"/",
-					"gp-250",
-					"gp-250",
-					"gp-250",
-					"gp-250"
+					"gp-250-brown",
+					"gp-250-brown",
+					"gp-250-brown",
+					"gp-250-brown"
 				],
 				"maxBr": 2.0,
 				"bombs": ["G.P.250 x4", "G.P.250 x4"],
@@ -539,11 +539,11 @@
 					"an-m30a1",
 					"an-m30a1",
 					"an-m30a1",
-					"an-m57",
-					"an-m57",
+					"an-m57-green",
+					"an-m57-green",
 					"/",
-					"an-m57",
-					"an-m57",
+					"an-m57-green",
+					"an-m57-green",
 					"an-m30a1",
 					"an-m30a1",
 					"an-m30a1"
@@ -560,6 +560,32 @@
 					"AN-M57 x2 + AN-M30A1 x2",
 					"AN-M30A1 x2"
 				]
+			}
+		]
+	},
+	{
+		"id": "firecrest",
+		"name": "Firecrest",
+		"country": "UK",
+		"rank": 2,
+		"br": 2.3,
+		"squadron": true,
+		"variants": [
+			{
+				"bases": 1,
+				"reward": 10,
+				"icons": [
+					"/",
+					"/",
+					"rp-3-4x",
+					"mc-500",
+					"/",
+					"mc-500",
+					"rp-3-4x",
+					"/",
+					"/"
+				],
+				"bombs": ["M.C.500 x2 + RP-3 x1", "RP-3 x7"]
 			}
 		]
 	},
@@ -606,11 +632,11 @@
 				"icons": [
 					"/",
 					"/",
-					"gp-500",
-					"gp-500",
+					"gp-500-green",
+					"gp-500-green",
 					"/",
-					"gp-500",
-					"gp-500",
+					"gp-500-green",
+					"gp-500-green",
 					"/",
 					"/"
 				],
@@ -635,11 +661,11 @@
 				"icons": [
 					"/",
 					"/",
-					"gp-500",
-					"gp-500",
+					"gp-500-green",
+					"gp-500-green",
 					"/",
-					"gp-500",
-					"gp-500",
+					"gp-500-green",
+					"gp-500-green",
 					"/",
 					"/"
 				],

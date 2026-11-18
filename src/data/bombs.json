@@ -1167,7 +1167,7 @@
 			"file": "aam-yellow.png"
 		},
 		"an-m65a1-blue": {
-			"file": "an-m65a1-blue.png"
+			"file": "sc500.png"
 		},
 		"gbu-12": {
 			"file": "gbu-12.png"
@@ -1176,13 +1176,17 @@
 			"file": "gbu-24.png"
 		},
 		"gp-1000": {
-			"file": "gp-1000.png"
+			"file": "sc250.png"
 		},
 		"gp-1000-2x": {
-			"file": "gp-1000-2x.png"
+			"file": "sc250-2x.png"
 		},
 		"gp-250": {
-			"file": "gp-250.png"
+			"file": "sc100.png"
+		},
+		"gp-250-brown": {
+			"file": "sc50.png",
+			"label": "GP-250"
 		},
 		"gp-500": {
 			"file": "gp-500.png"
@@ -1206,7 +1210,7 @@
 			"file": "he-1000-4x.png"
 		},
 		"he-230": {
-			"file": "he-230.png"
+			"file": "sc50.png"
 		},
 		"he-500": {
 			"file": "he-500.png"
@@ -1236,7 +1240,7 @@
 			"file": "mc-1000.png"
 		},
 		"mc-1000-2x": {
-			"file": "mc-1000-2x.png"
+			"file": "sc250-2x.png"
 		},
 		"mc-1000-3x": {
 			"file": "mc-1000-3x.png"
@@ -1288,6 +1292,15 @@
 		"aim-9g-white": {
 			"file": "r60-white.png",
 			"label": "AIM-9G"
+		},
+		"gp-250-4x": {
+			"file": "sc50-4x.png"
+		},
+		"mc-500": {
+			"file": "sc100.png"
+		},
+		"rp-3-4x": {
+			"file": "rp-3-4x.png"
 		}
 	}
 }
