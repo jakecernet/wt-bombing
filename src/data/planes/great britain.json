@@ -2,7 +2,7 @@
 	{
 		"id": "chesapeake-i",
 		"name": "Chesapeake I",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 1,
 		"br": 1.0,
 		"premium": false,
@@ -28,7 +28,7 @@
 	{
 		"id": "hp-12",
 		"name": "H.P.12",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 1,
 		"br": 1.0,
 		"premium": false,
@@ -54,7 +54,7 @@
 	{
 		"id": "blenheim-iv",
 		"name": "Blenheim IV",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 1,
 		"br": 1.3,
 		"premium": false,
@@ -83,7 +83,7 @@
 	{
 		"id": "beaufort-viii",
 		"name": "Beaufort VIII",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 1,
 		"br": 1.7,
 		"premium": false,
@@ -112,7 +112,7 @@
 	{
 		"id": "swordfish-i",
 		"name": "Swordfish I",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 1,
 		"br": 1.0,
 		"premium": false,
@@ -138,7 +138,7 @@
 	{
 		"id": "hampden-i",
 		"name": "Hampden I",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 1,
 		"br": 1.7,
 		"premium": false,
@@ -164,7 +164,7 @@
 	{
 		"id": "hampden-tb-i",
 		"name": "Hampden TB I",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 1,
 		"br": 1.7,
 		"premium": false,
@@ -197,7 +197,7 @@
 	{
 		"id": "swordfish-ii",
 		"name": "Swordfish II",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 1,
 		"br": 1.0,
 		"premium": true,
@@ -223,7 +223,7 @@
 	{
 		"id": "wirraway",
 		"name": "Wirraway",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 1,
 		"br": 1.3,
 		"premium": true,
@@ -252,7 +252,7 @@
 	{
 		"id": "catalina-iiia",
 		"name": "Catalina IIIa",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 1,
 		"br": 1.7,
 		"premium": true,
@@ -278,7 +278,7 @@
 	{
 		"id": "beaufighter-x",
 		"name": "Beaufighter X",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 2,
 		"br": 3.0,
 		"premium": false,
@@ -294,7 +294,7 @@
 	{
 		"id": "beaufighter-21",
 		"name": "Beaufighter 21",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 2,
 		"br": 3.7,
 		"premium": false,
@@ -310,7 +310,7 @@
 	{
 		"id": "sunderland-iiia",
 		"name": "Sunderland IIIa",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 2,
 		"br": 1.7,
 		"premium": false,
@@ -339,7 +339,7 @@
 	{
 		"id": "sunderland-v",
 		"name": "Sunderland V",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 2,
 		"br": 2.0,
 		"premium": false,
@@ -368,7 +368,7 @@
 	{
 		"id": "wellington-ic",
 		"name": "Wellington Ic",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 2,
 		"br": 2.3,
 		"premium": false,
@@ -399,7 +399,7 @@
 	{
 		"id": "wellington-ic-l",
 		"name": "Wellington Ic/L",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 2,
 		"br": 2.7,
 		"premium": false,
@@ -433,7 +433,7 @@
 	{
 		"id": "wellington-iii",
 		"name": "Wellington III",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 2,
 		"br": 3.0,
 		"premium": false,
@@ -467,7 +467,7 @@
 	{
 		"id": "wellington-x",
 		"name": "Wellington X",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 2,
 		"br": 3.3,
 		"premium": false,
@@ -501,7 +501,7 @@
 	{
 		"id": "avenger-ii",
 		"name": "Avenger II",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 2,
 		"br": 1.7,
 		"premium": true,
@@ -527,7 +527,7 @@
 	{
 		"id": "hudson-v",
 		"name": "Hudson V",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 2,
 		"br": 2.0,
 		"premium": true,
@@ -566,7 +566,7 @@
 	{
 		"id": "corsair-f-ii",
 		"name": "Corsair F II",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 2,
 		"br": 2.7,
 		"premium": true,
@@ -595,7 +595,7 @@
 	{
 		"id": "havoc-i",
 		"name": "Havoc I",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 2,
 		"br": 2.0,
 		"premium": true,
@@ -624,7 +624,7 @@
 	{
 		"id": "boston-i",
 		"name": "Boston I",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 2,
 		"br": 2.3,
 		"premium": true,
@@ -650,7 +650,7 @@
 	{
 		"id": "db-7",
 		"name": "DB-7",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 2,
 		"br": 2.3,
 		"premium": true,
@@ -676,7 +676,7 @@
 	{
 		"id": "firefly-f-i",
 		"name": "Firefly F I",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 3,
 		"br": 3.3,
 		"premium": false,
@@ -702,7 +702,7 @@
 	{
 		"id": "firefly-fr-v",
 		"name": "Firefly FR V",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 3,
 		"br": 3.7,
 		"premium": false,
@@ -728,7 +728,7 @@
 	{
 		"id": "brigand-b-1",
 		"name": "Brigand B 1",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 3,
 		"br": 4.0,
 		"premium": false,
@@ -754,7 +754,7 @@
 	{
 		"id": "halifax-b-iiia",
 		"name": "Halifax B IIIa",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 3,
 		"br": 4.0,
 		"premium": false,
@@ -794,7 +794,7 @@
 	{
 		"id": "stirling-b-i",
 		"name": "Stirling B I",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 3,
 		"br": 4.0,
 		"premium": false,
@@ -829,7 +829,7 @@
 	{
 		"id": "stirling-b-iii",
 		"name": "Stirling B III",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 3,
 		"br": 4.7,
 		"premium": false,
@@ -864,7 +864,7 @@
 	{
 		"id": "mosquito-b-xvi",
 		"name": "Mosquito B XVI",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 3,
 		"br": 3.7,
 		"premium": false,
@@ -891,7 +891,7 @@
 	{
 		"id": "hellcat-ii",
 		"name": "Hellcat II",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 3,
 		"br": 3.3,
 		"premium": true,
@@ -920,7 +920,7 @@
 	{
 		"id": "thunderbolt-1",
 		"name": "Thunderbolt 1",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 3,
 		"br": 3.7,
 		"premium": true,
@@ -946,7 +946,7 @@
 	{
 		"id": "lancaster-i",
 		"name": "Lancaster I",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 4,
 		"br": 4.7,
 		"premium": false,
@@ -978,7 +978,7 @@
 	{
 		"id": "lancaster-iii",
 		"name": "Lancaster III",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 4,
 		"br": 5.0,
 		"premium": false,
@@ -1010,7 +1010,7 @@
 	{
 		"id": "lincoln-b-ii",
 		"name": "Lincoln B II",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 4,
 		"br": 6.0,
 		"premium": false,
@@ -1050,7 +1050,7 @@
 	{
 		"id": "shackleton",
 		"name": "Shackleton",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 4,
 		"br": 6.0,
 		"premium": false,
@@ -1090,7 +1090,7 @@
 	{
 		"id": "strikemaster",
 		"name": "Strikemaster",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 4,
 		"br": 6.3,
 		"premium": true,
@@ -1132,7 +1132,7 @@
 	{
 		"id": "wyvern-s4",
 		"name": "Wyvern S4",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 4,
 		"br": 5.3,
 		"premium": true,
@@ -1158,7 +1158,7 @@
 	{
 		"id": "washington",
 		"name": "Washington",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 5,
 		"br": 7.0,
 		"premium": false,
@@ -1262,7 +1262,7 @@
 	{
 		"id": "canberra-b-2",
 		"name": "Canberra B 2",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 5,
 		"br": 8.3,
 		"premium": false,
@@ -1288,7 +1288,7 @@
 	{
 		"id": "canberra-b-i-6",
 		"name": "Canberra B (I) 6",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 5,
 		"br": 8.3,
 		"premium": false,
@@ -1314,7 +1314,7 @@
 	{
 		"id": "jaguar-gr1",
 		"name": "Jaguar GR.1",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 6,
 		"br": 9.7,
 		"premium": false,
@@ -1340,7 +1340,7 @@
 	{
 		"id": "harrier-gr3",
 		"name": "Harrier GR.3",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 6,
 		"br": 9.7,
 		"premium": false,
@@ -1366,7 +1366,7 @@
 	{
 		"id": "buccaneer-2",
 		"name": "Buccaneer 2",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 6,
 		"br": 9.3,
 		"premium": false,
@@ -1428,7 +1428,7 @@
 	{
 		"id": "harrier-gr1",
 		"name": "Harrier GR.1",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 6,
 		"br": 9.7,
 		"premium": true,
@@ -1454,7 +1454,7 @@
 	{
 		"id": "buccaneer-1",
 		"name": "Buccaneer 1",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 6,
 		"br": 8.3,
 		"premium": false,
@@ -1480,7 +1480,7 @@
 	{
 		"id": "phantom-fgr2",
 		"name": "Phantom FGR.2",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 7,
 		"br": 12.0,
 		"premium": false,
@@ -1526,7 +1526,7 @@
 	{
 		"id": "sea-harrier-frs",
 		"name": "Sea Harrier FRS",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 7,
 		"br": 10.7,
 		"premium": false,
@@ -1552,7 +1552,7 @@
 	{
 		"id": "phantom-fg1",
 		"name": "Phantom FG.1",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 7,
 		"br": 12.0,
 		"premium": false,
@@ -1598,7 +1598,7 @@
 	{
 		"id": "jaguar-gr1a",
 		"name": "Jaguar GR.1A",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 7,
 		"br": 10.7,
 		"premium": false,
@@ -1624,7 +1624,7 @@
 	{
 		"id": "hawk-200",
 		"name": "Hawk 200",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 7,
 		"br": 10.7,
 		"premium": false,
@@ -1650,7 +1650,7 @@
 	{
 		"id": "hawk-200-rda",
 		"name": "Hawk 200 RDA",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 7,
 		"br": 11.3,
 		"premium": false,
@@ -1676,7 +1676,7 @@
 	{
 		"id": "buccaneer-2b",
 		"name": "Buccaneer 2B",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 7,
 		"br": 9.7,
 		"premium": false,
@@ -1738,7 +1738,7 @@
 	{
 		"id": "f-111c",
 		"name": "F-111C",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 7,
 		"br": 11.7,
 		"premium": false,
@@ -1780,7 +1780,7 @@
 	{
 		"id": "tornado-gr1",
 		"name": "Tornado GR.1",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 7,
 		"br": 11.3,
 		"premium": false,
@@ -1826,7 +1826,7 @@
 	{
 		"id": "sea-harrier-frs-sq",
 		"name": "Sea Harrier FRS",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 7,
 		"br": 11.0,
 		"premium": false,
@@ -1853,7 +1853,7 @@
 	{
 		"id": "f-4j-uk",
 		"name": "F-4J (UK)",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 7,
 		"br": 12.0,
 		"premium": true,
@@ -1899,7 +1899,7 @@
 	{
 		"id": "jaguar-is",
 		"name": "Jaguar IS",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 7,
 		"br": 11.3,
 		"premium": false,
@@ -1925,7 +1925,7 @@
 	{
 		"id": "harrier-t10",
 		"name": "Harrier T.10",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 7,
 		"br": 11.3,
 		"premium": true,
@@ -1953,7 +1953,7 @@
 	{
 		"id": "jas39c",
 		"name": "JAS39C",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 8,
 		"br": 13.7,
 		"premium": false,
@@ -1977,9 +1977,9 @@
 		]
 	},
 	{
-		"id": "f-a-18a",
+		"id": "f-a-18a-uk",
 		"name": "F/A-18A",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 8,
 		"br": 12.3,
 		"premium": false,
@@ -2037,7 +2037,7 @@
 	{
 		"id": "af-a-18a-late",
 		"name": "AF/A-18A Late",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 8,
 		"br": 14.0,
 		"premium": false,
@@ -2095,7 +2095,7 @@
 	{
 		"id": "harrier-gr7",
 		"name": "Harrier GR.7",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 8,
 		"br": 12.3,
 		"premium": false,
@@ -2123,7 +2123,7 @@
 	{
 		"id": "tornado-gr4",
 		"name": "Tornado GR.4",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 8,
 		"br": 12.3,
 		"premium": false,
@@ -2173,7 +2173,7 @@
 	{
 		"id": "mig-21-bison",
 		"name": "MiG-21 Bison",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 8,
 		"br": 12.3,
 		"premium": true,
@@ -2199,7 +2199,7 @@
 	{
 		"id": "cf-188a",
 		"name": "CF-188A",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 8,
 		"br": 12.7,
 		"premium": true,
@@ -2257,7 +2257,7 @@
 	{
 		"id": "typhoon-fgr4",
 		"name": "Typhoon FGR.4",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 9,
 		"br": 14.7,
 		"premium": false,
@@ -2307,7 +2307,7 @@
 	{
 		"id": "typhoon-aesa",
 		"name": "Typhoon AESA",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 9,
 		"br": 15.0,
 		"premium": false,
@@ -2357,7 +2357,7 @@
 	{
 		"id": "f-a-18f",
 		"name": "F/A-18F",
-		"country": "Great Britain",
+		"country": "UK",
 		"rank": 9,
 		"br": 14.7,
 		"premium": false,
