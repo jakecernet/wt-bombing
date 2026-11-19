@@ -705,7 +705,7 @@
 			"file": "sc250.png"
 		},
 		"an-m65a1-gold": {
-			"file": "sc100.png"
+			"file": "sc250.png"
 		},
 		"an-m65a1-gold-2x": {
 			"file": "sc250-2x.png"
@@ -726,7 +726,7 @@
 			"file": "sc250.png"
 		},
 		"an-m66a2-blue": {
-			"file": "sc250.png"
+			"file": "sc500.png"
 		},
 		"blu-27-3x": {
 			"file": "fc500-3x.png"
@@ -1157,15 +1157,6 @@
 			"file": "aim-9-yellow.png",
 			"label": "AIM-9L"
 		},
-		"aam": {
-			"file": "aam.png"
-		},
-		"aam-2x": {
-			"file": "aam-2x.png"
-		},
-		"aam-yellow": {
-			"file": "aam-yellow.png"
-		},
 		"an-m65a1-blue": {
 			"file": "sc500.png"
 		},
@@ -1173,7 +1164,7 @@
 			"file": "gbu-12.png"
 		},
 		"gbu-24": {
-			"file": "gbu-24.png"
+			"file": "upab-1500.png"
 		},
 		"gp-1000": {
 			"file": "sc250.png"
@@ -1189,25 +1180,25 @@
 			"label": "GP-250"
 		},
 		"gp-500": {
-			"file": "gp-500.png"
+			"file": "sc50.png"
 		},
 		"gp-500-3x": {
-			"file": "gp-500-3x.png"
+			"file": "sc50-3x.png"
 		},
 		"gp-500-4x": {
-			"file": "gp-500-4x.png"
+			"file": "sc50-4x.png"
 		},
 		"he-1000": {
-			"file": "he-1000.png"
+			"file": "sc250.png"
 		},
 		"he-1000-2x": {
-			"file": "he-1000-2x.png"
+			"file": "sc250-2x.png"
 		},
 		"he-1000-3x": {
-			"file": "he-1000-3x.png"
+			"file": "gp-brown-3x.png"
 		},
 		"he-1000-4x": {
-			"file": "he-1000-4x.png"
+			"file": "gp-1000-4x.png"
 		},
 		"he-230": {
 			"file": "sc50.png"
@@ -1216,7 +1207,7 @@
 			"file": "he-500.png"
 		},
 		"he-500-3x": {
-			"file": "he-500-3x.png"
+			"file": "gp-500-3x.png"
 		},
 		"he-500-6x": {
 			"file": "he-500-6x.png"
@@ -1225,25 +1216,25 @@
 			"file": "he-540.png"
 		},
 		"he-540-2x": {
-			"file": "he-540-2x.png"
+			"file": "sc100-2x.png"
 		},
 		"ld-1000": {
-			"file": "ld-1000.png"
+			"file": "sc250.png"
 		},
 		"ld-1000-2x": {
-			"file": "ld-1000-2x.png"
+			"file": "sc250-2x.png"
 		},
 		"ld-1000-3x": {
-			"file": "ld-1000-3x.png"
+			"file": "gp-brown-3x.png"
 		},
 		"mc-1000": {
-			"file": "mc-1000.png"
+			"file": "sc250.png"
 		},
 		"mc-1000-2x": {
 			"file": "sc250-2x.png"
 		},
 		"mc-1000-3x": {
-			"file": "mc-1000-3x.png"
+			"file": "gp-brown-3x.png"
 		},
 		"pgm-2000": {
 			"file": "pgm-2000.png"
@@ -1258,7 +1249,7 @@
 			"file": "rp-3.png"
 		},
 		"rp-3-2x": {
-			"file": "rp-3-2x.png"
+			"file": "hvar-2x.png"
 		},
 		"gbu-39-4x": {
 			"file": "gbu-39-4x.png"
@@ -1301,6 +1292,25 @@
 		},
 		"rp-3-4x": {
 			"file": "rp-3-4x.png"
+		},
+		"sraam-2x": {
+			"file": "sraam-2x.png",
+			"label": "SRAAM (2)"
+		},
+		"skyflash": {
+			"file": "r24r.png"
+		},
+		"aim-9g-2x": {
+			"file": "aim-9-2x.png",
+			"label": "AIM-9G (2)"
+		},
+		"r-550-2": {
+			"file": "aim-9-yellow.png",
+			"label": "R550 Magic 2"
+		},
+		"aim-9l-pod": {
+			"file": "aim-9l-pod.png",
+			"label": "AIM-9L + BOL pod"
 		}
 	}
 }

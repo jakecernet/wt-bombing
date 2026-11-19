@@ -766,9 +766,9 @@
 					"/",
 					"rp-3-2x",
 					"rp-3-2x",
-					"gp-500",
+					"gp-500-green",
 					"gp-1000-2x",
-					"gp-500",
+					"gp-500-green",
 					"rp-3-2x",
 					"/",
 					"/"
@@ -1144,9 +1144,9 @@
 					"/",
 					"mk77",
 					"/",
-					"droptank",
+					"gunpod-old",
 					"/",
-					"droptank",
+					"gunpod-old",
 					"/",
 					"mk77",
 					"/"
@@ -1351,11 +1351,11 @@
 				"icons": [
 					"/",
 					"/",
-					"aam",
+					"aim-9g",
 					"he-1000-2x",
 					"he-540-2x",
 					"he-1000-2x",
-					"aam",
+					"aim-9g",
 					"/",
 					"/"
 				],
@@ -1377,11 +1377,11 @@
 				"icons": [
 					"/",
 					"/",
-					"aam",
+					"aim-9g",
 					"he-1000-2x",
 					"he-1000",
 					"he-1000-2x",
-					"aam",
+					"aim-9g",
 					"/",
 					"/"
 				],
@@ -1403,7 +1403,7 @@
 				"icons": [
 					"/",
 					"/",
-					"aam",
+					"aim-9b",
 					"ld-1000-3x",
 					"he-1000-4x",
 					"ld-1000-3x",
@@ -1423,11 +1423,11 @@
 				"icons": [
 					"/",
 					"/",
-					"aam",
+					"aim-9b",
 					"ld-1000-3x",
 					"he-1000-4x",
 					"ld-1000-2x",
-					"aam",
+					"aim-9b",
 					"/",
 					"/"
 				],
@@ -1439,11 +1439,11 @@
 				"icons": [
 					"/",
 					"/",
-					"aam",
+					"aim-9b",
 					"ld-1000-2x",
 					"/",
 					"ld-1000-2x",
-					"aam",
+					"aim-9b",
 					"/",
 					"/"
 				],
@@ -1465,11 +1465,11 @@
 				"icons": [
 					"/",
 					"/",
-					"aam-2x",
+					"sraam-2x",
 					"he-1000-2x",
 					"he-1000",
 					"he-1000-2x",
-					"aam-2x",
+					"sraam-2x",
 					"/",
 					"/"
 				],
@@ -1515,17 +1515,17 @@
 				"bases": 2,
 				"reward": 3.8,
 				"icons": [
-					"he-1000-2x",
-					"he-1000-2x",
-					"aam-2x",
-					"aam",
-					"aam",
-					"he-1000-3x",
-					"aam",
-					"aam",
-					"aam-2x",
-					"he-1000-2x",
-					"he-1000-2x"
+					"ld-1000-2x",
+					"ld-1000-2x",
+					"aim-9g-2x",
+					"skyflash",
+					"skyflash",
+					"ld-1000-3x",
+					"skyflash",
+					"skyflash",
+					"aim-9g-2x",
+					"ld-1000-2x",
+					"ld-1000-2x"
 				],
 				"bombs": ["H.E.1000 x5", "H.E.1000 x5", "H.E.1000 x1"]
 			},
@@ -1533,17 +1533,17 @@
 				"bases": 1,
 				"reward": 5.3,
 				"icons": [
-					"he-1000-2x",
+					"ld-1000-2x",
 					"/",
-					"aam-2x",
-					"aam",
-					"aam",
-					"gunpod-rotary",
-					"aam",
-					"aam",
-					"aam-2x",
-					"he-1000-2x",
-					"he-1000-2x"
+					"aim-9g-2x",
+					"skyflash",
+					"skyflash",
+					"gunpod-gau",
+					"skyflash",
+					"skyflash",
+					"aim-9g-2x",
+					"ld-1000-2x",
+					"ld-1000-2x"
 				],
 				"bombs": ["H.E.1000 x5", "H.E.1000 x1"]
 			}
@@ -1563,11 +1563,11 @@
 				"icons": [
 					"/",
 					"/",
-					"aam",
+					"aim-9l",
 					"he-1000-2x",
 					"he-1000",
 					"he-1000-2x",
-					"aam",
+					"aim-9l",
 					"/",
 					"/"
 				],
@@ -1587,17 +1587,17 @@
 				"bases": 2,
 				"reward": 3.8,
 				"icons": [
-					"he-1000-2x",
-					"he-1000-2x",
-					"aam-2x",
-					"aam",
-					"aam",
-					"he-1000-3x",
-					"aam",
-					"aam",
-					"aam-2x",
-					"he-1000-2x",
-					"he-1000-2x"
+					"ld-1000-2x",
+					"ld-1000-2x",
+					"aim-9g-2x",
+					"skyflash",
+					"skyflash",
+					"ld-1000-3x",
+					"skyflash",
+					"skyflash",
+					"aim-9g-2x",
+					"ld-1000-2x",
+					"ld-1000-2x"
 				],
 				"bombs": ["H.E.1000 x5", "H.E.1000 x5", "H.E.1000 x1"]
 			},
@@ -1605,17 +1605,17 @@
 				"bases": 1,
 				"reward": 5.3,
 				"icons": [
-					"he-1000-2x",
+					"ld-1000-2x",
 					"/",
-					"aam-2x",
-					"aam",
-					"aam",
-					"gunpod-rotary",
-					"aam",
-					"aam",
-					"aam-2x",
-					"he-1000-2x",
-					"he-1000-2x"
+					"aim-9g-2x",
+					"skyflash",
+					"skyflash",
+					"gunpod-gau",
+					"skyflash",
+					"skyflash",
+					"aim-9g-2x",
+					"ld-1000-2x",
+					"ld-1000-2x"
 				],
 				"bombs": ["H.E.1000 x5", "H.E.1000 x1"]
 			}
@@ -1636,9 +1636,9 @@
 					"/",
 					"he-1000",
 					"he-540-2x",
-					"aam",
+					"aim-9g",
 					"he-540-2x",
-					"aam",
+					"aim-9g",
 					"he-540-2x",
 					"he-1000",
 					"/"
@@ -1661,11 +1661,11 @@
 				"icons": [
 					"/",
 					"/",
-					"mk83",
-					"mk83",
-					"mk83",
-					"mk83",
-					"mk83",
+					"mk83-brown",
+					"mk83-brown",
+					"mk83-brown",
+					"mk83-brown",
+					"mk83-brown",
 					"/",
 					"/"
 				],
@@ -1686,13 +1686,13 @@
 				"reward": 8.2,
 				"icons": [
 					"/",
-					"aam",
-					"mk83",
-					"mk83",
-					"mk83",
-					"mk83",
-					"mk83",
-					"aam",
+					"aim-9l",
+					"mk83-brown",
+					"mk83-brown",
+					"mk83-brown",
+					"mk83-brown",
+					"mk83-brown",
+					"aim-9l",
 					"/"
 				],
 				"bombs": ["Mk 83 x5"]
@@ -1774,13 +1774,13 @@
 				"reward": 5.0,
 				"icons": [
 					"/",
-					"aam",
+					"aim-9l",
 					"mk82-6x",
-					"mk84",
+					"mk84-light",
 					"gunpod-rotary",
-					"mk84",
+					"mk84-light",
 					"mk82-6x",
-					"aam",
+					"aim-9l",
 					"/"
 				],
 				"bombs": ["Mk 84 x2", "Mk 82 x10", "Mk 82 x2"]
@@ -1790,13 +1790,13 @@
 				"reward": 7.0,
 				"icons": [
 					"/",
-					"aam",
+					"aim-9l",
 					"mk82-6x",
-					"aam",
+					"aim-9l",
 					"gunpod-rotary",
-					"aam",
+					"aim-9l",
 					"mk82-6x",
-					"aam",
+					"aim-9l",
 					"/"
 				],
 				"bombs": ["Mk 82 x10", "Mk 82 x2"]
@@ -1816,15 +1816,15 @@
 				"reward": 5.2,
 				"icons": [
 					"chaff-pod",
-					"aam",
-					"mk83",
-					"mk83-2x",
-					"mk83-2x",
+					"aim-9l",
+					"mk83-brown",
+					"mk83-brown-2x",
+					"mk83-brown-2x",
 					"/",
-					"mk83-2x",
-					"mk83-2x",
-					"mk83",
-					"aam",
+					"mk83-brown-2x",
+					"mk83-brown-2x",
+					"mk83-brown",
+					"aim-9l",
 					"chaff-pod"
 				],
 				"bombs": ["Mk 83 x5", "Mk 83 x5"]
@@ -1834,15 +1834,15 @@
 				"reward": 7.8,
 				"icons": [
 					"chaff-pod",
-					"aam",
+					"aim-9l",
 					"/",
-					"mk83",
-					"mk83",
-					"mk83",
-					"mk83",
-					"mk83",
+					"mk83-brown",
+					"mk83-brown",
+					"mk83-brown",
+					"mk83-brown",
+					"mk83-brown",
 					"/",
-					"aam",
+					"aim-9l",
 					"chaff-pod"
 				],
 				"bombs": ["Mk 83 x5"]
@@ -1863,11 +1863,11 @@
 				"icons": [
 					"/",
 					"/",
-					"aam-2x",
+					"aim-9l-2x",
 					"he-1000-2x",
 					"he-1000",
 					"he-1000-2x",
-					"aam-2x",
+					"aim-9l-2x",
 					"/",
 					"/"
 				],
@@ -1890,13 +1890,13 @@
 				"icons": [
 					"he-1000-2x",
 					"he-1000-2x",
-					"aam-2x",
-					"aam",
-					"aam",
+					"aim-9g-2x",
+					"skyflash",
+					"skyflash",
 					"he-1000-3x",
-					"aam",
-					"aam",
-					"aam-2x",
+					"skyflash",
+					"skyflash",
+					"aim-9g-2x",
 					"he-1000-2x",
 					"he-1000-2x"
 				],
@@ -1908,13 +1908,13 @@
 				"icons": [
 					"he-1000-2x",
 					"/",
-					"aam-2x",
-					"aam",
-					"aam",
-					"gunpod-rotary",
-					"aam",
-					"aam",
-					"aam-2x",
+					"aim-9g-2x",
+					"skyflash",
+					"skyflash",
+					"gunpod-gau",
+					"skyflash",
+					"skyflash",
+					"aim-9g-2x",
 					"he-1000-2x",
 					"he-1000-2x"
 				],
@@ -1934,15 +1934,15 @@
 				"bases": 1,
 				"reward": 7.5,
 				"icons": [
-					"rocket-pod",
+					"chaff-pod",
 					"he-1000-2x",
-					"he-1000",
-					"aam-yellow",
+					"r-550-2",
 					"/",
 					"droptank",
 					"/",
-					"aam-yellow",
-					"he-1000-2x"
+					"r-550-2",
+					"he-1000-2x",
+					"he-1000"
 				],
 				"bombs": ["H.E.1000 x5"]
 			}
@@ -1960,17 +1960,17 @@
 				"bases": 1,
 				"reward": 9.6,
 				"icons": [
-					"aam",
+					"aim-9l",
 					"/",
-					"pod-aim-9",
+					"aim-9l-pod",
 					"gbu-24",
-					"gbu-12",
+					"gunpod-30",
 					"/",
 					"targeting-pod",
 					"gbu-24",
-					"pod-aim-9",
-					"aim-9m",
-					"aam"
+					"aim-9l-pod",
+					"gbu-12",
+					"aim-9l"
 				],
 				"bombs": ["GBU-24 x2 + GBU-12 x1"]
 			}
