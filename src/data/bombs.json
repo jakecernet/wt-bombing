@@ -881,7 +881,7 @@
 		},
 		"pod-aim-9": {
 			"file": "pod-aim-9.png",
-			"label": "Pod + AIM-9"
+			"label": "AIM-9M + BOL pod"
 		},
 		"gbu-31": {
 			"file": "gbu-31-2x.png",
@@ -1237,13 +1237,11 @@
 			"file": "gp-brown-3x.png"
 		},
 		"pgm-2000": {
-			"file": "pgm-2000.png"
+			"file": "agm-130.png"
 		},
-		"rocket-pod": {
-			"file": "rocket-pod.png"
-		},
-		"rocket-pod-red": {
-			"file": "rocket-pod-red.png"
+		"bol-pod-red": {
+			"file": "bol-red.png",
+            "label": "BOL pod"
 		},
 		"rp-3": {
 			"file": "rp-3.png"
@@ -1311,6 +1309,14 @@
 		"aim-9l-pod": {
 			"file": "aim-9l-pod.png",
 			"label": "AIM-9L + BOL pod"
+		},
+		"pod-aim-120": {
+			"file": "pod-aim-120.png",
+			"label": "AIM-120 + BOL pod"
+		},
+		"pod-aim-120-2x": {
+			"file": "pod-aim-120-2x.png",
+			"label": "AIM-120 (2) + BOL pod"
 		}
 	}
 }

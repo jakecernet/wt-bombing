@@ -1989,13 +1989,13 @@
 				"reward": 6.4,
 				"icons": [
 					"aim-9m",
-					"pod-aim-9",
+					"pod-aim-120",
 					"gbu-64",
 					"/",
 					"gbu-62",
 					"/",
 					"gbu-64",
-					"pod-aim-9",
+					"pod-aim-120",
 					"aim-9m"
 				],
 				"bombs": ["GBU-64 x2 + GBU-62 x1"]
@@ -2017,9 +2017,9 @@
 					"aim-9l",
 					"mk77-red-dark-2x",
 					"mk77-red-dark-2x",
-					"aim-7p",
+					"aim-7m",
 					"mk77-red-dark",
-					"aim-7p",
+					"aim-7m",
 					"mk77-red-dark-2x",
 					"mk77-red-dark-2x",
 					"aim-9l"
@@ -2033,11 +2033,11 @@
 					"aim-9l",
 					"mk77-red-dark-2x",
 					"mk77-red-dark-2x",
-					"aim-7p",
+					"aim-7m",
 					"droptank",
-					"aim-7p",
+					"aim-7m",
 					"mk77-red-dark-2x",
-					"aim-9l-2x",
+					"aim-7m",
 					"aim-9l"
 				],
 				"bombs": ["Mk 77 x3", "Mk 77 x3"]
@@ -2047,13 +2047,13 @@
 				"reward": 4.7,
 				"icons": [
 					"aim-9l",
-					"aim-9-2x",
-					"mk77-red-dark-2x",
-					"aim-7p",
-					"mk77-red-dark",
-					"aim-7p",
-					"/",
 					"aim-9l-2x",
+                    "/",
+					"aim-7m",
+					"mk77-red-dark",
+					"aim-7m",
+                    "mk77-red-dark-2x",
+                    "aim-7m",
 					"aim-9l"
 				],
 				"bombs": ["Mk 77 x3"]
@@ -2095,7 +2095,7 @@
 					"droptank",
 					"aim-120c",
 					"mk77-red-dark-2x",
-					"aim-120c-2x",
+					"pod-aim-120-2x",
 					"aim-9m"
 				],
 				"bombs": ["Mk 77 x3", "Mk 77 x3"]
@@ -2105,13 +2105,13 @@
 				"reward": 4.7,
 				"icons": [
 					"aim-9m",
-					"aim-9m-2x",
+					"pod-aim-120-2x",
 					"aim-120c-2x",
 					"aim-120c",
 					"mk77-red-dark",
 					"aim-120c",
 					"mk77-red-dark-2x",
-					"aim-120c-2x",
+					"pod-aim-120-2x",
 					"aim-9m"
 				],
 				"bombs": ["Mk 77 x3"]
@@ -2130,17 +2130,17 @@
 				"bases": 1,
 				"reward": 7.5,
 				"icons": [
-					"rocket-pod",
-					"/",
+					"pod-aim-9",
 					"he-1000",
 					"pod-aim-9",
 					"he-1000",
+                    "gunpod-30",
 					"he-1000",
+                    "gunpod-30",
 					"he-1000",
 					"pod-aim-9",
 					"he-1000",
-					"/",
-					"rocket-pod"
+					"pod-aim-9"
 				],
 				"bombs": ["H.E.1000 x5"]
 			}
@@ -2158,19 +2158,19 @@
 				"bases": 2,
 				"reward": 5.2,
 				"icons": [
-					"rocket-pod-red",
+					"bol-pod-red",
 					"/",
-					"mk83",
+					"mk83-brown",
 					"pod-aim-9",
-					"mk83-2x",
-					"mk83-2x",
+					"mk83-brown-2x",
+					"mk83-brown-2x",
 					"/",
-					"mk83-2x",
-					"mk83-2x",
+					"mk83-brown-2x",
+					"mk83-brown-2x",
 					"pod-aim-9",
-					"mk83",
+					"mk83-brown",
 					"/",
-					"rocket-pod-red"
+					"bol-pod-red"
 				],
 				"bombs": ["Mk 83 x5", "Mk 83 x5"]
 			},
@@ -2178,7 +2178,7 @@
 				"bases": 1,
 				"reward": 6.9,
 				"icons": [
-					"rocket-pod-red",
+					"bol-pod-red",
 					"/",
 					"pgm-2000",
 					"pod-aim-9",
@@ -2190,7 +2190,7 @@
 					"pod-aim-9",
 					"pgm-2000",
 					"/",
-					"rocket-pod-red"
+					"bol-pod-red"
 				],
 				"bombs": ["PGM 2000 x3"]
 			}
@@ -2210,11 +2210,11 @@
 				"icons": [
 					"/",
 					"/",
-					"aam",
+					"r73-red",
 					"zb-500",
 					"droptank",
 					"zb-500",
-					"aam",
+					"r73-red",
 					"/",
 					"/"
 				],
@@ -2257,7 +2257,7 @@
 					"droptank",
 					"aim-7p",
 					"mk77-red-dark-2x",
-					"aim-9l-2x",
+					"aim-7p",
 					"aim-9l"
 				],
 				"bombs": ["Mk 77 x3", "Mk 77 x3"]
@@ -2268,12 +2268,12 @@
 				"icons": [
 					"aim-9l",
 					"aim-9-2x",
-					"mk77-red-dark-2x",
+					"aim-7p",
 					"aim-7p",
 					"mk77-red-dark",
 					"aim-7p",
-					"/",
-					"aim-9l-2x",
+					"mk77-red-dark-2x",
+                    "aim-7p",
 					"aim-9l"
 				],
 				"bombs": ["Mk 77 x3"]
@@ -2411,15 +2411,15 @@
 				"reward": 3.3,
 				"icons": [
 					"aim-9m",
-					"mk77-red-dark",
-					"aim-120c-2x",
+					"aim-120c",
+					"mk77-red-dark-2x",
 					"mk77-red-dark-2x",
 					"aim-120c",
 					"droptank",
 					"aim-120c",
 					"mk77-red-dark-2x",
 					"aim-120c-2x",
-					"mk77-red-dark",
+					"aim-120c",
 					"aim-9m"
 				],
 				"bombs": ["Mk 77 x3", "Mk 77 x3"]
@@ -2429,15 +2429,15 @@
 				"reward": 4.7,
 				"icons": [
 					"aim-9m",
-					"mk77-red-dark",
+					"aim-120c",
 					"aim-120c-2x",
 					"aim-120c-2x",
 					"aim-120c",
 					"mk77-red-dark",
 					"aim-120c",
+					"mk77-red-dark-2x",
 					"aim-120c-2x",
-					"aim-120c-2x",
-					"mk77-red-dark",
+					"aim-120c",
 					"aim-9m"
 				],
 				"bombs": ["Mk 77 x3"]
